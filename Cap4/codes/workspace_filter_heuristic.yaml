@@ -1,0 +1,9 @@
+   x_workspace:
+       ws_base_frame: 'picking_box_center'
+       min_azimuth_threshold: -180
+       max_azimuth_threshold: 180
+       min_polar_threshold: -70
+       max_polar_threshold: 70
+       min_radius_threshold: 0
+       max_radius_threshold: .55
+       plot_ws: false 

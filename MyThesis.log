@@ -1,0 +1,4226 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.17)  19 AUG 2022 17:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./MyThesis.tex
+(MyThesis.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-04>
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip49
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+) (C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.st
+y
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count199
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip16
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks17
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.s
+ty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/06/26 3.77 The Babel package
+\babel@savecnt=\count272
+\U@D=\dimen148
+\l@unhyphenated=\language79
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.de
+f)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count273
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\port
+uguese.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Making " an active character on input line 143.
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\engli
+sh.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\b
+abel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\b
+abel-portuguese.tex
+Package babel Info: Importing font and identification data for portuguese
+(babel)             from babel-pt.ini. Reported on input line 11.
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.st
+y
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks28
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\newlfont.sty
+Package: newlfont 1998/08/17 v2.2m Standard LaTeX package
+LaTeX Info: Redefining \em on input line 57.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.s
+ty
+Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip55
+\f@nch@O@elh=\skip56
+\f@nch@O@erh=\skip57
+\f@nch@O@olh=\skip58
+\f@nch@O@orh=\skip59
+\f@nch@O@elf=\skip60
+\f@nch@O@erf=\skip61
+\f@nch@O@olf=\skip62
+\f@nch@O@orf=\skip63
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
+ty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks29
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
+ty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphi
+cs.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex
+.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.s
+ty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count274
+\Gm@cntv=\count275
+\c@Gm@tempcnt=\count276
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks30
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.c
+fg))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.s
+ty
+Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftex
+cmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infware
+rr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.s
+ty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.s
+ty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count277
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions
+.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetke
+ys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count278
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count279
+\c@listtotal=\count280
+\c@listcount=\count281
+\c@liststart=\count282
+\c@liststop=\count283
+\c@citecount=\count284
+\c@citetotal=\count285
+\c@multicitecount=\count286
+\c@multicitetotal=\count287
+\c@instcount=\count288
+\c@maxnames=\count289
+\c@minnames=\count290
+\c@maxitems=\count291
+\c@minitems=\count292
+\c@citecounter=\count293
+\c@maxcitecounter=\count294
+\c@savedcitecounter=\count295
+\c@uniquelist=\count296
+\c@uniquename=\count297
+\c@refsection=\count298
+\c@refsegment=\count299
+\c@maxextratitle=\count300
+\c@maxextratitleyear=\count301
+\c@maxextraname=\count302
+\c@maxextradate=\count303
+\c@maxextraalpha=\count304
+\c@abbrvpenalty=\count305
+\c@highnamepenalty=\count306
+\c@lownamepenalty=\count307
+\c@maxparens=\count308
+\c@parenlevel=\count309
+\blx@tempcnta=\count310
+\blx@tempcntb=\count311
+\blx@tempcntc=\count312
+\c@blx@maxsection=\count313
+\blx@maxsegment@0=\count314
+\blx@notetype=\count315
+\blx@parenlevel@text=\count316
+\blx@parenlevel@foot=\count317
+\blx@sectionciteorder@0=\count318
+\blx@sectionciteorderinternal@0=\count319
+\blx@entrysetcounter=\count320
+\blx@biblioinstance=\count321
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count322
+\c@maxcomprange=\count323
+\c@mincompwidth=\count324
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count325
+\c@savedafterword=\count326
+\c@annotator=\count327
+\c@savedannotator=\count328
+\c@author=\count329
+\c@savedauthor=\count330
+\c@bookauthor=\count331
+\c@savedbookauthor=\count332
+\c@commentator=\count333
+\c@savedcommentator=\count334
+\c@editor=\count335
+\c@savededitor=\count336
+\c@editora=\count337
+\c@savededitora=\count338
+\c@editorb=\count339
+\c@savededitorb=\count340
+\c@editorc=\count341
+\c@savededitorc=\count342
+\c@foreword=\count343
+\c@savedforeword=\count344
+\c@holder=\count345
+\c@savedholder=\count346
+\c@introduction=\count347
+\c@savedintroduction=\count348
+\c@namea=\count349
+\c@savednamea=\count350
+\c@nameb=\count351
+\c@savednameb=\count352
+\c@namec=\count353
+\c@savednamec=\count354
+\c@translator=\count355
+\c@savedtranslator=\count356
+\c@shortauthor=\count357
+\c@savedshortauthor=\count358
+\c@shorteditor=\count359
+\c@savedshorteditor=\count360
+\c@labelname=\count361
+\c@savedlabelname=\count362
+\c@institution=\count363
+\c@savedinstitution=\count364
+\c@lista=\count365
+\c@savedlista=\count366
+\c@listb=\count367
+\c@savedlistb=\count368
+\c@listc=\count369
+\c@savedlistc=\count370
+\c@listd=\count371
+\c@savedlistd=\count372
+\c@liste=\count373
+\c@savedliste=\count374
+\c@listf=\count375
+\c@savedlistf=\count376
+\c@location=\count377
+\c@savedlocation=\count378
+\c@organization=\count379
+\c@savedorganization=\count380
+\c@origlocation=\count381
+\c@savedoriglocation=\count382
+\c@origpublisher=\count383
+\c@savedorigpublisher=\count384
+\c@publisher=\count385
+\c@savedpublisher=\count386
+\c@language=\count387
+\c@savedlanguage=\count388
+\c@origlanguage=\count389
+\c@savedoriglanguage=\count390
+\c@pageref=\count391
+\c@savedpageref=\count392
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat
+.def
+File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex
+.def
+File: blx-bibtex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.d
+ef
+File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+\c@textcitecount=\count393
+\c@textcitetotal=\count394
+\c@textcitemaxnames=\count395
+\c@biburlbigbreakpenalty=\count396
+\c@biburlbreakpenalty=\count397
+\c@biburlnumpenalty=\count398
+\c@biburlucpenalty=\count399
+\c@biburllcpenalty=\count400
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count401
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\author
+year.bbx
+File: authoryear.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standa
+rd.bbx
+File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count402
+\c@bbx:relatedtotal=\count403
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\author
+year.cbx
+File: authoryear.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.c
+fg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-07-04 L3 programming layer (loader) 
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-pdftex.def
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count404
+\l__pdf_internal_box=\box53
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2022-07-04 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-e
+xpl3.sty
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\x
+parse.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
+
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.s
+ty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen159
+\lightrulewidth=\dimen160
+\cmidrulewidth=\dimen161
+\belowrulesep=\dimen162
+\belowbottomsep=\dimen163
+\aboverulesep=\dimen164
+\abovetopsep=\dimen165
+\cmidrulesep=\dimen166
+\cmidrulekern=\dimen167
+\defaultaddspace=\dimen168
+\@cmidla=\count405
+\@cmidlb=\count406
+\@aboverulesep=\dimen169
+\@belowrulesep=\dimen170
+\@thisruleclass=\count407
+\@lastruleclass=\count408
+\@thisrulewidth=\dimen171
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\thre
+eparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box54
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.
+cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.s
+ty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+ (C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen172
+\ar@mcellbox=\box55
+\extrarowheight=\dimen173
+\NC@list=\toks31
+\extratabsurround=\skip86
+\backup@length=\skip87
+\ar@cellbox=\box56
+)
+\everycr=\toks32
+\minrowclearance=\skip88
+\rownum=\count409
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathco
+lor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.d
+ef
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.s
+ty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box57
+\beforetitleunit=\skip89
+\aftertitleunit=\skip90
+\ttl@plus=\dimen174
+\ttl@minus=\dimen175
+\ttl@toksa=\toks33
+\titlewidth=\dimen176
+\titlewidthlast=\dimen177
+\titlewidthfirst=\dimen178
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip91
+\LTright=\skip92
+\LTpre=\skip93
+\LTpost=\skip94
+\LTchunksize=\count410
+\LTcapwidth=\dimen179
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count411
+\LT@rows=\count412
+\c@LT@tables=\count413
+\c@LT@chunks=\count414
+\LT@p@ftn=\toks34
+) (UTADThesis.sty
+Modelo de Documento de Dissertação de Mestrado da UTAD
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox
+.sty
+Package: tcolorbox 2022/06/24 version 5.1.1 text color boxes
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.
+sty
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrc
+s.sty
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+util-common.tex
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen180
+\pgfutil@tempdimb=\dimen181
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+util-common-lists.tex))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+util-latex.def
+\pgfutil@abb=\box63
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+rcs.code.tex
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.
+tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfc
+ore.sty
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgf
+sys.sty
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+keys.code.tex
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+keysfiltered.code.tex
+\pgfkeys@tmptoks=\toks38
+))
+\pgf@x=\dimen182
+\pgf@y=\dimen183
+\pgf@xa=\dimen184
+\pgf@ya=\dimen185
+\pgf@xb=\dimen186
+\pgf@yb=\dimen187
+\pgf@xc=\dimen188
+\pgf@yc=\dimen189
+\pgf@xd=\dimen190
+\pgf@yd=\dimen191
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count415
+\c@pgf@countb=\count416
+\c@pgf@countc=\count417
+\c@pgf@countd=\count418
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+\pgf@sys@id@count=\count419
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count420
+\pgfsyssoftpath@bigbuffer@items=\count421
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.
+code.tex
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathc
+alc.code.tex
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathu
+til.code.tex)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathp
+arser.code.tex
+\pgfmath@dimen=\dimen192
+\pgfmath@count=\count422
+\pgfmath@box=\box64
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.code.tex
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.basic.code.tex)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.trigonometric.code.tex)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.random.code.tex)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.comparison.code.tex)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.base.code.tex)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.round.code.tex)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.misc.code.tex)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.integerarithmetics.code.tex)))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+loat.code.tex
+\c@pgfmathroundto@lastzeros=\count423
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.c
+ode.tex)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen193
+\pgf@picmaxx=\dimen194
+\pgf@picminy=\dimen195
+\pgf@picmaxy=\dimen196
+\pgf@pathminx=\dimen197
+\pgf@pathmaxx=\dimen198
+\pgf@pathminy=\dimen199
+\pgf@pathmaxy=\dimen256
+\pgf@xx=\dimen257
+\pgf@xy=\dimen258
+\pgf@yx=\dimen259
+\pgf@yy=\dimen260
+\pgf@zx=\dimen261
+\pgf@zy=\dimen262
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen263
+\pgf@path@lasty=\dimen264
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen265
+\pgf@shorten@start@additional=\dimen266
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box65
+\pgf@hbox=\box66
+\pgf@layerbox@main=\box67
+\pgf@picture@serial@count=\count424
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen267
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen268
+\pgf@pt@y=\dimen269
+\pgf@pt@temp=\dimen270
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen271
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen272
+\pgf@sys@shading@range@num=\count425
+\pgf@shadingcount=\count426
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box68
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmo
+duleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box69
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmo
+duleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\p
+gfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen273
+\pgf@nodesepend=\dimen274
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\p
+gfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks45
+\verbatim@line=\toks46
+\verbatim@in@stream=\read5
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspac
+es.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box70
+\tcb@upperbox=\box71
+\tcb@lowerbox=\box72
+\tcb@phantombox=\box73
+\c@tcbbreakpart=\count427
+\c@tcblayer=\count428
+\c@tcolorbox@number=\count429
+\tcb@temp=\box74
+\tcb@temp=\box75
+\tcb@temp=\box76
+\tcb@temp=\box77
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster
+.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '5.1.1'
+\c@tcbrastercolumn=\count430
+\c@tcbrasterrow=\count431
+\c@tcbrasternum=\count432
+\c@tcbraster=\count433
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.
+code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '5.1.1'
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\t
+ikz.sty
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffo
+r.sty
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfke
+ys.sty
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+keys.code.tex))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.st
+y
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.
+code.tex))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+for.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.
+code.tex)
+\pgffor@iter=\dimen275
+\pgffor@skip=\dimen276
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
+/tikz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
+libraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count434
+\pgfplotmarksize=\dimen277
+)
+\tikz@lastx=\dimen278
+\tikz@lasty=\dimen279
+\tikz@lastxsaved=\dimen280
+\tikz@lastysaved=\dimen281
+\tikz@lastmovetox=\dimen282
+\tikz@lastmovetoy=\dimen283
+\tikzleveldistance=\dimen284
+\tikzsiblingdistance=\dimen285
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
+\tikztreelevel=\count435
+\tikznumberofchildren=\count436
+\tikznumberofcurrentchild=\count437
+\tikz@fig@count=\count438
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmo
+dulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count439
+\pgfmatrixcurrentcolumn=\count440
+\pgf@matrix@numberofcolumns=\count441
+)
+\tikz@expandcount=\count442
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+\tcb@waterbox=\box82
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsj
+igsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.1.1'
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreaka
+ble.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '5.1.1'
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/oberdiek\pdfcol.s
+ty
+Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box83
+\tcb@totalupperbox=\box84
+\tcb@totallowerbox=\box85
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.
+code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '5.1.1'
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheore
+ms.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '5.1.1'
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfittin
+g.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '5.1.1'
+\tcbfitdim=\dimen286
+\tcb@lowerfitdim=\dimen287
+\tcb@upperfitdim=\dimen288
+\tcb@cur@hbadness=\count443
+))
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 36
+9.
+ (C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <85.35826> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 369.
+\tclineskip=\skip95
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen289
+\TX@old@table=\dimen290
+\TX@old@col=\dimen291
+\TX@target=\dimen292
+\TX@delta=\dimen293
+\TX@cols=\count444
+\TX@ftn=\toks49
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/diagbox\diagbox.sty
+Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p2e-pdftex.d
+ef
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks50
+\@arclen=\dimen294
+\@arcrad=\dimen295
+\pIIe@tempdima=\dimen296
+\pIIe@tempdimb=\dimen297
+\pIIe@tempdimc=\dimen298
+\pIIe@tempdimd=\dimen299
+\pIIe@tempdime=\dimen300
+\pIIe@tempdimf=\dimen301
+) (C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count445
+\calc@Bcount=\count446
+\calc@Adimen=\dimen302
+\calc@Bdimen=\dimen303
+\calc@Askip=\skip96
+\calc@Bskip=\skip97
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count447
+\calc@Cskip=\skip98
+)
+\diagbox@boxa=\box86
+\diagbox@boxb=\box87
+\diagbox@boxm=\box88
+\diagbox@wd=\dimen304
+\diagbox@ht=\dimen305
+\diagbox@insepl=\dimen306
+\diagbox@insepr=\dimen307
+\diagbox@outsepl=\dimen308
+\diagbox@outsepr=\dimen309
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.s
+ty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen310
+\c@nlinenum=\count448
+\TeXr@lab=\toks51
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.st
+y
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen311
+\captionmargin=\dimen312
+\caption@leftmargin=\dimen313
+\caption@rightmargin=\dimen314
+\caption@width=\dimen315
+\caption@indent=\dimen316
+\caption@parindent=\dimen317
+\caption@hangindent=\dimen318
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count449
+\c@continuedfloat=\count450
+Package caption Info: longtable package is loaded.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.s
+ty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: threeparttable package is loaded.
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.
+sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count451
+\c@subtable=\count452
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.s
+ty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count453
+\rotFPtop=\skip99
+\rotFPbot=\skip100
+\rot@float@box=\box89
+\rot@mess@toks=\toks52
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen319
+\WF@size=\dimen320
+\c@WF@wrappedlines=\count454
+\WF@box=\box90
+\WF@everypar=\toks53
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.s
+ty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip101
+\RaggedLeftLeftskip=\skip102
+\RaggedRightLeftskip=\skip103
+\CenteringRightskip=\skip104
+\RaggedLeftRightskip=\skip105
+\RaggedRightRightskip=\skip106
+\CenteringParfillskip=\skip107
+\RaggedLeftParfillskip=\skip108
+\RaggedRightParfillskip=\skip109
+\JustifyingParfillskip=\skip110
+\CenteringParindent=\skip111
+\RaggedLeftParindent=\skip112
+\RaggedRightParindent=\skip113
+\JustifyingParindent=\skip114
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e
+\l3keys2e.sty
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count455
+\l__lipsum_a_int=\count456
+\l__lipsum_b_int=\count457
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.t
+ex))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/floatrow\floatrow.s
+ty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+\c@float@type=\count458
+\float@exts=\toks54
+\float@box=\box91
+\@floatcapt=\box92
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks55
+\flrow@foot=\insert252
+\FB@wd=\dimen321
+\FBo@wd=\dimen322
+\FBc@wd=\dimen323
+\FBo@ht=\skip115
+\FBc@ht=\skip116
+\FBf@ht=\skip117
+\FBo@max=\skip118
+\FBc@max=\skip119
+\FBf@max=\skip120
+\c@FBl@b=\count459
+\floatbox@depth=\count460
+\c@FRobj=\count461
+\c@FRsobj=\count462
+\Xhsize=\skip121
+\sXhsize=\skip122
+\Zhsize=\skip123
+\sZhsize=\skip124
+\flrow@rowbox=\box93
+\FR@Zunitlength=\dimen324
+\c@FBcnt=\count463
+\FPOScnt=\count464
+\LTleft=\skip125
+\LTright=\skip126
+\LTleft=\skip127
+\LTright=\skip128
+\flrow@types=\toks56
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip129
+\thanksmargin=\skip130
+\droptitle=\skip131
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorit
+hm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count465
+\algocf@hangindent=\skip132
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage
+.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count466
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip133
+\skiplinenumber=\skip134
+\skiprule=\skip135
+\skiphlne=\skip136
+\skiptext=\skip137
+\skiplength=\skip138
+\algomargin=\skip139
+\skipalgocfslide=\skip140
+\algowidth=\dimen325
+\inoutsize=\dimen326
+\inoutindent=\dimen327
+\interspacetitleruled=\dimen328
+\interspacealgoruled=\dimen329
+\interspacetitleboxruled=\dimen330
+\algocf@ruledwidth=\skip141
+\algocf@inoutbox=\box94
+\algocf@inputbox=\box95
+\AlCapSkip=\skip142
+\AlCapHSkip=\skip143
+\algoskipindent=\skip144
+\algocf@nlbox=\box96
+\algocf@hangingbox=\box97
+\algocf@untilbox=\box98
+\algocf@skipuntil=\skip145
+\algocf@capbox=\box99
+\algocf@lcaptionbox=\skip146
+\algoheightruledefault=\skip147
+\algoheightrule=\skip148
+\algotitleheightruledefault=\skip149
+\algotitleheightrule=\skip150
+\c@algocfline=\count467
+\c@algocfproc=\count468
+\c@algocf=\count469
+\algocf@algoframe=\box100
+\algocf@algobox=\box101
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.s
+ty
+Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen331
+\ESO@tempdimb=\dimen332
+)
+\AM@pagewidth=\dimen333
+\AM@pageheight=\dimen334
+\AM@fboxrule=\dimen335
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.d
+ef
+File: pppdftex.def 2022/05/22 v0.5v Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count470
+\AM@pagebox=\box102
+\AM@global@opts=\toks57
+\AM@pagecnt=\count471
+\AM@toc@title=\toks58
+\c@AM@survey=\count472
+\AM@templatesizebox=\box103
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.s
+ty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip151
+\multirow@cntb=\count473
+\multirow@dima=\skip152
+\bigstrutjot=\dimen336
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box104
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2022-08-08 v3.1.6 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen337
+\l__siunitx_angle_marker_box=\box105
+\l__siunitx_angle_unit_box=\box106
+\l__siunitx_compound_count_int=\count474
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/translations\transl
+ations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count475
+\l__siunitx_number_min_decimal_int=\count476
+\l__siunitx_number_min_integer_int=\count477
+\l__siunitx_number_round_precision_int=\count478
+\l__siunitx_number_group_first_int=\count479
+\l__siunitx_number_group_size_int=\count480
+\l__siunitx_number_group_minimum_int=\count481
+\l__siunitx_table_tmp_box=\box107
+\l__siunitx_table_tmp_dim=\dimen338
+\l__siunitx_table_column_width_dim=\dimen339
+\l__siunitx_table_integer_box=\box108
+\l__siunitx_table_decimal_box=\box109
+\l__siunitx_table_before_box=\box110
+\l__siunitx_table_after_box=\box111
+\l__siunitx_table_before_dim=\dimen340
+\l__siunitx_table_carry_dim=\dimen341
+\l__siunitx_unit_tmp_int=\count482
+\l__siunitx_unit_position_int=\count483
+\l__siunitx_unit_total_int=\count484
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.t
+ex
+\integerpart=\count485
+\decimalpart=\count486
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+\AC@clearlist=\toks59
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/newfloat\newfloat.s
+ty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+Package newfloat Info: Unsupported document class, or \@chapter 
+(newfloat)             was already redefined by another package.
+Package newfloat Info: \@chapter = macro:[#1]#2->\algocf@original@chapter [#1]{
+#2}\addtocontents {loa}{\protect \addvspace {10\p@ }}.
+Package newfloat Info: \Hy@org@chapter = undefined.
+Package newfloat Info: `rotating' package detected.
+Package newfloat Info: `wrapfig' package detected.
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.s
+ty
+Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvde
+finekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfesca
+pe.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxm
+acro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.st
+y
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.s
+ty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\ge
+ttitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count487
+)
+\@linkdim=\dimen342
+\Hy@linkcounter=\count488
+\Hy@pagecounter=\count489
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.s
+ty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds
+.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count490
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4408.
+\c@Hy@tempcnt=\count491
+LaTeX Info: Redefining \url on input line 4746.
+\XeTeXLinkMargin=\dimen343
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigint
+calc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count492
+\Field@Width=\dimen344
+\Fld@charsize=\dimen345
+Package hyperref Info: Hyper figures OFF on input line 6024.
+Package hyperref Info: Link nesting OFF on input line 6029.
+Package hyperref Info: Hyper index ON on input line 6032.
+Package hyperref Info: backreferencing OFF on input line 6039.
+Package hyperref Info: Link coloring OFF on input line 6044.
+Package hyperref Info: Link coloring with OCG OFF on input line 6049.
+Package hyperref Info: PDF/A mode OFF on input line 6054.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.s
+ty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count493
+\c@Item=\count494
+\c@Hfootnote=\count495
+)
+Package hyperref Info: Driver: hpdftex.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.de
+f
+File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.
+sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count496
+\c@bookmark@seq@number=\count497
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\reru
+nfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uni
+quecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip153
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/breakurl\breakurl.s
+ty
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.t
+ex
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.
+tex
+\XKV@toks=\toks60
+\XKV@tempa@toks=\toks61
+)
+\XKV@depth=\count498
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+
+Package breakurl Warning: You are using breakurl while processing via pdflatex.
+
+(breakurl)                \burl will be just a synonym of \url.
+(breakurl)                 on input line 48.
+
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 100.
+Package hyperref Info: Option `breaklinks' set `true' on input line 100.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.s
+ty
+\lst@mode=\count499
+\lst@gtempboxa=\box112
+\lst@token=\toks62
+\lst@length=\count500
+\lst@currlwidth=\dimen346
+\lst@column=\count501
+\lst@pos=\count502
+\lst@lostspace=\dimen347
+\lst@width=\dimen348
+\lst@newlines=\count503
+\lst@lineno=\count504
+\lst@maxwidth=\dimen349
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.st
+y
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count505
+\lst@skipnumbers=\count506
+\lst@framebox=\box113
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.c
+fg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+   defining Unicode char U+0301 (decimal 769)
+Package newfloat Info: New float `snippet' with options `' on input line 171.
+\c@snippet=\count507
+Package newfloat Info: float type `snippet'=4 on input line 171.
+\c@subsnippet=\count508
+\defbaselineskip=\skip154
+\@indexfile=\write5
+\openout5 = `MyThesis.idx'.
+
+
+Writing index file MyThesis.idx
+\c@code=\count509
+(Acessorios/MyMacroDefinitions.tex)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count510
+\@quotereset=\count511
+(MyThesis.aux (Cap0/MyResumo.aux) (Cap0/MyAbstract.aux)
+(Cap0/MyGraphicalAbstract.aux) (Cap0/MyAgradecimentos.aux)
+(Cap0/MyPublications.aux) (Cap0/MyIndustryProjects.aux) (Cap0/MyGlossario.aux)
+(Cap1/introduction.aux) (Cap2a/main.aux
+
+LaTeX Warning: Label `fig:g1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:g1' multiply defined.
+
+
+LaTeX Warning: Label `fig:g2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:g2' multiply defined.
+
+
+LaTeX Warning: Label `fig:most_usual_gripper_forms' multiply defined.
+
+) (Cap2/related_work.aux
+
+LaTeX Warning: Label `fig:friction_contact' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+) (Cap3/grasping_evaluation.aux) (Cap4/approach.aux)
+(Cap5/proposal_validation.aux
+
+LaTeX Warning: Label `fig:bracket' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bracket' multiply defined.
+
+
+LaTeX Warning: Label `fig:cover_plate' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:cover_plate' multiply defined.
+
+
+LaTeX Warning: Label `fig:Double_side_bracket' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Double_side_bracket' multiply defined.
+
+
+LaTeX Warning: Label `fig:multi_side_bracket' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:multi_side_bracket' multiply defined.
+
+) (Cap6/conclusion.aux) (Apendices/main.aux))
+\openout1 = `MyThesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
+f.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count512
+\scratchdimen=\dimen350
+\scratchbox=\box114
+\nofMPsegments=\count513
+\nofMParguments=\count514
+\everyMPshowfont=\toks63
+\MPscratchCnt=\count515
+\MPscratchDim=\dimen351
+\MPnumerator=\count516
+\makeMPintoPDFobject=\count517
+\everyMPtoPDFconversion=\toks64
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
+df-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-s
+ys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04675pt
+* \textwidth=426.79134pt
+* \textheight=611.73424pt
+* \oddsidemargin=113.81102pt
+* \evensidemargin=56.9055pt
+* \topmargin=42.67912pt
+* \headheight=28.45274pt
+* \headsep=42.67912pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=-72.26999pt
+* \voffset=-72.26999pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\englis
+h.lbx
+File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'portuguese'...
+Package biblatex Info: ... file 'portuguese.lbx' found.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\portug
+uese.lbx
+File: portuguese.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `MyThesis-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'MyThesis.bbl' found.
+ (MyThesis.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'BaierLowenstein2007':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Chen2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Chen2020':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Chu2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Goldfeder2007':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Guo2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Jain2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Li2003':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Lenz2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Levine2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Mahler2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Mahler2017b':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Mousavian_2019_ICCV':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'TenPas2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Pinto2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Redmon2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Roa2014':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Saxena2008':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Jiang2011a':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Zeng2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Zeng2019':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 224.
+Package biblatex Info: Reference segment=0 on input line 224.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: Fixing longtable code of `floatrow' package.
+Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/floatrow\fr-longtab
+le.sty
+Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
+
+\flrow@LT@lasthead=\box115
+\flrow@LT@prelastfoot=\box116
+\c@FBLTpage=\count518
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape
+.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\
+translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 224.
+Package translations Info: no dictionary file `translations-basic-dictionary-po
+rtuges.trsl' found. on input line 224.
+Package newfloat Info: Trying Plan B...
+Package newfloat Info: `float' package detected.
+Package hyperref Info: Link coloring ON on input line 224.
+ (MyThesis.out) (MyThesis.out)
+\@outlinefile=\write6
+\openout6 = `MyThesis.out'.
+
+\c@lstlisting=\count519
+<Acessorios/UTAD.JPG, id=238, 214.55156pt x 259.7203pt>
+File: Acessorios/UTAD.JPG Graphic file (type jpg)
+<use Acessorios/UTAD.JPG>
+Package pdftex.def Info: Acessorios/UTAD.JPG  used on input line 275.
+(pdftex.def)             Requested size: 85.35696pt x 103.32748pt.
+
+[1
+
+{C:/Users/JoaoPedro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Acesso
+rios/UTAD.JPG>] [2] [3
+
+] [4
+
+] [5
+
+] [6
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 298
+.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 298
+.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 29
+8.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+[7] [8
+
+]
+Overfull \hbox (42.46472pt too wide) in paragraph at lines 298--298
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+
+ []
+
+
+Overfull \hbox (63.02284pt too wide) in paragraph at lines 298--298
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+
+ []
+
+[9] [10
+
+]
+\openout2 = `Cap0/MyResumo.aux'.
+
+ (Cap0/MyResumo.tex
+Overfull \hbox (28.66328pt too wide) in paragraph at lines 20--23
+\OT1/cmr/m/n/12 cen^^Sarios com-ple-xos. A im-planta^^Xc~ao de uma es-tru-tura 
+de pre-ens~ao mo-du-lar e re-con-fi-gur^^Savel
+ []
+
+) [11
+
+] [12
+
+
+
+]
+\openout2 = `Cap0/MyAbstract.aux'.
+
+ (Cap0/MyAbstract.tex
+Underfull \hbox (badness 1303) in paragraph at lines 21--22
+[]\OT1/cmr/bx/n/12 Key Words: \OT1/cmr/m/n/12 Mod-u-lar Soft-ware Ar-chi-tec-tu
+re, Grasp-ing Plan-ning; Robotic
+ []
+
+) [13
+
+] [14
+
+
+
+]
+\openout2 = `Cap0/MyGraphicalAbstract.aux'.
+
+ (Cap0/MyGraphicalAbstract.tex
+
+pdfTeX warning: pdflatex.exe (file ./Cap0/Figuras/graphical_abstract_v4.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap0/Figuras/graphical_abstract_v4.pdf, id=308, 598.15468pt x 846.0408pt>
+File: Cap0/Figuras/graphical_abstract_v4.pdf Graphic file (type pdf)
+<use Cap0/Figuras/graphical_abstract_v4.pdf>
+Package pdftex.def Info: Cap0/Figuras/graphical_abstract_v4.pdf  used on input 
+line 5.
+(pdftex.def)             Requested size: 426.79134pt x 471.72311pt.
+) [15
+
+ <./Cap0/Figuras/graphical_abstract_v4.pdf>] [16
+
+
+
+]
+\openout2 = `Cap0/MyAgradecimentos.aux'.
+
+
+(Cap0/MyAgradecimentos.tex) [17
+
+
+] [18
+
+
+
+]
+\openout2 = `Cap0/MyPublications.aux'.
+
+ (Cap0/MyPublications.tex) [19
+
+
+] [20
+
+
+
+]
+\openout2 = `Cap0/MyIndustryProjects.aux'.
+
+
+(Cap0/MyIndustryProjects.tex
+
+LaTeX Warning: Characters dropped after `\end{comment}' on input line 14.
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 21--22
+\OT1/cmr/m/n/12 Op-er-a-tional Pro-gramme for Com-pet-i-tive-ness and In-ter-na
+-tion-al-i-sa-tion -
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 21--22
+\OT1/cmr/m/n/12 with ref-er-ence POCI-01-0247-FEDER-046102. [][]$\OT1/cmtt/m/n/
+12 http : / / mobilizadores .
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 23--24
+[]\OT1/cmr/bx/n/12 Produtech SIF. \OT1/cmr/m/n/12 Eu-ro-pean Re-gional De-vel-o
+p-ment Fund, through the
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 23--24
+\OT1/cmr/m/n/12 Op-er-a-tional Pro-gramme for Com-pet-i-tive-ness and In-ter-na
+-tion-al-i-sa-tion -
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 23--24
+\OT1/cmr/m/n/12 with ref-er-ence POCI-01-0247-FEDER-024541. [][]$\OT1/cmtt/m/n/
+12 http : / / mobilizadores .
+ []
+
+) [21
+
+
+] [22
+
+
+
+]
+\@defbaselineskip=\skip155
+ (MyThesis.toc [23
+
+] [24])
+\tf@toc=\write7
+\openout7 = `MyThesis.toc'.
+
+ [25] [26
+
+] (MyThesis.lof
+Underfull \hbox (badness 1769) in paragraph at lines 8--8
+ [][] [][][]\OT1/cmr/m/n/12 Commercial grip-pers ex-am-ples. From top-left to d
+own-right: 
+ []
+
+
+Underfull \vbox (badness 1038) has occurred while \output is active []
+
+ [27
+
+
+]
+Package acronym Info: Label `acro:DOF' newly defined as it shall be overridden
+although it is yet undefined on input line 14.
+
+Underfull \hbox (badness 1028) in paragraph at lines 23--23
+ \OT1/cmr/m/n/12 cat-e-gories eval-u-ate the grasp-ing per-for-mance in dif-fer
+-ent lev-els 
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 23--23
+ \OT1/cmr/m/n/12 time-line. Each class en-globes the prior class re-sult-ing in
+ an 
+ []
+
+[28]
+Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
+although it is yet undefined on input line 36.
+ [29]
+Package acronym Info: Label `acro:ICR' newly defined as it shall be overridden
+although it is yet undefined on input line 52.
+ [30])
+\tf@lof=\write8
+\openout8 = `MyThesis.lof'.
+
+ [31]
+\openout2 = `Cap0/MyGlossario.aux'.
+
+ (Cap0/MyGlossario.tex [32
+
+
+] [33]
+pdfTeX warning (ext4): destination with the same identifier (name{LbD}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 \acro{LbD}{Learning by Demonstration}
+                                          
+
+LaTeX Warning: Hyper reference `acro:IoT' on page xxxiv undefined on input line
+ 62.
+
+
+LaTeX Warning: Hyper reference `acro:IoT' on page xxxiv undefined on input line
+ 62.
+
+[34]
+pdfTeX warning (ext4): destination with the same identifier (name{DRL}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 \acro{DRL}{Dynamic Robot Localisation}
+                                           ) [35]
+UATDthesis preface pages completed.
+\openout2 = `Cap1/introduction.aux'.
+
+(Cap1/introduction.tex
+Chapter 1.
+Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
+2.
+
+Overfull \hbox (7.62474pt too wide) in paragraph at lines 2--2
+ [][]\T1/phv/b/n/85.35826 1[] 
+ []
+
+<Cap1/Figuras/platform.pdf, id=856, 1427.3325pt x 1084.05pt>
+File: Cap1/Figuras/platform.pdf Graphic file (type pdf)
+<use Cap1/Figuras/platform.pdf>
+Package pdftex.def Info: Cap1/Figuras/platform.pdf  used on input line 32.
+(pdftex.def)             Requested size: 177.97081pt x 135.15855pt.
+<Cap1/Figuras/pr2_grasping.pdf, id=857, 737.85924pt x 548.12402pt>
+File: Cap1/Figuras/pr2_grasping.pdf Graphic file (type pdf)
+<use Cap1/Figuras/pr2_grasping.pdf>
+Package pdftex.def Info: Cap1/Figuras/pr2_grasping.pdf  used on input line 32.
+(pdftex.def)             Requested size: 177.97081pt x 132.20482pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package acronym Info: Label `acro:PbD' newly defined as it shall be overridden
+although it is yet undefined on input line 36.
+Package acronym Info: Label `acro:LbD' newly defined as it shall be overridden
+although it is yet undefined on input line 36.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+
+
+]
+<Cap1/Figuras/amazon_picking_challenge.pdf, id=898, 86.9649pt x 65.043pt>
+File: Cap1/Figuras/amazon_picking_challenge.pdf Graphic file (type pdf)
+<use Cap1/Figuras/amazon_picking_challenge.pdf>
+Package pdftex.def Info: Cap1/Figuras/amazon_picking_challenge.pdf  used on inp
+ut line 45.
+(pdftex.def)             Requested size: 395.4934pt x 295.89049pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package acronym Info: Label `acro:DL' newly defined as it shall be overridden
+although it is yet undefined on input line 48.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+[]\OT1/cmr/m/n/12 Subsequently, guided by com-puter pro-cess-ing and learn-ing 
+al-go-rithms
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./Cap1/Figuras/platform.pdf> <./Cap1/Figuras/pr2_grasping.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap1/Figuras/pr2_grasping.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>] [3 <./Cap1/Figuras/amazon_picking_challenge.pdf>]
+Underfull \hbox (badness 2142) in paragraph at lines 97--98
+[]\OT1/cmr/m/n/12 Discussion and re-view of state-of-the-art pro-pos-als re-gar
+d-ing grasp-ing
+ []
+
+[4]) [5]
+\openout2 = `Cap2a/main.aux'.
+
+ (Cap2a/main.tex [6
+
+
+
+
+]
+Chapter 2.
+
+Overfull \hbox (7.62474pt too wide) in paragraph at lines 1--1
+ [][]\T1/phv/b/n/85.35826 2[] 
+ []
+
+(Cap2a/grippertechnology.tex
+Underfull \hbox (badness 1038) in paragraph at lines 4--7
+\OT1/cmr/m/n/12 End-effectors are hard-ware de-vices of hand-ily mech-a-nisms (
+e.g., robots and
+ []
+
+<Cap3/Figuras/grippers_list_gray_bg.pdf, id=1005, 963.35912pt x 542.025pt>
+File: Cap3/Figuras/grippers_list_gray_bg.pdf Graphic file (type pdf)
+<use Cap3/Figuras/grippers_list_gray_bg.pdf>
+Package pdftex.def Info: Cap3/Figuras/grippers_list_gray_bg.pdf  used on input 
+line 16.
+(pdftex.def)             Requested size: 395.4934pt x 211.66188pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1668) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./Cap3/Figuras/grippers_list_gray_bg.pdf>]
+<Apendices/Figuras/g1_gray_bg.pdf, id=1049, 78.95108pt x 120.24857pt>
+File: Apendices/Figuras/g1_gray_bg.pdf Graphic file (type pdf)
+<use Apendices/Figuras/g1_gray_bg.pdf>
+Package pdftex.def Info: Apendices/Figuras/g1_gray_bg.pdf  used on input line 8
+3.
+(pdftex.def)             Requested size: 49.43666pt x 75.29643pt.
+
+Underfull \hbox (badness 3240) in paragraph at lines 83--83
+[]\OT1/cmr/m/n/10.95 (a) |Pure en-clos-ing
+ []
+
+<Apendices/Figuras/g2_gray_bg.pdf, id=1050, 78.95108pt x 120.24857pt>
+File: Apendices/Figuras/g2_gray_bg.pdf Graphic file (type pdf)
+<use Apendices/Figuras/g2_gray_bg.pdf>
+Package pdftex.def Info: Apendices/Figuras/g2_gray_bg.pdf  used on input line 8
+3.
+(pdftex.def)             Requested size: 49.43666pt x 75.29643pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]\OT1/cmr/m/n/10.95 (b) |Par-tial form
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 83--83
+\OT1/cmr/m/n/10.95 fit com-bined with
+ []
+
+<Apendices/Figuras/g3_gray_bg.pdf, id=1051, 74.09254pt x 120.24857pt>
+File: Apendices/Figuras/g3_gray_bg.pdf Graphic file (type pdf)
+<use Apendices/Figuras/g3_gray_bg.pdf>
+Package pdftex.def Info: Apendices/Figuras/g3_gray_bg.pdf  used on input line 8
+3.
+(pdftex.def)             Requested size: 49.43666pt x 80.23584pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]\OT1/cmr/m/n/10.95 (c) |Pure force
+ []
+
+<Apendices/Figuras/g4_gray_bg.pdf, id=1052, 89.27545pt x 135.43147pt>
+File: Apendices/Figuras/g4_gray_bg.pdf Graphic file (type pdf)
+<use Apendices/Figuras/g4_gray_bg.pdf>
+Package pdftex.def Info: Apendices/Figuras/g4_gray_bg.pdf  used on input line 8
+3.
+(pdftex.def)             Requested size: 49.43666pt x 74.9959pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]\OT1/cmr/m/n/10.95 (d) |Hold-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+\OT1/cmr/m/n/10.95 with vac-uum air
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+\OT1/cmr/m/n/10.95 (pneu-matic force
+ []
+
+<Apendices/Figuras/g5_gray_bg.pdf, id=1053, 89.27545pt x 135.43147pt>
+File: Apendices/Figuras/g5_gray_bg.pdf Graphic file (type pdf)
+<use Apendices/Figuras/g5_gray_bg.pdf>
+Package pdftex.def Info: Apendices/Figuras/g5_gray_bg.pdf  used on input line 8
+3.
+(pdftex.def)             Requested size: 49.43666pt x 74.9959pt.
+<Apendices/Figuras/g6_gray_bg.pdf, id=1054, 74.09254pt x 135.43147pt>
+File: Apendices/Figuras/g6_gray_bg.pdf Graphic file (type pdf)
+<use Apendices/Figuras/g6_gray_bg.pdf>
+Package pdftex.def Info: Apendices/Figuras/g6_gray_bg.pdf  used on input line 8
+3.
+(pdftex.def)             Requested size: 49.43666pt x 90.36664pt.
+<Apendices/Figuras/multi_end_effectors_gray_bg.pdf, id=1058, 963.35912pt x 542.
+025pt>
+File: Apendices/Figuras/multi_end_effectors_gray_bg.pdf Graphic file (type pdf)
+
+<use Apendices/Figuras/multi_end_effectors_gray_bg.pdf>
+Package pdftex.def Info: Apendices/Figuras/multi_end_effectors_gray_bg.pdf  use
+d on input line 97.
+(pdftex.def)             Requested size: 395.4934pt x 199.59706pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Cap2a/multifingeredgrasps.tex [9 <./Apendices/Figuras/g1_gray_bg.pdf> <./Ape
+ndices/Figuras/g2_gray_bg.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Apendices/Figuras/g2_gray_bg.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./Apendices/Figuras/g3_gray_bg.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Apendices/Figuras/g3_gray_bg.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./Apendices/Figuras/g4_gray_bg.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Apendices/Figuras/g4_gray_bg.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./Apendices/Figuras/g5_gray_bg.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Apendices/Figuras/g5_gray_bg.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./Apendices/Figuras/g6_gray_bg.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Apendices/Figuras/g6_gray_bg.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>] [10 <./Apendices/Figuras/multi_end_effectors_gray_bg.pdf>]
+<Apendices/Figuras/friction_contact_gray_bg.pdf, id=1125, 462.52798pt x 260.172
+01pt>
+File: Apendices/Figuras/friction_contact_gray_bg.pdf Graphic file (type pdf)
+<use Apendices/Figuras/friction_contact_gray_bg.pdf>
+Package pdftex.def Info: Apendices/Figuras/friction_contact_gray_bg.pdf  used o
+n input line 31.
+(pdftex.def)             Requested size: 395.4934pt x 198.63348pt.
+ [11 <./Apendices/Figuras/friction_contact_gray_bg.pdf>]
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 71.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 71.
+ [12]
+<Apendices/Figuras/friction_contact_linearised.pdf, id=1158, 278.0227pt x 133.4
+7017pt>
+File: Apendices/Figuras/friction_contact_linearised.pdf Graphic file (type pdf)
+
+<use Apendices/Figuras/friction_contact_linearised.pdf>
+Package pdftex.def Info: Apendices/Figuras/friction_contact_linearised.pdf  use
+d on input line 113.
+(pdftex.def)             Requested size: 395.4934pt x 189.87924pt.
+ [13 <./Apendices/Figuras/friction_contact_linearised.pdf>] [14]
+
+pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/wrenchspace_anlayses_2.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap2/Figuras/wrenchspace_anlayses_2.pdf, id=1189, 1011.78pt x 758.835pt>
+File: Cap2/Figuras/wrenchspace_anlayses_2.pdf Graphic file (type pdf)
+<use Cap2/Figuras/wrenchspace_anlayses_2.pdf>
+Package pdftex.def Info: Cap2/Figuras/wrenchspace_anlayses_2.pdf  used on input
+ line 169.
+(pdftex.def)             Requested size: 395.4934pt x 222.10928pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Cap2a/simulated_annealing.tex
+Package acronym Info: Label `acro:SANN' newly defined as it shall be overridden
+
+although it is yet undefined on input line 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+[16 <./Cap2/Figuras/wrenchspace_anlayses_2.pdf>]
+Underfull \hbox (badness 1735) in paragraph at lines 16--17
+[]\OT1/cmr/m/n/12 Each al-go-rithm it-er-a-tion gen-er-ates new state vari-able
+s fol-low-ing a rule of
+ []
+
+[17]
+<Apendices/Figuras/barret_eigengrasp_01.pdf, id=1257, 963.35912pt x 542.025pt>
+File: Apendices/Figuras/barret_eigengrasp_01.pdf Graphic file (type pdf)
+<use Apendices/Figuras/barret_eigengrasp_01.pdf>
+Package pdftex.def Info: Apendices/Figuras/barret_eigengrasp_01.pdf  used on in
+put line 83.
+(pdftex.def)             Requested size: 187.86177pt x 149.79391pt.
+
+Underfull \hbox (badness 6658) in paragraph at lines 83--83
+[]\OT1/cmr/m/n/10.95 (a) |\OT1/cmr/m/it/10.95 Eigen-grasp \OT1/cmr/m/n/10.95 01
+: fin-gers twist
+ []
+
+<Apendices/Figuras/barret_eigengrasp_02.pdf, id=1259, 963.35912pt x 542.025pt>
+File: Apendices/Figuras/barret_eigengrasp_02.pdf Graphic file (type pdf)
+<use Apendices/Figuras/barret_eigengrasp_02.pdf>
+Package pdftex.def Info: Apendices/Figuras/barret_eigengrasp_02.pdf  used on in
+put line 83.
+(pdftex.def)             Requested size: 187.86177pt x 135.82233pt.
+Package acronym Info: Label `acro:ICP' newly defined as it shall be overridden
+although it is yet undefined on input line 86.
+[18 <./Apendices/Figuras/barret_eigengrasp_01.pdf> <./Apendices/Figuras/barret_
+eigengrasp_02.pdf>]
+<Apendices/Figuras/ICPreduction_gray_bg.pdf, id=1294, 1011.78pt x 758.835pt>
+File: Apendices/Figuras/ICPreduction_gray_bg.pdf Graphic file (type pdf)
+<use Apendices/Figuras/ICPreduction_gray_bg.pdf>
+Package pdftex.def Info: Apendices/Figuras/ICPreduction_gray_bg.pdf  used on in
+put line 104.
+(pdftex.def)             Requested size: 395.4934pt x 136.83298pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) [19 <./Apendices/Figuras/ICPreduction_gray_bg.pdf>] [20]
+\openout2 = `Cap2/related_work.aux'.
+
+
+(Cap2/related_work.tex
+Chapter 3.
+
+Overfull \hbox (7.62474pt too wide) in paragraph at lines 2--2
+ [][]\T1/phv/b/n/85.35826 3[] 
+ []
+
+[21
+
+
+
+
+]
+<Cap2/Figuras/grasp.pdf, id=1349, 1011.78pt x 758.835pt>
+File: Cap2/Figuras/grasp.pdf Graphic file (type pdf)
+<use Cap2/Figuras/grasp.pdf>
+Package pdftex.def Info: Cap2/Figuras/grasp.pdf  used on input line 51.
+(pdftex.def)             Requested size: 296.62004pt x 263.98341pt.
+Package acronym Info: Label `acro:SL' newly defined as it shall be overridden
+although it is yet undefined on input line 79.
+Package acronym Info: Label `acro:CGD' newly defined as it shall be overridden
+although it is yet undefined on input line 79.
+ [22 <./Cap2/Figuras/grasp.pdf>]
+File: Cap2/Figuras/wrenchspace_anlayses_2.pdf Graphic file (type pdf)
+<use Cap2/Figuras/wrenchspace_anlayses_2.pdf>
+Package pdftex.def Info: Cap2/Figuras/wrenchspace_anlayses_2.pdf  used on input
+ line 88.
+(pdftex.def)             Requested size: 257.06828pt x 144.36496pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 89.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+
+pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/antipodal_2.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap2/Figuras/antipodal_2.pdf, id=1391, 1011.78pt x 758.835pt>
+File: Cap2/Figuras/antipodal_2.pdf Graphic file (type pdf)
+<use Cap2/Figuras/antipodal_2.pdf>
+Package pdftex.def Info: Cap2/Figuras/antipodal_2.pdf  used on input line 100.
+(pdftex.def)             Requested size: 197.74669pt x 92.69585pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 101.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 2600) has occurred while \output is active []
+
+ [24 <./Cap2/Figuras/antipodal_2.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/point_rep.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap2/Figuras/point_rep.pdf, id=1471, 1011.78pt x 758.835pt>
+File: Cap2/Figuras/point_rep.pdf Graphic file (type pdf)
+<use Cap2/Figuras/point_rep.pdf>
+Package pdftex.def Info: Cap2/Figuras/point_rep.pdf  used on input line 142.
+(pdftex.def)             Requested size: 177.97081pt x 141.52771pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/rec_rep.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<Cap2/Figuras/rec_rep.pdf, id=1473, 1011.78pt x 758.835pt>
+File: Cap2/Figuras/rec_rep.pdf Graphic file (type pdf)
+<use Cap2/Figuras/rec_rep.pdf>
+Package pdftex.def Info: Cap2/Figuras/rec_rep.pdf  used on input line 142.
+(pdftex.def)             Requested size: 177.97081pt x 141.52771pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/myBeliefMap.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap2/Figuras/myBeliefMap.pdf, id=1475, 1011.78pt x 758.835pt>
+File: Cap2/Figuras/myBeliefMap.pdf Graphic file (type pdf)
+<use Cap2/Figuras/myBeliefMap.pdf>
+Package pdftex.def Info: Cap2/Figuras/myBeliefMap.pdf  used on input line 142.
+(pdftex.def)             Requested size: 177.97081pt x 141.52771pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/myGraspPath.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap2/Figuras/myGraspPath.pdf, id=1477, 1011.78pt x 758.835pt>
+File: Cap2/Figuras/myGraspPath.pdf Graphic file (type pdf)
+<use Cap2/Figuras/myGraspPath.pdf>
+Package pdftex.def Info: Cap2/Figuras/myGraspPath.pdf  used on input line 142.
+(pdftex.def)             Requested size: 177.97081pt x 141.52771pt.
+[25 <./Cap2/Figuras/point_rep.pdf> <./Cap2/Figuras/rec_rep.pdf> <./Cap2/Figuras
+/myBeliefMap.pdf> <./Cap2/Figuras/myGraspPath.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/pen_jacquard.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap2/Figuras/pen_jacquard.pdf, id=1535, 963.6pt x 542.025pt>
+File: Cap2/Figuras/pen_jacquard.pdf Graphic file (type pdf)
+<use Cap2/Figuras/pen_jacquard.pdf>
+Package pdftex.def Info: Cap2/Figuras/pen_jacquard.pdf  used on input line 180.
+
+(pdftex.def)             Requested size: 257.06828pt x 99.83397pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 181.
+See the caption package documentation for explanation.
+
+[26 <./Cap2/Figuras/pen_jacquard.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 5622) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Package acronym Info: Label `acro:SVM' newly defined as it shall be overridden
+although it is yet undefined on input line 246.
+
+[30]
+Package acronym Info: Label `acro:DLSR' newly defined as it shall be overridden
+
+although it is yet undefined on input line 250.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Package acronym Info: Label `acro:RL' newly defined as it shall be overridden
+although it is yet undefined on input line 252.
+Package acronym Info: Label `acro:MDP' newly defined as it shall be overridden
+although it is yet undefined on input line 252.
+Package acronym Info: Label `acro:POMDP' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 252.
+Package acronym Info: Label `acro:CNN' newly defined as it shall be overridden
+although it is yet undefined on input line 263.
+
+[32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Package acronym Info: Label `acro:RPN' newly defined as it shall be overridden
+although it is yet undefined on input line 268.
+Package acronym Info: Label `acro:FCN' newly defined as it shall be overridden
+although it is yet undefined on input line 270.
+Package acronym Info: Label `acro:GQ-CNN' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 272.
+
+Underfull \vbox (badness 7186) has occurred while \output is active []
+
+ [34]
+Package acronym Info: Label `acro:DRL' newly defined as it shall be overridden
+although it is yet undefined on input line 274.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35])
+[36]
+\openout2 = `Cap3/grasping_evaluation.aux'.
+
+ (Cap3/grasping_evaluation.tex
+Chapter 4.
+
+Overfull \hbox (7.62474pt too wide) in paragraph at lines 3--3
+ [][]\T1/phv/b/n/85.35826 4[] 
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 8--9
+[]\OT1/cmr/m/n/12 Regarding this eval-u-a-tion short-com-ing, some au-thors pro
+-posed well-accepted
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 8--9
+\OT1/cmr/m/n/12 as-sess-ments in the lit-er-a-ture. These in-clude point and re
+ct-an-gle grasp-ing
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37
+
+
+
+
+]
+
+pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/teste_2.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<Cap2/Figuras/teste_2.pdf, id=1801, 542.025pt x 782.925pt>
+File: Cap2/Figuras/teste_2.pdf Graphic file (type pdf)
+<use Cap2/Figuras/teste_2.pdf>
+Package pdftex.def Info: Cap2/Figuras/teste_2.pdf  used on input line 13.
+(pdftex.def)             Requested size: 395.4934pt x 164.98584pt.
+Package acronym Info: Label `acro:GPSR' newly defined as it shall be overridden
+
+although it is yet undefined on input line 22.
+[38 <./Cap2/Figuras/teste_2.pdf>]
+Package acronym Info: Label `acro:GPT' newly defined as it shall be overridden
+although it is yet undefined on input line 28.
+Package acronym Info: Label `acro:Offline-GPT' newly defined as it shall be ove
+rridden
+although it is yet undefined on input line 28.
+Package acronym Info: Label `acro:Run-GPT' newly defined as it shall be overrid
+den
+although it is yet undefined on input line 28.
+Package acronym Info: Label `acro:CPU' newly defined as it shall be overridden
+although it is yet undefined on input line 28.
+Package acronym Info: Label `acro:GPU' newly defined as it shall be overridden
+although it is yet undefined on input line 28.
+Package acronym Info: Label `acro:CPU-GPT' newly defined as it shall be overrid
+den
+although it is yet undefined on input line 28.
+Package acronym Info: Label `acro:GPU-GPT' newly defined as it shall be overrid
+den
+although it is yet undefined on input line 28.
+
+Underfull \vbox (badness 3029) has occurred while \output is active []
+
+ [39]
+Package acronym Info: Label `acro:GRSR' newly defined as it shall be overridden
+
+although it is yet undefined on input line 36.
+Package acronym Info: Label `acro:GHSR' newly defined as it shall be overridden
+
+although it is yet undefined on input line 44.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Package acronym Info: Label `acro:HGSR' newly defined as it shall be overridden
+
+although it is yet undefined on input line 49.
+
+[41] [42] (Cap2/table.tex
+
+Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(101.40665pt, 885.90388pt, -142.26378pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04675pt
+* \textwidth=540.60239pt
+* \textheight=885.90388pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-41.99521pt
+* \headheight=28.45274pt
+* \headsep=42.67912pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=-99.58464pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[43
+
+
+])) [44
+
+
+]
+\openout2 = `Cap4/approach.aux'.
+
+ (Cap4/approach.tex
+Chapter 5.
+
+Overfull \hbox (7.62474pt too wide) in paragraph at lines 1--1
+ [][]\T1/phv/b/n/85.35826 5[] 
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/12 Nowadays, since a com-pletely generic so-lu-tion, in-de-pen-d
+ently from pre-vi-ous
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/grasping_framework.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap4/Figuras/grasping_framework.pdf, id=1974, 542.025pt x 782.925pt>
+File: Cap4/Figuras/grasping_framework.pdf Graphic file (type pdf)
+<use Cap4/Figuras/grasping_framework.pdf>
+Package pdftex.def Info: Cap4/Figuras/grasping_framework.pdf  used on input lin
+e 11.
+(pdftex.def)             Requested size: 336.17178pt x 220.88753pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45
+
+
+
+
+]
+[46 <./Cap4/Figuras/grasping_framework.pdf>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 46.
+
+(Cap4/codes/candidates_dataset.yaml
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+10.
+
+(C:\Users\JoaoPedro\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+))
+Package hyperref Info: bookmark level for unknown snippet defaults to 0 on inpu
+t line 47.
+
+Underfull \hbox (badness 3312) in paragraph at lines 57--58
+[]\OT1/cmr/bx/n/12 gripper/parameters: \OT1/cmr/m/n/12 a dy-namic size ar-ray w
+ith spe-cific grip-per's
+ []
+
+[47]
+
+LaTeX Warning: Reference `ap:sim_ann' on page 48 undefined on input line 58.
+
+Package acronym Info: Label `acro:ROS' newly defined as it shall be overridden
+although it is yet undefined on input line 67.
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/graspit_manual_support.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap4/Figuras/graspit_manual_support.pdf, id=2037, 963.6pt x 542.025pt>
+File: Cap4/Figuras/graspit_manual_support.pdf Graphic file (type pdf)
+<use Cap4/Figuras/graspit_manual_support.pdf>
+Package pdftex.def Info: Cap4/Figuras/graspit_manual_support.pdf  used on input
+ line 76.
+(pdftex.def)             Requested size: 395.4934pt x 229.2369pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/flowchart_graspit_module.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap4/Figuras/flowchart_graspit_module.pdf, id=2040, 1228.59pt x 795.93356pt>
+File: Cap4/Figuras/flowchart_graspit_module.pdf Graphic file (type pdf)
+<use Cap4/Figuras/flowchart_graspit_module.pdf>
+Package pdftex.def Info: Cap4/Figuras/flowchart_graspit_module.pdf  used on inp
+ut line 88.
+(pdftex.def)             Requested size: 395.4934pt x 384.61572pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+(Cap4/codes/manual_feeder.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49 <./Cap4/Figuras/graspit_manual_support.pdf>]
+Underfull \hbox (badness 1057) in paragraph at lines 132--133
+[]\OT1/cmr/bx/n/12 config$[]$grasps$[]$parameters/min$[]$width$[]$threshold: \O
+T1/cmr/m/n/12 min-i-mum width to
+ []
+
+
+LaTeX Warning: Reference `ap:sim_ann' on page 50 undefined on input line 138.
+
+
+LaTeX Warning: Reference `ap:multifingered_grasping' on page 50 undefined on in
+put line 138.
+
+[50 <./Cap4/Figuras/flowchart_graspit_module.pdf>]
+(Cap4/codes/multifingered_sann_feeder.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(Cap4/codes/suction_sann_feeder.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 192--193
+[]\OT1/cmr/bx/n/12 action$[]$graspit$[]$interface$[]$server$[]$name: \OT1/cmr/m
+/n/12 since the ``GraspIt!" server is
+ []
+
+
+LaTeX Warning: Reference `fig:grasping_synthesis_core' on page 51 undefined on 
+input line 194.
+
+[51]
+Underfull \hbox (badness 3128) in paragraph at lines 204--205
+[]\OT1/cmr/bx/n/12 sim$[]$annealing/HDIMS: \OT1/cmr/m/n/12 num-ber of di-men-si
+ons for er-ror ac-cep-tance
+ []
+
+[52] [53]
+Underfull \hbox (badness 1057) in paragraph at lines 215--216
+[]\OT1/cmr/bx/n/12 config$[]$grasps$[]$parameters/min$[]$width$[]$threshold: \O
+T1/cmr/m/n/12 min-i-mum width to
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/plugin_system_management.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap4/Figuras/plugin_system_management.pdf, id=2178, 542.025pt x 782.925pt>
+File: Cap4/Figuras/plugin_system_management.pdf Graphic file (type pdf)
+<use Cap4/Figuras/plugin_system_management.pdf>
+Package pdftex.def Info: Cap4/Figuras/plugin_system_management.pdf  used on inp
+ut line 237.
+(pdftex.def)             Requested size: 395.4934pt x 301.39006pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[54]
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/mimic_grasping_api_flowchart.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<Cap4/Figuras/mimic_grasping_api_flowchart.pdf, id=2185, 867.24pt x 868.20357pt
+>
+File: Cap4/Figuras/mimic_grasping_api_flowchart.pdf Graphic file (type pdf)
+<use Cap4/Figuras/mimic_grasping_api_flowchart.pdf>
+Package pdftex.def Info: Cap4/Figuras/mimic_grasping_api_flowchart.pdf  used on
+ input line 253.
+(pdftex.def)             Requested size: 395.4934pt x 451.45181pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55 <./Cap4/Figuras/plugin_system_management.pdf>] [56 <./Cap4/Figuras/mimic_gr
+asping_api_flowchart.pdf>] (Cap4/codes/error_compensation.yaml
+LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
+1.
+LaTeX Font Info:    No file OMScmss.fd. on input line 1.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 1.
+
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 300--301
+\OT1/cmr/m/n/12 with demon-stra-tion tool ver-i-fied. If all pro-cess is cor-re
+ctly ex-e-cuted, the
+ []
+
+[57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/photo_use_case_overview_label
+ed.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<Cap4/Figuras/photo_use_case_overview_labeled.pdf, id=2294, 963.6pt x 542.025pt
+>
+File: Cap4/Figuras/photo_use_case_overview_labeled.pdf Graphic file (type pdf)
+<use Cap4/Figuras/photo_use_case_overview_labeled.pdf>
+Package pdftex.def Info: Cap4/Figuras/photo_use_case_overview_labeled.pdf  used
+ on input line 311.
+(pdftex.def)             Requested size: 395.4934pt x 178.08736pt.
+[59 <./Cap4/Figuras/photo_use_case_overview_labeled.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/mimic_tool_handler.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Cap4/Figuras/mimic_tool_handler.pdf, id=2320, 542.025pt x 782.925pt>
+File: Cap4/Figuras/mimic_tool_handler.pdf Graphic file (type pdf)
+<use Cap4/Figuras/mimic_tool_handler.pdf>
+Package pdftex.def Info: Cap4/Figuras/mimic_tool_handler.pdf  used on input lin
+e 348.
+(pdftex.def)             Requested size: 395.4934pt x 332.53255pt.
+<Cap4/Figuras/grippers_mimic.pdf, id=2325, 545.3153pt x 503.04787pt>
+File: Cap4/Figuras/grippers_mimic.pdf Graphic file (type pdf)
+<use Cap4/Figuras/grippers_mimic.pdf>
+Package pdftex.def Info: Cap4/Figuras/grippers_mimic.pdf  used on input line 36
+0.
+(pdftex.def)             Requested size: 395.4934pt x 230.71014pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/mimic_grasping_firmware_state
+_machine.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
+> allowed
+<Cap4/Figuras/mimic_grasping_firmware_state_machine.pdf, id=2328, 598.15468pt x
+ 846.0408pt>
+File: Cap4/Figuras/mimic_grasping_firmware_state_machine.pdf Graphic file (type
+ pdf)
+<use Cap4/Figuras/mimic_grasping_firmware_state_machine.pdf>
+Package pdftex.def Info: Cap4/Figuras/mimic_grasping_firmware_state_machine.pdf
+  used on input line 375.
+(pdftex.def)             Requested size: 395.4934pt x 229.50381pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[60 <./Cap4/Figuras/mimic_tool_handler.pdf>]
+Underfull \vbox (badness 2302) has occurred while \output is active []
+
+ [61 <./Cap4/Figuras/grippers_mimic.pdf> <./Cap4/Figuras/mimic_grasping_firmwar
+e_state_machine.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[62]
+<Cap4/Figuras/mimic_grasping_on_handler_2.pdf, id=2383, 265.2309pt x 799.06532p
+t>
+File: Cap4/Figuras/mimic_grasping_on_handler_2.pdf Graphic file (type pdf)
+<use Cap4/Figuras/mimic_grasping_on_handler_2.pdf>
+Package pdftex.def Info: Cap4/Figuras/mimic_grasping_on_handler_2.pdf  used on 
+input line 440.
+(pdftex.def)             Requested size: 98.87334pt x 333.6665pt.
+Package acronym Info: Label `acro:TCP' newly defined as it shall be overridden
+although it is yet undefined on input line 443.
+
+Underfull \vbox (badness 1540) has occurred while \output is active []
+
+ [63 <./Cap4/Figuras/mimic_grasping_on_handler_2.pdf>]
+Package acronym Info: Label `acro:OR' newly defined as it shall be overridden
+although it is yet undefined on input line 450.
+<Cap4/Figuras/flowchart_testcase.pdf, id=2427, 845.07718pt x 599.35919pt>
+File: Cap4/Figuras/flowchart_testcase.pdf Graphic file (type pdf)
+<use Cap4/Figuras/flowchart_testcase.pdf>
+Package pdftex.def Info: Cap4/Figuras/flowchart_testcase.pdf  used on input lin
+e 465.
+(pdftex.def)             Requested size: 395.4934pt x 145.52303pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+<Cap4/Figuras/gui/main_screen_small.pdf, id=2437, 722.7pt x 517.935pt>
+File: Cap4/Figuras/gui/main_screen_small.pdf Graphic file (type pdf)
+<use Cap4/Figuras/gui/main_screen_small.pdf>
+Package pdftex.def Info: Cap4/Figuras/gui/main_screen_small.pdf  used on input 
+line 481.
+(pdftex.def)             Requested size: 395.4934pt x 283.43466pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Cap4/Figuras/gui/localisators_config_screen_small.pdf, id=2443, 740.67493pt x 
+586.11673pt>
+File: Cap4/Figuras/gui/localisators_config_screen_small.pdf Graphic file (type 
+pdf)
+<use Cap4/Figuras/gui/localisators_config_screen_small.pdf>
+Package pdftex.def Info: Cap4/Figuras/gui/localisators_config_screen_small.pdf 
+ used on input line 493.
+(pdftex.def)             Requested size: 395.4934pt x 312.96567pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Cap4/Figuras/gui/tool_firmware_screen_small.pdf, id=2448, 722.7pt x 515.9275pt
+>
+File: Cap4/Figuras/gui/tool_firmware_screen_small.pdf Graphic file (type pdf)
+<use Cap4/Figuras/gui/tool_firmware_screen_small.pdf>
+Package pdftex.def Info: Cap4/Figuras/gui/tool_firmware_screen_small.pdf  used 
+on input line 505.
+(pdftex.def)             Requested size: 395.4934pt x 282.33609pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65 <./Cap4/Figuras/flowchart_testcase.pdf>]
+
+LaTeX Warning: Text page 66 contains only floats.
+
+
+Underfull \vbox (badness 1038) has occurred while \output is active []
+
+ [66 <./Cap4/Figuras/gui/main_screen_small.pdf> <./Cap4/Figuras/gui/localisator
+s_config_screen_small.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/flowchart_post_processors_pip
+eline.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
+<1.5> allowed
+<Cap4/Figuras/flowchart_post_processors_pipeline.drawio.pdf, id=2497, 1228.59pt
+ x 795.93356pt>
+File: Cap4/Figuras/flowchart_post_processors_pipeline.drawio.pdf Graphic file (
+type pdf)
+<use Cap4/Figuras/flowchart_post_processors_pipeline.drawio.pdf>
+Package pdftex.def Info: Cap4/Figuras/flowchart_post_processors_pipeline.drawio
+.pdf  used on input line 521.
+(pdftex.def)             Requested size: 395.4934pt x 308.39107pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(Cap4/codes/post_processor_config.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `cap4:modular_grasping_architecture:sec:grasping_synth
+esis:subsec:graspit:subsubsec:graspit_viewer' on page 67 undefined on input lin
+e 550.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67 <./Cap4/Figuras/gui/tool_firmware_screen_small.pdf>] (Cap4/codes/load_feed
+er.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[68 <./Cap4/Figuras/flowchart_post_processors_pipeline.drawio.pdf>]
+(Cap4/codes/distance_filter.yaml) [69]
+Underfull \hbox (badness 2261) in paragraph at lines 608--609
+[]\OT1/cmr/bx/n/12 abs$[]$pitch$[]$distance$[]$threshold\OT1/cmr/m/n/12 : ab-so
+-lute pitch min-i-mum dis-tance (in
+ []
+
+<Cap4/Figuras/tcp_angle_twin.pdf, id=2572, 462.52798pt x 260.17201pt>
+File: Cap4/Figuras/tcp_angle_twin.pdf Graphic file (type pdf)
+<use Cap4/Figuras/tcp_angle_twin.pdf>
+Package pdftex.def Info: Cap4/Figuras/tcp_angle_twin.pdf  used on input line 62
+4.
+(pdftex.def)             Requested size: 395.4934pt x 121.25107pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(Cap4/codes/tcp_angle_twin.yaml) [70]
+
+LaTeX Warning: Reference `cap4:modular_grasping_architecture:sec:grasping_synth
+esis:subsec:graspit:subsubsec:distance_filter' on page 71 undefined on input li
+ne 654.
+
+<Cap4/Figuras/obj_angle_twin.pdf, id=2592, 1477.33536pt x 260.94238pt>
+File: Cap4/Figuras/obj_angle_twin.pdf Graphic file (type pdf)
+<use Cap4/Figuras/obj_angle_twin.pdf>
+Package pdftex.def Info: Cap4/Figuras/obj_angle_twin.pdf  used on input line 66
+8.
+(pdftex.def)             Requested size: 395.4934pt x 76.55133pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(Cap4/codes/obj_angle_twin.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[71 <./Cap4/Figuras/tcp_angle_twin.pdf>] [72 <./Cap4/Figuras/obj_angle_twin.pdf
+>] (Cap4/codes/graspit_viewer.yaml) (Cap4/codes/rviz_viewer.yaml)
+<Cap4/Figuras/grasping_gray_bg.pdf, id=2649, 529.37881pt x 313.29109pt>
+File: Cap4/Figuras/grasping_gray_bg.pdf Graphic file (type pdf)
+<use Cap4/Figuras/grasping_gray_bg.pdf>
+Package pdftex.def Info: Cap4/Figuras/grasping_gray_bg.pdf  used on input line 
+775.
+(pdftex.def)             Requested size: 395.4934pt x 234.05467pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[73] (Cap4/codes/grasping_selection_pipeline.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/grasping_selection_pipeline_w
+orkflow.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<Cap4/Figuras/grasping_selection_pipeline_workflow.pdf, id=2672, 598.15468pt x 
+846.0408pt>
+File: Cap4/Figuras/grasping_selection_pipeline_workflow.pdf Graphic file (type 
+pdf)
+<use Cap4/Figuras/grasping_selection_pipeline_workflow.pdf>
+Package pdftex.def Info: Cap4/Figuras/grasping_selection_pipeline_workflow.pdf 
+ used on input line 811.
+(pdftex.def)             Requested size: 395.4934pt x 586.69077pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1337) has occurred while \output is active []
+
+ [74 <./Cap4/Figuras/grasping_gray_bg.pdf>] (Cap4/codes/depth_distance.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[75]
+
+LaTeX Warning: Text page 76 contains only floats.
+
+[76 <./Cap4/Figuras/grasping_selection_pipeline_workflow.pdf>]
+(Cap4/codes/euclidean_distance.yaml)
+Package acronym Info: Label `acro:COG' newly defined as it shall be overridden
+although it is yet undefined on input line 888.
+ (Cap4/codes/cog_distance.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package acronym Info: Label `acro:COBB' newly defined as it shall be overridden
+
+although it is yet undefined on input line 920.
+[77] (Cap4/codes/cobb_distance.yaml) [78] (Cap4/codes/roll_distance.yaml)
+(Cap4/codes/pitch_distance.yaml) [79] (Cap4/codes/yaw_distance.yaml) [80]
+(Cap4/codes/joint_space_heuristic.yaml) [81]
+<Cap4/Figuras/workspace_filter2_gray_bg.pdf, id=2813, 407.6219pt x 234.37354pt>
+
+File: Cap4/Figuras/workspace_filter2_gray_bg.pdf Graphic file (type pdf)
+<use Cap4/Figuras/workspace_filter2_gray_bg.pdf>
+Package pdftex.def Info: Cap4/Figuras/workspace_filter2_gray_bg.pdf  used on in
+put line 1098.
+(pdftex.def)             Requested size: 395.4934pt x 227.41357pt.
+ [82 <./Cap4/Figuras/workspace_filter2_gray_bg.pdf>] (Cap4/codes/workspace_filt
+er_heuristic.yaml)
+<Cap4/Figuras/collision_box_gray_bg.pdf, id=2830, 1372.20564pt x 684.22104pt>
+File: Cap4/Figuras/collision_box_gray_bg.pdf Graphic file (type pdf)
+<use Cap4/Figuras/collision_box_gray_bg.pdf>
+Package pdftex.def Info: Cap4/Figuras/collision_box_gray_bg.pdf  used on input 
+line 1151.
+(pdftex.def)             Requested size: 395.4934pt x 197.1975pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[83] (Cap4/codes/collision_filter.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [84 <./Cap4/Figuras/collision_box_gray_bg.pdf>] [85]
+\openout2 = `Cap5/proposal_validation.aux'.
+
+
+(Cap5/proposal_validation.tex [86
+
+
+
+
+]
+Chapter 6.
+
+Overfull \hbox (7.62474pt too wide) in paragraph at lines 1--1
+ [][]\T1/phv/b/n/85.35826 6[] 
+ []
+
+[87]
+<Cap5/Figuras/omni_robot_and_bins.pdf, id=2939, 213.4374pt x 154.17601pt>
+File: Cap5/Figuras/omni_robot_and_bins.pdf Graphic file (type pdf)
+<use Cap5/Figuras/omni_robot_and_bins.pdf>
+Package pdftex.def Info: Cap5/Figuras/omni_robot_and_bins.pdf  used on input li
+ne 26.
+(pdftex.def)             Requested size: 395.4934pt x 285.72455pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Cap5/Figuras/objects/bracket.pdf, id=2941, 597.50786pt x 845.04686pt>
+File: Cap5/Figuras/objects/bracket.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/bracket.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/bracket.pdf  used on input line 9
+2.
+(pdftex.def)             Requested size: 90.96178pt x 74.50266pt.
+<Cap5/Figuras/objects/cover_plate.pdf, id=2943, 597.50786pt x 845.04686pt>
+File: Cap5/Figuras/objects/cover_plate.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/cover_plate.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/cover_plate.pdf  used on input li
+ne 92.
+(pdftex.def)             Requested size: 90.96178pt x 76.66843pt.
+<Cap5/Figuras/objects/double_side_bracket.pdf, id=2945, 597.50786pt x 845.04686
+pt>
+File: Cap5/Figuras/objects/double_side_bracket.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/double_side_bracket.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/double_side_bracket.pdf  used on 
+input line 92.
+(pdftex.def)             Requested size: 90.96178pt x 55.01068pt.
+<Cap5/Figuras/objects/multi_side_bracket.pdf, id=2947, 597.50786pt x 845.04686p
+t>
+File: Cap5/Figuras/objects/multi_side_bracket.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/multi_side_bracket.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/multi_side_bracket.pdf  used on i
+nput line 92.
+(pdftex.def)             Requested size: 90.96178pt x 89.66309pt.
+<Cap5/Figuras/objects/reinforced_bracket.pdf, id=2949, 597.50786pt x 845.04686p
+t>
+File: Cap5/Figuras/objects/reinforced_bracket.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/reinforced_bracket.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/reinforced_bracket.pdf  used on i
+nput line 92.
+(pdftex.def)             Requested size: 90.96178pt x 89.66309pt.
+<Cap5/Figuras/objects/single_side_bracket.pdf, id=2951, 597.50786pt x 845.04686
+pt>
+File: Cap5/Figuras/objects/single_side_bracket.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/single_side_bracket.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/single_side_bracket.pdf  used on 
+input line 92.
+(pdftex.def)             Requested size: 90.96178pt x 89.66309pt.
+<Cap5/Figuras/objects/support_bracket.pdf, id=2953, 597.50786pt x 845.04686pt>
+File: Cap5/Figuras/objects/support_bracket.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/support_bracket.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/support_bracket.pdf  used on inpu
+t line 92.
+(pdftex.def)             Requested size: 90.96178pt x 55.01068pt.
+<Cap5/Figuras/objects/t_bracket.pdf, id=2955, 597.50786pt x 845.04686pt>
+File: Cap5/Figuras/objects/t_bracket.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/t_bracket.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/t_bracket.pdf  used on input line
+ 92.
+(pdftex.def)             Requested size: 90.96178pt x 93.99463pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 7186) has occurred while \output is active []
+
+ [88]
+<Cap5/Figuras/objects/triangle_bracket.pdf, id=2971, 597.50786pt x 845.04686pt>
+
+File: Cap5/Figuras/objects/triangle_bracket.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/triangle_bracket.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/triangle_bracket.pdf  used on inp
+ut line 120.
+(pdftex.def)             Requested size: 177.97081pt x 111.86575pt.
+<Cap5/Figuras/objects/90_elbow_flue_pipe.pdf, id=2973, 597.50786pt x 845.04686p
+t>
+File: Cap5/Figuras/objects/90_elbow_flue_pipe.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/90_elbow_flue_pipe.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/90_elbow_flue_pipe.pdf  used on i
+nput line 120.
+(pdftex.def)             Requested size: 177.97081pt x 116.10307pt.
+
+[89 <./Cap5/Figuras/omni_robot_and_bins.pdf> <./Cap5/Figuras/objects/bracket.pd
+f> <./Cap5/Figuras/objects/cover_plate.pdf> <./Cap5/Figuras/objects/double_side
+_bracket.pdf> <./Cap5/Figuras/objects/multi_side_bracket.pdf> <./Cap5/Figuras/o
+bjects/reinforced_bracket.pdf> <./Cap5/Figuras/objects/single_side_bracket.pdf>
+ <./Cap5/Figuras/objects/support_bracket.pdf> <./Cap5/Figuras/objects/t_bracket
+.pdf>]
+<Cap5/Figuras/objects/falange_piece.pdf, id=3045, 597.50786pt x 845.04686pt>
+File: Cap5/Figuras/objects/falange_piece.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/falange_piece.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/falange_piece.pdf  used on input 
+line 150.
+(pdftex.def)             Requested size: 126.56078pt x 103.65555pt.
+<Cap5/Figuras/objects/bearing_holder.pdf, id=3047, 597.50786pt x 845.04686pt>
+File: Cap5/Figuras/objects/bearing_holder.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/bearing_holder.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/bearing_holder.pdf  used on input
+ line 150.
+(pdftex.def)             Requested size: 126.56078pt x 106.6688pt.
+<Cap5/Figuras/objects/rod.pdf, id=3049, 597.50786pt x 845.04686pt>
+File: Cap5/Figuras/objects/rod.pdf Graphic file (type pdf)
+<use Cap5/Figuras/objects/rod.pdf>
+Package pdftex.def Info: Cap5/Figuras/objects/rod.pdf  used on input line 150.
+(pdftex.def)             Requested size: 126.56078pt x 76.53636pt.
+<Cap5/Figuras/2f_models.pdf, id=3052, 240.4182pt x 184.77031pt>
+File: Cap5/Figuras/2f_models.pdf Graphic file (type pdf)
+<use Cap5/Figuras/2f_models.pdf>
+Package pdftex.def Info: Cap5/Figuras/2f_models.pdf  used on input line 167.
+(pdftex.def)             Requested size: 395.4934pt x 303.96411pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[90 <./Cap5/Figuras/objects/triangle_bracket.pdf> <./Cap5/Figuras/objects/90_el
+bow_flue_pipe.pdf> <./Cap5/Figuras/objects/falange_piece.pdf> <./Cap5/Figuras/o
+bjects/bearing_holder.pdf> <./Cap5/Figuras/objects/rod.pdf>]
+<Cap5/Figuras/contact_points.pdf, id=3096, 858.64201pt x 199.4825pt>
+File: Cap5/Figuras/contact_points.pdf Graphic file (type pdf)
+<use Cap5/Figuras/contact_points.pdf>
+Package pdftex.def Info: Cap5/Figuras/contact_points.pdf  used on input line 18
+1.
+(pdftex.def)             Requested size: 395.4934pt x 91.88176pt.
+
+
+LaTeX Warning: Reference `ap:sim_ann' on page 91 undefined on input line 184.
+
+[91 <./Cap5/Figuras/2f_models.pdf> <./Cap5/Figuras/contact_points.pdf>]
+<Cap5/Figuras/candidates_plot/bracket_candidates.pdf, id=3136, 444.8566pt x 329
+.69067pt>
+File: Cap5/Figuras/candidates_plot/bracket_candidates.pdf Graphic file (type pd
+f)
+<use Cap5/Figuras/candidates_plot/bracket_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/bracket_candidates.pdf  u
+sed on input line 261.
+(pdftex.def)             Requested size: 90.96178pt x 67.41093pt.
+<Cap5/Figuras/candidates_plot/cover_plate_candidates.pdf, id=3138, 440.34027pt 
+x 239.36444pt>
+File: Cap5/Figuras/candidates_plot/cover_plate_candidates.pdf Graphic file (typ
+e pdf)
+<use Cap5/Figuras/candidates_plot/cover_plate_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/cover_plate_candidates.pd
+f  used on input line 261.
+(pdftex.def)             Requested size: 90.96178pt x 49.44621pt.
+<Cap5/Figuras/candidates_plot/double_side_bracket_candidates.pdf, id=3140, 438.
+83482pt x 284.52756pt>
+File: Cap5/Figuras/candidates_plot/double_side_bracket_candidates.pdf Graphic f
+ile (type pdf)
+<use Cap5/Figuras/candidates_plot/double_side_bracket_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/double_side_bracket_candi
+dates.pdf  used on input line 261.
+(pdftex.def)             Requested size: 90.96178pt x 58.9754pt.
+<Cap5/Figuras/candidates_plot/multi_side_bracket_candidates.pdf, id=3142, 535.1
+8279pt x 334.20697pt>
+File: Cap5/Figuras/candidates_plot/multi_side_bracket_candidates.pdf Graphic fi
+le (type pdf)
+<use Cap5/Figuras/candidates_plot/multi_side_bracket_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/multi_side_bracket_candid
+ates.pdf  used on input line 261.
+(pdftex.def)             Requested size: 90.96178pt x 56.79913pt.
+<Cap5/Figuras/candidates_plot/reinforced_bracket_candidates.pdf, id=3144, 429.0
+4948pt x 301.08736pt>
+File: Cap5/Figuras/candidates_plot/reinforced_bracket_candidates.pdf Graphic fi
+le (type pdf)
+<use Cap5/Figuras/candidates_plot/reinforced_bracket_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/reinforced_bracket_candid
+ates.pdf  used on input line 261.
+(pdftex.def)             Requested size: 90.96178pt x 63.83205pt.
+<Cap5/Figuras/candidates_plot/single_side_bracket_candidates.pdf, id=3146, 401.
+19891pt x 356.0358pt>
+File: Cap5/Figuras/candidates_plot/single_side_bracket_candidates.pdf Graphic f
+ile (type pdf)
+<use Cap5/Figuras/candidates_plot/single_side_bracket_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/single_side_bracket_candi
+dates.pdf  used on input line 261.
+(pdftex.def)             Requested size: 90.96178pt x 80.71848pt.
+<Cap5/Figuras/candidates_plot/support_bracket_candidates.pdf, id=3148, 490.0196
+7pt x 352.2722pt>
+File: Cap5/Figuras/candidates_plot/support_bracket_candidates.pdf Graphic file 
+(type pdf)
+<use Cap5/Figuras/candidates_plot/support_bracket_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/support_bracket_candidate
+s.pdf  used on input line 261.
+(pdftex.def)             Requested size: 90.96178pt x 65.38971pt.
+<Cap5/Figuras/candidates_plot/t_bracket_candidates.pdf, id=3150, 340.98146pt x 
+241.6226pt>
+File: Cap5/Figuras/candidates_plot/t_bracket_candidates.pdf Graphic file (type 
+pdf)
+<use Cap5/Figuras/candidates_plot/t_bracket_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/t_bracket_candidates.pdf 
+ used on input line 261.
+(pdftex.def)             Requested size: 90.96178pt x 64.45366pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Cap5/Figuras/candidates_plot/triangle_bracket_candidates.pdf, id=3152, 901.003
+95pt x 568.30237pt>
+File: Cap5/Figuras/candidates_plot/triangle_bracket_candidates.pdf Graphic file
+ (type pdf)
+<use Cap5/Figuras/candidates_plot/triangle_bracket_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/triangle_bracket_candidat
+es.pdf  used on input line 284.
+(pdftex.def)             Requested size: 177.97081pt x 112.25365pt.
+<Cap5/Figuras/candidates_plot/90_elbow_flue_pipe_candidates.pdf, id=3154, 1037.
+99869pt x 535.18279pt>
+File: Cap5/Figuras/candidates_plot/90_elbow_flue_pipe_candidates.pdf Graphic fi
+le (type pdf)
+<use Cap5/Figuras/candidates_plot/90_elbow_flue_pipe_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/90_elbow_flue_pipe_candid
+ates.pdf  used on input line 284.
+(pdftex.def)             Requested size: 177.97081pt x 91.75566pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Cap5/Figuras/candidates_plot/falange_piece_candidates.pdf, id=3156, 450.12561p
+t x 416.25327pt>
+File: Cap5/Figuras/candidates_plot/falange_piece_candidates.pdf Graphic file (t
+ype pdf)
+<use Cap5/Figuras/candidates_plot/falange_piece_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/falange_piece_candidates.
+pdf  used on input line 314.
+(pdftex.def)             Requested size: 126.56078pt x 117.03282pt.
+<Cap5/Figuras/candidates_plot/bearing_holder_candidates.pdf, id=3158, 412.4897p
+t x 336.46513pt>
+File: Cap5/Figuras/candidates_plot/bearing_holder_candidates.pdf Graphic file (
+type pdf)
+<use Cap5/Figuras/candidates_plot/bearing_holder_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/bearing_holder_candidates
+.pdf  used on input line 314.
+(pdftex.def)             Requested size: 126.56078pt x 103.23523pt.
+<Cap5/Figuras/candidates_plot/rod_candidates.pdf, id=3160, 173.12523pt x 450.12
+561pt>
+File: Cap5/Figuras/candidates_plot/rod_candidates.pdf Graphic file (type pdf)
+<use Cap5/Figuras/candidates_plot/rod_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_plot/rod_candidates.pdf  used 
+on input line 314.
+(pdftex.def)             Requested size: 49.43666pt x 128.5344pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 3029) has occurred while \output is active []
+
+ [92]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 5288) has occurred while \output is active []
+
+ [93 <./Cap5/Figuras/candidates_plot/bracket_candidates.pdf> <./Cap5/Figuras/ca
+ndidates_plot/cover_plate_candidates.pdf> <./Cap5/Figuras/candidates_plot/doubl
+e_side_bracket_candidates.pdf> <./Cap5/Figuras/candidates_plot/multi_side_brack
+et_candidates.pdf> <./Cap5/Figuras/candidates_plot/reinforced_bracket_candidate
+s.pdf> <./Cap5/Figuras/candidates_plot/single_side_bracket_candidates.pdf> <./C
+ap5/Figuras/candidates_plot/support_bracket_candidates.pdf> <./Cap5/Figuras/can
+didates_plot/t_bracket_candidates.pdf> <./Cap5/Figuras/candidates_plot/triangle
+_bracket_candidates.pdf> <./Cap5/Figuras/candidates_plot/90_elbow_flue_pipe_can
+didates.pdf>]
+<Cap5/Figuras/candidates_with_gripper/failed_candidates.pdf, id=3263, 271.97609
+pt x 146.94899pt>
+File: Cap5/Figuras/candidates_with_gripper/failed_candidates.pdf Graphic file (
+type pdf)
+<use Cap5/Figuras/candidates_with_gripper/failed_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_with_gripper/failed_candidates
+.pdf  used on input line 357.
+(pdftex.def)             Requested size: 395.4934pt x 213.68942pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[94 <./Cap5/Figuras/candidates_plot/falange_piece_candidates.pdf> <./Cap5/Figur
+as/candidates_plot/bearing_holder_candidates.pdf> <./Cap5/Figuras/candidates_pl
+ot/rod_candidates.pdf>]
+<Cap5/Figuras/candidates_with_gripper/2f85_candidates.pdf, id=3300, 304.2567pt 
+x 176.33879pt>
+File: Cap5/Figuras/candidates_with_gripper/2f85_candidates.pdf Graphic file (ty
+pe pdf)
+<use Cap5/Figuras/candidates_with_gripper/2f85_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_with_gripper/2f85_candidates.p
+df  used on input line 455.
+(pdftex.def)             Requested size: 395.4934pt x 229.21886pt.
+<Cap5/Figuras/candidates_with_gripper/2f140_candidates.pdf, id=3302, 383.2719pt
+ x 101.6598pt>
+File: Cap5/Figuras/candidates_with_gripper/2f140_candidates.pdf Graphic file (t
+ype pdf)
+<use Cap5/Figuras/candidates_with_gripper/2f140_candidates.pdf>
+Package pdftex.def Info: Cap5/Figuras/candidates_with_gripper/2f140_candidates.
+pdf  used on input line 455.
+(pdftex.def)             Requested size: 395.4934pt x 104.9062pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[95 <./Cap5/Figuras/candidates_with_gripper/failed_candidates.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `tab:decision_time' on page 96 undefined on input line
+ 492.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96 <./Cap5/Figuras/candidates_with_gripper/2f85_candidates.pdf> <./Cap5/Figur
+as/candidates_with_gripper/2f140_candidates.pdf>]
+<Cap5/Figuras/picking_mari4yard/capture_image.pdf, id=3359, 596.95016pt x 844.8
+3629pt>
+File: Cap5/Figuras/picking_mari4yard/capture_image.pdf Graphic file (type pdf)
+<use Cap5/Figuras/picking_mari4yard/capture_image.pdf>
+Package pdftex.def Info: Cap5/Figuras/picking_mari4yard/capture_image.pdf  used
+ on input line 557.
+(pdftex.def)             Requested size: 395.4934pt x 126.16183pt.
+<Cap5/Figuras/picking_mari4yard/object_detection.pdf, id=3361, 596.95016pt x 84
+4.83629pt>
+File: Cap5/Figuras/picking_mari4yard/object_detection.pdf Graphic file (type pd
+f)
+<use Cap5/Figuras/picking_mari4yard/object_detection.pdf>
+Package pdftex.def Info: Cap5/Figuras/picking_mari4yard/object_detection.pdf  u
+sed on input line 557.
+(pdftex.def)             Requested size: 395.4934pt x 126.16183pt.
+<Cap5/Figuras/picking_mari4yard/grasping_selection.pdf, id=3363, 596.95016pt x 
+844.83629pt>
+File: Cap5/Figuras/picking_mari4yard/grasping_selection.pdf Graphic file (type 
+pdf)
+<use Cap5/Figuras/picking_mari4yard/grasping_selection.pdf>
+Package pdftex.def Info: Cap5/Figuras/picking_mari4yard/grasping_selection.pdf 
+ used on input line 557.
+(pdftex.def)             Requested size: 395.4934pt x 182.71468pt.
+<Cap5/Figuras/picking_mari4yard/grasping.pdf, id=3365, 596.95016pt x 844.83629p
+t>
+File: Cap5/Figuras/picking_mari4yard/grasping.pdf Graphic file (type pdf)
+<use Cap5/Figuras/picking_mari4yard/grasping.pdf>
+Package pdftex.def Info: Cap5/Figuras/picking_mari4yard/grasping.pdf  used on i
+nput line 557.
+(pdftex.def)             Requested size: 395.4934pt x 145.0128pt.
+ [97]
+<Cap5/Figuras/picking_embraer//perception-1.jpg, id=3372, 1137.24875pt x 952.55
+875pt>
+File: Cap5/Figuras/picking_embraer//perception-1.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer//perception-1.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer//perception-1.jpg  used o
+n input line 585.
+(pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/back-1.jpg, id=3373, 1520.68124pt x 1083.04625pt>
+
+File: Cap5/Figuras/picking_embraer/back-1.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/back-1.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-1.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/side-1.jpg, id=3374, 1079.03125pt x 1084.05pt>
+File: Cap5/Figuras/picking_embraer/side-1.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/side-1.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-1.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/perception-2.jpg, id=3375, 1137.24875pt x 952.558
+75pt>
+File: Cap5/Figuras/picking_embraer/perception-2.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/perception-2.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/perception-2.jpg  used on
+ input line 585.
+(pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/back-2.jpg, id=3376, 1520.68124pt x 1083.04625pt>
+
+File: Cap5/Figuras/picking_embraer/back-2.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/back-2.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-2.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/side-2.jpg, id=3377, 1079.03125pt x 1084.05pt>
+File: Cap5/Figuras/picking_embraer/side-2.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/side-2.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-2.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/perception-3.jpg, id=3378, 1137.24875pt x 952.558
+75pt>
+File: Cap5/Figuras/picking_embraer/perception-3.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/perception-3.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/perception-3.jpg  used on
+ input line 585.
+(pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/back-3.jpg, id=3379, 1520.68124pt x 1083.04625pt>
+
+File: Cap5/Figuras/picking_embraer/back-3.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/back-3.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-3.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/side-3.jpg, id=3380, 1079.03125pt x 1084.05pt>
+File: Cap5/Figuras/picking_embraer/side-3.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/side-3.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-3.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/perception-4.jpg, id=3381, 1137.24875pt x 952.558
+75pt>
+File: Cap5/Figuras/picking_embraer/perception-4.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/perception-4.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/perception-4.jpg  used on
+ input line 585.
+(pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/back-4.jpg, id=3382, 1520.68124pt x 1083.04625pt>
+
+File: Cap5/Figuras/picking_embraer/back-4.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/back-4.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-4.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/side-4.jpg, id=3383, 1079.03125pt x 1084.05pt>
+File: Cap5/Figuras/picking_embraer/side-4.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/side-4.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-4.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/perception-5.jpg, id=3384, 1137.24875pt x 952.558
+75pt>
+File: Cap5/Figuras/picking_embraer/perception-5.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/perception-5.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/perception-5.jpg  used on
+ input line 585.
+(pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/back-5.jpg, id=3385, 1520.68124pt x 1083.04625pt>
+
+File: Cap5/Figuras/picking_embraer/back-5.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/back-5.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-5.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/side-5.jpg, id=3386, 1079.03125pt x 1084.05pt>
+File: Cap5/Figuras/picking_embraer/side-5.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/side-5.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-5.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/perception-6.jpg, id=3387, 1137.24875pt x 952.558
+75pt>
+File: Cap5/Figuras/picking_embraer/perception-6.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/perception-6.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/perception-6.jpg  used on
+ input line 585.
+(pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/back-6.jpg, id=3388, 1520.68124pt x 1083.04625pt>
+
+File: Cap5/Figuras/picking_embraer/back-6.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/back-6.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-6.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
+<Cap5/Figuras/picking_embraer/side-6.jpg, id=3389, 1079.03125pt x 1084.05pt>
+File: Cap5/Figuras/picking_embraer/side-6.jpg Graphic file (type jpg)
+<use Cap5/Figuras/picking_embraer/side-6.jpg>
+Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-6.jpg  used on input
+ line 585.
+(pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[98 <./Cap5/Figuras/picking_mari4yard/capture_image.pdf> <./Cap5/Figuras/pickin
+g_mari4yard/object_detection.pdf> <./Cap5/Figuras/picking_mari4yard/grasping_se
+lection.pdf> <./Cap5/Figuras/picking_mari4yard/grasping.pdf>]
+File: Cap4/Figuras/photo_use_case_overview_labeled.pdf Graphic file (type pdf)
+<use Cap4/Figuras/photo_use_case_overview_labeled.pdf>
+Package pdftex.def Info: Cap4/Figuras/photo_use_case_overview_labeled.pdf  used
+ on input line 627.
+(pdftex.def)             Requested size: 316.39592pt x 145.2699pt.
+<Cap4/Figuras/photo_use_case_overview_flashing.pdf, id=3435, 460.6008pt x 214.4
+01pt>
+File: Cap4/Figuras/photo_use_case_overview_flashing.pdf Graphic file (type pdf)
+
+<use Cap4/Figuras/photo_use_case_overview_flashing.pdf>
+Package pdftex.def Info: Cap4/Figuras/photo_use_case_overview_flashing.pdf  use
+d on input line 627.
+(pdftex.def)             Requested size: 316.39592pt x 147.276pt.
+<Cap4/Figuras/photo_use_case_overview_demo.pdf, id=3436, 460.6008pt x 214.401pt
+>
+File: Cap4/Figuras/photo_use_case_overview_demo.pdf Graphic file (type pdf)
+<use Cap4/Figuras/photo_use_case_overview_demo.pdf>
+Package pdftex.def Info: Cap4/Figuras/photo_use_case_overview_demo.pdf  used on
+ input line 627.
+(pdftex.def)             Requested size: 316.39592pt x 147.276pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 2582) has occurred while \output is active []
+
+ [99 <./Cap5/Figuras/picking_embraer//perception-1.jpg> <./Cap5/Figuras/picking
+_embraer/back-1.jpg> <./Cap5/Figuras/picking_embraer/side-1.jpg> <./Cap5/Figura
+s/picking_embraer/perception-2.jpg> <./Cap5/Figuras/picking_embraer/back-2.jpg>
+ <./Cap5/Figuras/picking_embraer/side-2.jpg> <./Cap5/Figuras/picking_embraer/pe
+rception-3.jpg> <./Cap5/Figuras/picking_embraer/back-3.jpg> <./Cap5/Figuras/pic
+king_embraer/side-3.jpg> <./Cap5/Figuras/picking_embraer/perception-4.jpg> <./C
+ap5/Figuras/picking_embraer/back-4.jpg> <./Cap5/Figuras/picking_embraer/side-4.
+jpg> <./Cap5/Figuras/picking_embraer/perception-5.jpg> <./Cap5/Figuras/picking_
+embraer/back-5.jpg> <./Cap5/Figuras/picking_embraer/side-5.jpg> <./Cap5/Figuras
+/picking_embraer/perception-6.jpg> <./Cap5/Figuras/picking_embraer/back-6.jpg> 
+<./Cap5/Figuras/picking_embraer/side-6.jpg>]
+Underfull \vbox (badness 2503) has occurred while \output is active []
+
+ [100 <./Cap4/Figuras/photo_use_case_overview_flashing.pdf> <./Cap4/Figuras/pho
+to_use_case_overview_demo.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/photo_use_case_overview_demo.
+pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Cap5/Figuras/linear_gt2.pdf, id=3463, 844.83629pt x 596.95016pt>
+File: Cap5/Figuras/linear_gt2.pdf Graphic file (type pdf)
+<use Cap5/Figuras/linear_gt2.pdf>
+Package pdftex.def Info: Cap5/Figuras/linear_gt2.pdf  used on input line 654.
+(pdftex.def)             Requested size: 191.81453pt x 184.0961pt.
+<Cap5/Figuras/angular_gt2.pdf, id=3465, 844.83629pt x 596.95016pt>
+File: Cap5/Figuras/angular_gt2.pdf Graphic file (type pdf)
+<use Cap5/Figuras/angular_gt2.pdf>
+Package pdftex.def Info: Cap5/Figuras/angular_gt2.pdf  used on input line 654.
+(pdftex.def)             Requested size: 191.81453pt x 184.0961pt.
+<Cap5/Figuras/ponta_prova_thin.pdf, id=3467, 459.6372pt x 397.485pt>
+File: Cap5/Figuras/ponta_prova_thin.pdf Graphic file (type pdf)
+<use Cap5/Figuras/ponta_prova_thin.pdf>
+Package pdftex.def Info: Cap5/Figuras/ponta_prova_thin.pdf  used on input line 
+685.
+(pdftex.def)             Requested size: 118.64922pt x 116.25824pt.
+<Cap5/Figuras/ponta_prova_surface.pdf, id=3469, 455.78279pt x 322.0833pt>
+File: Cap5/Figuras/ponta_prova_surface.pdf Graphic file (type pdf)
+<use Cap5/Figuras/ponta_prova_surface.pdf>
+Package pdftex.def Info: Cap5/Figuras/ponta_prova_surface.pdf  used on input li
+ne 685.
+(pdftex.def)             Requested size: 118.64922pt x 123.10495pt.
+<Cap5/Figuras/ponta_prova_yaw.pdf, id=3471, 349.7868pt x 356.29109pt>
+File: Cap5/Figuras/ponta_prova_yaw.pdf Graphic file (type pdf)
+<use Cap5/Figuras/ponta_prova_yaw.pdf>
+Package pdftex.def Info: Cap5/Figuras/ponta_prova_yaw.pdf  used on input line 6
+85.
+(pdftex.def)             Requested size: 98.87334pt x 103.1469pt.
+ [101 <./Cap5/Figuras/linear_gt2.pdf> <./Cap5/Figuras/angular_gt2.pdf> <./Cap5/
+Figuras/ponta_prova_thin.pdf> <./Cap5/Figuras/ponta_prova_surface.pdf> <./Cap5/
+Figuras/ponta_prova_yaw.pdf>]
+<Cap5/Figuras/demo_x_axis.pdf, id=3529, 227.1687pt x 79.9788pt>
+File: Cap5/Figuras/demo_x_axis.pdf Graphic file (type pdf)
+<use Cap5/Figuras/demo_x_axis.pdf>
+Package pdftex.def Info: Cap5/Figuras/demo_x_axis.pdf  used on input line 718.
+(pdftex.def)             Requested size: 395.4934pt x 139.24742pt.
+<Cap5/Figuras/demo_y_axis.pdf, id=3531, 226.9278pt x 79.9788pt>
+File: Cap5/Figuras/demo_y_axis.pdf Graphic file (type pdf)
+<use Cap5/Figuras/demo_y_axis.pdf>
+Package pdftex.def Info: Cap5/Figuras/demo_y_axis.pdf  used on input line 718.
+(pdftex.def)             Requested size: 395.4934pt x 139.40118pt.
+<Cap5/Figuras/demo_z_axis.pdf, id=3533, 227.1687pt x 79.9788pt>
+File: Cap5/Figuras/demo_z_axis.pdf Graphic file (type pdf)
+<use Cap5/Figuras/demo_z_axis.pdf>
+Package pdftex.def Info: Cap5/Figuras/demo_z_axis.pdf  used on input line 718.
+(pdftex.def)             Requested size: 395.4934pt x 139.24742pt.
+<Cap5/Figuras/demo_roll_axis.pdf, id=3535, 259.93109pt x 71.5473pt>
+File: Cap5/Figuras/demo_roll_axis.pdf Graphic file (type pdf)
+<use Cap5/Figuras/demo_roll_axis.pdf>
+Package pdftex.def Info: Cap5/Figuras/demo_roll_axis.pdf  used on input line 74
+8.
+(pdftex.def)             Requested size: 395.4934pt x 108.8709pt.
+<Cap5/Figuras/demo_pitch_axis.pdf, id=3537, 259.93109pt x 71.7882pt>
+File: Cap5/Figuras/demo_pitch_axis.pdf Graphic file (type pdf)
+<use Cap5/Figuras/demo_pitch_axis.pdf>
+Package pdftex.def Info: Cap5/Figuras/demo_pitch_axis.pdf  used on input line 7
+48.
+(pdftex.def)             Requested size: 395.4934pt x 109.23744pt.
+<Cap5/Figuras/demo_yaw_axis.pdf, id=3539, 259.93109pt x 71.7882pt>
+File: Cap5/Figuras/demo_yaw_axis.pdf Graphic file (type pdf)
+<use Cap5/Figuras/demo_yaw_axis.pdf>
+Package pdftex.def Info: Cap5/Figuras/demo_yaw_axis.pdf  used on input line 748
+.
+(pdftex.def)             Requested size: 395.4934pt x 109.23744pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:mimic_grapsing_linear_regression_linear' on page 
+102 undefined on input line 751.
+
+<Cap5/Figuras/x_correction_asses.pdf, id=3543, 399.018pt x 199.947pt>
+File: Cap5/Figuras/x_correction_asses.pdf Graphic file (type pdf)
+<use Cap5/Figuras/x_correction_asses.pdf>
+Package pdftex.def Info: Cap5/Figuras/x_correction_asses.pdf  used on input lin
+e 801.
+(pdftex.def)             Requested size: 191.81453pt x 96.11685pt.
+<Cap5/Figuras/y_correction_asses.pdf, id=3544, 400.55103pt x 199.947pt>
+File: Cap5/Figuras/y_correction_asses.pdf Graphic file (type pdf)
+<use Cap5/Figuras/y_correction_asses.pdf>
+Package pdftex.def Info: Cap5/Figuras/y_correction_asses.pdf  used on input lin
+e 801.
+(pdftex.def)             Requested size: 191.81453pt x 95.7477pt.
+<Cap5/Figuras/z_correction_asses.pdf, id=3545, 400.77pt x 199.728pt>
+File: Cap5/Figuras/z_correction_asses.pdf Graphic file (type pdf)
+<use Cap5/Figuras/z_correction_asses.pdf>
+Package pdftex.def Info: Cap5/Figuras/z_correction_asses.pdf  used on input lin
+e 801.
+(pdftex.def)             Requested size: 191.81453pt x 95.591pt.
+<Cap5/Figuras/roll_correction_asses.pdf, id=3546, 400.77pt x 199.947pt>
+File: Cap5/Figuras/roll_correction_asses.pdf Graphic file (type pdf)
+<use Cap5/Figuras/roll_correction_asses.pdf>
+Package pdftex.def Info: Cap5/Figuras/roll_correction_asses.pdf  used on input 
+line 801.
+(pdftex.def)             Requested size: 191.81453pt x 95.69583pt.
+<Cap5/Figuras/pitch_correction_asses.pdf, id=3547, 400.55103pt x 199.947pt>
+File: Cap5/Figuras/pitch_correction_asses.pdf Graphic file (type pdf)
+<use Cap5/Figuras/pitch_correction_asses.pdf>
+Package pdftex.def Info: Cap5/Figuras/pitch_correction_asses.pdf  used on input
+ line 801.
+(pdftex.def)             Requested size: 191.81453pt x 95.7477pt.
+<Cap5/Figuras/yaw_correction_asses.pdf, id=3548, 400.77pt x 199.947pt>
+File: Cap5/Figuras/yaw_correction_asses.pdf Graphic file (type pdf)
+<use Cap5/Figuras/yaw_correction_asses.pdf>
+Package pdftex.def Info: Cap5/Figuras/yaw_correction_asses.pdf  used on input l
+ine 801.
+(pdftex.def)             Requested size: 191.81453pt x 95.69583pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[102 <./Cap5/Figuras/demo_x_axis.pdf> <./Cap5/Figuras/demo_y_axis.pdf> <./Cap5/
+Figuras/demo_z_axis.pdf>] [103 <./Cap5/Figuras/demo_roll_axis.pdf> <./Cap5/Figu
+ras/demo_pitch_axis.pdf> <./Cap5/Figuras/demo_yaw_axis.pdf>]
+
+LaTeX Warning: Reference `fig:mimic_grapsing_final_error' on page 104 undefined
+ on input line 837.
+
+
+Underfull \vbox (badness 5388) has occurred while \output is active []
+
+ [104 <./Cap5/Figuras/x_correction_asses.pdf> <./Cap5/Figuras/y_correction_asse
+s.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/y_correction_asses.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./Cap5/Figuras/z_correction_asses.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/z_correction_asses.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./Cap5/Figuras/roll_correction_asses.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/roll_correction_asses.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./Cap5/Figuras/pitch_correction_asses.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/pitch_correction_asses.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./Cap5/Figuras/yaw_correction_asses.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/yaw_correction_asses.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>]
+<Cap5/Figuras/x.pdf, id=3660, 399.018pt x 199.947pt>
+File: Cap5/Figuras/x.pdf Graphic file (type pdf)
+<use Cap5/Figuras/x.pdf>
+Package pdftex.def Info: Cap5/Figuras/x.pdf  used on input line 888.
+(pdftex.def)             Requested size: 191.81453pt x 96.11685pt.
+<Cap5/Figuras/y.pdf, id=3661, 399.018pt x 199.728pt>
+File: Cap5/Figuras/y.pdf Graphic file (type pdf)
+<use Cap5/Figuras/y.pdf>
+Package pdftex.def Info: Cap5/Figuras/y.pdf  used on input line 888.
+(pdftex.def)             Requested size: 191.81453pt x 96.01157pt.
+<Cap5/Figuras/z.pdf, id=3662, 399.018pt x 199.947pt>
+File: Cap5/Figuras/z.pdf Graphic file (type pdf)
+<use Cap5/Figuras/z.pdf>
+Package pdftex.def Info: Cap5/Figuras/z.pdf  used on input line 888.
+(pdftex.def)             Requested size: 191.81453pt x 96.11685pt.
+<Cap5/Figuras/roll.pdf, id=3663, 377.994pt x 215.058pt>
+File: Cap5/Figuras/roll.pdf Graphic file (type pdf)
+<use Cap5/Figuras/roll.pdf>
+Package pdftex.def Info: Cap5/Figuras/roll.pdf  used on input line 888.
+(pdftex.def)             Requested size: 191.81453pt x 109.13339pt.
+<Cap5/Figuras/pitch.pdf, id=3664, 382.593pt x 215.934pt>
+File: Cap5/Figuras/pitch.pdf Graphic file (type pdf)
+<use Cap5/Figuras/pitch.pdf>
+Package pdftex.def Info: Cap5/Figuras/pitch.pdf  used on input line 888.
+(pdftex.def)             Requested size: 191.81453pt x 108.26328pt.
+<Cap5/Figuras/yaw.pdf, id=3665, 380.841pt x 215.058pt>
+File: Cap5/Figuras/yaw.pdf Graphic file (type pdf)
+<use Cap5/Figuras/yaw.pdf>
+Package pdftex.def Info: Cap5/Figuras/yaw.pdf  used on input line 888.
+(pdftex.def)             Requested size: 191.81453pt x 108.31956pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/demo_02.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<Cap5/Figuras/demo_02.pdf, id=3670, 542.025pt x 782.925pt>
+File: Cap5/Figuras/demo_02.pdf Graphic file (type pdf)
+<use Cap5/Figuras/demo_02.pdf>
+Package pdftex.def Info: Cap5/Figuras/demo_02.pdf  used on input line 926.
+(pdftex.def)             Requested size: 195.76729pt x 381.20946pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/demo_01.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<Cap5/Figuras/demo_01.pdf, id=3672, 542.025pt x 782.925pt>
+File: Cap5/Figuras/demo_01.pdf Graphic file (type pdf)
+<use Cap5/Figuras/demo_01.pdf>
+Package pdftex.def Info: Cap5/Figuras/demo_01.pdf  used on input line 926.
+(pdftex.def)             Requested size: 195.76729pt x 381.20946pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [105 <./Cap5/Figuras/x.pdf> <./Cap5/Figuras/y.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/y.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./Cap5/Figuras/z.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/z.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./Cap5/Figuras/roll.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/roll.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+> <./Cap5/Figuras/pitch.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/pitch.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./Cap5/Figuras/yaw.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/yaw.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>] [106 <./Cap5/Figuras/demo_02.pdf> <./Cap5/Figuras/demo_01.pdf>]
+\openout2 = `Cap6/conclusion.aux'.
+
+
+(Cap6/conclusion.tex
+Chapter 7.
+
+Overfull \hbox (7.62474pt too wide) in paragraph at lines 1--1
+ [][]\T1/phv/b/n/85.35826 7[] 
+ []
+
+
+Underfull \vbox (badness 1975) has occurred while \output is active []
+
+ [107
+
+
+
+
+]
+Underfull \hbox (badness 1184) in paragraph at lines 22--23
+\OT1/cmr/m/n/12 dataset. An im-prove-ment could be the ad-di-tion of a AI and a
+ ma-chine
+ []
+
+[108]) [109] [110
+
+
+
+]
+Underfull \hbox (badness 1112) in paragraph at lines 379--379
+\OT1/cmr/m/it/12 on Soft Com-put-ing Mod-els in In-dus-trial and En-vi-ron-men-
+tal Ap-pli-ca-tions\OT1/cmr/m/n/12 .
+ []
+
+[111
+
+]
+Underfull \hbox (badness 1354) in paragraph at lines 379--379
+[][]\OT1/cmr/m/n/12 Babin, Vin-cent, David St-Onge, and Cl^^Sement Gos-selin (2
+019). ``Sta-ble and
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 379--379
+[][]\OT1/cmr/m/n/12 Bicchi, An-to-nio and Vi-jay Ku-mar (2000). ``Robotic grasp
+-ing and con-tact:
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 379--379
+\OT1/cmr/m/n/12 a re-view''. In: \OT1/cmr/m/it/12 Pro-ceed-ings 2000 ICRA. Mil-
+len-nium Con-fer-ence. IEEE
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 379--379
+\OT1/cmr/m/n/12 frame-work for of-fline fac-tory pro-gram-ming''. In: \OT1/cmr/
+m/it/12 In-dus-trial Robot: the
+ []
+
+[112]
+Underfull \hbox (badness 2495) in paragraph at lines 379--379
+\OT1/cmr/m/n/12 Multi-grasp De-tec-tion''. In: \OT1/cmr/m/it/12 IEEE Robotics a
+nd Au-toma-tion Let-ters \OT1/cmr/m/n/12 3.4,
+ []
+
+[113] [114]
+Underfull \hbox (badness 2368) in paragraph at lines 379--379
+\OT1/cmr/m/n/12 based on Ro-bust-ness Clas-si-fier''. In: \OT1/cmr/m/it/12 IEEE
+ In-ter-na-tional Con-fer-ence on
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 379--379
+\OT1/cmr/m/it/12 sub-series Lec-ture Notes in Ar-ti-fi-cial In-tel-li-gence and
+ Lec-ture Notes in
+ []
+
+[115]
+Underfull \hbox (badness 1383) in paragraph at lines 379--379
+\OT1/cmr/m/n/12 ma-nip-u-la-tion''. In: \OT1/cmr/m/it/12 2016 IEEE In-ter-na-ti
+onal Con-fer-ence on Robotics and
+ []
+
+[116]
+Underfull \hbox (badness 1102) in paragraph at lines 379--379
+[][]\OT1/cmr/m/n/12 Krizhevsky, Alex, Ilya Sutskever, and Ge-of-frey E Hin-ton 
+(2012). ``Im-a-genet
+ []
+
+[117]
+Underfull \hbox (badness 1097) in paragraph at lines 379--379
+[][]\OT1/cmr/m/n/12 Magnetics, Goudsmit (2022). \OT1/cmr/m/it/12 Mag-netic grip
+-pers\OT1/cmr/m/n/12 . (Ac-cessed 2022-05-06). \OT1/cmr/m/sc/12 url\OT1/cmr/m/n
+/12 :
+ []
+
+[118]
+Underfull \hbox (badness 3039) in paragraph at lines 379--379
+\OT1/cmr/m/n/12 lo-cal-iza-tion for a hu-manoid robot with five-fingered hands'
+'. In: \OT1/cmr/m/it/12 2006
+ []
+
+[119]
+Underfull \hbox (badness 2245) in paragraph at lines 379--379
+\OT1/cmr/m/n/12 Vari-a-tional Grasp Gen-er-a-tion for Ob-ject Ma-nip-u-la-tion'
+'. In: \OT1/cmr/m/it/12 The IEEE
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 379--379
+[][]\OT1/cmr/m/n/12 Murray, Richard M et al. (1994). \OT1/cmr/m/it/12 A math-e-
+mat-i-cal in-tro-duc-tion to robotic
+ []
+
+[120]
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
+[][]\OT1/cmr/m/it/12 Produtech 4S&C. \OT1/cmr/m/n/12 (Aug. 2022). (Ac-cessed 20
+22-08-01). PRO-GRA-MAS
+ []
+
+[121]
+Underfull \hbox (badness 1478) in paragraph at lines 379--379
+[][]\OT1/cmr/m/n/12 Rezzoug, Nasser and Philippe Gorce (2002). ``A mul-ti-stage
+ neu-ral net-work
+ []
+
+[122]
+Underfull \hbox (badness 2418) in paragraph at lines 379--379
+[][]\OT1/cmr/m/n/12 Seita, Daniel et al. (2016). ``Large-scale su-per-vised lea
+rn-ing of the grasp
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 379--379
+\OT1/cmr/m/n/12 of-fline pro-gram-ming to real pal-letiz-ing robots''. In: \OT1
+/cmr/m/it/12 In-dus-trial Robot: the
+ []
+
+[123]
+Underfull \hbox (badness 3219) in paragraph at lines 379--379
+[][]\OT1/cmr/m/n/12 Suleman, Muham-mad Umar and Mian M Awais (2011). ``Learn-in
+g from
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 379--379
+\OT1/cmr/m/n/12 with Self-Supervised Deep Re-in-force-ment Learn-ing''. In: \OT
+1/cmr/m/it/12 2018 IEEE/RSJ
+ []
+
+[124] [125] [126
+
+]
+\openout2 = `Apendices/main.aux'.
+
+ (Apendices/main.tex
+Appendix A.
+
+Overfull \hbox (21.79448pt too wide) in paragraph at lines 20--20
+ [][]\T1/phv/b/n/85.35826 A[] 
+ []
+
+[127
+
+
+] (Apendices/handler_electronic.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+<Apendices/Figuras/circuit.pdf, id=4044, 863.225pt x 622.325pt>
+File: Apendices/Figuras/circuit.pdf Graphic file (type pdf)
+<use Apendices/Figuras/circuit.pdf>
+Package pdftex.def Info: Apendices/Figuras/circuit.pdf  used on input line 13.
+(pdftex.def)             Requested size: 533.48917pt x 384.62202pt.
+)) [128
+
+ <./Apendices/Figuras/circuit.pdf>]
+No file MyThesis.ind.
+(MyThesis.aux (Cap0/MyResumo.aux) (Cap0/MyAbstract.aux)
+(Cap0/MyGraphicalAbstract.aux) (Cap0/MyAgradecimentos.aux)
+(Cap0/MyPublications.aux) (Cap0/MyIndustryProjects.aux) (Cap0/MyGlossario.aux)
+(Cap1/introduction.aux) (Cap2a/main.aux) (Cap2/related_work.aux)
+(Cap3/grasping_evaluation.aux) (Cap4/approach.aux)
+(Cap5/proposal_validation.aux) (Cap6/conclusion.aux) (Apendices/main.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `MyThesis.out' has not changed.
+(rerunfilecheck)             Checksum: EB1D67A075CA11C90728D9C9A278C282;9357.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
+Package logreq Info: Writing requests to 'MyThesis.run.xml'.
+\openout1 = `MyThesis.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 50137 strings out of 478338
+ 1066433 string characters out of 2834812
+ 1873920 words of memory out of 3000000
+ 66620 multiletter control sequences out of 15000+600000
+ 492406 words of font info for 108 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 101i,21n,108p,2071b,3260s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\JoaoPedro\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcbx1200.pk> <C:\Users\JoaoPedro\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\tcss0900.pk>{C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/e
+nc/dvips/base/8r.enc} <C:\Users\JoaoPedro\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\JoaoPedro\AppData\Local\MiKTeX\fonts/
+pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/JoaoPedro/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/JoaoPedro/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jo
+aoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb>
+<C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmbx8.pfb><C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbxti10.pfb><C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/JoaoPedro/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/JoaoPedro/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Jo
+aoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
+<C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb><C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmib10.pfb><C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/JoaoPedro/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/JoaoPedro/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/JoaoPedr
+o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Use
+rs/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss1
+7.pfb><C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmss9.pfb><C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmssbx10.pfb><C:/Users/JoaoPedro/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/JoaoPedro/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/JoaoPedro/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
+/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.p
+fb><C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmti10.pfb><C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmti12.pfb><C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/JoaoPedro/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/JoaoPedro/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Use
+rs/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
+
+Output written on MyThesis.pdf (163 pages, 48528567 bytes).
+PDF statistics:
+ 4371 PDF objects out of 5155 (max. 8388607)
+ 853 named destinations out of 1000 (max. 500000)
+ 1673 words of extra memory for PDF output out of 10000 (max. 10000000)
+

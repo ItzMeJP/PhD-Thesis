@@ -1,0 +1,4 @@
+x_roll:
+    weight: 150
+    min_angle_threshold: -35
+    max_angle_threshold: 35

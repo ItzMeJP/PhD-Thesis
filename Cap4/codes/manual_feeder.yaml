@@ -1,0 +1,11 @@
+X_MANUAL:
+    path:
+        gripper_models_file_path: ''
+        object_models_file_path: ''
+    gripper_file_name: 'robotiq_85_gripper/robotiq_85_gripper.xml'
+    object_file_name: 'object.ply'
+    config_grasps_parameters:
+        gripper_id: 0 
+        approach_width_multiplier: 2 
+        release_width_multiplier: 2  
+        min_width_threshold: 0.015 

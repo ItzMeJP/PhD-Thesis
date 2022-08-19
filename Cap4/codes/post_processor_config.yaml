@@ -1,0 +1,18 @@
+output_file_path: ''
+output_log_path: ''
+apm_mode: false 
+ros_verbosity_level: 'DEBUG'
+pipeline:
+    0_LOAD_CANDIDATES:
+        model_file_name: support_bracket
+        ns_filename_of_candidate: 'file_'
+        number_of_files: 1
+    1_DISTANCE_FILTER:
+        abs_euclidean_distance_threshold: 0.01
+        abs_roll_distance_threshold: 20
+        abs_pitch_distance_threshold: 20
+        abs_yaw_distance_threshold: 20
+    2_TCP_ANGLE_TWIN: 
+        Rz: 180
+        Ry: 0
+        Rx: 0

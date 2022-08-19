@@ -1,0 +1,4 @@
+x_euclidean:
+    weight: 1
+    distance_threshold: 1
+    

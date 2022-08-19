@@ -1,0 +1,6 @@
+x_joints:
+    chain_start: 'base_link' 
+    chain_end: 'gripper_urdf'
+    timeout: 0.005
+    urdf_param: '/robot_description'
+    insist: 10

@@ -1,0 +1,83 @@
+%-----------------------------------------------------------------------------------------------------------------
+\chapter{Related Work}
+\label{Ch:EstadoDaArte}
+%-------------------------------------------------------------------------------------------------------------
+
+ Besides gripper hardware structured and model, grasping techniques can be categorized taking into account other several aspects, e.g.:
+
+\begin{itemize}
+\item Previously acknowledgment of the workpieces: know, familiar (similar objects) or unknown objects;
+\item Features to estimate grasp: global or local region;
+\item The format of the object: polytope or non-polytope objects (polygonal or non-polygonal in 2D and polyhedral or non-polyhedral in 3D) and curved or non-curved objects;
+\item Dimensionality of grasp: planar or three-dimensional grasp;
+\item Number of fingers: generic or non-generic number of finger grasp.
+\end{itemize}
+
+Since the number of categories is large, the present document will consider the division introduced by~\cite{sahbani2012overview}. This is a well-structured categorization that covers a wide range of classes; although the authors focused on the multi-fingered gripper, any technology of gripper can easily extrapolate these concepts.
+
+Current study of grasp planning is divided into two main categories: analytical and experience-based approaches. The analytical class is based on a mathematical model of the problem considering the kinematics and dynamics formulations, while the experience-based considers methods of classification, machine learning, AI, computational intelligence, etc. The experience classification can also be presented in the literature (with minor differences) as empirical, data-driven, comparative, or knowledge-based. The next section will show a revision on the state-of-the-art in both approaches.
+
+\section{Analytical Methods}
+\label{sec:soa_analytical_methods}
+
+Analytical methods were the focus of several studies aiming to solve the problem of grasping. However, this strategy proved to become complicated, even in the formulation or in computer processing. The challenges arise quickly when more refined is the modelling. Therefore, it is possible to find a significant number of papers that solve specific cases of grasp using the mathematical modelling of the grasp issue.
+
+Nguyen~\cite{nguyen1987constructing} proposes and proved some definitions and propositions, well suitable and accepted by the actual literature, regarding the creation of three fingers and two fingers gripping contacts in the case of polyhedral and polygon objects. For these, he focused the studies in two soft contacts, three hard contacts, and seven frictionless contacts. He also proposed an algorithm to perform force closure grasp in these conditions. A more detailed description of this paper is reported in his dissertation: “The synthesis of stable force-closure grasps.” He also presents in~\cite{nguyen1989constructing} the development of an algorithm to create a set of stable grasps. For this, the author models the contact force like a spring and analyses the stiffness matrix of it. The paper proves that a 3D force-closure grasp can be made stable and is a good reference to equilibrium and stability conditions of the grasp. Nguyen proposes  to crate contact regions and not only to use the position of the contact since the practical inaccuracy of the grasping task is one of the biggest issues to the implementation of the analytical approaches.
+
+In the paper~\cite{ponce1995computing}, the author proposes an extension of the Nguyen’s approach for the case of three-finger force-closure grasps of polygonal objects. After a review of analytical analyses, definitions, and propositions, an algorithm for this task is proposed. This algorithm uses a formulated preposition: “a sufficient condition for three contact points to form an equilibrium grasp is that the three normals at the contact points positively span the plane with pairwise angles less than $\pi-2\alpha$ where $\alpha=\tan(\mu)$ and $2\pi$ is the angle between the two normal in each contact point), and the intersection of the three double-sided friction cones is not empty”. Li et. al~\cite{li2003computing} propose a different approach to calculate a three-finger force-closure grasps of 2D objects. The algorithm also was extended to 3D objects. New analytical propositions were defined in the paper since a new approach was discussed. The formulation of the problem is based on a geometrical analysis of the objects. 
+
+Ferrari and Canny in~\cite{ferrari1992planning} discussed and formulated the criteria to define the grasp quality. The authors describe a principle based on the largest perturbation that the grasp can resist in any direction represented by the distance from the origin of the wrench space to the closest face of convex hull of the primitive wrench; i.e., the radius ($\epsilon$) of the largest ball that englobes the convex hull and is centred into origin of the wrench space. This method is called ε-metric and is the base of many papers and existing tools.
+
+Liu presents a qualitative and a grasp optimized force-closure grasping algorithm in~\cite{liu1999qualitative}. Here, the qualitative analyses are based on the convex theory about the wrenches and are solved with a linear programming method. This paper has an interesting algorithm to evaluate and define the wrenches (the values of the force according to the friction cone) to perform a force-closure but does not estimate the position of the fingers. Trying to formulate a solution to a n-finger gripper, Liu in~\cite{liu2000computing} also proposes an algorithm to estimate all force-closure grasps of an n-finger gripper on a polygonal object. Namely, it defines regions on space to allow a force-closure grasp. Results were evaluated under analytical programming; it was not evaluated using neither a real nor a simulated scenario. The proposal is only for polygonal objects and considers the force-closure analyses taking into account the places of the fingers without defining where to put the finger. Another approach is presented by the authors of~\cite{ding2000computing} who create an optimization algorithm where the position of n-m fingers to perform a force closure grasp to 3D polygonal objects is calculated a priori. 
+
+A more generic analytical solution is explored in~\cite{liu2004complete} and~\cite{el2009computing}. The first proposes a complete analytical solution to find a 3D force-closure grasp, frictional or frictionless, for any type o object, including the one with a curved surface. The algorithm combines a local process with a recursive strategy of problem decomposition. The first inserts n-contacts on the object and recursively tries to find a convex hull that includes the origin. When the search finds a local minimum, the algorithm sets the recursive decomposition method decomposing the problem in subproblems. Results are analysed over numerical examples; an issue is the computational complexity that needs to be evaluated according to the number of contacts used. An example is the 40 seconds to find a suitable grasp wrench set on an Airfoil with seven contacts. Furthermore, it may be not possible to find a feasible grasp. In~\cite{el2009computing} the objective is to ensure fast and robust force-closure grasps generation for generic objects with n-finger hands. In order to achieve the goal, authors generate randomly n-1 fingers position and define the last finger position using the strictly negative linear combination of one of the first generated n−1 fingers wrench basis. By this way  authors reached a fast algorithm, in detriment of the success rate.
+
+It is important to note that some analytical approaches only aim at estimating the stability of suitable grasps, sometimes called grasp synthesis. However, it is also necessary to determine the best grasp to perform the task. Some analytical methods treat this step as an optimization problem of some quality measurements. As listed by Roa and Suárez, a quality measurement can be categorized based on the position of the contact points, with the hand configuration or combination of both and an extensive review of these methods is presented by them in~\cite{roa2015grasp}. These measurements define the grasp analyses optimization that, in several cases, do not guarantee the grasp determination because of the minima local problem.
+
+Trying to avoid the high complexity of the mathematical model, some papers use object model decomposition and execute the “grasping by parts.” Therefore, the grasp synthesis is simplified, and heuristics methods, associated with analytical approaches as quality control, are proposed. These are the cases of primitive shape, superquadratic and Medial Axis Transformation decomposition methods of~\cite{miller2003automatic}, \cite{goldfeder2007grasp}, and  \cite{przybylski2011planning}.
+
+
+\section{Experience-based Methods}
+\label{sec:soa_exp_based_methods}
+
+As briefly mentioned in the previous section, the analytical approach has a list of issues that can be summarized as follow:
+
+\begin{itemize}
+    \item	\textbf{High modelling complexity:} the challenges quickly grow as the number of variables increases, e.g.: two- and three-dimensional grasp; grasp polyhedral or complex format objects; generic or specific number of fingers.
+    
+    \item	\textbf{High computer complexity:} grasping planning becomes more and more complex according to the model considered since it needs to evaluate different situations. Some examples of algorithms (and stages) that can be included in the analytical grasping planning are search, optimization, linearization and grasp quality metric.
+    
+    \item \textbf{Practical inconsistencies and restricted assumptions:} even with a good model, there are some ambiguities and inconsistencies regarding the practical analyses. Model approximation (e.g. geometric shapes and physical properties of the active pair used) can lead to inaccuracies that ineffective the approach.
+\end{itemize}
+
+Therefore, the use of experience-based methods has gained attention, and its development is growing. This fact is verified by the crescent number of papers regarding this theme.
+
+Experience-based method can use recorded data as a reference of previous experiences or a supervisor to realize the grasping task. Some examples of these approaches are artificial intelligence, classification and machine learning based algorithms. Heuristics approaches based on background experiences are also included in this category. 
+
+Training by \ac{LFH} or \ac{LBH} is a class of learning algorithms, more specific a \textit{Reinforced Learning} subclass, that try to emulate grasps based on human grasp observations. An example of this category is proposed by the authors of~\cite{kroemer2010combining} that use an imitation learning algorithm based on human movement to, set the initial condition of the grasping trajectory. Once the grasp region is already estimated, this strategy uses a high-level reinforcement learning algorithm to set robot moves and grasping task. Some devices can be used to capture the human grasp movement (like the magnetic glove of~\cite{ekvall2007learning}) using a so called “grasp gesture mapping procedure”. Once gesture data are generated, these can be used to train learning algorithms or heuristics using analytical approaches. Other approaches, instead, use grasp images to achieve the proper information~\cite{romero2009modeling}.
+
+It is also possible to categorize learning algorithms based on observation of the object model to be grasped (or the sensing data, in cases of unknown object shape). Therefore, object features need to be explored and associated with feasible grasps without human demonstrations. An example is the geometric properties of superquadrics shape objects used by the authors of~\cite{pelossof2004svm}. In this case, the superquadrics shapes were generated and grasp candidates with ε-metric bigger than a threshold were selected to build the training dataset. The candidates were generated with GraspIt! simulator. Later, the learning dataset was used in the learning phase of a Support Vector Machine (SVM) to create a regression mapping between the model shape, the grasp, and its quality. SVM is also used by the authors of~\cite{ten2018using} to improve the results of a proposed analytical metric identifying the best grasp candidate. The metric uses geometrical analyses of the active pair with antipodal restrictions. Another approach using the superquadric is presented by~\cite{el2008handling}. The authors use the 3D data of a point cloud to represent the object and divide it into superquadrics parts. Then, an Artificial Neural Network is designed to classify if a region in these parts is graspable or not.
+
+Visual object features can also be used in learning task like presented by Saxena et al. in~\cite{saxena2008robotic}. Saxena proposes an algorithm to detect grasping points using two or more 2D images of the object (without previously know its model). The reason is that certain visual features are common for different objects and can be extrapolated to novel ones. For this task, the algorithm is trained by the means of different object synthetic images where the graspable region is already labelled on it.  
+
+Mahler et al.~\cite{mahler2017dex} propose a Grasp Quality Convolutional Neural Networks (GQ-CNNs); without any information about the object to pick, they achieved promising results in the planning of robust grasp using only RGB-D sensor  and grasp data. The algorithm was trained with a large dataset that was developed by the same authors called Dex-Net~\cite{mahler2016dex}, \cite{mahler2017dex}, \cite{mahler2018dex}, and \cite{mahler2019learning}.
+
+As shown in this section, the complexity of experience-based algorithms regards: 
+\begin{itemize}
+
+\item the creation of the database:  The database needs to be relevant and efficient to the task demanding a well structured labeled database e.g., in \textit{Reinforcement Learning} methods, the real iterations scenarios could be unfeasible, and simulations could come across the mathematical modeling problem of the \textit{Analytical} approach and, for the \ac{LBD}, the teacher performance could limit the algorithm efficacy
+
+
+\item the modelling and the interpretation of graspable object: the object representation could be defined as a 3D model or only with direct sensing data (e.g., point cloud, RGB image or Depth images). 
+
+\end{itemize}
+
+Besides that, the possibilities of the algorithm are wide, and the development of it needs to attend the exigencies of the application, e.g., capability of generalization, fast decision, and sensing error tolerance.
+
+\cred {The problem of detecting robotic grasps using only the raw point cloud depth data of a scene containing unknown objects was approached by Jain et al. (105). The method applies a geometric approach that categorizes objects into geometric shape primitives based on an analysis of local surface properties. Grasps are detected without a priori models, and the approach can be generalized to any number of novel objects that fall within the shape primitive categories. The approach does not require an object recognition or training phase, and provides grasp detection in real-time.\textbf{TODO e LER}}
+
+%-----------------------------------------------------------------------------------------------------------------
+
+
+
+

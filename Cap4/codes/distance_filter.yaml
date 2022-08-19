@@ -1,0 +1,5 @@
+X_DISTANCE_FILTER:
+    abs_euclidean_distance_threshold: 0.01
+    abs_roll_distance_threshold: 20 
+    abs_pitch_distance_threshold: 20 
+    abs_yaw_distance_threshold: 20 

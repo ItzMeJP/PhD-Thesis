@@ -1,0 +1,7 @@
+    1_GRASPIT_VIEWER:
+        path:
+            gripper_models_file_path: ''
+            object_models_file_path: ''
+        gripper_file_name: 'robotiq_2f_140_outer_finger/robotiq_85_gripper.xml' 
+        object_file_name: 'object.ply'
+        action_graspit_interface_server_name: '/graspit/planGrasps'

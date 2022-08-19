@@ -1,0 +1,13 @@
+0_depth:
+    weight: 1
+    distance_threshold: 2
+1_roll:
+    weight: 150
+    min_angle_threshold: -35
+    max_angle_threshold: 35
+2_joints:
+    chain_start: 'base_link' 
+    chain_end: 'gripper_urdf'
+    timeout: 0.005
+    urdf_param: '/robot_description'
+    insist: 10

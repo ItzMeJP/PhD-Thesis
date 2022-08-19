@@ -1,0 +1,6 @@
+    X_RVIZ_VIEWER:
+        path:
+            gripper_models_file_path: ''
+            object_models_file_path: ''
+        gripper_file_name: 'robotiq_140_gripper/robotiq_140_gripper.urdf' 
+        object_file_name: 'object.ply'

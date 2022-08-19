@@ -1,0 +1,3 @@
+x_cog_distance:
+    weight: 1
+    distance_threshold: 0.15

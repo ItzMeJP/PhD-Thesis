@@ -1,0 +1,4 @@
+X_LOAD_CANDIDATES:
+    model_file_name: object_name
+    ns_filename_of_candidate: 'file_'
+    number_of_files: 1 

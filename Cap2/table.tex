@@ -1,0 +1,692 @@
+%\clear
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+% \usepackage[table*,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table*" option, i.e. \documentclass[xcolor=table*]{beamer}
+
+
+% \usepackage{geometry}
+\newgeometry{paper=a4paper,hmargin={1cm,1cm},offset={0cm,-3.5cm}, bottom=-5cm} 
+
+\begin{table*}[h!]
+%\vspace{-8.5em}%
+
+\resizebox{0.755\textwidth}{!}{%
+\centering
+\caption{Object-agnostic grasping methodology proposals and their performance}
+\label{tab:met_state_of_art}
+\begin{threeparttable}
+
+\begin{tabular}{cccccccccc}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+%Year &
+  \textbf{Methodology Description} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Clutter\\ Scenario\end{tabular}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Gripper\\ Approach\end{tabular}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Grasping\\ Representation\end{tabular}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Model\\ Interaction\end{tabular}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Sensing\\ data type\end{tabular}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Processing\\ Time\end{tabular}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Result\\ Class\end{tabular}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Performance \\ (Success Grasps)\end{tabular}} \\ \hline
+%2004 &
+  \begin{tabular}[c]{@{}c@{}}SVM with superquadric \\ shape objects description~\cite{Pelossof2004} \end{tabular}&
+  No &
+  Generic* &
+  Eigengrasp &
+  Yes &
+  N/R &
+  N/R &
+  N/R &
+  N/R \\
+\rowcolor[HTML]{C0C0C0}
+%2008 &
+  \begin{tabular}[c]{@{}c@{}}Proprietary learning algorithm with\\ logistic regression and image~\cite{Saxena2008}\end{tabular} &
+  No &
+  Two-Finger &
+  Point &
+  Yes &
+  RGB &
+  N/R &
+  GHSR &
+  87.80\% \\
+%2008 &
+  \begin{tabular}[c]{@{}c@{}}Proprietary learning algorithm with\\ logistic regression and image~\cite{Saxena2008}\end{tabular} &
+  Light &
+  Two-Finger &
+  Point &
+  Yes &
+  \begin{tabular}[c]{@{}c@{}}Gray Scale\\ and Depth\end{tabular} &
+  N/R &
+  HGSR &
+  80.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2011 &
+  Two-Stage SVM-rank classification~\cite{Jiang2011a} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  50.000s &
+  GHSR &
+  87.90\% \\
+%2015 &
+  Two-stage deep network~\cite{Lenz2015} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  13.500s &
+  GHSR &
+  84.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2015 &
+  \begin{tabular}[c]{@{}c@{}}Single grasp based on AlexNet\\ direct regression~\cite{Redmon2015}\end{tabular} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGD &
+  0.076s &
+  GPSR &
+  84.90\% \\
+%2015 &
+  Multi grasp detection based on AlexNet~\cite{Redmon2015} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGD &
+  0.076s &
+  GPSR &
+  87.10\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2016 &
+  \begin{tabular}[c]{@{}c@{}}K-NN classification of proprietary dataset and\\ histogram of oriented gradient description~\cite{Pinto2015}\end{tabular} &
+  Light &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  N/R &
+  GPSR &
+  69.40\% \\
+%2016 &
+  \begin{tabular}[c]{@{}c@{}}Linear SVM of proprietary dataset and histogram\\ of oriented gradient description ~\cite{Pinto2015}\end{tabular} &
+  Light &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  N/R &
+  GPSR &
+  73.30\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2016 &
+  CNN with proprietary database~\cite{Pinto2015} &
+  Light &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  N/R &
+  GHSR &
+  66.00\% \\
+%2016 &
+  "Common-Sense" analytical heuristic~\cite{Pinto2015} &
+  Light &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  N/R &
+  GPSR &
+  62.11\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2017 &
+  \begin{tabular}[c]{@{}c@{}}Unimodal grasp predictor \\ (DCNN + shallow NN)~\cite{Kumra2017}\end{tabular} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB or RGD &
+  0.062s &
+  GPSR &
+  88.53\% \\
+%2017 &
+  \begin{tabular}[c]{@{}c@{}} Multimodal grasp predictor \\ (DCNN + shallow NN)~\cite{Kumra2017} \end{tabular}&
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  \begin{tabular}[c]{@{}c@{}}RGB and\\ 3Channel Depth\end{tabular} &
+  0.100s &
+  GPSR &
+  89.21\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2017 &
+  Image and Tactile DCNN~\cite{Guo2017} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB and Tactile &
+  N/R &
+  GPSR &
+  89.10\% \\
+%2017 &
+  DLSR with NKM-LARS~\cite{Trottier2017} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  High \tnote{a} &
+  GPSR &
+  88.07\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2017 &
+  DLSR with GSVQ-ST~\cite{Trottier2017} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  High \tnote{a} &
+  GPSR &
+  88.79\% \\
+%2017 &
+  DLSR with OMP-N~\cite{Trottier2017} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  High \tnote{a} &
+  GPSR &
+  88.56\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2017 &
+  DLSR with NKM-N~\cite{Trottier2017} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  High \tnote{a} &
+  GPSR &
+  88.17\% \\
+%2017 &
+  DLSR with RP-N~\cite{Trottier2017} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  High \tnote{a} &
+  GPSR &
+  86.61\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2017 &
+  \begin{tabular}[c]{@{}c@{}}CNN classification \\ on analytical designed dataset~\cite{TenPas2017} \end{tabular}&
+  Dense &
+  Two-Finger &
+  \begin{tabular}[c]{@{}c@{}}Analytical\end{tabular} &
+  Yes &
+  Point Cloud &
+  1.000s to 8.000s &
+  GHSR &
+  89.00\% \\
+%2017 &
+  Dexnet2.0 and GQ-CNN~\cite{Mahler2017b} &
+  No &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  2.5D &
+  0.8s &
+  HGSR &
+  80.00\% \\ %80$\pm$11
+\rowcolor[HTML]{C0C0C0} 
+%2017 &
+  Dexnet2.0 and GQ-CNN~\cite{Mahler2017b} &
+  No &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  2.5D &
+  0.800s &
+  HGSR &
+  93.00\% \\ %93$\pm$6\%
+%2017 &
+  REG~\cite{Mahler2017b} &
+  No &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  2.5D &
+  2.600s &
+  HGSR &
+  52.00\% \\ %52$\pm$14
+\rowcolor[HTML]{C0C0C0} 
+%2017 &
+  IGQ~\cite{Mahler2017b} &
+  No &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  2.5D &
+  1.900s &
+  HGSR &
+  60.00\% \\%60$\pm$13
+%2017 &
+  IGQ~\cite{Mahler2017b} &
+  No &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  2.5D &
+  1.900s &
+  HGSR &
+  70.00\% \\ %70$\pm$10
+\rowcolor[HTML]{C0C0C0} 
+%2017 &
+  CG-CNN with DexNet 2.1~\cite{Mahler2017d} &
+  Dense &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  PointCloud &
+  9.400s &
+  HGSR &
+  85.00\% \\
+%2017 &
+  CG-CNN with DexNet 2.0~\cite{Mahler2017d} &
+  Dense &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  PointCloud &
+  10.000s &
+  HGSR &
+  81.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2017 &
+  SVM with geometric descriptions~\cite{Mahler2017d} &
+  Dense &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  PointCloud &
+  12.857s &
+  HGSR &
+  64,00\% \\
+%2018 &
+  \begin{tabular}[c]{@{}c@{}}SVM Classifier based on \\ analytical designed dataset~\cite{tenPas}\end{tabular} &
+  No &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  PointCloud & % Registered 2 Views
+  N/R &
+  HGSR &
+  87.80\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2018 &
+  \begin{tabular}[c]{@{}c@{}}SVM Classifier based on \\ analytical designed dataset~\cite{tenPas}\end{tabular} &
+  Dense &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  PointCloud & % Registered 2 Views
+  N/R &
+  HGSR &
+  73.00\% \\
+%2018 &
+  VGG-16 (Single Object - Single Grasp)~\cite{Chu2018} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  0.058s &
+  GPSR &
+  91.70\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2018 &
+  RESNET50 (Single Object - Single Grasp)~\cite{Chu2018} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB &
+  0.120s &
+  GPSR &
+  95.50\% \\
+%2018 &
+  RESNET50 (Single Object - Single Grasp)~\cite{Chu2018} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGBD &
+  0.120s &
+  GHSR &
+  89.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2018 &
+  \begin{tabular}[c]{@{}c@{}}EnsembleNet  \\ (MobileNet (Reg.) + VGG16 (Reg.) + ResNet50 (Reg.)) \\ \cite{asif2018ensemblenet}\end{tabular} &
+  Light &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  N/R &
+  GPSR &
+  91.20\% \\
+%2018 &
+  \begin{tabular}[c]{@{}c@{}}EnsembleNet\\ (MobileNet (Joint) + VGG16 (Joint) + ResNet50 (Joint)) \\ \cite{asif2018ensemblenet}\end{tabular} &
+  Light &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  N/R &
+  GPSR &
+  93.70\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2018 &
+  \begin{tabular}[c]{@{}c@{}}EnsembleNet \\ (MobileNet (Joint.) + VGG16 (Reg.) + ResNet50 (Joint.)) \\ \cite{asif2018ensemblenet}\end{tabular} &
+  Light &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB-D &
+  N/R &
+  GPSR &
+  92.60\% \\
+%2018 &
+  Planarity Optimization~\cite{Mahler2017} &
+  No &
+  Suction &
+  \begin{tabular}[c]{@{}c@{}}Simple Cup \\      Analytical Model\end{tabular} &
+  Yes &
+  PointCloud &
+  N/R &
+  HGSR &
+  67.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2018 &
+  Centroid Optimization~\cite{Mahler2017} &
+  No &
+  Suction &
+  \begin{tabular}[c]{@{}c@{}}Simple Cup \\      Analytical Model\end{tabular} &
+  Yes &
+  PointCloud &
+  N/R &
+  HGSR &
+  78.00\% \\
+%2018 &
+  Planarity and Centroid Optimization~\cite{Mahler2017} &
+  No &
+  Suction &
+  \begin{tabular}[c]{@{}c@{}}Simple Cup \\      Analytical Model\end{tabular} &
+  Yes &
+  PointCloud &
+  N/R &
+  HGSR &
+  67.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2018 &
+  GQ-CNN with Adversarial dataset~\cite{Mahler2017} &
+  No &
+  Suction &
+  \begin{tabular}[c]{@{}c@{}}Simple Cup \\      Analytical Model\end{tabular} &
+  Yes &
+  PointCloud &
+  N/R &
+  HGSR &
+  67.00\% \\
+%2018 &
+  \begin{tabular}[c]{@{}c@{}}GQ-CNN with DexNet 3.0 and Adversarial datasets \\~\cite{Mahler2017}\end{tabular} &
+  No &
+  Suction &
+  \begin{tabular}[c]{@{}c@{}}Simple Cup \\      Analytical Model\end{tabular} &
+  Yes &
+  PointCloud &
+  3.000s &
+  HGSR &
+  82.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2018 &
+  \begin{tabular}[c]{@{}c@{}} QG-CNN and DexNet2.0\\~\cite{jaskowski2018improved}\end{tabular} &
+  Dense &
+  Two-Finger &
+  \begin{tabular}[c]{@{}c@{}}Antipodal \\ \end{tabular} &
+  Yes &
+  PointCloud &
+  N/R &
+  GPSR &
+  86.70\% \\
+%2018 &
+  FCN and Q-Learning~\cite{Zeng2018} &
+  Dense &
+  Two-Finger &
+  \begin{tabular}[c]{@{}c@{}}Antipodal \\ \end{tabular} &
+  Yes &
+  Heightmaps &
+  N/R &
+  GHSR &
+  83.30\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2018 &
+  CNN and servoing heuristic~\cite{Levine2018} &
+  Dense &
+  Two-Finger &
+  Analytical &
+  No &
+  RGB &
+  N/R &
+  HGSR &
+  82.50\% \\
+%2019 &
+  \begin{tabular}[c]{@{}c@{}}Single grasp based on AlexNet direct regression\\ with Grasp Path description~\cite{Chen2019}\end{tabular} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGD &
+  N/R &
+  GPSR &
+  81.90\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2019 &
+  \begin{tabular}[c]{@{}c@{}}Multi grasp based on AlexNet direct regression\\ Grasp Path description~\cite{Chen2019}\end{tabular} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGD &
+  N/R &
+  GPSR &
+  84.70\% \\
+%2019 &
+  \begin{tabular}[c]{@{}c@{}}Single grasp based on ResFCNN and \\ 2D Belief Map description~\cite{Ghazaei2019}\end{tabular} &
+  No &
+  Two-Finger &
+  2D Belief Map &
+  No &
+  RGB &
+  N/R &
+  GPSR &
+  81.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2019 &
+  \begin{tabular}[c]{@{}c@{}}Multi grasp based on ResFCNN and \\ 2D Belief Map description~\cite{Ghazaei2019}\end{tabular} &
+  No &
+  Two-Finger &
+  2D Belief Map &
+  No &
+  RGB &
+  N/R &
+  GPSR &
+  90.60\% \\
+%2019 &
+  6-DOF GraspNet~\cite{Mousavian_2019_ICCV} &
+  Light &
+  Two-Finger &
+  \begin{tabular}[c]{@{}c@{}}Point Cloud\\Shape \end{tabular} &
+  Yes &
+  PointCloud &
+  3.040s &
+  GHSR &
+  88.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2019 &
+  \begin{tabular}[c]{@{}c@{}}Ambidextrous QG-CNN and\\ DexNet4.0~\cite{Mahler2019}\end{tabular} &
+  Dense &
+  \begin{tabular}[c]{@{}c@{}}Two-Fingers and\\       Suction Cup\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Antipodal and\\       Analytical Suction\end{tabular} &
+  Yes &
+  PointCloud &
+  11.538s &
+  HGSR &
+  95.00\% \\
+%2019 &
+  Suction geometry heuristic~\cite{Mahler2019} &
+  Dense &
+  \begin{tabular}[c]{@{}c@{}}Two-Fingers and\\       Suction Cup\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Simple Cup \\      Analytical Model\end{tabular} &
+  Yes &
+  PointCloud &
+  11.842s &
+  HGSR &
+  80.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2019 &
+  \begin{tabular}[c]{@{}c@{}}Composite (Two-Finger and suction) \\ geometric heuristic~\cite{Mahler2019}\end{tabular} &
+  Dense &
+  \begin{tabular}[c]{@{}c@{}}Two-Fingers and \\      Suction Cup\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Antipodal and \\ Analytical\end{tabular} &
+  Yes &
+  PointCloud &
+  15.126s &
+  HGSR &
+  76.00\% \\
+%2019 &
+  \begin{tabular}[c]{@{}c@{}}Ambidextrous QG-CNN with\\ DexNet2.0 and DexNet 3.0~\cite{Mahler2019}\end{tabular} &
+  Dense &
+  \begin{tabular}[c]{@{}c@{}}Two-Fingers and\\ Suction Cup\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Antipodal and\\ Analytical\end{tabular} &
+  Yes &
+  PointCloud &
+  14.117s &
+  HGSR &
+  76.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2019 &
+  FCN and ConvNet~\cite{Zeng2019} &
+  Dense &
+  \begin{tabular}[c]{@{}c@{}}Two-Fingers and \\ Suction Cup\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Discrete Set of\\  Primitives Grasps\end{tabular} &
+  Yes &
+  RGB-D &
+  N/R &
+  HGSR &
+  \begin{tabular}[c]{@{}c@{}}92.40\% (Suction) \\ 96.70\% (Gripper)\end{tabular} \\
+%2019 &
+  \begin{tabular}[c]{@{}c@{}}Suction heuristic based on surface normal \\ variance over a cloud~\cite{Zeng2019}\end{tabular} &
+  Dense &
+  Suction Cup &
+  \begin{tabular}[c]{@{}c@{}}Simple Cup \\      Analytical model\end{tabular} &
+  Yes &
+  PointCloud &
+  N/R &
+  HGSR &
+  35.20\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2019 &
+  \begin{tabular}[c]{@{}c@{}}Antipodal heuristic in hill \\ format shapes cloud~\cite{Zeng2019}\end{tabular} &
+  Dense &
+  Two-Finger &
+  Antipodal  &
+  Yes &
+  PointCloud &
+  N/R &
+  HGSR &
+  92.50\% \\
+%2020 &
+  \begin{tabular}[c]{@{}c@{}}Backboned in Blacknet53 (YOLOv3) \\ with Grasp Path description~\cite{Chen2020}\end{tabular} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGB &
+  0.110s &
+  GPSR &
+  94.60\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2020 &
+  One stage region convolutional network~\cite{song2020novel} &
+  No &
+  Two-Finger &
+  Rectangle &
+  No &
+  RGD &
+  N/R &
+  GPSR &
+  95.60\% \\
+%2020 &
+  GG-CNN~\cite{morrison2020learning} &
+  No &
+  Two-Finger &
+  Rectangle Like \tnote{b} &
+  No &
+  2.5D &
+  0.019s \tnote{c} &
+  GHSR &
+  92.00\% \\
+\rowcolor[HTML]{C0C0C0} 
+%2020 &
+  GG-CNN with visuomotor feedback~\cite{morrison2020learning} &
+  No &
+  Two-Finger &
+  Rectangle Like \tnote{b} &
+  No &
+  2.5D &
+  0.019s \tnote{c} &
+  GHSR &
+  91.00\% \\
+%2020 &
+  GG-CNN with visuomotor feedback~\cite{morrison2020learning} &
+  Dense &
+  Two-Finger &
+  Rectangle Like \tnote{b} &
+  No &
+  2.5D &
+  0.019s \tnote{c} &
+  GHSR &
+  87.00\% \\ \hline
+\end{tabular}%
+
+  \begin{tablenotes}
+  \large
+  \item[] N/R: not reported; 
+  \item[] All acronyms are presented in related papers; %not presented
+  \item[a] As stated by the authors. The algorithm do not achieved competitive performance time;
+  \item[b] Minor differences from rectangle representation;
+  \item[c] It was presented prediction time and not performance time. %\tnote{c}
+
+  \end{tablenotes}
+  
+\end{threeparttable}
+}
+\end{table*}
+
+\restoregeometry
+
+%LER
+%https://journals.sagepub.com/doi/10.1177/0278364919859066

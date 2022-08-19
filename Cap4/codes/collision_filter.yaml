@@ -1,0 +1,38 @@
+x_collision: 
+    cloud_topic: "/ambient_point_cloud"
+    collision_threshold: 500
+    voxel_grid_filter:
+        activate: true
+        leaf_sizes: [.002, .002, .002]
+    collisions:
+        show_shapes: false
+        gripper_tcp_frame: "gripper"
+        shapes:
+            0_box:
+                  position:
+                      x: 0
+                      y: 0.0055
+                      z: 0.0110
+                  orientation:
+                      x: 0
+                      y: 0
+                      z: 0
+                      w: 1
+                  dimension:
+                     x: 0.020
+                     y: 0.011
+                     z: 0.022
+            1_box:
+                  position:
+                     x: 0
+                     y: -0.0055
+                     z: 0.0110
+                  orientation:
+                     x: 0
+                     y: 0
+                     z: 0
+                     w: 1
+                  dimension:
+                     x: 0.020
+                     y: 0.011
+                     z: 0.022

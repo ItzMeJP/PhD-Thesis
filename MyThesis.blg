@@ -1,0 +1,110 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MyThesis.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+This database file appears more than once: MyBibDataBase.bib
+---line 7 of file MyThesis.aux
+ : \bibdata{MyThesis-blx,MyBibDataBase,MyBibDataBase
+ :                                                  }
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: Cap0/MyResumo.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: Cap0/MyAbstract.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: Cap0/MyGraphicalAbstract.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: Cap0/MyAgradecimentos.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Cap0/MyPublications.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: Cap0/MyIndustryProjects.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: Cap0/MyGlossario.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Cap1/introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: Cap2a/main.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Cap2/related_work.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: Cap3/grasping_evaluation.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: Cap4/approach.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: Cap5/proposal_validation.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: Cap6/conclusion.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: Apendices/main.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 23340 items.
+Database file #1: MyThesis-blx.bib
+Database file #2: MyBibDataBase.bib
+Reallocating 'str_pool' (item size: 1) to 130000 items.
+Repeated entry---line 1413 of file MyBibDataBase.bib
+ : @article{ferreira2016stereo
+ :                            ,
+I'm skipping whatever remains of this entry
+Biblatex version: 3.18
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 131 entries,
+            6399 wiz_defined-function locations,
+            2203 strings with 92304 characters,
+and the built_in function-call counts, 1100631 in all, are:
+= -- 89080
+> -- 13508
+< -- 4038
++ -- 31849
+- -- 5285
+* -- 82353
+:= -- 124602
+add.period$ -- 0
+call.type$ -- 131
+change.case$ -- 2176
+chr.to.int$ -- 111
+cite$ -- 260
+duplicate$ -- 118377
+empty$ -- 97192
+format.name$ -- 8798
+if$ -- 220475
+int.to.chr$ -- 0
+int.to.str$ -- 360
+missing$ -- 0
+newline$ -- 5507
+num.names$ -- 5988
+pop$ -- 47837
+preamble$ -- 1
+purify$ -- 2899
+quote$ -- 0
+skip$ -- 23315
+stack$ -- 0
+substring$ -- 164157
+swap$ -- 23457
+text.length$ -- 3460
+text.prefix$ -- 136
+top$ -- 1
+type$ -- 4441
+warning$ -- 0
+while$ -- 15460
+width$ -- 0
+write$ -- 5377
+(There were 2 error messages)

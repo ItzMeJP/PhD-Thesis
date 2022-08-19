@@ -1,0 +1,3 @@
+x_depth:
+    weight: 1
+    distance_threshold: 1
