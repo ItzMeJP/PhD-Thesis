@@ -5029,8 +5029,9 @@
     \strng{fullhash}{R2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
     \field{extradate}{1}
-    \field{labeldatesource}{nodate}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{note}{(Accessed 2022-05-10)}
@@ -5038,6 +5039,7 @@
     \verb{url}
     \verb http://wiki.ros.org/actionlib
     \endverb
+    \field{year}{2018}
   \endentry
 
   \entry{rviz}{misc}{}
@@ -5051,8 +5053,9 @@
     \strng{fullhash}{R2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
     \field{extradate}{2}
-    \field{labeldatesource}{nodate}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{note}{(Accessed 2022-05-13)}
@@ -5060,6 +5063,7 @@
     \verb{url}
     \verb http://wiki.ros.org/rviz
     \endverb
+    \field{year}{2018}
   \endentry
 
   \entry{Bernd2002}{inproceedings}{}
@@ -5683,6 +5687,29 @@
     \field{volume}{27}
     \field{journaltitle}{Robotics and Computer-Integrated Manufacturing}
     \field{year}{2011}
+  \endentry
+
+  \entry{tracik}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={TracLabs},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{note}{(Accessed 2022-07-22)}
+    \field{title}{track\_ik}
+    \verb{url}
+    \verb https://bitbucket.org/traclabs/trac_ik/src/master/
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{Trottier2017}{article}{}

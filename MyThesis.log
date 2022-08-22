@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.17)  19 AUG 2022 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.17)  22 AUG 2022 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2143,10 +2143,14 @@ Underfull \hbox (badness 1067) in paragraph at lines 23--23
 [28]
 Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
 although it is yet undefined on input line 36.
+
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
  [29]
 Package acronym Info: Label `acro:ICR' newly defined as it shall be overridden
 although it is yet undefined on input line 52.
- [30])
+
+[30])
 \tf@lof=\write8
 \openout8 = `MyThesis.lof'.
 
@@ -2190,12 +2194,12 @@ Overfull \hbox (7.62474pt too wide) in paragraph at lines 2--2
  [][]\T1/phv/b/n/85.35826 1[] 
  []
 
-<Cap1/Figuras/platform.pdf, id=856, 1427.3325pt x 1084.05pt>
+<Cap1/Figuras/platform.pdf, id=855, 1427.3325pt x 1084.05pt>
 File: Cap1/Figuras/platform.pdf Graphic file (type pdf)
 <use Cap1/Figuras/platform.pdf>
 Package pdftex.def Info: Cap1/Figuras/platform.pdf  used on input line 32.
 (pdftex.def)             Requested size: 177.97081pt x 135.15855pt.
-<Cap1/Figuras/pr2_grasping.pdf, id=857, 737.85924pt x 548.12402pt>
+<Cap1/Figuras/pr2_grasping.pdf, id=856, 737.85924pt x 548.12402pt>
 File: Cap1/Figuras/pr2_grasping.pdf Graphic file (type pdf)
 <use Cap1/Figuras/pr2_grasping.pdf>
 Package pdftex.def Info: Cap1/Figuras/pr2_grasping.pdf  used on input line 32.
@@ -2216,7 +2220,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<Cap1/Figuras/amazon_picking_challenge.pdf, id=898, 86.9649pt x 65.043pt>
+<Cap1/Figuras/amazon_picking_challenge.pdf, id=897, 86.9649pt x 65.043pt>
 File: Cap1/Figuras/amazon_picking_challenge.pdf Graphic file (type pdf)
 <use Cap1/Figuras/amazon_picking_challenge.pdf>
 Package pdftex.def Info: Cap1/Figuras/amazon_picking_challenge.pdf  used on inp
@@ -2268,7 +2272,7 @@ Underfull \hbox (badness 1038) in paragraph at lines 4--7
 e.g., robots and
  []
 
-<Cap3/Figuras/grippers_list_gray_bg.pdf, id=1005, 963.35912pt x 542.025pt>
+<Cap3/Figuras/grippers_list_gray_bg.pdf, id=1004, 963.35912pt x 542.025pt>
 File: Cap3/Figuras/grippers_list_gray_bg.pdf Graphic file (type pdf)
 <use Cap3/Figuras/grippers_list_gray_bg.pdf>
 Package pdftex.def Info: Cap3/Figuras/grippers_list_gray_bg.pdf  used on input 
@@ -2284,7 +2288,7 @@ Underfull \vbox (badness 1668) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./Cap3/Figuras/grippers_list_gray_bg.pdf>]
-<Apendices/Figuras/g1_gray_bg.pdf, id=1049, 78.95108pt x 120.24857pt>
+<Apendices/Figuras/g1_gray_bg.pdf, id=1048, 78.95108pt x 120.24857pt>
 File: Apendices/Figuras/g1_gray_bg.pdf Graphic file (type pdf)
 <use Apendices/Figuras/g1_gray_bg.pdf>
 Package pdftex.def Info: Apendices/Figuras/g1_gray_bg.pdf  used on input line 8
@@ -2295,7 +2299,7 @@ Underfull \hbox (badness 3240) in paragraph at lines 83--83
 []\OT1/cmr/m/n/10.95 (a) |Pure en-clos-ing
  []
 
-<Apendices/Figuras/g2_gray_bg.pdf, id=1050, 78.95108pt x 120.24857pt>
+<Apendices/Figuras/g2_gray_bg.pdf, id=1049, 78.95108pt x 120.24857pt>
 File: Apendices/Figuras/g2_gray_bg.pdf Graphic file (type pdf)
 <use Apendices/Figuras/g2_gray_bg.pdf>
 Package pdftex.def Info: Apendices/Figuras/g2_gray_bg.pdf  used on input line 8
@@ -2311,7 +2315,7 @@ Underfull \hbox (badness 6412) in paragraph at lines 83--83
 \OT1/cmr/m/n/10.95 fit com-bined with
  []
 
-<Apendices/Figuras/g3_gray_bg.pdf, id=1051, 74.09254pt x 120.24857pt>
+<Apendices/Figuras/g3_gray_bg.pdf, id=1050, 74.09254pt x 120.24857pt>
 File: Apendices/Figuras/g3_gray_bg.pdf Graphic file (type pdf)
 <use Apendices/Figuras/g3_gray_bg.pdf>
 Package pdftex.def Info: Apendices/Figuras/g3_gray_bg.pdf  used on input line 8
@@ -2322,7 +2326,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--83
 []\OT1/cmr/m/n/10.95 (c) |Pure force
  []
 
-<Apendices/Figuras/g4_gray_bg.pdf, id=1052, 89.27545pt x 135.43147pt>
+<Apendices/Figuras/g4_gray_bg.pdf, id=1051, 89.27545pt x 135.43147pt>
 File: Apendices/Figuras/g4_gray_bg.pdf Graphic file (type pdf)
 <use Apendices/Figuras/g4_gray_bg.pdf>
 Package pdftex.def Info: Apendices/Figuras/g4_gray_bg.pdf  used on input line 8
@@ -2343,19 +2347,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--83
 \OT1/cmr/m/n/10.95 (pneu-matic force
  []
 
-<Apendices/Figuras/g5_gray_bg.pdf, id=1053, 89.27545pt x 135.43147pt>
+<Apendices/Figuras/g5_gray_bg.pdf, id=1052, 89.27545pt x 135.43147pt>
 File: Apendices/Figuras/g5_gray_bg.pdf Graphic file (type pdf)
 <use Apendices/Figuras/g5_gray_bg.pdf>
 Package pdftex.def Info: Apendices/Figuras/g5_gray_bg.pdf  used on input line 8
 3.
 (pdftex.def)             Requested size: 49.43666pt x 74.9959pt.
-<Apendices/Figuras/g6_gray_bg.pdf, id=1054, 74.09254pt x 135.43147pt>
+<Apendices/Figuras/g6_gray_bg.pdf, id=1053, 74.09254pt x 135.43147pt>
 File: Apendices/Figuras/g6_gray_bg.pdf Graphic file (type pdf)
 <use Apendices/Figuras/g6_gray_bg.pdf>
 Package pdftex.def Info: Apendices/Figuras/g6_gray_bg.pdf  used on input line 8
 3.
 (pdftex.def)             Requested size: 49.43666pt x 90.36664pt.
-<Apendices/Figuras/multi_end_effectors_gray_bg.pdf, id=1058, 963.35912pt x 542.
+<Apendices/Figuras/multi_end_effectors_gray_bg.pdf, id=1057, 963.35912pt x 542.
 025pt>
 File: Apendices/Figuras/multi_end_effectors_gray_bg.pdf Graphic file (type pdf)
 
@@ -2388,7 +2392,7 @@ lusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./Apendices/Figuras/g6_gray_bg.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >] [10 <./Apendices/Figuras/multi_end_effectors_gray_bg.pdf>]
-<Apendices/Figuras/friction_contact_gray_bg.pdf, id=1125, 462.52798pt x 260.172
+<Apendices/Figuras/friction_contact_gray_bg.pdf, id=1124, 462.52798pt x 260.172
 01pt>
 File: Apendices/Figuras/friction_contact_gray_bg.pdf Graphic file (type pdf)
 <use Apendices/Figuras/friction_contact_gray_bg.pdf>
@@ -2401,7 +2405,7 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 71.
  [12]
-<Apendices/Figuras/friction_contact_linearised.pdf, id=1158, 278.0227pt x 133.4
+<Apendices/Figuras/friction_contact_linearised.pdf, id=1157, 278.0227pt x 133.4
 7017pt>
 File: Apendices/Figuras/friction_contact_linearised.pdf Graphic file (type pdf)
 
@@ -2413,7 +2417,7 @@ d on input line 113.
 
 pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/wrenchspace_anlayses_2.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Cap2/Figuras/wrenchspace_anlayses_2.pdf, id=1189, 1011.78pt x 758.835pt>
+<Cap2/Figuras/wrenchspace_anlayses_2.pdf, id=1188, 1011.78pt x 758.835pt>
 File: Cap2/Figuras/wrenchspace_anlayses_2.pdf Graphic file (type pdf)
 <use Cap2/Figuras/wrenchspace_anlayses_2.pdf>
 Package pdftex.def Info: Cap2/Figuras/wrenchspace_anlayses_2.pdf  used on input
@@ -2437,7 +2441,7 @@ s fol-low-ing a rule of
  []
 
 [17]
-<Apendices/Figuras/barret_eigengrasp_01.pdf, id=1257, 963.35912pt x 542.025pt>
+<Apendices/Figuras/barret_eigengrasp_01.pdf, id=1256, 963.35912pt x 542.025pt>
 File: Apendices/Figuras/barret_eigengrasp_01.pdf Graphic file (type pdf)
 <use Apendices/Figuras/barret_eigengrasp_01.pdf>
 Package pdftex.def Info: Apendices/Figuras/barret_eigengrasp_01.pdf  used on in
@@ -2449,7 +2453,7 @@ Underfull \hbox (badness 6658) in paragraph at lines 83--83
 : fin-gers twist
  []
 
-<Apendices/Figuras/barret_eigengrasp_02.pdf, id=1259, 963.35912pt x 542.025pt>
+<Apendices/Figuras/barret_eigengrasp_02.pdf, id=1258, 963.35912pt x 542.025pt>
 File: Apendices/Figuras/barret_eigengrasp_02.pdf Graphic file (type pdf)
 <use Apendices/Figuras/barret_eigengrasp_02.pdf>
 Package pdftex.def Info: Apendices/Figuras/barret_eigengrasp_02.pdf  used on in
@@ -2459,7 +2463,7 @@ Package acronym Info: Label `acro:ICP' newly defined as it shall be overridden
 although it is yet undefined on input line 86.
 [18 <./Apendices/Figuras/barret_eigengrasp_01.pdf> <./Apendices/Figuras/barret_
 eigengrasp_02.pdf>]
-<Apendices/Figuras/ICPreduction_gray_bg.pdf, id=1294, 1011.78pt x 758.835pt>
+<Apendices/Figuras/ICPreduction_gray_bg.pdf, id=1293, 1011.78pt x 758.835pt>
 File: Apendices/Figuras/ICPreduction_gray_bg.pdf Graphic file (type pdf)
 <use Apendices/Figuras/ICPreduction_gray_bg.pdf>
 Package pdftex.def Info: Apendices/Figuras/ICPreduction_gray_bg.pdf  used on in
@@ -2486,7 +2490,7 @@ Overfull \hbox (7.62474pt too wide) in paragraph at lines 2--2
 
 
 ]
-<Cap2/Figuras/grasp.pdf, id=1349, 1011.78pt x 758.835pt>
+<Cap2/Figuras/grasp.pdf, id=1348, 1011.78pt x 758.835pt>
 File: Cap2/Figuras/grasp.pdf Graphic file (type pdf)
 <use Cap2/Figuras/grasp.pdf>
 Package pdftex.def Info: Cap2/Figuras/grasp.pdf  used on input line 51.
@@ -2514,7 +2518,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/antipodal_2.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Cap2/Figuras/antipodal_2.pdf, id=1391, 1011.78pt x 758.835pt>
+<Cap2/Figuras/antipodal_2.pdf, id=1390, 1011.78pt x 758.835pt>
 File: Cap2/Figuras/antipodal_2.pdf Graphic file (type pdf)
 <use Cap2/Figuras/antipodal_2.pdf>
 Package pdftex.def Info: Cap2/Figuras/antipodal_2.pdf  used on input line 100.
@@ -2531,7 +2535,7 @@ Underfull \vbox (badness 2600) has occurred while \output is active []
 
 pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/point_rep.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Cap2/Figuras/point_rep.pdf, id=1471, 1011.78pt x 758.835pt>
+<Cap2/Figuras/point_rep.pdf, id=1470, 1011.78pt x 758.835pt>
 File: Cap2/Figuras/point_rep.pdf Graphic file (type pdf)
 <use Cap2/Figuras/point_rep.pdf>
 Package pdftex.def Info: Cap2/Figuras/point_rep.pdf  used on input line 142.
@@ -2540,7 +2544,7 @@ Package pdftex.def Info: Cap2/Figuras/point_rep.pdf  used on input line 142.
 
 pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/rec_rep.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Cap2/Figuras/rec_rep.pdf, id=1473, 1011.78pt x 758.835pt>
+<Cap2/Figuras/rec_rep.pdf, id=1472, 1011.78pt x 758.835pt>
 File: Cap2/Figuras/rec_rep.pdf Graphic file (type pdf)
 <use Cap2/Figuras/rec_rep.pdf>
 Package pdftex.def Info: Cap2/Figuras/rec_rep.pdf  used on input line 142.
@@ -2549,7 +2553,7 @@ Package pdftex.def Info: Cap2/Figuras/rec_rep.pdf  used on input line 142.
 
 pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/myBeliefMap.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Cap2/Figuras/myBeliefMap.pdf, id=1475, 1011.78pt x 758.835pt>
+<Cap2/Figuras/myBeliefMap.pdf, id=1474, 1011.78pt x 758.835pt>
 File: Cap2/Figuras/myBeliefMap.pdf Graphic file (type pdf)
 <use Cap2/Figuras/myBeliefMap.pdf>
 Package pdftex.def Info: Cap2/Figuras/myBeliefMap.pdf  used on input line 142.
@@ -2558,7 +2562,7 @@ Package pdftex.def Info: Cap2/Figuras/myBeliefMap.pdf  used on input line 142.
 
 pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/myGraspPath.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Cap2/Figuras/myGraspPath.pdf, id=1477, 1011.78pt x 758.835pt>
+<Cap2/Figuras/myGraspPath.pdf, id=1476, 1011.78pt x 758.835pt>
 File: Cap2/Figuras/myGraspPath.pdf Graphic file (type pdf)
 <use Cap2/Figuras/myGraspPath.pdf>
 Package pdftex.def Info: Cap2/Figuras/myGraspPath.pdf  used on input line 142.
@@ -2568,7 +2572,7 @@ Package pdftex.def Info: Cap2/Figuras/myGraspPath.pdf  used on input line 142.
 
 pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/pen_jacquard.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<Cap2/Figuras/pen_jacquard.pdf, id=1535, 963.6pt x 542.025pt>
+<Cap2/Figuras/pen_jacquard.pdf, id=1534, 963.6pt x 542.025pt>
 File: Cap2/Figuras/pen_jacquard.pdf Graphic file (type pdf)
 <use Cap2/Figuras/pen_jacquard.pdf>
 Package pdftex.def Info: Cap2/Figuras/pen_jacquard.pdf  used on input line 180.
@@ -2665,7 +2669,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: pdflatex.exe (file ./Cap2/Figuras/teste_2.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Cap2/Figuras/teste_2.pdf, id=1801, 542.025pt x 782.925pt>
+<Cap2/Figuras/teste_2.pdf, id=1800, 542.025pt x 782.925pt>
 File: Cap2/Figuras/teste_2.pdf Graphic file (type pdf)
 <use Cap2/Figuras/teste_2.pdf>
 Package pdftex.def Info: Cap2/Figuras/teste_2.pdf  used on input line 13.
@@ -2772,12 +2776,12 @@ ently from pre-vi-ous
 
 pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/grasping_framework.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Cap4/Figuras/grasping_framework.pdf, id=1974, 542.025pt x 782.925pt>
+<Cap4/Figuras/grasping_framework.pdf, id=1973, 542.025pt x 782.925pt>
 File: Cap4/Figuras/grasping_framework.pdf Graphic file (type pdf)
 <use Cap4/Figuras/grasping_framework.pdf>
 Package pdftex.def Info: Cap4/Figuras/grasping_framework.pdf  used on input lin
 e 11.
-(pdftex.def)             Requested size: 336.17178pt x 220.88753pt.
+(pdftex.def)             Requested size: 375.71751pt x 246.86823pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2790,11 +2794,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-[46 <./Cap4/Figuras/grasping_framework.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 <./Cap4/Figuras/grasping_framework.pdf>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 46.
-
-(Cap4/codes/candidates_dataset.yaml
+ (Cap4/codes/candidates_dataset.yaml
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
 10.
 
@@ -2804,17 +2809,9 @@ File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 Package hyperref Info: bookmark level for unknown snippet defaults to 0 on inpu
 t line 47.
 
-Underfull \hbox (badness 3312) in paragraph at lines 57--58
-[]\OT1/cmr/bx/n/12 gripper/parameters: \OT1/cmr/m/n/12 a dy-namic size ar-ray w
-ith spe-cific grip-per's
- []
-
 [47]
-
-LaTeX Warning: Reference `ap:sim_ann' on page 48 undefined on input line 58.
-
 Package acronym Info: Label `acro:ROS' newly defined as it shall be overridden
-although it is yet undefined on input line 67.
+although it is yet undefined on input line 74.
 
 
 pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/graspit_manual_support.pdf): 
@@ -2823,7 +2820,7 @@ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Cap4/Figuras/graspit_manual_support.pdf Graphic file (type pdf)
 <use Cap4/Figuras/graspit_manual_support.pdf>
 Package pdftex.def Info: Cap4/Figuras/graspit_manual_support.pdf  used on input
- line 76.
+ line 83.
 (pdftex.def)             Requested size: 395.4934pt x 229.2369pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2836,7 +2833,7 @@ pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/flowchart_graspit_module.pdf)
 File: Cap4/Figuras/flowchart_graspit_module.pdf Graphic file (type pdf)
 <use Cap4/Figuras/flowchart_graspit_module.pdf>
 Package pdftex.def Info: Cap4/Figuras/flowchart_graspit_module.pdf  used on inp
-ut line 88.
+ut line 95.
 (pdftex.def)             Requested size: 395.4934pt x 384.61572pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2849,20 +2846,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[49 <./Cap4/Figuras/graspit_manual_support.pdf>]
-Underfull \hbox (badness 1057) in paragraph at lines 132--133
-[]\OT1/cmr/bx/n/12 config$[]$grasps$[]$parameters/min$[]$width$[]$threshold: \O
-T1/cmr/m/n/12 min-i-mum width to
+
+Underfull \hbox (badness 2961) in paragraph at lines 140--142
+\OT1/cmr/m/n/12 and ``$\OML/cmm/m/it/12 gripper$[]$file$[]$name$\OT1/cmr/m/n/12
+ '', re-spec-tively. It should re-spect the ``GraspIt!''
  []
 
 
-LaTeX Warning: Reference `ap:sim_ann' on page 50 undefined on input line 138.
+Underfull \hbox (badness 1286) in paragraph at lines 140--142
+\OT1/cmr/m/n/12 XML de-scrip-tion stan-dard with its [][], \OT1/cmr/m/it/12 eig
+en-grasp \OT1/cmr/m/n/12 and Denavit-Hatenberg
+ []
 
+[49 <./Cap4/Figuras/graspit_manual_support.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `ap:multifingered_grasping' on page 50 undefined on in
-put line 138.
-
-[50 <./Cap4/Figuras/flowchart_graspit_module.pdf>]
+ [50 <./Cap4/Figuras/flowchart_graspit_module.pdf>]
 (Cap4/codes/multifingered_sann_feeder.yaml)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2872,23 +2871,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 192--193
+Underfull \hbox (badness 1019) in paragraph at lines 201--202
 []\OT1/cmr/bx/n/12 action$[]$graspit$[]$interface$[]$server$[]$name: \OT1/cmr/m
 /n/12 since the ``GraspIt!" server is
  []
 
 
 LaTeX Warning: Reference `fig:grasping_synthesis_core' on page 51 undefined on 
-input line 194.
+input line 203.
 
 [51]
-Underfull \hbox (badness 3128) in paragraph at lines 204--205
+Underfull \hbox (badness 3128) in paragraph at lines 213--214
 []\OT1/cmr/bx/n/12 sim$[]$annealing/HDIMS: \OT1/cmr/m/n/12 num-ber of di-men-si
 ons for er-ror ac-cep-tance
  []
 
 [52] [53]
-Underfull \hbox (badness 1057) in paragraph at lines 215--216
+Underfull \hbox (badness 1057) in paragraph at lines 224--225
 []\OT1/cmr/bx/n/12 config$[]$grasps$[]$parameters/min$[]$width$[]$threshold: \O
 T1/cmr/m/n/12 min-i-mum width to
  []
@@ -2897,32 +2896,52 @@ T1/cmr/m/n/12 min-i-mum width to
 
 pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/plugin_system_management.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Cap4/Figuras/plugin_system_management.pdf, id=2178, 542.025pt x 782.925pt>
+<Cap4/Figuras/plugin_system_management.pdf, id=2184, 542.025pt x 782.925pt>
 File: Cap4/Figuras/plugin_system_management.pdf Graphic file (type pdf)
 <use Cap4/Figuras/plugin_system_management.pdf>
 Package pdftex.def Info: Cap4/Figuras/plugin_system_management.pdf  used on inp
-ut line 237.
+ut line 246.
 (pdftex.def)             Requested size: 395.4934pt x 301.39006pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [54]
+Underfull \hbox (badness 1281) in paragraph at lines 253--254
+\OT1/cmr/m/n/12 def-i-ni-tion is com-posed by: the plu-g-ins def-i-ni-tion such
+ its dy-namic li-brary
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 253--254
+\OT1/cmr/m/n/12 im-ple-men-ta-tion file name and the con-fig-u-ra-tion file by 
+``$\OML/cmm/m/it/12 plugin$[]$name$\OT1/cmr/m/n/12 '' and
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 255--257
+[]\OT1/cmr/m/n/12 Typically, but not manda-tory, plu-g-ins are client im-ple-me
+n-ta-tions since the
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55 <./Cap4/Figuras/plugin_system_management.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/mimic_grasping_api_flowchart.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<Cap4/Figuras/mimic_grasping_api_flowchart.pdf, id=2185, 867.24pt x 868.20357pt
+<Cap4/Figuras/mimic_grasping_api_flowchart.pdf, id=2210, 867.24pt x 868.20357pt
 >
 File: Cap4/Figuras/mimic_grasping_api_flowchart.pdf Graphic file (type pdf)
 <use Cap4/Figuras/mimic_grasping_api_flowchart.pdf>
 Package pdftex.def Info: Cap4/Figuras/mimic_grasping_api_flowchart.pdf  used on
- input line 253.
+ input line 265.
 (pdftex.def)             Requested size: 395.4934pt x 451.45181pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[55 <./Cap4/Figuras/plugin_system_management.pdf>] [56 <./Cap4/Figuras/mimic_gr
-asping_api_flowchart.pdf>] (Cap4/codes/error_compensation.yaml
+(Cap4/codes/error_compensation.yaml
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
 1.
 LaTeX Font Info:    No file OMScmss.fd. on input line 1.
@@ -2937,12 +2956,15 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 300--301
+Underfull \hbox (badness 1210) in paragraph at lines 312--313
 \OT1/cmr/m/n/12 with demon-stra-tion tool ver-i-fied. If all pro-cess is cor-re
 ctly ex-e-cuted, the
  []
 
-[57]
+[56]
+Underfull \vbox (badness 2653) has occurred while \output is active []
+
+ [57 <./Cap4/Figuras/mimic_grasping_api_flowchart.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
@@ -2950,281 +2972,263 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/photo_use_case_overview_label
 ed.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<Cap4/Figuras/photo_use_case_overview_labeled.pdf, id=2294, 963.6pt x 542.025pt
+<Cap4/Figuras/photo_use_case_overview_labeled.pdf, id=2302, 963.6pt x 542.025pt
 >
 File: Cap4/Figuras/photo_use_case_overview_labeled.pdf Graphic file (type pdf)
 <use Cap4/Figuras/photo_use_case_overview_labeled.pdf>
 Package pdftex.def Info: Cap4/Figuras/photo_use_case_overview_labeled.pdf  used
- on input line 311.
+ on input line 323.
 (pdftex.def)             Requested size: 395.4934pt x 178.08736pt.
 [59 <./Cap4/Figuras/photo_use_case_overview_labeled.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/mimic_tool_handler.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Cap4/Figuras/mimic_tool_handler.pdf, id=2320, 542.025pt x 782.925pt>
+<Cap4/Figuras/mimic_tool_handler.pdf, id=2328, 542.025pt x 782.925pt>
 File: Cap4/Figuras/mimic_tool_handler.pdf Graphic file (type pdf)
 <use Cap4/Figuras/mimic_tool_handler.pdf>
 Package pdftex.def Info: Cap4/Figuras/mimic_tool_handler.pdf  used on input lin
-e 348.
+e 360.
 (pdftex.def)             Requested size: 395.4934pt x 332.53255pt.
-<Cap4/Figuras/grippers_mimic.pdf, id=2325, 545.3153pt x 503.04787pt>
+<Cap4/Figuras/grippers_mimic.pdf, id=2333, 545.3153pt x 503.04787pt>
 File: Cap4/Figuras/grippers_mimic.pdf Graphic file (type pdf)
 <use Cap4/Figuras/grippers_mimic.pdf>
-Package pdftex.def Info: Cap4/Figuras/grippers_mimic.pdf  used on input line 36
-0.
+Package pdftex.def Info: Cap4/Figuras/grippers_mimic.pdf  used on input line 37
+2.
 (pdftex.def)             Requested size: 395.4934pt x 230.71014pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
+[60 <./Cap4/Figuras/mimic_tool_handler.pdf> <./Cap4/Figuras/grippers_mimic.pdf>
+]
 
 pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/mimic_grasping_firmware_state
 _machine.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
-<Cap4/Figuras/mimic_grasping_firmware_state_machine.pdf, id=2328, 598.15468pt x
+<Cap4/Figuras/mimic_grasping_firmware_state_machine.pdf, id=2363, 598.15468pt x
  846.0408pt>
 File: Cap4/Figuras/mimic_grasping_firmware_state_machine.pdf Graphic file (type
  pdf)
 <use Cap4/Figuras/mimic_grasping_firmware_state_machine.pdf>
 Package pdftex.def Info: Cap4/Figuras/mimic_grasping_firmware_state_machine.pdf
-  used on input line 375.
+  used on input line 387.
 (pdftex.def)             Requested size: 395.4934pt x 229.50381pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[60 <./Cap4/Figuras/mimic_tool_handler.pdf>]
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
- [61 <./Cap4/Figuras/grippers_mimic.pdf> <./Cap4/Figuras/mimic_grasping_firmwar
-e_state_machine.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[62]
-<Cap4/Figuras/mimic_grasping_on_handler_2.pdf, id=2383, 265.2309pt x 799.06532p
+[61 <./Cap4/Figuras/mimic_grasping_firmware_state_machine.pdf>] [62]
+<Cap4/Figuras/mimic_grasping_on_handler_2.pdf, id=2390, 265.2309pt x 799.06532p
 t>
 File: Cap4/Figuras/mimic_grasping_on_handler_2.pdf Graphic file (type pdf)
 <use Cap4/Figuras/mimic_grasping_on_handler_2.pdf>
 Package pdftex.def Info: Cap4/Figuras/mimic_grasping_on_handler_2.pdf  used on 
-input line 440.
+input line 452.
 (pdftex.def)             Requested size: 98.87334pt x 333.6665pt.
 Package acronym Info: Label `acro:TCP' newly defined as it shall be overridden
-although it is yet undefined on input line 443.
-
-Underfull \vbox (badness 1540) has occurred while \output is active []
-
+although it is yet undefined on input line 455.
  [63 <./Cap4/Figuras/mimic_grasping_on_handler_2.pdf>]
 Package acronym Info: Label `acro:OR' newly defined as it shall be overridden
-although it is yet undefined on input line 450.
-<Cap4/Figuras/flowchart_testcase.pdf, id=2427, 845.07718pt x 599.35919pt>
+although it is yet undefined on input line 462.
+<Cap4/Figuras/flowchart_testcase.pdf, id=2435, 845.07718pt x 599.35919pt>
 File: Cap4/Figuras/flowchart_testcase.pdf Graphic file (type pdf)
 <use Cap4/Figuras/flowchart_testcase.pdf>
 Package pdftex.def Info: Cap4/Figuras/flowchart_testcase.pdf  used on input lin
-e 465.
+e 477.
 (pdftex.def)             Requested size: 395.4934pt x 145.52303pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [64]
-<Cap4/Figuras/gui/main_screen_small.pdf, id=2437, 722.7pt x 517.935pt>
+[64]
+<Cap4/Figuras/gui/main_screen_small.pdf, id=2444, 722.7pt x 517.935pt>
 File: Cap4/Figuras/gui/main_screen_small.pdf Graphic file (type pdf)
 <use Cap4/Figuras/gui/main_screen_small.pdf>
 Package pdftex.def Info: Cap4/Figuras/gui/main_screen_small.pdf  used on input 
-line 481.
+line 493.
 (pdftex.def)             Requested size: 395.4934pt x 283.43466pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Cap4/Figuras/gui/localisators_config_screen_small.pdf, id=2443, 740.67493pt x 
+ [65 <./Cap4/Figuras/flowchart_testcase.pdf> <./Cap4/Figuras/gui/main_screen_sm
+all.pdf>]
+<Cap4/Figuras/gui/localisators_config_screen_small.pdf, id=2479, 740.67493pt x 
 586.11673pt>
 File: Cap4/Figuras/gui/localisators_config_screen_small.pdf Graphic file (type 
 pdf)
 <use Cap4/Figuras/gui/localisators_config_screen_small.pdf>
 Package pdftex.def Info: Cap4/Figuras/gui/localisators_config_screen_small.pdf 
- used on input line 493.
+ used on input line 505.
 (pdftex.def)             Requested size: 395.4934pt x 312.96567pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Cap4/Figuras/gui/tool_firmware_screen_small.pdf, id=2448, 722.7pt x 515.9275pt
+<Cap4/Figuras/gui/tool_firmware_screen_small.pdf, id=2484, 722.7pt x 515.9275pt
 >
 File: Cap4/Figuras/gui/tool_firmware_screen_small.pdf Graphic file (type pdf)
 <use Cap4/Figuras/gui/tool_firmware_screen_small.pdf>
 Package pdftex.def Info: Cap4/Figuras/gui/tool_firmware_screen_small.pdf  used 
-on input line 505.
+on input line 517.
 (pdftex.def)             Requested size: 395.4934pt x 282.33609pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65 <./Cap4/Figuras/flowchart_testcase.pdf>]
-
-LaTeX Warning: Text page 66 contains only floats.
-
-
-Underfull \vbox (badness 1038) has occurred while \output is active []
-
- [66 <./Cap4/Figuras/gui/main_screen_small.pdf> <./Cap4/Figuras/gui/localisator
-s_config_screen_small.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/flowchart_post_processors_pip
 eline.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<Cap4/Figuras/flowchart_post_processors_pipeline.drawio.pdf, id=2497, 1228.59pt
+<Cap4/Figuras/flowchart_post_processors_pipeline.drawio.pdf, id=2490, 1228.59pt
  x 795.93356pt>
 File: Cap4/Figuras/flowchart_post_processors_pipeline.drawio.pdf Graphic file (
 type pdf)
 <use Cap4/Figuras/flowchart_post_processors_pipeline.drawio.pdf>
 Package pdftex.def Info: Cap4/Figuras/flowchart_post_processors_pipeline.drawio
-.pdf  used on input line 521.
+.pdf  used on input line 533.
 (pdftex.def)             Requested size: 395.4934pt x 308.39107pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(Cap4/codes/post_processor_config.yaml)
+(Cap4/codes/post_processor_config.yaml) [66 <./Cap4/Figuras/gui/localisators_co
+nfig_screen_small.pdf>]
+Underfull \hbox (badness 3396) in paragraph at lines 560--561
+[]\OT1/cmr/m/n/12 Since the ``Post-processor'' pipeline ar-chi-tec-ture code de
+-sign is based on
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[67 <./Cap4/Figuras/gui/tool_firmware_screen_small.pdf>]
 
 LaTeX Warning: Reference `cap4:modular_grasping_architecture:sec:grasping_synth
-esis:subsec:graspit:subsubsec:graspit_viewer' on page 67 undefined on input lin
-e 550.
+esis:subsec:graspit:subsubsec:graspit_viewer' on page 68 undefined on input lin
+e 562.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67 <./Cap4/Figuras/gui/tool_firmware_screen_small.pdf>] (Cap4/codes/load_feed
-er.yaml)
+(Cap4/codes/load_feeder.yaml)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [68 <./Cap4/Figuras/flowchart_post_processors_pipeline.drawio.pdf>]
 (Cap4/codes/distance_filter.yaml) [69]
-Underfull \hbox (badness 2261) in paragraph at lines 608--609
-[]\OT1/cmr/bx/n/12 abs$[]$pitch$[]$distance$[]$threshold\OT1/cmr/m/n/12 : ab-so
--lute pitch min-i-mum dis-tance (in
- []
-
-<Cap4/Figuras/tcp_angle_twin.pdf, id=2572, 462.52798pt x 260.17201pt>
+<Cap4/Figuras/tcp_angle_twin.pdf, id=2586, 462.52798pt x 260.17201pt>
 File: Cap4/Figuras/tcp_angle_twin.pdf Graphic file (type pdf)
 <use Cap4/Figuras/tcp_angle_twin.pdf>
-Package pdftex.def Info: Cap4/Figuras/tcp_angle_twin.pdf  used on input line 62
-4.
+Package pdftex.def Info: Cap4/Figuras/tcp_angle_twin.pdf  used on input line 63
+8.
 (pdftex.def)             Requested size: 395.4934pt x 121.25107pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(Cap4/codes/tcp_angle_twin.yaml) [70]
-
-LaTeX Warning: Reference `cap4:modular_grasping_architecture:sec:grasping_synth
-esis:subsec:graspit:subsubsec:distance_filter' on page 71 undefined on input li
-ne 654.
-
-<Cap4/Figuras/obj_angle_twin.pdf, id=2592, 1477.33536pt x 260.94238pt>
+ (Cap4/codes/tcp_angle_twin.yaml)
+[70 <./Cap4/Figuras/tcp_angle_twin.pdf>]
+<Cap4/Figuras/obj_angle_twin.pdf, id=2622, 1477.33536pt x 260.94238pt>
 File: Cap4/Figuras/obj_angle_twin.pdf Graphic file (type pdf)
 <use Cap4/Figuras/obj_angle_twin.pdf>
-Package pdftex.def Info: Cap4/Figuras/obj_angle_twin.pdf  used on input line 66
-8.
+Package pdftex.def Info: Cap4/Figuras/obj_angle_twin.pdf  used on input line 68
+2.
 (pdftex.def)             Requested size: 395.4934pt x 76.55133pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(Cap4/codes/obj_angle_twin.yaml)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[71 <./Cap4/Figuras/tcp_angle_twin.pdf>] [72 <./Cap4/Figuras/obj_angle_twin.pdf
->] (Cap4/codes/graspit_viewer.yaml) (Cap4/codes/rviz_viewer.yaml)
-<Cap4/Figuras/grasping_gray_bg.pdf, id=2649, 529.37881pt x 313.29109pt>
+ (Cap4/codes/obj_angle_twin.yaml)
+[71 <./Cap4/Figuras/obj_angle_twin.pdf>] (Cap4/codes/graspit_viewer.yaml)
+(Cap4/codes/rviz_viewer.yaml) [72]
+<Cap4/Figuras/grasping_gray_bg.pdf, id=2672, 529.37881pt x 313.29109pt>
 File: Cap4/Figuras/grasping_gray_bg.pdf Graphic file (type pdf)
 <use Cap4/Figuras/grasping_gray_bg.pdf>
 Package pdftex.def Info: Cap4/Figuras/grasping_gray_bg.pdf  used on input line 
-775.
+789.
 (pdftex.def)             Requested size: 395.4934pt x 234.05467pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[73] (Cap4/codes/grasping_selection_pipeline.yaml)
+ (Cap4/codes/grasping_selection_pipeline.yaml)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+[73 <./Cap4/Figuras/grasping_gray_bg.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/grasping_selection_pipeline_w
 orkflow.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<Cap4/Figuras/grasping_selection_pipeline_workflow.pdf, id=2672, 598.15468pt x 
+<Cap4/Figuras/grasping_selection_pipeline_workflow.pdf, id=2690, 598.15468pt x 
 846.0408pt>
 File: Cap4/Figuras/grasping_selection_pipeline_workflow.pdf Graphic file (type 
 pdf)
 <use Cap4/Figuras/grasping_selection_pipeline_workflow.pdf>
 Package pdftex.def Info: Cap4/Figuras/grasping_selection_pipeline_workflow.pdf 
- used on input line 811.
+ used on input line 825.
 (pdftex.def)             Requested size: 395.4934pt x 586.69077pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 1337) has occurred while \output is active []
-
- [74 <./Cap4/Figuras/grasping_gray_bg.pdf>] (Cap4/codes/depth_distance.yaml)
+[74] (Cap4/codes/depth_distance.yaml)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[75]
 
-LaTeX Warning: Text page 76 contains only floats.
+Underfull \vbox (badness 2073) has occurred while \output is active []
 
-[76 <./Cap4/Figuras/grasping_selection_pipeline_workflow.pdf>]
+ [75 <./Cap4/Figuras/grasping_selection_pipeline_workflow.pdf>]
 (Cap4/codes/euclidean_distance.yaml)
 Package acronym Info: Label `acro:COG' newly defined as it shall be overridden
-although it is yet undefined on input line 888.
+although it is yet undefined on input line 904.
  (Cap4/codes/cog_distance.yaml)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package acronym Info: Label `acro:COBB' newly defined as it shall be overridden
 
-although it is yet undefined on input line 920.
-[77] (Cap4/codes/cobb_distance.yaml) [78] (Cap4/codes/roll_distance.yaml)
-(Cap4/codes/pitch_distance.yaml) [79] (Cap4/codes/yaw_distance.yaml) [80]
-(Cap4/codes/joint_space_heuristic.yaml) [81]
-<Cap4/Figuras/workspace_filter2_gray_bg.pdf, id=2813, 407.6219pt x 234.37354pt>
+although it is yet undefined on input line 936.
+[76] (Cap4/codes/cobb_distance.yaml) [77] (Cap4/codes/roll_distance.yaml)
+(Cap4/codes/pitch_distance.yaml) [78] (Cap4/codes/yaw_distance.yaml)
+(Cap4/codes/joint_space_heuristic.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[79]
+<Cap4/Figuras/workspace_filter2_gray_bg.pdf, id=2807, 407.6219pt x 234.37354pt>
 
 File: Cap4/Figuras/workspace_filter2_gray_bg.pdf Graphic file (type pdf)
 <use Cap4/Figuras/workspace_filter2_gray_bg.pdf>
 Package pdftex.def Info: Cap4/Figuras/workspace_filter2_gray_bg.pdf  used on in
-put line 1098.
+put line 1129.
 (pdftex.def)             Requested size: 395.4934pt x 227.41357pt.
- [82 <./Cap4/Figuras/workspace_filter2_gray_bg.pdf>] (Cap4/codes/workspace_filt
-er_heuristic.yaml)
-<Cap4/Figuras/collision_box_gray_bg.pdf, id=2830, 1372.20564pt x 684.22104pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 1132--1133
+[]\OT1/cmr/m/n/12 The pipeline de-scrip-tor is pre-sented in Snip-pet [][]5.21[
+][]. The first pa-ram-e-ter
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 1132--1133
+\OT1/cmr/m/n/12 thresh-old bound-ary lim-its can be set by the $\OML/cmm/m/it/1
+2 min[]azimuth[]threshold ^^^[]$\OT1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1132--1133
+\OML/cmm/m/it/12 max[]azimuth[]threshold ^^^[]$\OT1/cmr/m/n/12 , $\OML/cmm/m/it
+/12 min[]polar[]threshold ^^^[]$\OT1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 1132--1133
+\OML/cmm/m/it/12 min[]radius[]threshold ^^^[]$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/
+12 min[]radius[]threshold ^^^[]$ \OT1/cmr/m/n/12 pa-ram-e-ters. The
+ []
+
+(Cap4/codes/workspace_filter_heuristic.yaml)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[80]
+<Cap4/Figuras/collision_box_gray_bg.pdf, id=2825, 1372.20564pt x 684.22104pt>
 File: Cap4/Figuras/collision_box_gray_bg.pdf Graphic file (type pdf)
 <use Cap4/Figuras/collision_box_gray_bg.pdf>
 Package pdftex.def Info: Cap4/Figuras/collision_box_gray_bg.pdf  used on input 
-line 1151.
+line 1185.
 (pdftex.def)             Requested size: 395.4934pt x 197.1975pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[83] (Cap4/codes/collision_filter.yaml)
+
+Underfull \hbox (badness 1360) in paragraph at lines 1188--1189
+\OT1/cmr/m/n/12 col-li-sion points be-tween the scene point cloud and the col-l
+i-sion vol-ume is
+ []
+
+[81 <./Cap4/Figuras/workspace_filter2_gray_bg.pdf>]
+(Cap4/codes/collision_filter.yaml)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [84 <./Cap4/Figuras/collision_box_gray_bg.pdf>] [85]
+) [82 <./Cap4/Figuras/collision_box_gray_bg.pdf>] [83]
 \openout2 = `Cap5/proposal_validation.aux'.
 
 
-(Cap5/proposal_validation.tex [86
+(Cap5/proposal_validation.tex [84
 
 
 
@@ -3236,8 +3240,8 @@ Overfull \hbox (7.62474pt too wide) in paragraph at lines 1--1
  [][]\T1/phv/b/n/85.35826 6[] 
  []
 
-[87]
-<Cap5/Figuras/omni_robot_and_bins.pdf, id=2939, 213.4374pt x 154.17601pt>
+[85]
+<Cap5/Figuras/omni_robot_and_bins.pdf, id=2941, 213.4374pt x 154.17601pt>
 File: Cap5/Figuras/omni_robot_and_bins.pdf Graphic file (type pdf)
 <use Cap5/Figuras/omni_robot_and_bins.pdf>
 Package pdftex.def Info: Cap5/Figuras/omni_robot_and_bins.pdf  used on input li
@@ -3247,53 +3251,53 @@ ne 26.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap5/Figuras/objects/bracket.pdf, id=2941, 597.50786pt x 845.04686pt>
+<Cap5/Figuras/objects/bracket.pdf, id=2943, 597.50786pt x 845.04686pt>
 File: Cap5/Figuras/objects/bracket.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/bracket.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/bracket.pdf  used on input line 9
 2.
 (pdftex.def)             Requested size: 90.96178pt x 74.50266pt.
-<Cap5/Figuras/objects/cover_plate.pdf, id=2943, 597.50786pt x 845.04686pt>
+<Cap5/Figuras/objects/cover_plate.pdf, id=2945, 597.50786pt x 845.04686pt>
 File: Cap5/Figuras/objects/cover_plate.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/cover_plate.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/cover_plate.pdf  used on input li
 ne 92.
 (pdftex.def)             Requested size: 90.96178pt x 76.66843pt.
-<Cap5/Figuras/objects/double_side_bracket.pdf, id=2945, 597.50786pt x 845.04686
+<Cap5/Figuras/objects/double_side_bracket.pdf, id=2947, 597.50786pt x 845.04686
 pt>
 File: Cap5/Figuras/objects/double_side_bracket.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/double_side_bracket.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/double_side_bracket.pdf  used on 
 input line 92.
 (pdftex.def)             Requested size: 90.96178pt x 55.01068pt.
-<Cap5/Figuras/objects/multi_side_bracket.pdf, id=2947, 597.50786pt x 845.04686p
+<Cap5/Figuras/objects/multi_side_bracket.pdf, id=2949, 597.50786pt x 845.04686p
 t>
 File: Cap5/Figuras/objects/multi_side_bracket.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/multi_side_bracket.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/multi_side_bracket.pdf  used on i
 nput line 92.
 (pdftex.def)             Requested size: 90.96178pt x 89.66309pt.
-<Cap5/Figuras/objects/reinforced_bracket.pdf, id=2949, 597.50786pt x 845.04686p
+<Cap5/Figuras/objects/reinforced_bracket.pdf, id=2951, 597.50786pt x 845.04686p
 t>
 File: Cap5/Figuras/objects/reinforced_bracket.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/reinforced_bracket.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/reinforced_bracket.pdf  used on i
 nput line 92.
 (pdftex.def)             Requested size: 90.96178pt x 89.66309pt.
-<Cap5/Figuras/objects/single_side_bracket.pdf, id=2951, 597.50786pt x 845.04686
+<Cap5/Figuras/objects/single_side_bracket.pdf, id=2953, 597.50786pt x 845.04686
 pt>
 File: Cap5/Figuras/objects/single_side_bracket.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/single_side_bracket.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/single_side_bracket.pdf  used on 
 input line 92.
 (pdftex.def)             Requested size: 90.96178pt x 89.66309pt.
-<Cap5/Figuras/objects/support_bracket.pdf, id=2953, 597.50786pt x 845.04686pt>
+<Cap5/Figuras/objects/support_bracket.pdf, id=2955, 597.50786pt x 845.04686pt>
 File: Cap5/Figuras/objects/support_bracket.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/support_bracket.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/support_bracket.pdf  used on inpu
 t line 92.
 (pdftex.def)             Requested size: 90.96178pt x 55.01068pt.
-<Cap5/Figuras/objects/t_bracket.pdf, id=2955, 597.50786pt x 845.04686pt>
+<Cap5/Figuras/objects/t_bracket.pdf, id=2957, 597.50786pt x 845.04686pt>
 File: Cap5/Figuras/objects/t_bracket.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/t_bracket.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/t_bracket.pdf  used on input line
@@ -3305,15 +3309,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 7186) has occurred while \output is active []
 
- [88]
-<Cap5/Figuras/objects/triangle_bracket.pdf, id=2971, 597.50786pt x 845.04686pt>
+ [86]
+<Cap5/Figuras/objects/triangle_bracket.pdf, id=2974, 597.50786pt x 845.04686pt>
 
 File: Cap5/Figuras/objects/triangle_bracket.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/triangle_bracket.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/triangle_bracket.pdf  used on inp
 ut line 120.
 (pdftex.def)             Requested size: 177.97081pt x 111.86575pt.
-<Cap5/Figuras/objects/90_elbow_flue_pipe.pdf, id=2973, 597.50786pt x 845.04686p
+<Cap5/Figuras/objects/90_elbow_flue_pipe.pdf, id=2976, 597.50786pt x 845.04686p
 t>
 File: Cap5/Figuras/objects/90_elbow_flue_pipe.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/90_elbow_flue_pipe.pdf>
@@ -3321,30 +3325,30 @@ Package pdftex.def Info: Cap5/Figuras/objects/90_elbow_flue_pipe.pdf  used on i
 nput line 120.
 (pdftex.def)             Requested size: 177.97081pt x 116.10307pt.
 
-[89 <./Cap5/Figuras/omni_robot_and_bins.pdf> <./Cap5/Figuras/objects/bracket.pd
+[87 <./Cap5/Figuras/omni_robot_and_bins.pdf> <./Cap5/Figuras/objects/bracket.pd
 f> <./Cap5/Figuras/objects/cover_plate.pdf> <./Cap5/Figuras/objects/double_side
 _bracket.pdf> <./Cap5/Figuras/objects/multi_side_bracket.pdf> <./Cap5/Figuras/o
 bjects/reinforced_bracket.pdf> <./Cap5/Figuras/objects/single_side_bracket.pdf>
  <./Cap5/Figuras/objects/support_bracket.pdf> <./Cap5/Figuras/objects/t_bracket
 .pdf>]
-<Cap5/Figuras/objects/falange_piece.pdf, id=3045, 597.50786pt x 845.04686pt>
+<Cap5/Figuras/objects/falange_piece.pdf, id=3048, 597.50786pt x 845.04686pt>
 File: Cap5/Figuras/objects/falange_piece.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/falange_piece.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/falange_piece.pdf  used on input 
 line 150.
 (pdftex.def)             Requested size: 126.56078pt x 103.65555pt.
-<Cap5/Figuras/objects/bearing_holder.pdf, id=3047, 597.50786pt x 845.04686pt>
+<Cap5/Figuras/objects/bearing_holder.pdf, id=3050, 597.50786pt x 845.04686pt>
 File: Cap5/Figuras/objects/bearing_holder.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/bearing_holder.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/bearing_holder.pdf  used on input
  line 150.
 (pdftex.def)             Requested size: 126.56078pt x 106.6688pt.
-<Cap5/Figuras/objects/rod.pdf, id=3049, 597.50786pt x 845.04686pt>
+<Cap5/Figuras/objects/rod.pdf, id=3052, 597.50786pt x 845.04686pt>
 File: Cap5/Figuras/objects/rod.pdf Graphic file (type pdf)
 <use Cap5/Figuras/objects/rod.pdf>
 Package pdftex.def Info: Cap5/Figuras/objects/rod.pdf  used on input line 150.
 (pdftex.def)             Requested size: 126.56078pt x 76.53636pt.
-<Cap5/Figuras/2f_models.pdf, id=3052, 240.4182pt x 184.77031pt>
+<Cap5/Figuras/2f_models.pdf, id=3055, 240.4182pt x 184.77031pt>
 File: Cap5/Figuras/2f_models.pdf Graphic file (type pdf)
 <use Cap5/Figuras/2f_models.pdf>
 Package pdftex.def Info: Cap5/Figuras/2f_models.pdf  used on input line 167.
@@ -3353,21 +3357,17 @@ Package pdftex.def Info: Cap5/Figuras/2f_models.pdf  used on input line 167.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[90 <./Cap5/Figuras/objects/triangle_bracket.pdf> <./Cap5/Figuras/objects/90_el
+[88 <./Cap5/Figuras/objects/triangle_bracket.pdf> <./Cap5/Figuras/objects/90_el
 bow_flue_pipe.pdf> <./Cap5/Figuras/objects/falange_piece.pdf> <./Cap5/Figuras/o
 bjects/bearing_holder.pdf> <./Cap5/Figuras/objects/rod.pdf>]
-<Cap5/Figuras/contact_points.pdf, id=3096, 858.64201pt x 199.4825pt>
+<Cap5/Figuras/contact_points.pdf, id=3099, 858.64201pt x 199.4825pt>
 File: Cap5/Figuras/contact_points.pdf Graphic file (type pdf)
 <use Cap5/Figuras/contact_points.pdf>
 Package pdftex.def Info: Cap5/Figuras/contact_points.pdf  used on input line 18
 1.
 (pdftex.def)             Requested size: 395.4934pt x 91.88176pt.
-
-
-LaTeX Warning: Reference `ap:sim_ann' on page 91 undefined on input line 184.
-
-[91 <./Cap5/Figuras/2f_models.pdf> <./Cap5/Figuras/contact_points.pdf>]
-<Cap5/Figuras/candidates_plot/bracket_candidates.pdf, id=3136, 444.8566pt x 329
+ [89 <./Cap5/Figuras/2f_models.pdf> <./Cap5/Figuras/contact_points.pdf>]
+<Cap5/Figuras/candidates_plot/bracket_candidates.pdf, id=3140, 444.8566pt x 329
 .69067pt>
 File: Cap5/Figuras/candidates_plot/bracket_candidates.pdf Graphic file (type pd
 f)
@@ -3375,7 +3375,7 @@ f)
 Package pdftex.def Info: Cap5/Figuras/candidates_plot/bracket_candidates.pdf  u
 sed on input line 261.
 (pdftex.def)             Requested size: 90.96178pt x 67.41093pt.
-<Cap5/Figuras/candidates_plot/cover_plate_candidates.pdf, id=3138, 440.34027pt 
+<Cap5/Figuras/candidates_plot/cover_plate_candidates.pdf, id=3142, 440.34027pt 
 x 239.36444pt>
 File: Cap5/Figuras/candidates_plot/cover_plate_candidates.pdf Graphic file (typ
 e pdf)
@@ -3383,7 +3383,7 @@ e pdf)
 Package pdftex.def Info: Cap5/Figuras/candidates_plot/cover_plate_candidates.pd
 f  used on input line 261.
 (pdftex.def)             Requested size: 90.96178pt x 49.44621pt.
-<Cap5/Figuras/candidates_plot/double_side_bracket_candidates.pdf, id=3140, 438.
+<Cap5/Figuras/candidates_plot/double_side_bracket_candidates.pdf, id=3144, 438.
 83482pt x 284.52756pt>
 File: Cap5/Figuras/candidates_plot/double_side_bracket_candidates.pdf Graphic f
 ile (type pdf)
@@ -3391,7 +3391,7 @@ ile (type pdf)
 Package pdftex.def Info: Cap5/Figuras/candidates_plot/double_side_bracket_candi
 dates.pdf  used on input line 261.
 (pdftex.def)             Requested size: 90.96178pt x 58.9754pt.
-<Cap5/Figuras/candidates_plot/multi_side_bracket_candidates.pdf, id=3142, 535.1
+<Cap5/Figuras/candidates_plot/multi_side_bracket_candidates.pdf, id=3146, 535.1
 8279pt x 334.20697pt>
 File: Cap5/Figuras/candidates_plot/multi_side_bracket_candidates.pdf Graphic fi
 le (type pdf)
@@ -3399,7 +3399,7 @@ le (type pdf)
 Package pdftex.def Info: Cap5/Figuras/candidates_plot/multi_side_bracket_candid
 ates.pdf  used on input line 261.
 (pdftex.def)             Requested size: 90.96178pt x 56.79913pt.
-<Cap5/Figuras/candidates_plot/reinforced_bracket_candidates.pdf, id=3144, 429.0
+<Cap5/Figuras/candidates_plot/reinforced_bracket_candidates.pdf, id=3148, 429.0
 4948pt x 301.08736pt>
 File: Cap5/Figuras/candidates_plot/reinforced_bracket_candidates.pdf Graphic fi
 le (type pdf)
@@ -3407,7 +3407,7 @@ le (type pdf)
 Package pdftex.def Info: Cap5/Figuras/candidates_plot/reinforced_bracket_candid
 ates.pdf  used on input line 261.
 (pdftex.def)             Requested size: 90.96178pt x 63.83205pt.
-<Cap5/Figuras/candidates_plot/single_side_bracket_candidates.pdf, id=3146, 401.
+<Cap5/Figuras/candidates_plot/single_side_bracket_candidates.pdf, id=3150, 401.
 19891pt x 356.0358pt>
 File: Cap5/Figuras/candidates_plot/single_side_bracket_candidates.pdf Graphic f
 ile (type pdf)
@@ -3415,7 +3415,7 @@ ile (type pdf)
 Package pdftex.def Info: Cap5/Figuras/candidates_plot/single_side_bracket_candi
 dates.pdf  used on input line 261.
 (pdftex.def)             Requested size: 90.96178pt x 80.71848pt.
-<Cap5/Figuras/candidates_plot/support_bracket_candidates.pdf, id=3148, 490.0196
+<Cap5/Figuras/candidates_plot/support_bracket_candidates.pdf, id=3152, 490.0196
 7pt x 352.2722pt>
 File: Cap5/Figuras/candidates_plot/support_bracket_candidates.pdf Graphic file 
 (type pdf)
@@ -3423,7 +3423,7 @@ File: Cap5/Figuras/candidates_plot/support_bracket_candidates.pdf Graphic file
 Package pdftex.def Info: Cap5/Figuras/candidates_plot/support_bracket_candidate
 s.pdf  used on input line 261.
 (pdftex.def)             Requested size: 90.96178pt x 65.38971pt.
-<Cap5/Figuras/candidates_plot/t_bracket_candidates.pdf, id=3150, 340.98146pt x 
+<Cap5/Figuras/candidates_plot/t_bracket_candidates.pdf, id=3154, 340.98146pt x 
 241.6226pt>
 File: Cap5/Figuras/candidates_plot/t_bracket_candidates.pdf Graphic file (type 
 pdf)
@@ -3435,7 +3435,7 @@ Package pdftex.def Info: Cap5/Figuras/candidates_plot/t_bracket_candidates.pdf
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap5/Figuras/candidates_plot/triangle_bracket_candidates.pdf, id=3152, 901.003
+<Cap5/Figuras/candidates_plot/triangle_bracket_candidates.pdf, id=3156, 901.003
 95pt x 568.30237pt>
 File: Cap5/Figuras/candidates_plot/triangle_bracket_candidates.pdf Graphic file
  (type pdf)
@@ -3443,7 +3443,7 @@ File: Cap5/Figuras/candidates_plot/triangle_bracket_candidates.pdf Graphic file
 Package pdftex.def Info: Cap5/Figuras/candidates_plot/triangle_bracket_candidat
 es.pdf  used on input line 284.
 (pdftex.def)             Requested size: 177.97081pt x 112.25365pt.
-<Cap5/Figuras/candidates_plot/90_elbow_flue_pipe_candidates.pdf, id=3154, 1037.
+<Cap5/Figuras/candidates_plot/90_elbow_flue_pipe_candidates.pdf, id=3158, 1037.
 99869pt x 535.18279pt>
 File: Cap5/Figuras/candidates_plot/90_elbow_flue_pipe_candidates.pdf Graphic fi
 le (type pdf)
@@ -3454,7 +3454,7 @@ ates.pdf  used on input line 284.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap5/Figuras/candidates_plot/falange_piece_candidates.pdf, id=3156, 450.12561p
+<Cap5/Figuras/candidates_plot/falange_piece_candidates.pdf, id=3160, 450.12561p
 t x 416.25327pt>
 File: Cap5/Figuras/candidates_plot/falange_piece_candidates.pdf Graphic file (t
 ype pdf)
@@ -3462,7 +3462,7 @@ ype pdf)
 Package pdftex.def Info: Cap5/Figuras/candidates_plot/falange_piece_candidates.
 pdf  used on input line 314.
 (pdftex.def)             Requested size: 126.56078pt x 117.03282pt.
-<Cap5/Figuras/candidates_plot/bearing_holder_candidates.pdf, id=3158, 412.4897p
+<Cap5/Figuras/candidates_plot/bearing_holder_candidates.pdf, id=3162, 412.4897p
 t x 336.46513pt>
 File: Cap5/Figuras/candidates_plot/bearing_holder_candidates.pdf Graphic file (
 type pdf)
@@ -3470,7 +3470,7 @@ type pdf)
 Package pdftex.def Info: Cap5/Figuras/candidates_plot/bearing_holder_candidates
 .pdf  used on input line 314.
 (pdftex.def)             Requested size: 126.56078pt x 103.23523pt.
-<Cap5/Figuras/candidates_plot/rod_candidates.pdf, id=3160, 173.12523pt x 450.12
+<Cap5/Figuras/candidates_plot/rod_candidates.pdf, id=3164, 173.12523pt x 450.12
 561pt>
 File: Cap5/Figuras/candidates_plot/rod_candidates.pdf Graphic file (type pdf)
 <use Cap5/Figuras/candidates_plot/rod_candidates.pdf>
@@ -3483,14 +3483,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 3029) has occurred while \output is active []
 
- [92]
+ [90]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \vbox (badness 5288) has occurred while \output is active []
 
- [93 <./Cap5/Figuras/candidates_plot/bracket_candidates.pdf> <./Cap5/Figuras/ca
+ [91 <./Cap5/Figuras/candidates_plot/bracket_candidates.pdf> <./Cap5/Figuras/ca
 ndidates_plot/cover_plate_candidates.pdf> <./Cap5/Figuras/candidates_plot/doubl
 e_side_bracket_candidates.pdf> <./Cap5/Figuras/candidates_plot/multi_side_brack
 et_candidates.pdf> <./Cap5/Figuras/candidates_plot/reinforced_bracket_candidate
@@ -3499,7 +3499,7 @@ ap5/Figuras/candidates_plot/support_bracket_candidates.pdf> <./Cap5/Figuras/can
 didates_plot/t_bracket_candidates.pdf> <./Cap5/Figuras/candidates_plot/triangle
 _bracket_candidates.pdf> <./Cap5/Figuras/candidates_plot/90_elbow_flue_pipe_can
 didates.pdf>]
-<Cap5/Figuras/candidates_with_gripper/failed_candidates.pdf, id=3263, 271.97609
+<Cap5/Figuras/candidates_with_gripper/failed_candidates.pdf, id=3266, 271.97609
 pt x 146.94899pt>
 File: Cap5/Figuras/candidates_with_gripper/failed_candidates.pdf Graphic file (
 type pdf)
@@ -3511,368 +3511,349 @@ Package pdftex.def Info: Cap5/Figuras/candidates_with_gripper/failed_candidates
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[94 <./Cap5/Figuras/candidates_plot/falange_piece_candidates.pdf> <./Cap5/Figur
+[92 <./Cap5/Figuras/candidates_plot/falange_piece_candidates.pdf> <./Cap5/Figur
 as/candidates_plot/bearing_holder_candidates.pdf> <./Cap5/Figuras/candidates_pl
 ot/rod_candidates.pdf>]
-<Cap5/Figuras/candidates_with_gripper/2f85_candidates.pdf, id=3300, 304.2567pt 
+<Cap5/Figuras/candidates_with_gripper/2f85_candidates.pdf, id=3305, 304.2567pt 
 x 176.33879pt>
 File: Cap5/Figuras/candidates_with_gripper/2f85_candidates.pdf Graphic file (ty
 pe pdf)
 <use Cap5/Figuras/candidates_with_gripper/2f85_candidates.pdf>
 Package pdftex.def Info: Cap5/Figuras/candidates_with_gripper/2f85_candidates.p
-df  used on input line 455.
+df  used on input line 456.
 (pdftex.def)             Requested size: 395.4934pt x 229.21886pt.
-<Cap5/Figuras/candidates_with_gripper/2f140_candidates.pdf, id=3302, 383.2719pt
+<Cap5/Figuras/candidates_with_gripper/2f140_candidates.pdf, id=3307, 383.2719pt
  x 101.6598pt>
 File: Cap5/Figuras/candidates_with_gripper/2f140_candidates.pdf Graphic file (t
 ype pdf)
 <use Cap5/Figuras/candidates_with_gripper/2f140_candidates.pdf>
 Package pdftex.def Info: Cap5/Figuras/candidates_with_gripper/2f140_candidates.
-pdf  used on input line 455.
+pdf  used on input line 456.
 (pdftex.def)             Requested size: 395.4934pt x 104.9062pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[95 <./Cap5/Figuras/candidates_with_gripper/failed_candidates.pdf>]
+[93 <./Cap5/Figuras/candidates_with_gripper/failed_candidates.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `tab:decision_time' on page 96 undefined on input line
- 492.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96 <./Cap5/Figuras/candidates_with_gripper/2f85_candidates.pdf> <./Cap5/Figur
-as/candidates_with_gripper/2f140_candidates.pdf>]
-<Cap5/Figuras/picking_mari4yard/capture_image.pdf, id=3359, 596.95016pt x 844.8
+ [94 <./Cap5/Figuras/candidates_with_gripper/2f85_candidates.pdf> <./Cap5/Figur
+as/candidates_with_gripper/2f140_candidates.pdf>] [95]
+<Cap5/Figuras/picking_mari4yard/capture_image.pdf, id=3376, 596.95016pt x 844.8
 3629pt>
 File: Cap5/Figuras/picking_mari4yard/capture_image.pdf Graphic file (type pdf)
 <use Cap5/Figuras/picking_mari4yard/capture_image.pdf>
 Package pdftex.def Info: Cap5/Figuras/picking_mari4yard/capture_image.pdf  used
- on input line 557.
+ on input line 558.
 (pdftex.def)             Requested size: 395.4934pt x 126.16183pt.
-<Cap5/Figuras/picking_mari4yard/object_detection.pdf, id=3361, 596.95016pt x 84
+<Cap5/Figuras/picking_mari4yard/object_detection.pdf, id=3378, 596.95016pt x 84
 4.83629pt>
 File: Cap5/Figuras/picking_mari4yard/object_detection.pdf Graphic file (type pd
 f)
 <use Cap5/Figuras/picking_mari4yard/object_detection.pdf>
 Package pdftex.def Info: Cap5/Figuras/picking_mari4yard/object_detection.pdf  u
-sed on input line 557.
+sed on input line 558.
 (pdftex.def)             Requested size: 395.4934pt x 126.16183pt.
-<Cap5/Figuras/picking_mari4yard/grasping_selection.pdf, id=3363, 596.95016pt x 
+<Cap5/Figuras/picking_mari4yard/grasping_selection.pdf, id=3380, 596.95016pt x 
 844.83629pt>
 File: Cap5/Figuras/picking_mari4yard/grasping_selection.pdf Graphic file (type 
 pdf)
 <use Cap5/Figuras/picking_mari4yard/grasping_selection.pdf>
 Package pdftex.def Info: Cap5/Figuras/picking_mari4yard/grasping_selection.pdf 
- used on input line 557.
+ used on input line 558.
 (pdftex.def)             Requested size: 395.4934pt x 182.71468pt.
-<Cap5/Figuras/picking_mari4yard/grasping.pdf, id=3365, 596.95016pt x 844.83629p
+<Cap5/Figuras/picking_mari4yard/grasping.pdf, id=3382, 596.95016pt x 844.83629p
 t>
 File: Cap5/Figuras/picking_mari4yard/grasping.pdf Graphic file (type pdf)
 <use Cap5/Figuras/picking_mari4yard/grasping.pdf>
 Package pdftex.def Info: Cap5/Figuras/picking_mari4yard/grasping.pdf  used on i
-nput line 557.
+nput line 558.
 (pdftex.def)             Requested size: 395.4934pt x 145.0128pt.
- [97]
-<Cap5/Figuras/picking_embraer//perception-1.jpg, id=3372, 1137.24875pt x 952.55
+<Cap5/Figuras/picking_embraer//perception-1.jpg, id=3384, 1137.24875pt x 952.55
 875pt>
 File: Cap5/Figuras/picking_embraer//perception-1.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer//perception-1.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer//perception-1.jpg  used o
-n input line 585.
+n input line 586.
 (pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/back-1.jpg, id=3373, 1520.68124pt x 1083.04625pt>
+<Cap5/Figuras/picking_embraer/back-1.jpg, id=3385, 1520.68124pt x 1083.04625pt>
 
 File: Cap5/Figuras/picking_embraer/back-1.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/back-1.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-1.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/side-1.jpg, id=3374, 1079.03125pt x 1084.05pt>
+<Cap5/Figuras/picking_embraer/side-1.jpg, id=3386, 1079.03125pt x 1084.05pt>
 File: Cap5/Figuras/picking_embraer/side-1.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/side-1.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-1.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/perception-2.jpg, id=3375, 1137.24875pt x 952.558
+<Cap5/Figuras/picking_embraer/perception-2.jpg, id=3387, 1137.24875pt x 952.558
 75pt>
 File: Cap5/Figuras/picking_embraer/perception-2.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/perception-2.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/perception-2.jpg  used on
- input line 585.
+ input line 586.
 (pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/back-2.jpg, id=3376, 1520.68124pt x 1083.04625pt>
+<Cap5/Figuras/picking_embraer/back-2.jpg, id=3388, 1520.68124pt x 1083.04625pt>
 
 File: Cap5/Figuras/picking_embraer/back-2.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/back-2.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-2.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/side-2.jpg, id=3377, 1079.03125pt x 1084.05pt>
+<Cap5/Figuras/picking_embraer/side-2.jpg, id=3389, 1079.03125pt x 1084.05pt>
 File: Cap5/Figuras/picking_embraer/side-2.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/side-2.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-2.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/perception-3.jpg, id=3378, 1137.24875pt x 952.558
+<Cap5/Figuras/picking_embraer/perception-3.jpg, id=3390, 1137.24875pt x 952.558
 75pt>
 File: Cap5/Figuras/picking_embraer/perception-3.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/perception-3.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/perception-3.jpg  used on
- input line 585.
+ input line 586.
 (pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/back-3.jpg, id=3379, 1520.68124pt x 1083.04625pt>
+<Cap5/Figuras/picking_embraer/back-3.jpg, id=3391, 1520.68124pt x 1083.04625pt>
 
 File: Cap5/Figuras/picking_embraer/back-3.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/back-3.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-3.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/side-3.jpg, id=3380, 1079.03125pt x 1084.05pt>
+<Cap5/Figuras/picking_embraer/side-3.jpg, id=3392, 1079.03125pt x 1084.05pt>
 File: Cap5/Figuras/picking_embraer/side-3.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/side-3.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-3.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/perception-4.jpg, id=3381, 1137.24875pt x 952.558
+<Cap5/Figuras/picking_embraer/perception-4.jpg, id=3393, 1137.24875pt x 952.558
 75pt>
 File: Cap5/Figuras/picking_embraer/perception-4.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/perception-4.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/perception-4.jpg  used on
- input line 585.
+ input line 586.
 (pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/back-4.jpg, id=3382, 1520.68124pt x 1083.04625pt>
+<Cap5/Figuras/picking_embraer/back-4.jpg, id=3394, 1520.68124pt x 1083.04625pt>
 
 File: Cap5/Figuras/picking_embraer/back-4.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/back-4.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-4.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/side-4.jpg, id=3383, 1079.03125pt x 1084.05pt>
+<Cap5/Figuras/picking_embraer/side-4.jpg, id=3395, 1079.03125pt x 1084.05pt>
 File: Cap5/Figuras/picking_embraer/side-4.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/side-4.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-4.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/perception-5.jpg, id=3384, 1137.24875pt x 952.558
+<Cap5/Figuras/picking_embraer/perception-5.jpg, id=3396, 1137.24875pt x 952.558
 75pt>
 File: Cap5/Figuras/picking_embraer/perception-5.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/perception-5.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/perception-5.jpg  used on
- input line 585.
+ input line 586.
 (pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/back-5.jpg, id=3385, 1520.68124pt x 1083.04625pt>
+<Cap5/Figuras/picking_embraer/back-5.jpg, id=3397, 1520.68124pt x 1083.04625pt>
 
 File: Cap5/Figuras/picking_embraer/back-5.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/back-5.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-5.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/side-5.jpg, id=3386, 1079.03125pt x 1084.05pt>
+<Cap5/Figuras/picking_embraer/side-5.jpg, id=3398, 1079.03125pt x 1084.05pt>
 File: Cap5/Figuras/picking_embraer/side-5.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/side-5.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-5.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/perception-6.jpg, id=3387, 1137.24875pt x 952.558
+<Cap5/Figuras/picking_embraer/perception-6.jpg, id=3399, 1137.24875pt x 952.558
 75pt>
 File: Cap5/Figuras/picking_embraer/perception-6.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/perception-6.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/perception-6.jpg  used on
- input line 585.
+ input line 586.
 (pdftex.def)             Requested size: 109.5321pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/back-6.jpg, id=3388, 1520.68124pt x 1083.04625pt>
+<Cap5/Figuras/picking_embraer/back-6.jpg, id=3400, 1520.68124pt x 1083.04625pt>
 
 File: Cap5/Figuras/picking_embraer/back-6.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/back-6.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/back-6.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 128.82692pt x 91.7564pt.
-<Cap5/Figuras/picking_embraer/side-6.jpg, id=3389, 1079.03125pt x 1084.05pt>
+<Cap5/Figuras/picking_embraer/side-6.jpg, id=3401, 1079.03125pt x 1084.05pt>
 File: Cap5/Figuras/picking_embraer/side-6.jpg Graphic file (type jpg)
 <use Cap5/Figuras/picking_embraer/side-6.jpg>
 Package pdftex.def Info: Cap5/Figuras/picking_embraer/side-6.jpg  used on input
- line 585.
+ line 586.
 (pdftex.def)             Requested size: 91.32951pt x 91.7564pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[98 <./Cap5/Figuras/picking_mari4yard/capture_image.pdf> <./Cap5/Figuras/pickin
-g_mari4yard/object_detection.pdf> <./Cap5/Figuras/picking_mari4yard/grasping_se
-lection.pdf> <./Cap5/Figuras/picking_mari4yard/grasping.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96 <./Cap5/Figuras/picking_mari4yard/capture_image.pdf> <./Cap5/Figuras/picki
+ng_mari4yard/object_detection.pdf> <./Cap5/Figuras/picking_mari4yard/grasping_s
+election.pdf> <./Cap5/Figuras/picking_mari4yard/grasping.pdf>] [97 <./Cap5/Figu
+ras/picking_embraer//perception-1.jpg> <./Cap5/Figuras/picking_embraer/back-1.j
+pg> <./Cap5/Figuras/picking_embraer/side-1.jpg> <./Cap5/Figuras/picking_embraer
+/perception-2.jpg> <./Cap5/Figuras/picking_embraer/back-2.jpg> <./Cap5/Figuras/
+picking_embraer/side-2.jpg> <./Cap5/Figuras/picking_embraer/perception-3.jpg> <
+./Cap5/Figuras/picking_embraer/back-3.jpg> <./Cap5/Figuras/picking_embraer/side
+-3.jpg> <./Cap5/Figuras/picking_embraer/perception-4.jpg> <./Cap5/Figuras/picki
+ng_embraer/back-4.jpg> <./Cap5/Figuras/picking_embraer/side-4.jpg> <./Cap5/Figu
+ras/picking_embraer/perception-5.jpg> <./Cap5/Figuras/picking_embraer/back-5.jp
+g> <./Cap5/Figuras/picking_embraer/side-5.jpg> <./Cap5/Figuras/picking_embraer/
+perception-6.jpg> <./Cap5/Figuras/picking_embraer/back-6.jpg> <./Cap5/Figuras/p
+icking_embraer/side-6.jpg>]
 File: Cap4/Figuras/photo_use_case_overview_labeled.pdf Graphic file (type pdf)
 <use Cap4/Figuras/photo_use_case_overview_labeled.pdf>
 Package pdftex.def Info: Cap4/Figuras/photo_use_case_overview_labeled.pdf  used
- on input line 627.
+ on input line 628.
 (pdftex.def)             Requested size: 316.39592pt x 145.2699pt.
-<Cap4/Figuras/photo_use_case_overview_flashing.pdf, id=3435, 460.6008pt x 214.4
+<Cap4/Figuras/photo_use_case_overview_flashing.pdf, id=3452, 460.6008pt x 214.4
 01pt>
 File: Cap4/Figuras/photo_use_case_overview_flashing.pdf Graphic file (type pdf)
 
 <use Cap4/Figuras/photo_use_case_overview_flashing.pdf>
 Package pdftex.def Info: Cap4/Figuras/photo_use_case_overview_flashing.pdf  use
-d on input line 627.
+d on input line 628.
 (pdftex.def)             Requested size: 316.39592pt x 147.276pt.
-<Cap4/Figuras/photo_use_case_overview_demo.pdf, id=3436, 460.6008pt x 214.401pt
+<Cap4/Figuras/photo_use_case_overview_demo.pdf, id=3453, 460.6008pt x 214.401pt
 >
 File: Cap4/Figuras/photo_use_case_overview_demo.pdf Graphic file (type pdf)
 <use Cap4/Figuras/photo_use_case_overview_demo.pdf>
 Package pdftex.def Info: Cap4/Figuras/photo_use_case_overview_demo.pdf  used on
- input line 627.
+ input line 628.
 (pdftex.def)             Requested size: 316.39592pt x 147.276pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 2582) has occurred while \output is active []
-
- [99 <./Cap5/Figuras/picking_embraer//perception-1.jpg> <./Cap5/Figuras/picking
-_embraer/back-1.jpg> <./Cap5/Figuras/picking_embraer/side-1.jpg> <./Cap5/Figura
-s/picking_embraer/perception-2.jpg> <./Cap5/Figuras/picking_embraer/back-2.jpg>
- <./Cap5/Figuras/picking_embraer/side-2.jpg> <./Cap5/Figuras/picking_embraer/pe
-rception-3.jpg> <./Cap5/Figuras/picking_embraer/back-3.jpg> <./Cap5/Figuras/pic
-king_embraer/side-3.jpg> <./Cap5/Figuras/picking_embraer/perception-4.jpg> <./C
-ap5/Figuras/picking_embraer/back-4.jpg> <./Cap5/Figuras/picking_embraer/side-4.
-jpg> <./Cap5/Figuras/picking_embraer/perception-5.jpg> <./Cap5/Figuras/picking_
-embraer/back-5.jpg> <./Cap5/Figuras/picking_embraer/side-5.jpg> <./Cap5/Figuras
-/picking_embraer/perception-6.jpg> <./Cap5/Figuras/picking_embraer/back-6.jpg> 
-<./Cap5/Figuras/picking_embraer/side-6.jpg>]
-Underfull \vbox (badness 2503) has occurred while \output is active []
-
- [100 <./Cap4/Figuras/photo_use_case_overview_flashing.pdf> <./Cap4/Figuras/pho
-to_use_case_overview_demo.pdf
+ [98 <./Cap4/Figuras/photo_use_case_overview_flashing.pdf> <./Cap4/Figuras/phot
+o_use_case_overview_demo.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Cap4/Figuras/photo_use_case_overview_demo.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Cap5/Figuras/linear_gt2.pdf, id=3463, 844.83629pt x 596.95016pt>
+<Cap5/Figuras/linear_gt2.pdf, id=3478, 844.83629pt x 596.95016pt>
 File: Cap5/Figuras/linear_gt2.pdf Graphic file (type pdf)
 <use Cap5/Figuras/linear_gt2.pdf>
-Package pdftex.def Info: Cap5/Figuras/linear_gt2.pdf  used on input line 654.
+Package pdftex.def Info: Cap5/Figuras/linear_gt2.pdf  used on input line 657.
 (pdftex.def)             Requested size: 191.81453pt x 184.0961pt.
-<Cap5/Figuras/angular_gt2.pdf, id=3465, 844.83629pt x 596.95016pt>
+<Cap5/Figuras/angular_gt2.pdf, id=3480, 844.83629pt x 596.95016pt>
 File: Cap5/Figuras/angular_gt2.pdf Graphic file (type pdf)
 <use Cap5/Figuras/angular_gt2.pdf>
-Package pdftex.def Info: Cap5/Figuras/angular_gt2.pdf  used on input line 654.
+Package pdftex.def Info: Cap5/Figuras/angular_gt2.pdf  used on input line 657.
 (pdftex.def)             Requested size: 191.81453pt x 184.0961pt.
-<Cap5/Figuras/ponta_prova_thin.pdf, id=3467, 459.6372pt x 397.485pt>
+<Cap5/Figuras/ponta_prova_thin.pdf, id=3482, 459.6372pt x 397.485pt>
 File: Cap5/Figuras/ponta_prova_thin.pdf Graphic file (type pdf)
 <use Cap5/Figuras/ponta_prova_thin.pdf>
 Package pdftex.def Info: Cap5/Figuras/ponta_prova_thin.pdf  used on input line 
-685.
-(pdftex.def)             Requested size: 118.64922pt x 116.25824pt.
-<Cap5/Figuras/ponta_prova_surface.pdf, id=3469, 455.78279pt x 322.0833pt>
+688.
+(pdftex.def)             Requested size: 118.64922pt x 109.77786pt.
+<Cap5/Figuras/ponta_prova_surface.pdf, id=3484, 455.78279pt x 322.0833pt>
 File: Cap5/Figuras/ponta_prova_surface.pdf Graphic file (type pdf)
 <use Cap5/Figuras/ponta_prova_surface.pdf>
 Package pdftex.def Info: Cap5/Figuras/ponta_prova_surface.pdf  used on input li
-ne 685.
+ne 688.
 (pdftex.def)             Requested size: 118.64922pt x 123.10495pt.
-<Cap5/Figuras/ponta_prova_yaw.pdf, id=3471, 349.7868pt x 356.29109pt>
+<Cap5/Figuras/ponta_prova_yaw.pdf, id=3486, 349.7868pt x 356.29109pt>
 File: Cap5/Figuras/ponta_prova_yaw.pdf Graphic file (type pdf)
 <use Cap5/Figuras/ponta_prova_yaw.pdf>
 Package pdftex.def Info: Cap5/Figuras/ponta_prova_yaw.pdf  used on input line 6
-85.
+88.
 (pdftex.def)             Requested size: 98.87334pt x 103.1469pt.
- [101 <./Cap5/Figuras/linear_gt2.pdf> <./Cap5/Figuras/angular_gt2.pdf> <./Cap5/
-Figuras/ponta_prova_thin.pdf> <./Cap5/Figuras/ponta_prova_surface.pdf> <./Cap5/
-Figuras/ponta_prova_yaw.pdf>]
-<Cap5/Figuras/demo_x_axis.pdf, id=3529, 227.1687pt x 79.9788pt>
+ [99 <./Cap5/Figuras/linear_gt2.pdf> <./Cap5/Figuras/angular_gt2.pdf> <./Cap5/F
+iguras/ponta_prova_thin.pdf> <./Cap5/Figuras/ponta_prova_surface.pdf> <./Cap5/F
+iguras/ponta_prova_yaw.pdf>]
+<Cap5/Figuras/demo_x_axis.pdf, id=3544, 227.1687pt x 79.9788pt>
 File: Cap5/Figuras/demo_x_axis.pdf Graphic file (type pdf)
 <use Cap5/Figuras/demo_x_axis.pdf>
-Package pdftex.def Info: Cap5/Figuras/demo_x_axis.pdf  used on input line 718.
+Package pdftex.def Info: Cap5/Figuras/demo_x_axis.pdf  used on input line 721.
 (pdftex.def)             Requested size: 395.4934pt x 139.24742pt.
-<Cap5/Figuras/demo_y_axis.pdf, id=3531, 226.9278pt x 79.9788pt>
+<Cap5/Figuras/demo_y_axis.pdf, id=3546, 226.9278pt x 79.9788pt>
 File: Cap5/Figuras/demo_y_axis.pdf Graphic file (type pdf)
 <use Cap5/Figuras/demo_y_axis.pdf>
-Package pdftex.def Info: Cap5/Figuras/demo_y_axis.pdf  used on input line 718.
+Package pdftex.def Info: Cap5/Figuras/demo_y_axis.pdf  used on input line 721.
 (pdftex.def)             Requested size: 395.4934pt x 139.40118pt.
-<Cap5/Figuras/demo_z_axis.pdf, id=3533, 227.1687pt x 79.9788pt>
+<Cap5/Figuras/demo_z_axis.pdf, id=3548, 227.1687pt x 79.9788pt>
 File: Cap5/Figuras/demo_z_axis.pdf Graphic file (type pdf)
 <use Cap5/Figuras/demo_z_axis.pdf>
-Package pdftex.def Info: Cap5/Figuras/demo_z_axis.pdf  used on input line 718.
+Package pdftex.def Info: Cap5/Figuras/demo_z_axis.pdf  used on input line 721.
 (pdftex.def)             Requested size: 395.4934pt x 139.24742pt.
-<Cap5/Figuras/demo_roll_axis.pdf, id=3535, 259.93109pt x 71.5473pt>
+<Cap5/Figuras/demo_roll_axis.pdf, id=3550, 259.93109pt x 71.5473pt>
 File: Cap5/Figuras/demo_roll_axis.pdf Graphic file (type pdf)
 <use Cap5/Figuras/demo_roll_axis.pdf>
-Package pdftex.def Info: Cap5/Figuras/demo_roll_axis.pdf  used on input line 74
-8.
+Package pdftex.def Info: Cap5/Figuras/demo_roll_axis.pdf  used on input line 75
+1.
 (pdftex.def)             Requested size: 395.4934pt x 108.8709pt.
-<Cap5/Figuras/demo_pitch_axis.pdf, id=3537, 259.93109pt x 71.7882pt>
+<Cap5/Figuras/demo_pitch_axis.pdf, id=3552, 259.93109pt x 71.7882pt>
 File: Cap5/Figuras/demo_pitch_axis.pdf Graphic file (type pdf)
 <use Cap5/Figuras/demo_pitch_axis.pdf>
 Package pdftex.def Info: Cap5/Figuras/demo_pitch_axis.pdf  used on input line 7
-48.
+51.
 (pdftex.def)             Requested size: 395.4934pt x 109.23744pt.
-<Cap5/Figuras/demo_yaw_axis.pdf, id=3539, 259.93109pt x 71.7882pt>
+<Cap5/Figuras/demo_yaw_axis.pdf, id=3554, 259.93109pt x 71.7882pt>
 File: Cap5/Figuras/demo_yaw_axis.pdf Graphic file (type pdf)
 <use Cap5/Figuras/demo_yaw_axis.pdf>
-Package pdftex.def Info: Cap5/Figuras/demo_yaw_axis.pdf  used on input line 748
+Package pdftex.def Info: Cap5/Figuras/demo_yaw_axis.pdf  used on input line 751
 .
 (pdftex.def)             Requested size: 395.4934pt x 109.23744pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:mimic_grapsing_linear_regression_linear' on page 
-102 undefined on input line 751.
-
-<Cap5/Figuras/x_correction_asses.pdf, id=3543, 399.018pt x 199.947pt>
+<Cap5/Figuras/x_correction_asses.pdf, id=3558, 399.018pt x 199.947pt>
 File: Cap5/Figuras/x_correction_asses.pdf Graphic file (type pdf)
 <use Cap5/Figuras/x_correction_asses.pdf>
 Package pdftex.def Info: Cap5/Figuras/x_correction_asses.pdf  used on input lin
-e 801.
+e 804.
 (pdftex.def)             Requested size: 191.81453pt x 96.11685pt.
-<Cap5/Figuras/y_correction_asses.pdf, id=3544, 400.55103pt x 199.947pt>
+<Cap5/Figuras/y_correction_asses.pdf, id=3559, 400.55103pt x 199.947pt>
 File: Cap5/Figuras/y_correction_asses.pdf Graphic file (type pdf)
 <use Cap5/Figuras/y_correction_asses.pdf>
 Package pdftex.def Info: Cap5/Figuras/y_correction_asses.pdf  used on input lin
-e 801.
+e 804.
 (pdftex.def)             Requested size: 191.81453pt x 95.7477pt.
-<Cap5/Figuras/z_correction_asses.pdf, id=3545, 400.77pt x 199.728pt>
+<Cap5/Figuras/z_correction_asses.pdf, id=3560, 400.77pt x 199.728pt>
 File: Cap5/Figuras/z_correction_asses.pdf Graphic file (type pdf)
 <use Cap5/Figuras/z_correction_asses.pdf>
 Package pdftex.def Info: Cap5/Figuras/z_correction_asses.pdf  used on input lin
-e 801.
+e 804.
 (pdftex.def)             Requested size: 191.81453pt x 95.591pt.
-<Cap5/Figuras/roll_correction_asses.pdf, id=3546, 400.77pt x 199.947pt>
+<Cap5/Figuras/roll_correction_asses.pdf, id=3561, 400.77pt x 199.947pt>
 File: Cap5/Figuras/roll_correction_asses.pdf Graphic file (type pdf)
 <use Cap5/Figuras/roll_correction_asses.pdf>
 Package pdftex.def Info: Cap5/Figuras/roll_correction_asses.pdf  used on input 
-line 801.
+line 804.
 (pdftex.def)             Requested size: 191.81453pt x 95.69583pt.
-<Cap5/Figuras/pitch_correction_asses.pdf, id=3547, 400.55103pt x 199.947pt>
+<Cap5/Figuras/pitch_correction_asses.pdf, id=3562, 400.55103pt x 199.947pt>
 File: Cap5/Figuras/pitch_correction_asses.pdf Graphic file (type pdf)
 <use Cap5/Figuras/pitch_correction_asses.pdf>
 Package pdftex.def Info: Cap5/Figuras/pitch_correction_asses.pdf  used on input
- line 801.
+ line 804.
 (pdftex.def)             Requested size: 191.81453pt x 95.7477pt.
-<Cap5/Figuras/yaw_correction_asses.pdf, id=3548, 400.77pt x 199.947pt>
+<Cap5/Figuras/yaw_correction_asses.pdf, id=3563, 400.77pt x 199.947pt>
 File: Cap5/Figuras/yaw_correction_asses.pdf Graphic file (type pdf)
 <use Cap5/Figuras/yaw_correction_asses.pdf>
 Package pdftex.def Info: Cap5/Figuras/yaw_correction_asses.pdf  used on input l
-ine 801.
+ine 804.
 (pdftex.def)             Requested size: 191.81453pt x 95.69583pt.
+[100 <./Cap5/Figuras/demo_x_axis.pdf> <./Cap5/Figuras/demo_y_axis.pdf> <./Cap5/
+Figuras/demo_z_axis.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[102 <./Cap5/Figuras/demo_x_axis.pdf> <./Cap5/Figuras/demo_y_axis.pdf> <./Cap5/
-Figuras/demo_z_axis.pdf>] [103 <./Cap5/Figuras/demo_roll_axis.pdf> <./Cap5/Figu
-ras/demo_pitch_axis.pdf> <./Cap5/Figuras/demo_yaw_axis.pdf>]
-
-LaTeX Warning: Reference `fig:mimic_grapsing_final_error' on page 104 undefined
- on input line 837.
-
-
+[101 <./Cap5/Figuras/demo_roll_axis.pdf> <./Cap5/Figuras/demo_pitch_axis.pdf> <
+./Cap5/Figuras/demo_yaw_axis.pdf>]
 Underfull \vbox (badness 5388) has occurred while \output is active []
 
- [104 <./Cap5/Figuras/x_correction_asses.pdf> <./Cap5/Figuras/y_correction_asse
+ [102 <./Cap5/Figuras/x_correction_asses.pdf> <./Cap5/Figuras/y_correction_asse
 s.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/y_correction_asses.pdf): PDF 
@@ -3894,58 +3875,37 @@ PDF inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/yaw_correction_asses.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >]
-<Cap5/Figuras/x.pdf, id=3660, 399.018pt x 199.947pt>
+<Cap5/Figuras/x.pdf, id=3676, 399.018pt x 199.947pt>
 File: Cap5/Figuras/x.pdf Graphic file (type pdf)
 <use Cap5/Figuras/x.pdf>
-Package pdftex.def Info: Cap5/Figuras/x.pdf  used on input line 888.
+Package pdftex.def Info: Cap5/Figuras/x.pdf  used on input line 891.
 (pdftex.def)             Requested size: 191.81453pt x 96.11685pt.
-<Cap5/Figuras/y.pdf, id=3661, 399.018pt x 199.728pt>
+<Cap5/Figuras/y.pdf, id=3677, 399.018pt x 199.728pt>
 File: Cap5/Figuras/y.pdf Graphic file (type pdf)
 <use Cap5/Figuras/y.pdf>
-Package pdftex.def Info: Cap5/Figuras/y.pdf  used on input line 888.
+Package pdftex.def Info: Cap5/Figuras/y.pdf  used on input line 891.
 (pdftex.def)             Requested size: 191.81453pt x 96.01157pt.
-<Cap5/Figuras/z.pdf, id=3662, 399.018pt x 199.947pt>
+<Cap5/Figuras/z.pdf, id=3678, 399.018pt x 199.947pt>
 File: Cap5/Figuras/z.pdf Graphic file (type pdf)
 <use Cap5/Figuras/z.pdf>
-Package pdftex.def Info: Cap5/Figuras/z.pdf  used on input line 888.
+Package pdftex.def Info: Cap5/Figuras/z.pdf  used on input line 891.
 (pdftex.def)             Requested size: 191.81453pt x 96.11685pt.
-<Cap5/Figuras/roll.pdf, id=3663, 377.994pt x 215.058pt>
+<Cap5/Figuras/roll.pdf, id=3679, 377.994pt x 215.058pt>
 File: Cap5/Figuras/roll.pdf Graphic file (type pdf)
 <use Cap5/Figuras/roll.pdf>
-Package pdftex.def Info: Cap5/Figuras/roll.pdf  used on input line 888.
+Package pdftex.def Info: Cap5/Figuras/roll.pdf  used on input line 891.
 (pdftex.def)             Requested size: 191.81453pt x 109.13339pt.
-<Cap5/Figuras/pitch.pdf, id=3664, 382.593pt x 215.934pt>
+<Cap5/Figuras/pitch.pdf, id=3680, 382.593pt x 215.934pt>
 File: Cap5/Figuras/pitch.pdf Graphic file (type pdf)
 <use Cap5/Figuras/pitch.pdf>
-Package pdftex.def Info: Cap5/Figuras/pitch.pdf  used on input line 888.
+Package pdftex.def Info: Cap5/Figuras/pitch.pdf  used on input line 891.
 (pdftex.def)             Requested size: 191.81453pt x 108.26328pt.
-<Cap5/Figuras/yaw.pdf, id=3665, 380.841pt x 215.058pt>
+<Cap5/Figuras/yaw.pdf, id=3681, 380.841pt x 215.058pt>
 File: Cap5/Figuras/yaw.pdf Graphic file (type pdf)
 <use Cap5/Figuras/yaw.pdf>
-Package pdftex.def Info: Cap5/Figuras/yaw.pdf  used on input line 888.
+Package pdftex.def Info: Cap5/Figuras/yaw.pdf  used on input line 891.
 (pdftex.def)             Requested size: 191.81453pt x 108.31956pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/demo_02.pdf): PDF inclusion: 
-found PDF version <1.7>, but at most version <1.5> allowed
-<Cap5/Figuras/demo_02.pdf, id=3670, 542.025pt x 782.925pt>
-File: Cap5/Figuras/demo_02.pdf Graphic file (type pdf)
-<use Cap5/Figuras/demo_02.pdf>
-Package pdftex.def Info: Cap5/Figuras/demo_02.pdf  used on input line 926.
-(pdftex.def)             Requested size: 195.76729pt x 381.20946pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/demo_01.pdf): PDF inclusion: 
-found PDF version <1.7>, but at most version <1.5> allowed
-<Cap5/Figuras/demo_01.pdf, id=3672, 542.025pt x 782.925pt>
-File: Cap5/Figuras/demo_01.pdf Graphic file (type pdf)
-<use Cap5/Figuras/demo_01.pdf>
-Package pdftex.def Info: Cap5/Figuras/demo_01.pdf  used on input line 926.
-(pdftex.def)             Requested size: 195.76729pt x 381.20946pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [105 <./Cap5/Figuras/x.pdf> <./Cap5/Figuras/y.pdf
+ [103 <./Cap5/Figuras/x.pdf> <./Cap5/Figuras/y.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/y.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
@@ -3965,7 +3925,25 @@ ltiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/yaw.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->] [106 <./Cap5/Figuras/demo_02.pdf> <./Cap5/Figuras/demo_01.pdf>]
+>]
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/demo_02.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<Cap5/Figuras/demo_02.pdf, id=3721, 542.025pt x 782.925pt>
+File: Cap5/Figuras/demo_02.pdf Graphic file (type pdf)
+<use Cap5/Figuras/demo_02.pdf>
+Package pdftex.def Info: Cap5/Figuras/demo_02.pdf  used on input line 929.
+(pdftex.def)             Requested size: 195.76729pt x 381.20946pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Cap5/Figuras/demo_01.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<Cap5/Figuras/demo_01.pdf, id=3723, 542.025pt x 782.925pt>
+File: Cap5/Figuras/demo_01.pdf Graphic file (type pdf)
+<use Cap5/Figuras/demo_01.pdf>
+Package pdftex.def Info: Cap5/Figuras/demo_01.pdf  used on input line 929.
+(pdftex.def)             Requested size: 195.76729pt x 381.20946pt.
+) [104 <./Cap5/Figuras/demo_02.pdf> <./Cap5/Figuras/demo_01.pdf>]
 \openout2 = `Cap6/conclusion.aux'.
 
 
@@ -3979,18 +3957,13 @@ Overfull \hbox (7.62474pt too wide) in paragraph at lines 1--1
 
 Underfull \vbox (badness 1975) has occurred while \output is active []
 
- [107
+ [105
 
 
 
 
 ]
-Underfull \hbox (badness 1184) in paragraph at lines 22--23
-\OT1/cmr/m/n/12 dataset. An im-prove-ment could be the ad-di-tion of a AI and a
- ma-chine
- []
-
-[108]) [109] [110
+[106]) [107] [108
 
 
 
@@ -4000,7 +3973,7 @@ Underfull \hbox (badness 1112) in paragraph at lines 379--379
 tal Ap-pli-ca-tions\OT1/cmr/m/n/12 .
  []
 
-[111
+[109
 
 ]
 Underfull \hbox (badness 1354) in paragraph at lines 379--379
@@ -4026,13 +3999,13 @@ Underfull \hbox (badness 4279) in paragraph at lines 379--379
 m/it/12 In-dus-trial Robot: the
  []
 
-[112]
+[110]
 Underfull \hbox (badness 2495) in paragraph at lines 379--379
 \OT1/cmr/m/n/12 Multi-grasp De-tec-tion''. In: \OT1/cmr/m/it/12 IEEE Robotics a
 nd Au-toma-tion Let-ters \OT1/cmr/m/n/12 3.4,
  []
 
-[113] [114]
+[111] [112]
 Underfull \hbox (badness 2368) in paragraph at lines 379--379
 \OT1/cmr/m/n/12 based on Ro-bust-ness Clas-si-fier''. In: \OT1/cmr/m/it/12 IEEE
  In-ter-na-tional Con-fer-ence on
@@ -4044,32 +4017,32 @@ Underfull \hbox (badness 3250) in paragraph at lines 379--379
  Lec-ture Notes in
  []
 
-[115]
+[113]
 Underfull \hbox (badness 1383) in paragraph at lines 379--379
 \OT1/cmr/m/n/12 ma-nip-u-la-tion''. In: \OT1/cmr/m/it/12 2016 IEEE In-ter-na-ti
 onal Con-fer-ence on Robotics and
  []
 
-[116]
+[114]
 Underfull \hbox (badness 1102) in paragraph at lines 379--379
 [][]\OT1/cmr/m/n/12 Krizhevsky, Alex, Ilya Sutskever, and Ge-of-frey E Hin-ton 
 (2012). ``Im-a-genet
  []
 
-[117]
+[115]
 Underfull \hbox (badness 1097) in paragraph at lines 379--379
 [][]\OT1/cmr/m/n/12 Magnetics, Goudsmit (2022). \OT1/cmr/m/it/12 Mag-netic grip
 -pers\OT1/cmr/m/n/12 . (Ac-cessed 2022-05-06). \OT1/cmr/m/sc/12 url\OT1/cmr/m/n
 /12 :
  []
 
-[118]
+[116]
 Underfull \hbox (badness 3039) in paragraph at lines 379--379
 \OT1/cmr/m/n/12 lo-cal-iza-tion for a hu-manoid robot with five-fingered hands'
 '. In: \OT1/cmr/m/it/12 2006
  []
 
-[119]
+[117]
 Underfull \hbox (badness 2245) in paragraph at lines 379--379
 \OT1/cmr/m/n/12 Vari-a-tional Grasp Gen-er-a-tion for Ob-ject Ma-nip-u-la-tion'
 '. In: \OT1/cmr/m/it/12 The IEEE
@@ -4081,19 +4054,19 @@ Underfull \hbox (badness 2393) in paragraph at lines 379--379
 mat-i-cal in-tro-duc-tion to robotic
  []
 
-[120]
+[118]
 Underfull \hbox (badness 10000) in paragraph at lines 379--379
 [][]\OT1/cmr/m/it/12 Produtech 4S&C. \OT1/cmr/m/n/12 (Aug. 2022). (Ac-cessed 20
 22-08-01). PRO-GRA-MAS
  []
 
-[121]
+[119]
 Underfull \hbox (badness 1478) in paragraph at lines 379--379
 [][]\OT1/cmr/m/n/12 Rezzoug, Nasser and Philippe Gorce (2002). ``A mul-ti-stage
  neu-ral net-work
  []
 
-[122]
+[120]
 Underfull \hbox (badness 2418) in paragraph at lines 379--379
 [][]\OT1/cmr/m/n/12 Seita, Daniel et al. (2016). ``Large-scale su-per-vised lea
 rn-ing of the grasp
@@ -4105,19 +4078,19 @@ Underfull \hbox (badness 1142) in paragraph at lines 379--379
 /cmr/m/it/12 In-dus-trial Robot: the
  []
 
-[123]
+[121]
 Underfull \hbox (badness 3219) in paragraph at lines 379--379
 [][]\OT1/cmr/m/n/12 Suleman, Muham-mad Umar and Mian M Awais (2011). ``Learn-in
 g from
  []
 
-
+[122]
 Underfull \hbox (badness 1377) in paragraph at lines 379--379
 \OT1/cmr/m/n/12 with Self-Supervised Deep Re-in-force-ment Learn-ing''. In: \OT
 1/cmr/m/it/12 2018 IEEE/RSJ
  []
 
-[124] [125] [126
+[123] [124
 
 ]
 \openout2 = `Apendices/main.aux'.
@@ -4129,7 +4102,7 @@ Overfull \hbox (21.79448pt too wide) in paragraph at lines 20--20
  [][]\T1/phv/b/n/85.35826 A[] 
  []
 
-[127
+[125
 
 
 ] (Apendices/handler_electronic.tex
@@ -4137,12 +4110,12 @@ Overfull \hbox (21.79448pt too wide) in paragraph at lines 20--20
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
 
-<Apendices/Figuras/circuit.pdf, id=4044, 863.225pt x 622.325pt>
+<Apendices/Figuras/circuit.pdf, id=4062, 863.225pt x 622.325pt>
 File: Apendices/Figuras/circuit.pdf Graphic file (type pdf)
 <use Apendices/Figuras/circuit.pdf>
 Package pdftex.def Info: Apendices/Figuras/circuit.pdf  used on input line 13.
 (pdftex.def)             Requested size: 533.48917pt x 384.62202pt.
-)) [128
+)) [126
 
  <./Apendices/Figuras/circuit.pdf>]
 No file MyThesis.ind.
@@ -4163,22 +4136,18 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `MyThesis.out' has not changed.
 (rerunfilecheck)             Checksum: EB1D67A075CA11C90728D9C9A278C282;9357.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'MyThesis.run.xml'.
 \openout1 = `MyThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50137 strings out of 478338
- 1066433 string characters out of 2834812
- 1873920 words of memory out of 3000000
- 66620 multiletter control sequences out of 15000+600000
+ 50129 strings out of 478338
+ 1066097 string characters out of 2834812
+ 1873444 words of memory out of 3000000
+ 66612 multiletter control sequences out of 15000+600000
  492406 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,21n,108p,2071b,3260s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 101i,21n,108p,2098b,3260s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\JoaoPedro\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcbx1200.pk> <C:\Users\JoaoPedro\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
 ec/dpi600\tcss0900.pk>{C:/Users/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/e
@@ -4218,9 +4187,9 @@ grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/JoaoPedro/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Use
 rs/JoaoPedro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
 
-Output written on MyThesis.pdf (163 pages, 48528567 bytes).
+Output written on MyThesis.pdf (161 pages, 48533458 bytes).
 PDF statistics:
- 4371 PDF objects out of 5155 (max. 8388607)
+ 4388 PDF objects out of 5155 (max. 8388607)
  853 named destinations out of 1000 (max. 500000)
  1673 words of extra memory for PDF output out of 10000 (max. 10000000)
 

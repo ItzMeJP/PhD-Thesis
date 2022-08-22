@@ -181,7 +181,7 @@ An arbitrary number of contact points are selected for the contact model, these 
 }%end resize box
 \end{figure}
 
-In the presented use cases, the grippers have only one \textit{eingengrasp} (Section~\ref{ap:sim_ann}), simplifying the convergence of the \ac{SANN} algorithm. This approach is adequate to model all joint movement as only one group since the gripper does not have independent fingers and only performs the opening-closing procedure.
+In the presented use cases, the grippers have only one \textit{eingengrasp} (Section~\ref{sec:sim_ann}), simplifying the convergence of the \ac{SANN} algorithm. This approach is adequate to model all joint movement as only one group since the gripper does not have independent fingers and only performs the opening-closing procedure.
 
 
 The candidate's dataset build starts by setting the active pair for each project. Additionally, a fine-tuning of \ac{SANN} parameters is also configured according to the definitions of Section~\ref{sec:sim_ann} and~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit}. 
@@ -192,9 +192,9 @@ The candidate's dataset build starts by setting the active pair for each project
 
 %The Grasping Viewer interface (seen in Figure~\ref{fig:bracket}) shows the progress of grasp finding for each iteration.
 %The Figure~\ref{fig:grasping_graspit_module_workflow} present At the end of each \ac{SANN}, a set of good grasps is stored and a new simulation is launched until the maximum iterations are reached. 
-After the grasping synthesis process executed all iterations of the optimization algorithm, the ``Post-processor'' pipeline is called by setting the distance filter, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:distance_filter}, which evaluates all grasping candidates and eliminates redundant grasping poses. This pipeline merges candidates that are close to each other by angular and linear distance based on configurable thresholds. It also deployed the \ac{TCP} angle twin heuristics (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:tcp_angle_twin}) because the grippers are $180^o$ symmetric over attack axis and duplicating each candidate increases the dataset diversity. The object angle twin, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:obj_angle_twin} is also used in the case of symmetric objects, such as falange piece, bearing holder and rod objects. This heuristic saves processing time by avoiding excessive optimization iterations.
+After the grasping synthesis process executed all iterations of the optimisation algorithm, the ``Post-processor'' pipeline is called by setting the distance filter, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:distance_filter}, which evaluates all grasping candidates and eliminates redundant grasping poses. This pipeline merges candidates that are close to each other by angular and linear distance based on configurable thresholds. It also deployed the \ac{TCP} angle twin heuristics (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:tcp_angle_twin}) because the grippers are $180^o$ symmetric over attack axis and duplicating each candidate increases the dataset diversity. The object angle twin, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:obj_angle_twin} is also used in the case of symmetric objects, such as falange piece, bearing holder and rod objects. This heuristic saves processing time by avoiding excessive optimisation iterations.
 
-The Figures~\ref{fig:obj_fasten}~\ref{fig:obj_mari4yard} and ~\ref{fig:obj_produtech} elucidate the generated dataset for all projects objects. The candidates are presented in the format of 3D frames over the work object. These dataset are exported in the proposed standard, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset} and deployed in the robot. Later, these datasets will be used by the robot, namely by the ``Grasping Selection'' pipeline, in run-time grasping operation.
+The Figures~\ref{fig:obj_fasten},~\ref{fig:obj_mari4yard} and ~\ref{fig:obj_produtech} elucidate the generated dataset for all projects objects. The candidates are presented in the format of 3D frames over the working object. These dataset are exported in the proposed standard, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}, and deployed in the robot which will be used by the embedded ``Grasping Selection'' pipeline, in run-time grasping operation.
 
  \begin{figure}[h!]
  \resizebox{.8\textwidth}{!}{%
@@ -314,7 +314,7 @@ The Figures~\ref{fig:obj_fasten}~\ref{fig:obj_mari4yard} and ~\ref{fig:obj_produ
    }%end of resize box      
  \end{figure}
 
-Table~\ref{tab:grasping_synthesis_performance} presents the elapsed time and the candidate dataset's size for each object. The computer setup to build the dataset in Fasten objects is a medium-end computer with 12GB of RAM and 1.80GHz CPU (i7-8550U); for Mari4Yard and Produtech 4S\&C a better-end computer with 16GB of RAM and 2.60GHz CPU (i7-10750H). It is important to note that these PCs are not the ones embedded in the robot. The \ac{SANN} iterations are different according to the size and shape complexity of each piece, e.g. the multi-side bracket which possesses small (the seven lateral lumps) and large (the base) graspable surfaces. In that case, the \ac{SANN} tends to converge to the largest region, i.e., to the easiest graspable part of the object shape. Therefore, a higher number of iterations may improve the detection of small graspable regions since the initial gripper's position can avoid the recurrence of the minima local problem.
+Table~\ref{tab:grasping_synthesis_performance} presents the elapsed time and the candidate dataset's size for each object. The computer setup to build the dataset in Fasten objects is a medium-end computer with 12GB of RAM and 1.80GHz CPU (i7-8550U); for Mari4Yard and Produtech 4S\&C a better-end computer with 16GB of RAM and 2.60GHz CPU (i7-10750H). It is important to note that these PCs are not the ones embedded in the robot. The \ac{SANN} iterations are different according to the size and shape complexity of each piece, e.g. in the case of the multi-side bracket, which possesses small (the seven lateral lumps) and large (the base) graspable surfaces, the \ac{SANN} tends to converge to the largest region, i.e., to the easiest graspable part of the object shape. Therefore, a higher number of iterations may improve the detection of small graspable regions since the initial gripper's position can avoid the recurrence of the minima local problem.
 
 \begin{table}[h!]
 \resizebox{.65\textwidth}{!}{%
@@ -357,7 +357,7 @@ It is also important to consider the \ac{ICR} model presented in Figure~\ref{fig
 }%end resizebox
 \end{figure}
 
-Therefore, it is important that a human supervisor, with the developed grasping viewer ``Post-processor'' (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:viewers}) analyses and selects the grasps hypothesis to be applied in the real scenario. This led to the \acl{GPSR} evaluation proposed in the current thesis where the ground-truth is the human supervisor. The \ac{GPSR} for each used object is presented in Table~\ref{tab:grasping_synthesis_gpsr}. Figure~\ref{fig:candidates_plot} shows some successful example candidates.
+Therefore, it is important that a human supervisor, with the developed grasping viewer ``Post-processor'' (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:viewers}) analyses and selects the grasps hypothesis to be applied in the real scenario. This led to the \ac{GPSR} evaluation proposed in the current thesis where the ground-truth is the human supervisor. The \ac{GPSR} for each used object is presented in Table~\ref{tab:grasping_synthesis_gpsr}. Figure~\ref{fig:candidates_plot} shows some successful example candidates.
 
 %\begin{table}[h!]
 %\resizebox{0.25\textwidth}{!}{%
@@ -389,12 +389,13 @@ Therefore, it is important that a human supervisor, with the developed grasping 
 %\end{table}
 
 \begin{table}[h!]
+\centering
 \resizebox{1\textwidth}{!}{%
 \begin{tcolorbox}
 \centering
-\caption{Anchieved \ac{GPSR} for all use cases.}
+\caption{Achieved \ac{GPSR} for all use cases.}
 \label{tab:grasping_synthesis_gpsr}
-\resizebox{\textwidth}{!}{%
+\resizebox{1\textwidth}{!}{%
 \begin{tabular}{@{}cccccccccccccc@{}}
 \toprule
 \textbf{Object} &
@@ -415,7 +416,7 @@ Therefore, it is important that a human supervisor, with the developed grasping 
   75\% &
   97\% &
   86\% &
-  50\% &
+  70\% &%50\% &
   70\% &
   100\% &
   100\% &
@@ -456,7 +457,7 @@ Therefore, it is important that a human supervisor, with the developed grasping 
  \end{figure}
  
 
-Once the candidate's datasets are built, and the \ac{GPSR} evaluated, the next stage is to deploy them into the robot and assesses the grasping selection pipeline (Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection}) in run-time operation. The pipeline is configured with the premise of less effort, i.e. euclidean distance, giving preference to near candidates from the \ac{TCP} and roll, pitch yaw movement limit of $-35^o$ to $35^o$, $-35^o$ to $35^o$ and $-180^o$ to $180^o$ w.r.t \ac{TCP}. The workspace filter is used to limit the bin boxes used in all use cases, the workspace cone is limited from the bin box centre to a maximum radius of 55cm and opening of 70º from the normal axis. All values are set empirically. In the end, the joint space filter is applied using the robot URDF model with the gripper in usage in each project. For the case of Mari4Yard grasping selection pipeline, the \ac{COG} distance heuristics is also deployed since the objects are bigger and this heuristic improves the \ac{GHSR} and \ac{HGSR} avoiding torque movements between the active-pair. 
+Once the candidate's datasets are built, and the \ac{GPSR} evaluated, the next stage is to deploy them into the robot and assesses the grasping selection pipeline (Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection}) in run-time operation. The pipeline is configured with the premise of less effort, i.e. euclidean distance, giving preference to near candidates from the \ac{TCP} and roll, pitch yaw movement limit of $-35^o$ to $35^o$, $-35^o$ to $35^o$ and $-180^o$ to $180^o$ w.r.t \ac{TCP}. The workspace filter is used to limit the bin boxes used in all use cases, the workspace cone is limited from the bin box centre to a maximum radius of 55cm and opening of 70º from the normal axis. All values are set empirically. In the end, the joint space filter is applied using the robot URDF model with the gripper in usage in each project and the collision box is calibrated according to it avoiding. For the case of Mari4Yard grasping selection pipeline, the \ac{COG} distance heuristics is also deployed since the objects are bigger and this heuristic improves the \ac{GHSR} and \ac{HGSR} avoiding torque movements between the active-pair. 
 
 A total of 20 grasping attempts were performed on each object. The success rates are presented in Table~\ref{tab:grasping_selection_results}. It is important to note that, if any grasping attempt is failed in some grasping assessment category, this grasping is not considered in the next assessment class, e.g. the reinforced bracket \ac{GRSR} is $95.00\%$, with 19 successful attempts whose define the next the \ac{GHSR} total attempts. In this specific case, the \ac{GHSR} failed in two grasping holding movements, which lead to 17 successes grasping over 19.
 
@@ -464,7 +465,7 @@ A total of 20 grasping attempts were performed on each object. The success rates
 \resizebox{0.5\textwidth}{!}{%
 \begin{tcolorbox}
 \centering
-\caption{Anchieved GRSR, GHSR and HGSR for the use cases with the proposed pipeline.}
+\caption{Anchieved \ac{GRSR}, \ac{GHSR} and \ac{HGSR} for the use cases with the proposed pipeline.}
 \label{tab:grasping_selection_results}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}ccll@{}}
@@ -489,13 +490,13 @@ A total of 20 grasping attempts were performed on each object. The success rates
 }
 \end{table}
 
-An important parameter to be evaluated is the decision time, i.e. the time between the object pose estimation and the candidate selection. These tests were conducted into MariYard and Produtech 4S\&C pieces and presented in Table~\ref{tab:decision_time}. A priori, the tests were performed with direct estimation method (Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection}) leading to the decision time of first table column. However, it was verified that the grasping dataset loading into robot memory consumes a large fraction of the elapsed time. Using the ``pre-load'' ``Grasping Selection'' function, it was verified a considered reduction in these times led to the table's second column values. The elapsed times presented in the table is run-time applicable processing times in comparison with the Grasping Synthesis achieved time, Table~\ref{tab:grasping_synthesis_performance}, justifying the strategy to divide the overall grasping planner into offline and run-time pipeline strategies.
+An important parameter to be evaluated is the decision time, i.e. the time between the object pose estimation and the candidate selection. These tests were conducted into MariYard and Produtech 4S\&C pieces and presented in Table~\ref{tab:grasping_selection_time}. A priori, the tests were performed with direct estimation method (Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection}) leading to the decision time of first table column. However, it was verified that the grasping dataset loading into robot memory consumes a large fraction of the total elapsed time. Using the ``pre-load'' ``Grasping Selection'' function, it was verified a considered reduction in these times led to the table's second column values. The elapsed times presented in the table are run-time applicable processing times in comparison with the ``Grasping Synthesis'' achieved time, Table~\ref{tab:grasping_synthesis_performance}, justifying the strategy to divide the overall grasping planner into offline and run-time pipeline strategies.
 
 \begin{table}[h!]
 \resizebox{0.5\textwidth}{!}{%
 \begin{tcolorbox}
 \centering
-\caption{Elapsed decision time of grasping selection pipeline.}
+\caption{Grasping Selection elapsed decision time.}
 \label{tab:grasping_selection_time}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}ccc@{}}
@@ -580,7 +581,7 @@ Finally, the Figure~\ref{fig:demo_mari4yard} presents the proposed pipeline appl
 	\includegraphics[height=.15\textheight]{Cap5/Figuras/picking_embraer/back-6}
 	\includegraphics[height=.15\textheight]{Cap5/Figuras/picking_embraer/side-6}
 	\end{tcolorbox}
-	\caption{Experimental grasping results in Embraer facilities.}
+	\caption{Experimental grasping results in Embraer shop floor.}
 	\label{fig:embraer_result}
 }
 \end{figure}
@@ -594,11 +595,11 @@ Finally, the Figure~\ref{fig:demo_mari4yard} presents the proposed pipeline appl
 \section{Mimic Grasping Evaluation}
 \label{cap5:mimic_grasping_evaluation}
 
-Since the ``Grasping Synthesis'' (``GraspIt!'' and ``Post-processors'') and the ``Grasping Selection'' were validated, tests regarding the ``Mimic Grasping Module''  were conducted at iiLab laboratory in INESCTEC facilities. Namely, it is used the use case \ac{OR} and 6D Mimic, presented in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping}, to conduct a precision analyses of the proposal. This procedure consists of the usage of a calibrated probe tool to mimic grasping handler tool instead of a gripper. Afterwards, it is requested the handler tool poses at known-defined poses over the object. Figure~\ref{fig:mimic_grapsing_procedure} shows an example of this procedure. 
+Since the ``Grasping Synthesis'' (``GraspIt!'' and ``Post-processors'') and the ``Grasping Selection'' were validated, tests regarding the ``Mimic Grasping Module''  were conducted at iiLab laboratory in INESCTEC facilities. It is used the use case \ac{OR} and 6DMimic to conduct a precision analysis of the proposal. Namely,  \ac{OR} is responsible to detect the object and the 6DMimic the tool pose, see Figure~\ref{fig:mimic_grapsing_procedure}.  The proposed GUI (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:gui}) allows graphical grasping feedback besides being responsible to load the ``Mimic Grasping API'', the configuration setup and the developed plugins. A detailed description of the proposal is discussed in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping}, 
 
 
  \begin{figure}[h!]
- \resizebox{0.85\textwidth}{!}{%
+ \resizebox{0.80\textwidth}{!}{%
  \begin{tcolorbox}
       \centering
       \begin{subfigure}[c]{.8\textwidth}
@@ -627,6 +628,8 @@ Since the ``Grasping Synthesis'' (``GraspIt!'' and ``Post-processors'') and the 
    }%end of resize box      
  \end{figure}
 
+
+The evaluation procedure consists of attaching a calibration probe to mimic grasping handler tool instead of a gripper. Afterwards, it is requested the handler tool poses at known-defined poses over the object. Figure~\ref{fig:mimic_grapsing_procedure} shows an example of this procedure. 
 
 Two ground-truth pieces are designed to define the known poses, Figure~\ref{fig:groundtruth_pieces}. Both pieces are projected avoiding symmetries and looking for a better object recognition process. Each piece has small cavities along the axis with a defined pose w.r.t the object frame. The linear ground-truth piece's holes are spaced by 10 mm and the angular ground-truth piece's holes are spaced at 15 degrees. These holes work as a guide to the calibrated probe tool attached to the mimic grasping handler. Besides the pointed probe, applicable in the linear ground-truth piece, two other probes are designed (Figure~\ref{fig:probe_pointers}) intended for stable measurement acquisition over the angular ground-truth piece: the surface bracket and the yaw pointer. The pieces are printed using a Raise3D Pro Plus 3D printer with 0.28mm layer height~\cite{impressora3d}.
 
@@ -661,7 +664,7 @@ Two ground-truth pieces are designed to define the known poses, Figure~\ref{fig:
       \centering
       \begin{subfigure}[c]{.30\textwidth}
           \centering
-          \includegraphics[trim={4cm 0cm 3cm 5cm},clip,width=1\linewidth,angle=0]{Cap5/Figuras/ponta_prova_thin.pdf}
+          \includegraphics[trim={4cm 0.5cm 3cm 5cm},clip,width=1\linewidth,angle=0]{Cap5/Figuras/ponta_prova_thin.pdf}
           \caption{Probe pointer.}
           \label{fig:probe_pointer}
       \end{subfigure}
@@ -689,7 +692,7 @@ Two ground-truth pieces are designed to define the known poses, Figure~\ref{fig:
 It is expected that all measurements incorporate a residual offset and linear component due to calibration inconsistencies. Since this is a systematic error, results could be improved by predicting the error and adjusting it. Therefore, ten acquisitions are performed for each pose component using the ground-truth pieces. The error is estimated by manually placing the probe tool on a cavity, requesting grasping capture and verifying the difference between the ground-truth position/orientation and the acquisition pose. This analysis procedure is realised for each axis simplifying the manual analyses procedure. Acquisition examples are presented in Figure~\ref{fig:precision_linear_asses} and Figure~\ref{fig:precision_angular_asses} for linear and angular ground-truth pieces, respectively.
 
  \begin{figure}[h!]
- \resizebox{.7\textwidth}{!}{%
+ \resizebox{.6\textwidth}{!}{%
  \begin{tcolorbox}
       \centering
       \begin{subfigure}[c]{1\textwidth}
@@ -719,7 +722,7 @@ It is expected that all measurements incorporate a residual offset and linear co
  \end{figure}
  
  \begin{figure}[h!]
- \resizebox{.7\textwidth}{!}{%
+ \resizebox{.6\textwidth}{!}{%
  \begin{tcolorbox}
       \centering
       \begin{subfigure}[c]{1\textwidth}
@@ -748,7 +751,7 @@ It is expected that all measurements incorporate a residual offset and linear co
    }%end of resize box      
  \end{figure}
 
-The mean acquisition error for each ground-truth component pose in association with the predicted error curve is presented in Figures~\ref{fig:mimic_grapsing_linear_regression_linear} and~\ref{fig:mimic_grapsing_linear_regression_angular}.
+The mean acquisition error for each ground-truth component pose in association with the predicted error curve is presented in Figure~\ref{fig:mimic_grasping_prediction_error_curve}.
 Linear regression  with a confidence interval of 0.95 is applied to build the prediction curve. Therefore, each component prediction value is defined by a linear equation~\ref{eq:linear_eq}.
 
 \begin{figure}[h!]
@@ -797,7 +800,7 @@ Linear regression  with a confidence interval of 0.95 is applied to build the pr
      \end{subfigure}
     \end{tcolorbox}
     \caption{Predicted correction curve for all components of a candidate.}
-    \label{fig:mimic_grapsing_linear_regression_angular}
+    \label{fig:mimic_grasping_prediction_error_curve}
   }%end of resize box      
 \end{figure}
 
@@ -806,7 +809,7 @@ Linear regression  with a confidence interval of 0.95 is applied to build the pr
    \label{eq:linear_eq}
 \end{equation}
 
-where $\Delta e$ is the predicted error; $x$ the candidate component measurement; $a$ the line slope and $b$ the linear y-intercept parameters. Table~\ref{tab:ab_table} shows the estimated coefficients $a$ and $b$ which is applied into Mimic Grasping Pipeline by filling the error correction file (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:sann}).
+where $\Delta e$ is the predicted error; $x$ the candidate component measurement; $a$ the line slope and $b$ the linear y-intercept parameters. Table~\ref{tab:ab_table} shows the estimated coefficients $a$ and $b$ which is applied into Mimic Grasping Pipeline by filling the error compensation file (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:sann}).
 
 \begin{table}[h!]
 \resizebox{.55\textwidth}{!}{%
@@ -831,10 +834,10 @@ Yaw                            & -0.02383       & -1.85640             \\ \botto
 \end{table}
 
 
-Along with the error prediction estimated for the given use case, new acquisitions are executed using both ground-truth pieces. A total of 816 grasping acquisitions were performed. The visual \ac{GUI} feedback (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:gui})), which update in demonstration-time, allows to identify  a total of 37 outliers that were deleted by the tool handler firmware ``Cancelling'' state (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:firmware}). Therefore the pipeline was able to generate feasible grasping poses at a rate of 95.47\%. These outliers candidates are typically generated when the handler tool's luminous marker is out of 6D Mimic camera's workspace or if any critical occlusion is created. 
+Along with the error prediction estimated for the given use case, new acquisitions are executed using both ground-truth pieces. A total of 816 grasping acquisitions were performed. The visual \ac{GUI} feedback (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:gui}), which update in demonstration-time, allows to identify  a total of 37 outliers that were deleted by the tool handler firmware ``Cancelling'' state (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:firmware}). Therefore the pipeline was able to generate feasible grasping poses at a \ac{GPSR} of 95.47\%. These outliers candidates are typically generated when the handler tool's luminous marker is out of 6D Mimic camera's workspace or if any critical occlusion is created. 
 
 
-The final precision result assessment is defined by the curves of Figure~\ref{fig:mimic_grapsing_final_error}. In these plots it is possible to verify that the strategy to remove the systematic error improves the result, e.g. considering the absolute average error of all measurements, the x-axis, y-axis and z-axis errors improve in 2.5mm, 2.34mm and 8.63mm. Regarding the roll, pitch, and yaw errors the improvements are of 2.63$^o$, 1.83$^o$ and 3.82$^o$, respectively. It is important to note that, since the 6D Mimic is a stereoscopic system, the acquisitions transversal to the cameras' baseline incorporate a larger error than the ones that are in the image plane. Therefore, in the present use case,  the linear ground-truth piece configuration includes a larger and a small transversal stereoscopic error along the y-axis and x-axis, respectively, which define the larger error detected in plots of these components concerning the z-axis that is completely in the image plane. The angular assessments variance is due to the fact the process is manually performed, thus inconsistencies occur based on human movements. However, these results variances result in permissive error values regarding grasping objects.
+The final precision result assessment is defined by the curves of Figure~\ref{fig:mimic_grapsing_final_error}. In these plots it is possible to verify that the strategy to remove the systematic error improves the result, e.g. considering the absolute average error of all measurements, the x-axis, y-axis and z-axis errors improve in 2.5mm, 2.34mm and 8.63mm. Regarding the roll, pitch, and yaw errors the improvements are of 2.63$^o$, 1.83$^o$ and 3.82$^o$, respectively. It is important to note that, since the 6D Mimic is a stereoscopic system, the acquisitions transversal to the cameras' baseline incorporate a larger error than the ones that are in the image plane. Therefore, in the present use case,  the linear ground-truth piece configuration includes a larger and a small transversal stereoscopic error along the y-axis and x-axis, respectively, which define the larger error detected in plots of these components concerning the z-axis that is completely in the image plane. The high error over the z-axis The angular assessments variance is due to the fact the process is manually performed, thus inconsistencies occur based on human movements. However, these results variances result in permissive error values regarding grasping objects.
 
 \begin{figure}[h!]
 \resizebox{1\textwidth}{!}{%

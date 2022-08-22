@@ -4,3 +4,4 @@ x_joints:
     timeout: 0.005
     urdf_param: '/robot_description'
     insist: 10
+    convergence_tolerance: 1e-5
