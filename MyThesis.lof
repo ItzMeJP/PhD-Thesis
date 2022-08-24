@@ -26,45 +26,45 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces ``GraspIt!" interface and the implemented manual feeder.\relax }}{49}{figure.caption.68}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces ``GraspIt!" interface pipeline workflow. \relax }}{50}{figure.caption.69}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Proposed plugin system management.\relax }}{55}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Proposed modular mimic grasping architecture.\relax }}{57}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Proposed modular mimic grasping architecture.\relax }}{56}{figure.caption.74}%
 \contentsline {figure}{\numberline {5.6}{\ignorespaces The proposed use case hardware setup. The Phoxi 3D Camera S is used to locate the object pose. It is attached on a IRB 1600 robot to set a precise acquisition pose. The 6D Mimic system is responsible to detect the handler tool with its stereoscopic cameras.\relax }}{59}{figure.caption.76}%
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Proposed handler tool.\relax }}{60}{figure.caption.77}%
 \contentsline {figure}{\numberline {5.8}{\ignorespaces HGPC16A and FM-SW 76x22 4x6 N10 grippers.\relax }}{60}{figure.caption.78}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Proposed firmware finite state machine.\relax }}{61}{figure.caption.79}%
 \contentsline {figure}{\numberline {5.10}{\ignorespaces The mimic handler with 6D Mimic luminous marker attached.\relax }}{63}{figure.caption.81}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces The plugins are responsible to establish the communication between the localisation strategies and the Mimic Grasping pipeline. 6D Mimic and Phoxi DRL are the implemented interfaces to the proposed use case.\relax }}{65}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces The plugins are responsible to establish the communication between the localisation strategies and the Mimic Grasping pipeline. 6D Mimic and Phoxi DRL are the implemented interfaces to the proposed use case.\relax }}{64}{figure.caption.84}%
 \contentsline {figure}{\numberline {5.12}{\ignorespaces \ac {GUI} main window.\relax }}{65}{figure.caption.85}%
 \contentsline {figure}{\numberline {5.13}{\ignorespaces \ac {GUI} localisation configuration window.\relax }}{66}{figure.caption.86}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces \ac {GUI} firmware configuration window.\relax }}{67}{figure.caption.87}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Post-processor pipeline workflow.\relax }}{68}{figure.caption.88}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces \ac {GUI} firmware configuration window.\relax }}{66}{figure.caption.87}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Post-processor pipeline workflow.\relax }}{67}{figure.caption.88}%
 \contentsline {figure}{\numberline {5.16}{\ignorespaces Symmetric grasping replicas over a TCP's symmetry axis.\relax }}{70}{figure.caption.92}%
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Symmetric grasping replicas over a object's symmetry axis.\relax }}{71}{figure.caption.94}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces The grasping selection process. (top~left) The object with the grasping candidates frames. (top~right) The best candidate is chose following the task oriented grasping heuristic. (bottom~left) Robot's initial pose. (bottom~middle) Approaching movement. (bottom~right) Grasping. \relax }}{73}{figure.caption.98}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Grasping selection pipeline workflow.\relax }}{75}{figure.caption.100}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Workspace filter 3D representation.\relax }}{81}{figure.caption.111}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Collision filter 3D representation. The blue boxes define the collision volume.\relax }}{82}{figure.caption.113}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces The ``Grasping Selection'' process. (top~left) The object with the grasping candidates frames. (top~right) The best candidate is chose following the task oriented grasping heuristic. (bottom~left) Robot's initial pose. (bottom~middle) Approaching movement. (bottom~right) Grasping. \relax }}{73}{figure.caption.98}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces ``Grasping Selection'' pipeline workflow.\relax }}{75}{figure.caption.100}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Workspace filter 3D representation.\relax }}{80}{figure.caption.111}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Collision filter 3D representation. The blue boxes define the collision volume.\relax }}{81}{figure.caption.113}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces (left) Omnidirectional mobile manipulator. (right) Example of objects placed on a bin.\relax }}{87}{figure.caption.115}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Objects from FASTEN setup. (a) Bracket (b) Cover plate (c) Double side bracket (d) Multi side bracket (e) Reinforced bracket (f) Single side bracket (g) Support bracket (h) T-bracket.\relax }}{87}{figure.caption.116}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Objects from MARI4YARD use case. (a) Triangle bracket (b) 90º elbow flue pipe.\relax }}{88}{figure.caption.117}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Objects from PRODUTECH 4S\&C use case. (a) Falange piece (b) Bearing holder (c) Rod.\relax }}{88}{figure.caption.118}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Gripper 3D models used. Complete model (left) and simplified model (right).\relax }}{89}{figure.caption.119}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Possible configuration of \ac {ICR}. From left to right the number of contact points increases. The model becomes more reliable but convergence of the algorithm is more prone to issues.\relax }}{89}{figure.caption.120}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Candidates dataset for FASTEN use case.(a) Bracket (b) Cover plate (c) Double side bracket (d) Multi side bracket (e) Reinforced bracket (f) Single side bracket (g) Support bracket (h) T-bracket.\relax }}{91}{figure.caption.121}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Candidates dataset for MARI4YARD use case.(a) Triangle bracket (b) 90º elbow flue pipe.\relax }}{91}{figure.caption.122}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Candidates dataset for PRODUTECH 4S\&C use case.(a) Falange piece (b) Bearing holder (c) Rod.\relax }}{92}{figure.caption.123}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Some excluded unfeasible grasping candidates. The unsuspected collisions are highlighted in red circles. These collision is due to 3D model inconsistencies and by the algorithm parameters calibration.\relax }}{93}{figure.caption.125}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Candidate examples over Grasp Viewer.\relax }}{94}{figure.caption.127}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Mari4Yard bin-picking demonstrator.\relax }}{96}{figure.caption.130}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Experimental grasping results in Embraer shop floor.\relax }}{97}{figure.caption.131}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Precision analyses using the mimic grasping proposal.\relax }}{98}{figure.caption.132}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces The designed ground-truth pieces.\relax }}{99}{figure.caption.133}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces The designed probes attached on tool handler.\relax }}{99}{figure.caption.134}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Precision assessment procedure using linear ground-truth piece.\relax }}{100}{figure.caption.135}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Precision assessment procedure using angular ground-truth piece.\relax }}{101}{figure.caption.136}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Predicted correction curve for all components of a candidate.\relax }}{102}{figure.caption.137}%
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Components error of a candidate.\relax }}{103}{figure.caption.139}%
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Mimic grasping candidate building using the linear ground truth object and two different grippers. First the human demonstration, following by the Mimic Grasping GUI representation and the robot grasping movement.\relax }}{104}{figure.caption.140}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces (left) Omnidirectional mobile manipulator. (right) Example of objects placed on a bin.\relax }}{85}{figure.caption.115}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Objects from FASTEN setup. (a) Bracket (b) Cover plate (c) Double side bracket (d) Multi side bracket (e) Reinforced bracket (f) Single side bracket (g) Support bracket (h) T-bracket.\relax }}{85}{figure.caption.116}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Objects from MARI4YARD use case. (a) Triangle bracket (b) 90º elbow flue pipe.\relax }}{86}{figure.caption.117}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Objects from PRODUTECH 4S\&C use case. (a) Falange piece (b) Bearing holder (c) Rod.\relax }}{86}{figure.caption.118}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Gripper 3D models used. Complete model (left) and simplified model (right).\relax }}{87}{figure.caption.119}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Possible configuration of \ac {ICR}. From left to right the number of contact points increases. The model becomes more reliable but convergence of the algorithm is more prone to issues.\relax }}{87}{figure.caption.120}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Candidates dataset for FASTEN use case.(a) Bracket (b) Cover plate (c) Double side bracket (d) Multi side bracket (e) Reinforced bracket (f) Single side bracket (g) Support bracket (h) T-bracket.\relax }}{89}{figure.caption.121}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Candidates dataset for MARI4YARD use case.(a) Triangle bracket (b) 90º elbow flue pipe.\relax }}{89}{figure.caption.122}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Candidates dataset for PRODUTECH 4S\&C use case.(a) Falange piece (b) Bearing holder (c) Rod.\relax }}{90}{figure.caption.123}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Some excluded unfeasible grasping candidates. The unsuspected collisions are highlighted in red circles. These collision is due to 3D model inconsistencies and by the algorithm parameters calibration.\relax }}{91}{figure.caption.125}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Candidate examples over Grasp Viewer.\relax }}{92}{figure.caption.127}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Mari4Yard bin-picking demonstrator.\relax }}{94}{figure.caption.130}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Experimental grasping results in Embraer shop floor.\relax }}{95}{figure.caption.131}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Precision analyses using the mimic grasping proposal.\relax }}{96}{figure.caption.132}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces The designed ground-truth pieces.\relax }}{97}{figure.caption.133}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces The designed probes attached on tool handler.\relax }}{97}{figure.caption.134}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Precision assessment procedure using linear ground-truth piece.\relax }}{98}{figure.caption.135}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Precision assessment procedure using angular ground-truth piece.\relax }}{99}{figure.caption.136}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Predicted correction curve for all components of a candidate.\relax }}{100}{figure.caption.137}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Components error of a candidate.\relax }}{101}{figure.caption.139}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Mimic grasping candidate building using the linear ground truth object and two different grippers. First the human demonstration, following by the Mimic Grasping GUI representation and the robot grasping movement.\relax }}{102}{figure.caption.140}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Handler Tool Electronic Schematic.\relax }}{126}{figure.caption.143}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Handler Tool Electronic Schematic.\relax }}{124}{figure.caption.143}%

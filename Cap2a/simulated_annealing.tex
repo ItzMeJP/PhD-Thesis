@@ -114,9 +114,9 @@ The algorithm proposed by~\cite{Ciocarlie2009}, and used in this proposal, is re
 		\ForAll {variables of CurrentState} 
 		{CurrentState.variable = RandomValue()}
 		QCurrent = ObjFunc(CurrentState)\;
-		Iterations = 0\;
+		Steps = 0\;
 		QSaved = 0\;
-		\While{Iterations $\neq$ MaxIterations}{
+		\While{Steps $\neq$ MaxSteps}{
 			{Generate a new state as a neighbor of current state}\;
 			\Repeat{legalState == true}
 			{
@@ -144,7 +144,7 @@ The algorithm proposed by~\cite{Ciocarlie2009}, and used in this proposal, is re
 				CurrentState = NewState\;
 				QCurrent = QNew\;
 			}
-			Iterations = Iterations + 1\;
+			Steps = Steps + 1\;
 		}	
 		 \end{tcolorbox}
 		\caption{\ac{SANN} applied to grasping}

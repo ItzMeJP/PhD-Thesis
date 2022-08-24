@@ -3,7 +3,7 @@
 
 Nowadays, since a completely generic solution, independently from previous knowledge of object shape, gripper design, and sensing type, is not an available option, there is a gap between real application, research development and scientific evaluation. Thus, creating a re-configurable grasping framework integrating the best of all methodologies could transfer this to a practical robotic grasping task which is the main contribution of the present thesis.
 
-The core of the developed grasping planning architecture pipeline is divided into two parts: the grasping synthesis and the grasping selection (Figure~\ref{fig:grasping_framework_code}). In summary, the grasping synthesis is a system architecture responsible for generating all the grasping poses. It creates a set of  hypothetical grasping candidates in an offline step, i.e., it runs outside the robot system in a setup phase. The generated data is then uploaded to the robot system to be used during the grasping selection step. This architecture is responsible for choosing the best grasping candidate following a set of heuristics and priorities. It is a task-oriented procedure that analyses the environment and the run-time constraints of the task. The following sections provide a detailed description of the procedure.
+The core of the developed grasping planning architecture pipeline is divided into two parts: the ``Grasping Synthesis'' and the ``Grasping Selection'' (Figure~\ref{fig:grasping_framework_code}). In summary, the ``Grasping Synthesis'' is a system architecture responsible for generating all the grasping poses. It creates a set of  hypothetical grasping candidates in an offline step, i.e., it runs outside the robot system in a setup phase. The generated data is then uploaded to the robot system to be used during the ``Grasping Selection'' step. This architecture is responsible for choosing the best grasping candidate following a set of heuristics and priorities. It is a task-oriented procedure that analyses the environment and the run-time constraints of the task. The following sections provide a detailed description of the procedure.
 
 \begin{figure}[h!]
 \begin{tcolorbox}
@@ -19,7 +19,7 @@ The core of the developed grasping planning architecture pipeline is divided int
 
 The ``Grasping Synthesis'' is a set of tools responsible, in a pipeline fashion, for generating and handling the grasping poses dataset. This pipeline is an offline step, i.e., it runs outside the robot system in a setup phase. The dataset is created as a set of hypothetical grasping pose candidates which are hierarchically structured in a YAML file format. The proposed dataset standard is detailed discussed in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}.
 
-Currently three main components constitutes the grasping synthesis: the ``GraspIt!'' Interface (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit}), the Mimic Grasping Module (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping}) and the Post-Processor Pipeline (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:post_processor}). 
+Currently three main components constitutes the ``Grasping Synthesis'': the ``GraspIt!'' Interface (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit}), the Mimic Grasping Module (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping}) and the Post-Processor Pipeline (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:post_processor}). 
 
 \subsection{Grasping Dataset Standard}
 \label{cap4:modular_grasping_architecture:sec:grasping_dataset}
@@ -51,9 +51,9 @@ The candidates are specified by an YAML descriptor (Snippet \ref{code:candidates
 
 The candidates are unique for gripper-object, therefore there exists one datatset per active pair, and they are named as ``candidate$\_$id'', where id is a integer that defines the order into datatset. 
 
-Since the dataset standard is created focused on being applied to a modular grasping pipeline, which allows the integration of different methodologies, the first parameter, ``method/type'' is an integer that defines which synthesis method builds the candidate. Based on the configurable premiss, the supported gripper is defined by an integer code by ``gripper/type'' parameter followed by the ``gripper/parameters'' array. This dynamic size array is related to more complex grippers such as the adaptive RobotiQ models~\cite{robotiq_grippers} that grant more joints control. The ``gripper/type'' parameter define how to read this array, e.g for gripper type 0 (RobotiQ 2f84) and 1 (RobotiQ 2f140) the sequence is: force [N], velocity[m/s], pre-grasp-width [m], grasp-width [m], grasp-release-width [m], grasping model. On the other hand, grippers such as HGPC16A (Figure~\ref{fig:mimic_grippers_supported}) have an empty array since the control is performed only by the ON/OFF state. Any new model added to architecture should have this array described and defined. The ``gripper/DOFs'' is also a dynamic size array with fingers' joints \acp{DOF} value. Since the grasping candidate could be defined by the \textit{eingengrasp} (Section~\ref{sec:sim_ann}) or by the individual finger joint state, the ``method/type" defines how to extract this information from the array. Another important parameter to define this array is the ``gripper/type''. 
+Since the dataset standard is created focused on being applied to a modular grasping pipeline, which allows the integration of different methodologies, the first parameter, ``$method/type$'' is an integer that defines which synthesis method builds the candidate. Based on the configurable premiss, the supported gripper is defined by an integer code by the ``$gripper/type$'' parameter followed by the ``$gripper/parameters$'' array. This dynamic size array is related to more complex grippers such as the adaptive RobotiQ models~\cite{robotiq_grippers} that grant more joint control. The ``$gripper/type$'' parameter define how to read this array, e.g for gripper type 0 (RobotiQ 2f84) and 1 (RobotiQ 2f140) the sequence is: force [N], velocity[m/s], pre-grasp-width [m], grasp-width [m], grasp-release-width [m], grasping model. On the other hand, grippers such as HGPC16A (Figure~\ref{fig:mimic_grippers_supported}) have an empty array since the control is performed only by the ON/OFF state. Any new model added to architecture should have this array described and defined. The ``$gripper/DOFs$'' is also a dynamic size array with fingers' joints \acp{DOF} value. Since the grasping candidate could be defined by the \textit{eingengrasp} (Section~\ref{sec:sim_ann}) or by the individual finger joint state, the ``$method/type$'' defines how to extract this information from the array. Another important parameter to define this array is the ``$gripper/type$''. 
 
-The position is given in meters followed by the orientation in quaternion w.r.t. ``parent$\_$frame$\_$id'' reference frame which if it is not declared, is considered the object reference;
+The position is given in meters followed by the orientation in quaternion w.r.t. ``$parent$\_$frame$\_$id$'' reference frame which if it is not declared, is considered the object reference;
 
 
 %The others descriptor parameters are defined below:
@@ -71,7 +71,7 @@ The position is given in meters followed by the orientation in quaternion w.r.t.
 \subsection{``GraspIt" Interface}
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit}
 
-The ``GraspIt!" interface is responsible to generate grasping candidates based on CAD modelling by using the ``GraspIt!" API and simulator (Figure~\ref{fig:graspit_manual_feeder_workflow}), in association with \ac{ROS} framework. This simulator was first proposed by~\cite{miller2004graspit} and is widely used in academic community to multi-fingered grasping analysis (Section~\ref{sec:multifingered_grasping}) using CAD interaction in virtual environment. The grippers are structured in XML format (besides the 3D model, the \ac{ICR} and the \textit{eigengrasps}, Section~\ref{sec:sim_ann}, are also defined). The objects are included by using a Polygon File Format (extension ``.ply'').
+The ``GraspIt!" interface is responsible to generate grasping candidates based on CAD modelling by using the ``GraspIt!" API and simulator (Figure~\ref{fig:graspit_manual_feeder_workflow}), in association with \ac{ROS} framework. This simulator was first proposed by~\cite{miller2004graspit} and is widely used in academic community to multi-fingered grasping analysis (Section~\ref{sec:multifingered_grasping}) using CAD interaction in virtual environment. The grippers are structured in XML format. Besides the 3D model, the \ac{ICR} and the \textit{eigengrasps}, Section~\ref{sec:sim_ann}, are also defined. The objects are included by using a Polygon File Format (extension ``.ply'').
 
 \begin{figure}[h!]
 	\resizebox{1\textwidth}{!}{%
@@ -83,7 +83,7 @@ The ``GraspIt!" interface is responsible to generate grasping candidates based o
 	}%end resize box
 \end{figure}
 
-The Figure~\ref{fig:grasping_graspit_module_workflow} presents the ``GraspIt" interface pipeline workflow.
+The Figure~\ref{fig:grasping_graspit_module_workflow} presents the ``GraspIt!" interface pipeline workflow.
 
 \begin{figure}[h!]
 \resizebox{1\textwidth}{!}{%
@@ -95,7 +95,7 @@ The Figure~\ref{fig:grasping_graspit_module_workflow} presents the ``GraspIt" in
 }%end resize box
 \end{figure}
 
-The implemented methods are discussed into Sections~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:manual} and~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:sann}. The interface is based on C++ polymorphic classes which allows new heuristics design and also incorporate new future ``GraspIt!" functionalities. 
+Two grasping generation methods, also called feeders, rely on the related interface: the manual and the \ac{SANN} based feeders. The implemented methods are discussed into Sections~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:manual} and~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:sann}. The interface is based on C++ polymorphic classes which allows new heuristics design and also incorporate new future ``GraspIt!" functionalities. 
 
 \subsubsection{Manual Feeder}
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:manual}
@@ -137,14 +137,16 @@ The manual feeder allows the user to define grasping postures by interacting wit
 %    \item \textbf{config$\_$grasps$\_$parameters/min$\_$width$\_$threshold:} minimum width to consider in grasping procedure. Some grippers have flexible finger that need to be considered.
 %\end{itemize_jp}
 
-The gripper model path and name are defined in ``$path/gripper$\_$models$\_$file$\_$path$'' and ``$gripper$\_$file$\_$name$'', respectively. It should respect the ``GraspIt!'' XML description standard with its \ac{ICP}, \textit{eigengrasp} and Denavit-Hatenberg definitions. Focused on pipeline configurability, the gripper code ID is defined in ``$config$\_$grasps$\_$parameters/gripper$\_$id$'' and it is mapped according to the pipeline implementation. Other custom parameters are the ``$approach$\_$width$\_$multiplier$'' and ``$release$\_$width$\_$multiplier$'' which are multiplication factors to define the grasping width in the approach and release procedure. These values are applied over the grasping candidate width and it is important to avoid possible collision between the fingers during the grasping approaching and placing approaching movement.  The ``$config$\_$grasps$\_$parameters/min$\_$width$\_$threshold$'' is the minimum width to consider in grasping procedure. Some grippers have a flexible finger that needs to be considered.
-In the end, the polygon file format of the object model should be defined by ``$path/object$\_$models$\_$file$\_$path$'' and ``$object$\_$file$\_$name$''.
+The gripper model path and name are defined in ``$path/gripper$\_$models$\_$file$\_$path$'' and ``$gripper$\_$file$\_$name$'', respectively. It should respect the ``GraspIt!'' XML description standard with its \ac{ICP}, \textit{eigengrasp} and Denavit-Hatenberg definitions. Focused on pipeline configuration capability, the gripper code ID is defined in ``$config$\_$grasps$\_$parameters/gripper$\_$id$'' and it is mapped according to the pipeline implementation. Other custom parameters are the ``$approach$\_$width$\_$multiplier$'' and ``$release$\_$width$\_$multiplier$'' which are multiplication factors to define the grasping width in the approach and release procedure. These values are applied over the grasping candidate width and it is important to avoid possible collision between the fingers during the grasping approaching and placing approaching movement.  The ``$config$\_$grasps$\_$parameters/min$\_$width$\_$threshold$'' is the minimum width to consider in grasping procedure. Some grippers have a flexible finger that needs to be considered.
+In the end, the polygon file format of the object model should be defined by ``$path/object$\_$models$\_$file$\_$path$'' and ``$object$\_$file$\_$name$''
 
 
 \subsubsection{\acl{SANN} based Feeder}
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:sann}
 
-The ``Graspit!" has support to grasping automatic generation by using the Very Fast \acl{SANN} optimisation algorithm. For a detailed explanation referrer to Section~\ref{sec:sim_ann}. This functionality is also incorporated into the core pipeline by the YAML descriptor presented in Snippet~\ref{code:multifingered_sann}. Besides the multi-fingered approach (Section~\ref{sec:multifingered_grasping}), a descriptor to suction grippers is designed considering that good suction grasping is directly related to well define contact point Snippet~\ref{code:suction_sann}.
+The ``Graspit!" has support to grasping automatic generation by using the Very Fast \acl{SANN} optimisation algorithm. For detailed explanation referrer to Section~\ref{sec:sim_ann}. This functionality is also incorporated into the core pipeline by the YAML descriptor presented in Snippet~\ref{code:multifingered_sann}. Besides the multi-fingered approach (Section~\ref{sec:multifingered_grasping}), a descriptor to suction grippers is designed considering that good suction grasping is directly related to well define contact point Snippet~\ref{code:suction_sann}.
+
+
 
 %\begin{minipage}{1\textwidth}
 \begin{snippet}[h!]
@@ -168,7 +170,6 @@ The ``Graspit!" has support to grasping automatic generation by using the Very F
 \end{snippet}
 %\end{minipage}
 
-
 %\begin{minipage}{1\textwidth}
 \begin{snippet}[h!]
 \centering
@@ -190,39 +191,68 @@ The ``Graspit!" has support to grasping automatic generation by using the Very F
 \end{snippet}
 %\end{minipage}
 
-\begin{itemize_jp}
-    \item \textbf{path/gripper$\_$models$\_$file$\_$path:} path to locate the gripper XML model;
-    \item \textbf{path/object$\_$models$\_$file$\_$path:} path to locate the object ``.ply" model;
-    \item \textbf{gripper$\_$file$\_$name:} gripper XML file name;
-    \item \textbf{object$\_$file$\_$name:} object polygon file format name;
-    \item \textbf{graspable$\_$body$\_$id:} defines which object in scene is the grasping focus;
-    %\item \textbf{planner$\_$type$\_$:}
-    \item \textbf{graspable$\_$body$\_$id:} defines which object in scene is the grasping focus;
-    \item \textbf{action$\_$graspit$\_$interface$\_$server$\_$name:} since the ``GraspIt!" server is deployed as a \ac{ROS} action server~\cite{ros_action_lib}, its names should be specified;
-    \item \textbf{action$\_$server$\_$timeout:} timeout to detect that the  ``GraspIt!" server is not running; 
-    \item \textbf{iterations:} how many iterations the \ac{SANN} will be executed (Figure~\ref{fig:grasping_synthesis_core});
-    \item \textbf{energy$\_$threshold:} convergence optimisation threshold; 
-    %\item \textbf{impose$\_$force$\_$closure$\_$to$\_$near$\_$grasps:} in each \ac{SANN} iterations several grasping candidates are generated. Some grasping candidates are discarded during the optimisation procedure since does not respect the \ac{ICR} approximation criteria. However  
-    %\item \textbf{epsilon$\_$threshold:}
-    \item \textbf{sim$\_$annealing/max$\_$steps:} maximum steps of one \ac{SANN} iteration;
-    \item \textbf{sim$\_$annealing/feedback$\_$num$\_$steps:} allow visual update of optimisation process;
-    \item \textbf{sim$\_$annealing/set$\_$custom$\_$params:} set custom params;
-    \item \textbf{sim$\_$annealing/YC:} annealing constant for neighbor generation schedule;
-    \item \textbf{sim$\_$annealing/HC:} annealing constant for error acceptance schedule;
-    \item \textbf{sim$\_$annealing/YDIMS:} number of dimensions for neighbor generation schedule;
-    \item \textbf{sim$\_$annealing/HDIMS:} number of dimensions for error acceptance schedule;
-    \item \textbf{sim$\_$annealing/NBR$\_$ADJ:} adjust factor for neighbor generation schedule
-    \item \textbf{sim$\_$annealing/ERR$\_$ADJ:} adjust raw errors reported by states to be in the relevant range of the annealing schedule;
-    \item \textbf{sim$\_$annealing/DEF$\_$K0:} starting step;
-    \item \textbf{sim$\_$annealing/DEF$\_$T0:} starting temperature;
-    \item \textbf{config$\_$grasps$\_$parameters/gripper$\_$id:} gripper ID code;
-    %\item \textbf{config$\_$grasps$\_$parameters/grasp$\_$model: } 
-    %\item \textbf{config$\_$grasps$\_$parameters/velocity: } approach velocity. 
-    %\item \textbf{config$\_$grasps$\_$parameters/force: }
-    \item \textbf{config$\_$grasps$\_$parameters/approach$\_$width$\_$multiplier:} the multiplier to define the grasping width in approach procedure. This value is applied over the grasping candidate width;
-    \item \textbf{config$\_$grasps$\_$parameters/release$\_$width$\_$multiplier:} the multiplier to define the grasping width in release procedure. This value is applied over the grasping candidate width;
-    \item \textbf{config$\_$grasps$\_$parameters/min$\_$width$\_$threshold:} minimum width to consider in grasping procedure. Some grippers have flexible finger that need to be considered.
-\end{itemize_jp}
+The first configuration to perform is related to the grasping scene in ``GraspIt!'' simulator. Therefore the gripper and  object are defined by the 3D file path and name parameters: ``$path/gripper$\_$models$\_$file$\_$path$'', ``$path/object$\_$models$\_$file$\_$path$'', ``$gripper$\_$file$\_$name$'' and ``$object$\_$file$\_$name$''. The gripper is described by the XML format while the object by polygon format, as discussed in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:manual}. Since multiple objects can be loaded into the simulator, the ``$graspable$\_$body$\_$id$'' defines which object in the scene is the grasping focus.
+
+Regarding the ROS Action server configuration, three parameters are configurable: ``$action$\_$graspit$\_$interface$\_$server$\_$name$'' declaring the server name and ``$action$\_$server$\_$timeout $'' which is the timeout to detect that the  ``GraspIt!" server is not running. The ``$iterations$'' parameter is how many iterations the \ac{SANN} will be executed. It is important to note that this parameter is not the \ac{SANN}'s optimisation step value. The ``$energy$\_$threshold$'' is the convergence optimisation threshold, i.e. the value that defines a good grasping. An example is the $\epsilon$-value discussed in Figure~\ref{fig:gws_force_closure_main}.
+
+The implemented \ac{SANN} have slight differences from the theoretical algorithm approach discussed in Section~\ref{sec:sim_ann}. The developers include scalar constants allowing fine adjustment according to the dimensions of the deployment case. It is also possible to define different cooling factors for neighbour generation and jump probability. Therefore the \ac{SANN} is high configurable. These values are defined by the parameters  and they are described by Equations~\ref{eq:implemented_temp}, \ref{eq:implemented_neighbors} and \ref{eq:implemented_very_fast_snn_prob}.
+
+
+\begin{equation}
+	T=T_{0} \cdot exp{ (-C \cdot k^{1/D})}
+	\label{eq:implemented_temp}
+\end{equation}
+
+\noindent
+where $D$ and $C$ are defined by ``$sim\_annealing/YC$'' and ``$sim\_annealing/YDIMS$'' for the neighbour generation cooling and ``$sim\_annealing/HC$'' and ``$sim\_annealing/HDIMS$'' for the jump probability cooling, respectively. 
+
+
+\begin{equation}
+	S_{new}=S_{current}+ n \cdot T \cdot(-1)^{round(Rand(0,1))} \cdot\left(1+\frac{1}{T}\right)^{Rand(-1,1)}
+	\label{eq:implemented_neighbors}
+\end{equation}
+
+\begin{equation}
+	exp({\frac{m \cdot Q(S_{current})-m \cdot Q(S_{new})}{T}})>Rand(0,1)
+	\label{eq:implemented_very_fast_snn_prob}
+\end{equation}
+  
+\noindent 
+with $n$ and $m$ defined by ``$sim\_annealing/NBR\_ADJ$'' and ``$sim\_annealing/ERR\_ADJ$'', respectively. The ``$DEF\_K0$'' and ``$DEF\_T0$''  are custom initial values for step and temperature. The ``$sim\_annealing/feedback\_num\_steps$'' allows visual update of optimisation process and the ``$config\_grasps\_parameters$'' are the same described in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:manual}.
+
+%\begin{itemize_jp}
+%    \item \textbf{path/gripper$\_$models$\_$file$\_$path:} path to locate the gripper XML model;
+%    \item \textbf{path/object$\_$models$\_$file$\_$path:} path to locate the object ``.ply" model;
+%    \item \textbf{gripper$\_$file$\_$name:} gripper XML file name;
+%    \item \textbf{object$\_$file$\_$name:} object polygon file format name;
+%    \item \textbf{graspable$\_$body$\_$id:} defines which object in scene is the grasping focus;
+%    %\item \textbf{planner$\_$type$\_$:}
+%    \item \textbf{graspable$\_$body$\_$id:} defines which object in scene is the grasping focus;
+%    \item \textbf{action$\_$graspit$\_$interface$\_$server$\_$name:} since the ``GraspIt!" server is deployed as a \ac{ROS} action server~\cite{ros_action_lib}, its names should be specified;
+%    \item \textbf{action$\_$server$\_$timeout:} timeout to detect that the  ``GraspIt!" server is not running; 
+%    \item \textbf{iterations:} how many iterations the \ac{SANN} will be executed (Figure~\ref{fig:grasping_synthesis_core});
+%    \item \textbf{energy$\_$threshold:} convergence optimisation threshold; 
+%    %\item \textbf{impose$\_$force$\_$closure$\_$to$\_$near$\_$grasps:} in each \ac{SANN} iterations several grasping candidates are generated. Some grasping candidates are discarded during the optimisation procedure since does not respect the \ac{ICR} approximation criteria. However  
+%    %\item \textbf{epsilon$\_$threshold:}
+%    \item \textbf{sim$\_$annealing/max$\_$steps:} maximum steps of one \ac{SANN} iteration;
+%    \item \textbf{sim$\_$annealing/feedback$\_$num$\_$steps:} allow visual update of optimisation process;
+%    \item \textbf{sim$\_$annealing/set$\_$custom$\_$params:} set custom params;
+%    \item \textbf{sim$\_$annealing/YC:} annealing constant for neighbour generation schedule;
+%    \item \textbf{sim$\_$annealing/HC:} annealing constant for error acceptance schedule;
+%    \item \textbf{sim$\_$annealing/YDIMS:} number of dimensions for neighbour generation schedule;
+%    \item \textbf{sim$\_$annealing/HDIMS:} number of dimensions for error acceptance schedule;
+%    \item \textbf{sim$\_$annealing/NBR$\_$ADJ:} adjust factor for neighbour generation schedule
+%    \item \textbf{sim$\_$annealing/ERR$\_$ADJ:} adjust raw errors reported by states to be in the relevant range of the annealing schedule;
+%    \item \textbf{sim$\_$annealing/DEF$\_$K0:} starting step;
+%    \item \textbf{sim$\_$annealing/DEF$\_$T0:} starting temperature;
+%    \item \textbf{config$\_$grasps$\_$parameters/gripper$\_$id:} gripper ID code;
+%    %\item \textbf{config$\_$grasps$\_$parameters/grasp$\_$model: } 
+%    %\item \textbf{config$\_$grasps$\_$parameters/velocity: } approach velocity. 
+%    %\item \textbf{config$\_$grasps$\_$parameters/force: }
+%    \item \textbf{config$\_$grasps$\_$parameters/approach$\_$width$\_$multiplier:} the multiplier to define the grasping width in approach procedure. This value is applied over the grasping candidate width;
+%    \item \textbf{config$\_$grasps$\_$parameters/release$\_$width$\_$multiplier:} the multiplier to define the grasping width in release procedure. This value is applied over the grasping candidate width;
+%    \item \textbf{config$\_$grasps$\_$parameters/min$\_$width$\_$threshold:} minimum width to consider in grasping procedure. Some grippers have flexible finger that need to be considered.
+%\end{itemize_jp}
 
 \subsection{Mimic Grasping Module}
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping}
@@ -248,7 +278,7 @@ The plugin manager API provides metadata interface allowing the designing of plu
 
 
 
-The mimic grasping pipeline structured workflow is presented in Figure~\ref{fig:mimic_grasping_flowchart}. The mimic workflow concept considers that tools are necessary to define the human grasping, such as gloves or handler mechanisms, or at least a remote control technique that allows demonstrators requests while performing the demonstration. It is expected that the communication with the tool is performed by serial communication. In addition, it is considered that the two localisation methodologies, also called locators, are processed in sequence after the operator record request. 
+The ``Mimic Grasping'' pipeline structured workflow is presented in Figure~\ref{fig:mimic_grasping_flowchart}. The mimic workflow concept considers that tools are necessary to define the human grasping, such as gloves or handler mechanisms, or at least a remote control technique that allows demonstrators requests while performing the demonstration. It is expected that the communication with the tool is performed by serial communication. In addition, it is considered that the two localisation methodologies, also called locators, are processed in sequence after the operator record request. 
 
 Namely, this workflow starts by loading API general configurations, such as tool communication parameters and localisation methods definitions. The locators definition is composed by: the plugins definition such its dynamic library implementation file name and the configuration file by ``$plugin$\_$name$'' and ``$plugin$\_$config$\_$file$'', respectively.  The configuration file definition is necessary since the parameters are custom defined according to plugin implementation.
 
@@ -271,7 +301,7 @@ Typically, but not mandatory, plugins are client implementations since the local
 %    \item \textbf{executor$\_$cmd and terminator$\_$cmd: } typically, but not mandatory, plugins are client implementations since the localisation server could be loaded a part. Therefore the pipeline need to bring up these outer systems by running a user defined script (or a simple command), caller executor. At end, a shutdown scripts (or command), called terminator, is expected to turn off these systems. 
 %\end{itemize_jp}
 
-Since the proposed system is modular and the locators could have different sensing sources, the proposed workflow also loads the spacial relationship between the locator's methods as a matrix input ``.json'' file. It is also possible to define a tridimensional correction factor in the: input tool's pose, input object's pose and over the final result. These tools are focused support freely the user when trying to calibrate the overall system. For error compensation, a structured ``.json'' file is defined to correct each pose component. The implemented error compensation follows the equation: : 
+Since the proposed system is modular and the locators could have different sensing sources, the proposed workflow also loads the spacial relationship between the locator's methods as a matrix input ``.json'' file. It is also possible to define a tridimensional correction factor in the: input tool's pose, input object's pose and over the final result. These tools are focused to support the user when trying to calibrate the overall system. For error compensation, a structured ``.json'' file is defined to correct each pose component. The implemented error compensation follows the equation: : 
 
 \begin{equation}
 	input = input + \Delta e
@@ -626,7 +656,7 @@ In the grasping dataset some candidates could be in duplicate. Therefore a relev
 \subsubsection{Tool Center Point Angle Twin}
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:tcp_angle_twin}
 
-According to the gripper type, some candidates replica could be acceptable. Considering the symmetry over the TCP normal axis, it is possible to define an angular twin replica without the search algorithm, thus reducing processing. E.g. two-finger grippers could have a mirror twin (180 degrees over attack axis, Figure~\ref{fig:tcp_angle_twin}) with same grasping properties. Therefore, the TCP angle twin post-processor is designed to apply this replica operation overall dataset. It builds a candidate twin based on an angular shift (Tait-Briant ZYX-order) over the TCP reference frame.  The pipeline descriptor in Snippet~\ref{code:tcp_angle_twin} is an example of generating candidates twin with a 180 degrees angle displacement over the TCP Z-axis. Others axis can also compose the displacement, individually or in association, by setting the $Rx$, $Ry$ and $Rz$ parameters.
+According to the gripper type, some candidates replica could be acceptable. Considering the symmetry over the TCP normal axis, it is possible to define an angular twin replica without the search algorithm, thus reducing processing. E.g. two-finger grippers could have a mirror twin (180 degrees over attack axis, Figure~\ref{fig:tcp_angle_twin}) with same grasping properties. Therefore, the TCP angle twin post-processor is designed to apply this replica operation on overall dataset. It builds a candidate twin based on an angular shift (Tait-Briant ZYX-order) over the TCP reference frame.  The pipeline descriptor in Snippet~\ref{code:tcp_angle_twin} is an example of generating candidates twin with a 180 degrees angle displacement over the TCP Z-axis. Others axis can also compose the displacement, individually or in association, by setting the $Rx$, $Ry$ and $Rz$ parameters.
 
 \begin{figure}[h!]
 \resizebox{1\textwidth}{!}{%
@@ -777,27 +807,27 @@ To ``GraspIt!'' support visualisation, the XML 3D model and the Polygon File For
 \section{Grasping Selection}
 \label{cap4:modular_grasping_architecture:sec:grasp_selection}
 
-The grasping selection is a \ac{ROS} package (based on \ac{ROS} action server library \cite{ros_action_lib}) designed for choosing the best candidate over a set of previously taught grasping poses of an object. This step is an online procedure; i.e., it is a run-time process performed during the robot task execution. Thus, this operation needs to be fast and reliable. An illustration of the described procedure is presented in Figure~\ref{fig:grasp_estimation}. 
+The ``Grasping Selection'' is a \ac{ROS} package (based on \ac{ROS} action server library \cite{ros_action_lib}) designed for choosing the best candidate over a set of previously taught grasping poses of an object. This step is an online procedure; i.e., it is a run-time process performed during the robot task execution. Thus, this operation needs to be fast and reliable. An illustration of the described procedure is presented in Figure~\ref{fig:grasp_estimation}. 
 
 \begin{figure}[h!]
 \resizebox{1\textwidth}{!}{%
 \begin{tcolorbox}
 \centerline{\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=1\linewidth,angle=0]{Cap4/Figuras/grasping_gray_bg.pdf}}
 \end{tcolorbox}
-\caption{The grasping selection process. (top~left) The object with the grasping candidates frames. (top~right) The best candidate is chose following the task oriented grasping heuristic. (bottom~left) Robot's initial pose. (bottom~middle) Approaching movement. (bottom~right) Grasping. }
+\caption{The ``Grasping Selection'' process. (top~left) The object with the grasping candidates frames. (top~right) The best candidate is chose following the task oriented grasping heuristic. (bottom~left) Robot's initial pose. (bottom~middle) Approaching movement. (bottom~right) Grasping. }
 \label{fig:grasp_estimation}
 }%end resize box
 \end{figure}
 
 
-Once the candidates dataset are loaded in the parameter server (Figure~\ref{fig:grasping_selection_flowchart}), the grasping selection pipeline estimates the best candidate for allowing the robot to pick the object. The best grasping candidate is chosen according to a cascade of heuristics defined by the user in a YAML file for each object detected (Snippet~\ref{code:selection_pipeline_ex}). Therefore, the object needs to be identified and localised before the grasping selection process. The heuristics cascade gives a score for each grasping candidate related to a reference frame (such as the gripper). The one with the lower cost is the eligible candidate. It is possible to define a weight for each heuristic in the pipeline based on the importance level of each method in the application.
+Once the candidates dataset are loaded in the parameter server (Figure~\ref{fig:grasping_selection_flowchart}), the ``Grasping Selection'' pipeline estimates the best candidate for allowing the robot to pick the object. The best grasping candidate is chosen according to a cascade of heuristics defined by the user in a YAML file for each object detected (Snippet~\ref{code:selection_pipeline_ex}). Therefore, the object needs to be identified and localised before the ``Grasping Selection'' process. The heuristics cascade gives a score for each grasping candidate related to a reference frame (such as the gripper). The one with the lower cost is the eligible candidate. It is possible to define a weight for each heuristic in the pipeline based on the importance level of each method in the application.
 
 %\begin{minipage}[h!]{1\textwidth}
 \begin{snippet}[h!]
 \centering
 \resizebox{0.75\textwidth}{!}{%
 	\begin{tcolorbox}
- \lstinputlisting[%caption= A grasping selection pipeline configuration example.,
+ \lstinputlisting[%caption= A ``Grasping Selection'' pipeline configuration example.,
                   abovecaptionskip=3pt,
                   captionpos=b,
                   style=yaml,
@@ -808,7 +838,7 @@ Once the candidates dataset are loaded in the parameter server (Figure~\ref{fig:
                   {Cap4/codes/grasping_selection_pipeline.yaml}
 \end{tcolorbox}
 }
-\caption{A grasping selection pipeline configuration example.}
+\caption{A ``Grasping Selection'' pipeline configuration example.}
 \label{code:selection_pipeline_ex}
 \end{snippet}
 %\end{minipage}
@@ -816,16 +846,16 @@ Once the candidates dataset are loaded in the parameter server (Figure~\ref{fig:
 Since loading the dataset into server demands time, the pipeline allow two types of operation mode: the direct estimation and the pre-load support. The first loads the dataset into rosparam server every time a ROS action's goal request is sent. In other hand, in pre-load support the pipeline requests two ROS action's goals. The first one to load the database into server and the second one to run the estimation pipeline. It is useful to accelerate the procedure. However the user need to be sure that the loaded database correspond to the object in use when run the estimation process (Figure~\ref{fig:grasping_selection_flowchart}).
 
 \begin{figure}[h!]
-\resizebox{0.75\textwidth}{!}{%
+\resizebox{0.9\textwidth}{!}{%
 \begin{tcolorbox}
 \centerline{\includegraphics[trim={2.5cm 3cm .5cm 0cm},clip,width=1\linewidth,angle=0]{Cap4/Figuras/grasping_selection_pipeline_workflow.pdf}}
 \end{tcolorbox}
-\caption{Grasping selection pipeline workflow.}
+\caption{``Grasping Selection'' pipeline workflow.}
 \label{fig:grasping_selection_flowchart}
 }%end resize box
 \end{figure}
 
-The grasping selection architecture code design is based on polymorphism and implemented in C++. The grasping selection server allows being incremented with new heuristics classes that inherit a defined parent class. Therefore new approaches can be easily integrated without modifying the grasping selection core architecture and pipeline workflow.  
+The ``Grasping Selection'' architecture code design is based on polymorphism and implemented in C++. The ``Grasping Selection'' server allows being incremented with new heuristics classes that inherit a defined parent class. Therefore new approaches can be easily integrated without modifying the ``Grasping Selection'' core architecture and pipeline workflow.  
 
 % TODO: \cred{inserir uml?}
 
@@ -933,12 +963,12 @@ The \ac{COG} distance scorer is a method to set the grasping candidate cost valu
 \subsection{\acl{COBB} Distance Scorer}
 \label{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:cobb_distance}
 
-Following the same motivation of \ac{COG} distance scorer\ref{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:cog_distance}, the \ac{COBB} distance scorer defines the grasping candidate cost based on the Euclidean distance between the candidate and the object bounding box reference frame. The difference relies on objects that the mass is not important with but only the dimensions. The pipeline descriptor is presented in Snippet \ref{code:cog_distance_scorer} and its parameters are the ``$weight$'' that defines the importance of the metric and the $``distance$\_$threshold''$ which excludes candidates that extrapolate that value.
+Following the same motivation of \ac{COG} distance scorer Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:cog_distance}, the \ac{COBB} distance scorer defines the grasping candidate cost based on the Euclidean distance between the candidate and the object bounding box reference frame. The difference relies on objects that the mass is not important with but only the dimensions. The pipeline descriptor is presented in Snippet \ref{code:cog_distance_scorer} and its parameters are the ``$weight$'' that defines the importance of the metric and the $``distance$\_$threshold''$ which excludes candidates that extrapolate that value.
 
-\begin{itemize_jp}
-    \item \textbf{weight:} a penalty weight value. The importance of the metric in selection pipeline is inversely proportional to the weight value. Therefore, this value must be higher than 1.
-    \item \textbf{distance$\_$threshold:} candidates with a distance bigger than the threshold value are discarded.
-\end{itemize_jp}
+%\begin{itemize_jp}
+%    \item \textbf{weight:} a penalty weight value. The importance of the metric in selection pipeline is inversely proportional to the weight value. Therefore, this value must be higher than 1.
+%    \item \textbf{distance$\_$threshold:} candidates with a distance bigger than the threshold value are discarded.
+%\end{itemize_jp}
 
 
 %\begin{minipage}{1\textwidth} 
@@ -965,9 +995,9 @@ Following the same motivation of \ac{COG} distance scorer\ref{cap4:modular_grasp
 \subsection{Roll Distance Scorer}
 \label{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:roll_distance}
 
-The roll distance scorer is a less effort angle displacement selector. Since the ``Grasping Selection`'' Pipeline core relies on configurability, the angles and distance heuristics are developed independently once the application could only take into consideration only a single rotation axis.
+The roll distance scorer is a less effort angle displacement selector. Since the ``Grasping Selection`'' pipeline core relies on configurability, the angles and distance heuristics are developed independently once the application could only take into consideration only a single rotation axis.
 
-This method set the grasping candidate cost value according to the roll distance (TCP X-axis rotation) between the TCP reference frame and the candidate. The pipeline descriptor is presented in Snippet \ref{code:roll_distance_scorer} and besides the already discussed $``weight''$ , two other threshold parameters define the configuration: $``min$\_$angle$\_$threshold`''$ and $``max$\_$angle$\_$threshold`''$ whose are the bound limits in degrees to accept candidates, i.e., it is accepted only candidates within these angular distances.
+This method set the grasping candidate cost value according to the roll distance (TCP X-axis rotation) between the TCP reference frame and the candidate. The pipeline descriptor is presented in Snippet \ref{code:roll_distance_scorer} and besides the already discussed $``weight$'', two other threshold parameters define the configuration: $``min$\_$angle$\_$threshold`''$ and $``max$\_$angle$\_$threshold`''$ whose are the bound limits in degrees to accept candidates, i.e., it is accepted only candidates within these angular distances.
 
 
 % its parameters is described below:
@@ -1003,7 +1033,7 @@ This method set the grasping candidate cost value according to the roll distance
 \subsection{Pitch Distance Scorer}
 \label{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:pitch_distance}
 
-Similarly to Roll Distance scorer\ref{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:roll_distance}, the Pitch Distance Scorer sets the grasping candidate cost value according to the pitch distance between the TCP reference frame and the candidate. Therefore, this cost allows the selection of candidates with less effort in TCP Y-axis rotation. The pipeline descriptor is presented in Snippet \ref{code:pitch_distance_scorer} and its parameters are the same from Roll Distance Scorer, $``weight''$, $``min$\_$angle$\_$threshold`''$ and $``max$\_$angle$\_$threshold`''$.
+Similarly to Roll Distance scorer, Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:roll_distance}, the Pitch Distance Scorer sets the grasping candidate cost value according to the pitch distance between the TCP reference frame and the candidate. Therefore, this cost allows the selection of candidates with less effort in TCP Y-axis rotation. The pipeline descriptor is presented in Snippet \ref{code:pitch_distance_scorer} and its parameters are the same from Roll Distance Scorer, $``weight''$, $``min$\_$angle$\_$threshold`''$ and $``max$\_$angle$\_$threshold`''$.
 
 
 
@@ -1015,7 +1045,7 @@ Similarly to Roll Distance scorer\ref{cap4:modular_grasping_architecture:sec:gra
 
 
 %\begin{minipage}{1\textwidth} 
-\begin{snippet}
+\begin{snippet}[h!]
 \centering
 \resizebox{0.75\textwidth}{!}{%
 \begin{tcolorbox}
@@ -1119,7 +1149,7 @@ The ``$urdf$\_$param$'' is responsible to indicate the ROS topic name where the 
 The workspace filter is method to discard candidates that exceed a spherical workspace thresholds. This is useful to eliminate candidates with dangerous approach/lifting vector. For instance, if the centre of a box is defined as the sphere's origin, it is possible to avoid candidate that generates approach/lifting vectors that collide with the box border, Figure~\ref{fig:workspace_filter_3d_representation}. The approach positions evaluated in this heuristic are automatic generated using the offset, w.r.t grasping candidate, defined by the user.
 
 \begin{figure}[h!] %because of cas-sc
-\resizebox{0.8\textwidth}{!}{%
+\resizebox{0.55\textwidth}{!}{%
 \begin{tcolorbox}
 % \centerline{\includegraphics[trim={7cm 8cm 7cm 9cm},clip,width=1\linewidth,angle=0]{Cap2/Figuras/friction_contact.pdf}}
 \centerline{\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=1\linewidth,angle=0]{Cap4/Figuras/workspace_filter2_gray_bg.pdf}}
@@ -1129,7 +1159,7 @@ The workspace filter is method to discard candidates that exceed a spherical wor
 }%end resizebox
 \end{figure}
 
-The pipeline descriptor is presented in Snippet \ref{code:workspace_filter}. The first parameter to definition is the ``$ws$\_$base$\_$frame$'' which is the frame name that defines the sphere origin with Z-axis as the reference to angles limits. Thus, the threshold boundary limits can be set by the $min\_azimuth\_threshold \quad \phi_{min}$, $max\_azimuth\_threshold \quad \phi_{max}$, $min\_polar\_threshold \quad \phi_{min}$, $min\_radius\_threshold \quad \phi_{max}$, $min\_radius\_threshold \quad \phi_{max}$ parameters. The angles limits can be defined within a range from -180 to 180 degrees and length from 0 to $\infty$ meters. Any candidate, or associated approach vector, that extrapolate these boundaries are excluded. In the ``$plot\_ws$'' parameter enables workspace 3D visualisation. It is useful to debug and calibrate but it is unnecessary to perform the grasping task.
+The pipeline descriptor is presented in Snippet \ref{code:workspace_filter}. The first parameter to definition is the ``$ws$\_$base$\_$frame$'' which is the frame name that defines the sphere origin with Z-axis as the reference to angles limits. Thus, the threshold boundary limits can be set by the $min\_azimuth\_threshold \quad \phi_{min}$, $max\_azimuth\_threshold \quad \phi_{max}$, $min\_polar\_threshold \quad \phi_{min}$, $min\_radius\_threshold \quad \phi_{max}$, $min\_radius\_threshold \quad \phi_{max}$ parameters. The angles limits can be defined within a range from -180 to 180 degrees and length from 0 to $\infty$ meters. Any candidate, or associated approach vector, that extrapolate these boundaries are excluded. The ``$plot\_ws$'' parameter enables workspace 3D visualisation. It is useful to debug and calibrate but it is unnecessary to perform the grasping task.
 
 
 % and its parameters is described below:
@@ -1149,7 +1179,7 @@ The pipeline descriptor is presented in Snippet \ref{code:workspace_filter}. The
 %\begin{minipage}{1\textwidth} 
 \begin{snippet}[h!]
 \centering
-\resizebox{0.75\textwidth}{!}{%
+\resizebox{0.65\textwidth}{!}{%
 	\begin{tcolorbox}
  \lstinputlisting[%caption= Workspace filter pipeline descriptor example.,
                   abovecaptionskip=3pt,
@@ -1175,7 +1205,7 @@ The collision filter is a method that discard candidates that cause collision be
 
 
 \begin{figure}[h!] %because of cas-sc
-\resizebox{0.8\textwidth}{!}{%
+\resizebox{0.65\textwidth}{!}{%
 \begin{tcolorbox}
 % \centerline{\includegraphics[trim={7cm 8cm 7cm 9cm},clip,width=1\linewidth,angle=0]{Cap2/Figuras/friction_contact.pdf}}
 \centerline{\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=1\linewidth,angle=0]{Cap4/Figuras/collision_box_gray_bg.pdf}}
@@ -1206,7 +1236,7 @@ The pipeline descriptor is presented in Snippet \ref{code:workspace_filter}. The
 %\begin{minipage}{1\textwidth} 
 \begin{snippet}[h!]
 \centering
-\resizebox{0.75\textwidth}{!}{%
+\resizebox{0.55\textwidth}{!}{%
 	\begin{tcolorbox}
  \lstinputlisting[%caption= Collision filter pipeline descriptor example.,
                   abovecaptionskip=3pt,
