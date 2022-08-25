@@ -1,0 +1,72 @@
+pipeline:
+    0_euclidean:
+        weight: 1
+        distance_threshold: 2
+    1_cog_distance:
+        weight: 20
+        distance_threshold: 2
+    2_roll:
+        weight: 150
+        min_angle_threshold: -35
+        max_angle_threshold: 35
+    3_pitch:
+        weight: 150
+        min_angle_threshold: -35
+        max_angle_threshold: 35
+    4_yaw:
+        weight: 20
+        min_angle_threshold: -180
+        max_angle_threshold: 180
+    5_workspace:
+        ws_base_frame: 'picking_box_center' 
+        min_azimuth_threshold: -180
+        max_azimuth_threshold: 180
+        min_polar_threshold: -70
+        max_polar_threshold: 70
+        min_radius_threshold: 0
+        max_radius_threshold: .55
+        plot_ws: true 
+    6_joints:
+        chain_start: 'base_link' 
+        chain_end: 'gripper_urdf'
+        timeout: 0.005
+        urdf_param: '/robot_description'
+        insist: 10
+     7_collision: 
+         cloud_topic: "/camera/depth_registered/points" 
+         collision_threshold: 300 
+         voxel_grid_filter: 
+             activate: true
+             leaf_sizes: [.002, .002, .002]
+         collisions: 
+             show_shapes: false 
+             gripper_tcp_frame: "gripper" 
+             shapes:
+                 0_box:
+                       position:
+                           x: 0.000
+                           y: 0.0040
+                           z: 0.03275
+                       orientation:
+                           x: 0
+                           y: 0
+                           z: 0
+                           w: 1
+                       dimension:
+                          x: 0.029
+                          y: 0.0075
+                          z: 0.0655
+                 1_box:
+                       position:
+                          x: 0.000
+                          y: -0.0037
+                          z: 0.03275
+                       orientation:
+                          x: 0
+                          y: 0
+                          z: 0
+                          w: 1
+                       dimension:
+                          x: 0.029
+                          y: 0.0075
+                          z: 0.0655

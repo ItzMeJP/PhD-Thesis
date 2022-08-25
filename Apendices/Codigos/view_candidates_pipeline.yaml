@@ -1,0 +1,14 @@
+output_file_path: ''
+output_log_path: ''
+ros_verbosity_level: 'DEBUG'
+pipeline:
+    0_LOAD_CANDIDATES:
+        model_file_name: knee_tube
+        ns_filename_of_candidate: 'file_'
+        number_of_files: 1
+    1_VIEW:
+        path:
+            gripper_models_file_path: ''
+            object_models_file_path: ''
+        gripper_file_name: 'robotiq_2f_140_outer_finger/robotiq_85_gripper.xml'
+        action_graspit_interface_server_name: '/graspit/planGrasps'

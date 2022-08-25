@@ -1,0 +1,29 @@
+output_file_path: ''
+output_log_path: ''
+ros_verbosity_level: 'INFO'
+pipeline:
+    0_MANUAL:
+        path:
+            gripper_models_file_path: ''
+            object_models_file_path: ''
+        gripper_file_name: 'robotiq_2f_140_outer_finger/robotiq_2f_140.xml'
+        object_file_name: 'falange_piece.ply'
+        config_grasps_parameters:
+            gripper_id: 1 
+            grasp_model: 3 
+            velocity: 0.085
+            force: 125 
+            approach_width_multiplier: 2 
+            release_width_multiplier: 2  
+            min_width_threshold: 0.015 
+    1_TCP_ANGLE_TWIN: 
+        Rz: 180
+        Ry: 0
+        Rx: 0
+    2_VIEW:
+        path:
+            gripper_models_file_path: ''
+            object_models_file_path: ''
+        gripper_file_name: 'robotiq_2f_140_outer_finger/robotiq_2f_140.xml' 
+        object_file_name: 'falange_piece.ply'
+        action_graspit_interface_server_name: '/graspit/planGrasps'

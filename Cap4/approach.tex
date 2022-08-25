@@ -17,7 +17,7 @@ The core of the developed grasping planning architecture pipeline is divided int
 \section{Grasping Synthesis}
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis}
 
-The ``Grasping Synthesis'' is a set of tools responsible, in a pipeline fashion, for generating and handling the grasping poses dataset. This pipeline is an offline step, i.e., it runs outside the robot system in a setup phase. The dataset is created as a set of hypothetical grasping pose candidates which are hierarchically structured in a YAML file format. The proposed dataset standard is detailed discussed in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}.
+The ``Grasping Synthesis'' is a set of tools responsible, in a pipeline fashion, for generating and handling the grasping poses dataset. This pipeline is an offline step, i.e., it runs outside the robot system in a setup phase. A modular YAML configuration file is responsible to define the processing workflow. Configuration examples can be verified at Appendix~\ref{ap:grasping_pipeline_configs} and the methods snippets instances are presented and discussed in the following subsections. The dataset is created as a set of hypothetical grasping pose candidates which are hierarchically structured in a YAML file format. The proposed dataset standard is detailed discussed in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}.
 
 Currently three main components constitutes the ``Grasping Synthesis'': the ``GraspIt!'' Interface (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit}), the Mimic Grasping Module (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping}) and the Post-Processor Pipeline (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:post_processor}). 
 
@@ -551,7 +551,7 @@ Regarding the proposed handler firmware, it is possible to communicate, configur
 \subsection{Post-Processor Pipeline}
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:post_processor}
 
-The post-processor pipeline is a software structure based on \ac{ROS} framework responsible to edit and manipulate the datatasets in a pipeline workflow structure defined by a YAML configuration file. The Figure~\ref{fig:grasping_post_processor} presents the Post-processor pipeline workflow.
+The ``Post-processor'' pipeline is a software structure based on \ac{ROS} framework responsible to edit and manipulate the datasets in a pipeline workflow structure defined by a YAML configuration file. The Figure~\ref{fig:grasping_post_processor} presents the ``Post-processor'' pipeline workflow.
 
 \begin{figure}[h!]
 \resizebox{1\textwidth}{!}{%
@@ -563,7 +563,7 @@ The post-processor pipeline is a software structure based on \ac{ROS} framework 
 }%end resize box
 \end{figure}
 
-A YAML pipeline configuration file is responsible to define the cascade of methods to be deployed, Snippet~\ref{code:post_processor_config}. It is mandatory that the first method be a unique loader method. The loader is responsible to import the dataset to be used by the following ``post-processor`" methods.
+A YAML pipeline configuration file is responsible to define the cascade of methods to be deployed, Snippet~\ref{code:post_processor_config}. It is mandatory that the first method be a unique feeder/loader function. The loader is responsible to import the dataset to be used by the following ``Post-processor`" methods. Additional examples can be verified at Appendix~\ref{ap:grasping_pipeline_configs}.
 
 \begin{snippet}[h!]
 \centering
@@ -586,15 +586,14 @@ A YAML pipeline configuration file is responsible to define the cascade of metho
 \end{snippet}
 
 
-
 Since the ``Post-processor'' pipeline architecture code design is based on polymorphism, which is implemented in C++, the server allows being incremented with new heuristics classes that inherit a defined parent class. Therefore new approaches can be easily integrated without modifying the core architecture and pipeline workflow. 
 
-The proposed post-processors methods are described in the Sections~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:loader} to ~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:graspit_viewer}.
+The proposed post-processors methods are described in the Sections~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:loader} to ~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:viewers}.
 
 \subsubsection{Loader}
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:loader}
 
-The Loader allows to import a already created dataset into ``Post-processor'' pipeline. It important to note that the dataset should follow the proposed convention described in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}. It also allows to merge several different datasets into one. The loader YAML descriptor is defined in Snippet~\ref{code:load_datatset_feeder}. %and its parameters is presented below:
+The Loader, also called Feeder, allows to import a already created dataset into ``Post-processor'' pipeline. It important to note that the dataset should follow the proposed convention described in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}. It also allows to merge several different datasets into one. It is important to note that, it is possible to change the Loader to a ``GraspIt!'' feeder methods into ``Post-processor'' pipeline, as can be verified in Appendix~\ref{ap:grasping_pipeline_configs}. The loader YAML descriptor is defined in Snippet~\ref{code:load_datatset_feeder}. %and its parameters is presented below:
 
 %\begin{minipage}{1\textwidth} 
 \begin{snippet}[h!]
@@ -820,7 +819,7 @@ The ``Grasping Selection'' is a \ac{ROS} package (based on \ac{ROS} action serve
 \end{figure}
 
 
-Once the candidates dataset are loaded in the parameter server (Figure~\ref{fig:grasping_selection_flowchart}), the ``Grasping Selection'' pipeline estimates the best candidate for allowing the robot to pick the object. The best grasping candidate is chosen according to a cascade of heuristics defined by the user in a YAML file for each object detected (Snippet~\ref{code:selection_pipeline_ex}). Therefore, the object needs to be identified and localised before the ``Grasping Selection'' process. The heuristics cascade gives a score for each grasping candidate related to a reference frame (such as the gripper). The one with the lower cost is the eligible candidate. It is possible to define a weight for each heuristic in the pipeline based on the importance level of each method in the application.
+Once the candidates dataset are loaded in the parameter server (Figure~\ref{fig:grasping_selection_flowchart}), the ``Grasping Selection'' pipeline estimates the best candidate for allowing the robot to pick the object. The best grasping candidate is chosen according to a cascade of heuristics defined by the user in a YAML file for each object detected (Snippet~\ref{code:selection_pipeline_ex} and Appendix~\ref{ap:grasping_pipeline_configs}). Therefore, the object needs to be identified and localised before the ``Grasping Selection'' process. The heuristics cascade gives a score for each grasping candidate related to a reference frame (such as the gripper). The one with the lower cost is the eligible candidate. It is possible to define a weight for each heuristic in the pipeline based on the importance level of each method in the application.
 
 %\begin{minipage}[h!]{1\textwidth}
 \begin{snippet}[h!]
@@ -1149,7 +1148,7 @@ The ``$urdf$\_$param$'' is responsible to indicate the ROS topic name where the 
 The workspace filter is method to discard candidates that exceed a spherical workspace thresholds. This is useful to eliminate candidates with dangerous approach/lifting vector. For instance, if the centre of a box is defined as the sphere's origin, it is possible to avoid candidate that generates approach/lifting vectors that collide with the box border, Figure~\ref{fig:workspace_filter_3d_representation}. The approach positions evaluated in this heuristic are automatic generated using the offset, w.r.t grasping candidate, defined by the user.
 
 \begin{figure}[h!] %because of cas-sc
-\resizebox{0.55\textwidth}{!}{%
+\resizebox{0.85\textwidth}{!}{%
 \begin{tcolorbox}
 % \centerline{\includegraphics[trim={7cm 8cm 7cm 9cm},clip,width=1\linewidth,angle=0]{Cap2/Figuras/friction_contact.pdf}}
 \centerline{\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=1\linewidth,angle=0]{Cap4/Figuras/workspace_filter2_gray_bg.pdf}}
@@ -1205,7 +1204,7 @@ The collision filter is a method that discard candidates that cause collision be
 
 
 \begin{figure}[h!] %because of cas-sc
-\resizebox{0.65\textwidth}{!}{%
+\resizebox{0.85\textwidth}{!}{%
 \begin{tcolorbox}
 % \centerline{\includegraphics[trim={7cm 8cm 7cm 9cm},clip,width=1\linewidth,angle=0]{Cap2/Figuras/friction_contact.pdf}}
 \centerline{\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=1\linewidth,angle=0]{Cap4/Figuras/collision_box_gray_bg.pdf}}
@@ -1236,7 +1235,7 @@ The pipeline descriptor is presented in Snippet \ref{code:workspace_filter}. The
 %\begin{minipage}{1\textwidth} 
 \begin{snippet}[h!]
 \centering
-\resizebox{0.55\textwidth}{!}{%
+\resizebox{0.75\textwidth}{!}{%
 	\begin{tcolorbox}
  \lstinputlisting[%caption= Collision filter pipeline descriptor example.,
                   abovecaptionskip=3pt,

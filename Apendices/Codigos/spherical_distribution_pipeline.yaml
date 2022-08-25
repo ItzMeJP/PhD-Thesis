@@ -1,0 +1,39 @@
+output_file_path: ''
+output_log_path: ''
+ros_verbosity_level: 'INFO'
+pipeline:
+    0_LOAD_CANDIDATES:
+        model_file_name: bearing_holder
+        ns_filename_of_candidate: 'file_'
+        number_of_files: 1
+    1_OBJ_ANGLE_TWIN:
+        azimuth: 30 
+        polar: 0 
+    2_OBJ_ANGLE_TWIN: 
+        azimuth: 60 
+        polar: 0
+    3_OBJ_ANGLE_TWIN: 
+        azimuth: 120 
+        polar: 0 
+    4_OBJ_ANGLE_TWIN: 
+        azimuth: 150
+        polar: 0 
+    5_OBJ_ANGLE_TWIN: 
+        azimuth: 180 
+        polar: 0 
+    7_DISTANCE_FILTER:
+        abs_euclidean_distance_threshold: 0.01
+        abs_roll_distance_threshold: 20
+        abs_pitch_distance_threshold: 20
+        abs_yaw_distance_threshold: 20
+    8_TCP_ANGLE_TWIN: 
+        Rz: 180
+        Ry: 0
+        Rx: 0
+    9_VIEW:
+        path:
+            gripper_models_file_path: ''
+            object_models_file_path: ''
+        gripper_file_name: 'robotiq_2f_140_outer_finger/robotiq_2f_140.xml' # remember to change the config_grasps_parameters:gripper_id bellow
+        object_file_name: 'bearing_holder.ply'
+        action_graspit_interface_server_name: '/graspit/planGrasps'

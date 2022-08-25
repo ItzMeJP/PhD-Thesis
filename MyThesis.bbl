@@ -535,6 +535,53 @@
     \field{year}{2005}
   \endentry
 
+  \entry{castro2019adaptpack}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=CA}{%
+         family={Castro},
+         familyi={C\bibinitperiod},
+         given={Andr{\'e}},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=m}{%
+         family={\mkbibbold{Souza, Joao Pedro}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=RL}{%
+         family={Rocha},
+         familyi={R\bibinitperiod},
+         given={Lu{\'\i}s},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SMF}{%
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Manuel\bibnamedelima F},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{CA+1}
+    \strng{fullhash}{CAmRLSMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{2019 IEEE International Conference on Autonomous Robot
+  Systems and Competitions (ICARSC)}
+    \verb{doi}
+    \verb 10.1109/ICARSC.2019.8733626
+    \endverb
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Adaptpack studio: Automatic offline robot programming
+  framework for factory environments}
+    \field{year}{2019}
+  \endentry
+
   \entry{castro2020adaptpack}{article}{}
     \name{author}{4}{}{%
       {{hash=CAL}{%
@@ -576,6 +623,9 @@
     \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
+    \verb{doi}
+    \verb https://doi.org/10.1108/IR-12-2019-0252
+    \endverb
     \field{title}{AdaptPack Studio: an automated intelligent framework for
   offline factory programming}
     \field{journaltitle}{Industrial Robot: the international journal of
@@ -5441,6 +5491,61 @@
     \field{year}{2020}
   \endentry
 
+  \entry{souza2019converting}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=SJP}{%
+         family={Souza},
+         familyi={S\bibinitperiod},
+         given={Joao\bibnamedelima Pedro},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Castro},
+         familyi={C\bibinitperiod},
+         given={Andr{\'e}},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RL}{%
+         family={Rocha},
+         familyi={R\bibinitperiod},
+         given={Lu{\'\i}s},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Relvas},
+         familyi={R\bibinitperiod},
+         given={Pedro},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SMF}{%
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Manuel\bibnamedelima F},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SJP+1}
+    \strng{fullhash}{SJPCARLRPSMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{2019 IEEE International Conference on Autonomous Robot
+  Systems and Competitions (ICARSC)}
+    \verb{doi}
+    \verb 10.1109/ICARSC.2019.8733631
+    \endverb
+    \field{pages}{1\bibrangedash 7}
+    \field{title}{Converting robot offline programs to native code using the
+  adaptpack studio translators}
+    \field{year}{2019}
+  \endentry
+
   \entry{de2020adaptpack}{article}{}
     \name{author}{4}{}{%
       {{hash=dSJPC}{%
@@ -5482,11 +5587,70 @@
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \verb{doi}
+    \verb https://doi.org/10.1108/IR-12-2019-0253
+    \endverb
     \field{title}{AdaptPack studio translator: translating offline programming
   to real palletizing robots}
     \field{journaltitle}{Industrial Robot: the international journal of
   robotics research and application}
     \field{year}{2020}
+  \endentry
+
+  \entry{9429788}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=dSJPC}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Souza},
+         familyi={S\bibinitperiod},
+         given={João Pedro\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=RLF}{%
+         family={Rocha},
+         familyi={R\bibinitperiod},
+         given={Luís\bibnamedelima F.},
+         giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=FVM}{%
+         family={Filipe},
+         familyi={F\bibinitperiod},
+         given={Vítor\bibnamedelima M.},
+         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BCJ}{%
+         family={Boaventura-Cunha},
+         familyi={B\bibinithyphendelim C\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MAP}{%
+         family={Moreira},
+         familyi={M\bibinitperiod},
+         given={A.\bibnamedelima Paulo},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJPCd+2}
+    \strng{fullhash}{SJPCdRLFFVMBCJMAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{2021 IEEE International Conference on Autonomous Robot
+  Systems and Competitions (ICARSC)}
+    \verb{doi}
+    \verb 10.1109/ICARSC52212.2021.9429788
+    \endverb
+    \field{pages}{123\bibrangedash 129}
+    \field{title}{Low-Cost and Reduced-Size 3D-Cameras Metrological Evaluation
+  Applied to Industrial Robotic Welding Operations}
+    \field{year}{2021}
   \endentry
 
   \entry{carvalho2020}{article}{}
@@ -5544,6 +5708,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
+    \field{extradate}{2}
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}

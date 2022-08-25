@@ -1,0 +1,19 @@
+output_file_path: ''
+output_log_path: ''
+ros_verbosity_level: 'INFO'
+pipeline:
+    0_LOAD_CANDIDATES:
+        model_file_name: multi_side_bracket
+        ns_filename_of_candidate: 'file_'
+        number_of_files: 1
+    1_TCP_ANGLE_TWIN:
+        Rz: 180
+        Ry: 0
+        Rx: 0
+    2_VIEW:
+        path:
+            gripper_models_file_path: ''
+            object_models_file_path: ''
+        gripper_file_name: 'robotiq_2f_140_outer_finger/robotiq_2f_140.xml' # remember to change the config_grasps_parameters:gripper_id bellow
+        object_file_name: 'multi_side_bracket.ply'
+        action_graspit_interface_server_name: '/graspit/planGrasps'

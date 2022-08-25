@@ -1,0 +1,48 @@
+output_file_path: ''
+output_log_path: ''
+ros_verbosity_level: 'INFO'
+pipeline:
+    0_SANN_MULTI_FINGER:
+        path:
+            gripper_models_file_path: ''
+            object_models_file_path: ''
+        gripper_file_name: 'robotiq_2f_140_outer_finger/robotiq_2f_140.xml' 
+        object_file_name: 'triangle_bracket.ply'
+        graspable_body_id: 0 
+        action_graspit_interface_server_name: '/graspit/planGrasps'
+        action_server_timeout: 360
+        iterations: 1
+        epsilon_threshold: 0.0001 
+        sim_annealing:
+            max_steps: 90000 
+            feedback_num_steps: 0 
+            set_custom_params: true 
+            YC: 7.0 
+            HC: 7.0 
+            YDIMS: 8.0 
+            HDIMS: 8.0 
+            NBR_ADJ: 1.0 
+            ERR_ADJ: 1e-6 
+            DEF_K0: 30000 
+            DEF_T0: 1e6 
+        config_grasps_parameters:
+            gripper_id: 1 
+            approach_width_multiplier: 2 
+            release_width_multiplier: 2 
+            min_width_threshold: 0.015 
+    1_DISTANCE_FILTER:
+        abs_euclidean_distance_threshold: 0.01
+        abs_roll_distance_threshold: 20
+        abs_pitch_distance_threshold: 20
+        abs_yaw_distance_threshold: 20
+    2_TCP_ANGLE_TWIN: 
+        Rz: 180
+        Ry: 0
+        Rx: 0
+    3_VIEW:
+        path:
+            gripper_models_file_path: ''
+            object_models_file_path: ''
+        gripper_file_name: 'robotiq_2f_140_outer_finger/robotiq_2f_140.xml'
+        object_file_name: 'triangle_bracket.ply'
+        action_graspit_interface_server_name: '/graspit/planGrasps'
