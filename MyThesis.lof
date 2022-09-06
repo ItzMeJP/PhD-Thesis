@@ -10,7 +10,7 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces (left) Multi-arm robot~\blx@tocontentsinit {0}\parencite {abb_dual_arm}. (right) Multi-gripper end-effector~\blx@tocontentsinit {0}\parencite {multi_gripper_nsr}\relax }}{10}{figure.caption.28}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Friction contact model and the geometric representation of Coulomb’s law (figure based on~\blx@tocontentsinit {0}\parencite {murray1994mathematical}).\relax }}{11}{figure.caption.29}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Linearised friction contact model.\relax }}{13}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Wrench convex-hull configuration. Force-closure and the $\epsilon $-value (left). Non-force-closure (right).\relax }}{16}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Wrench convex-hull configuration. Force-closure and the $\epsilon $-value (left). Non-force-closure (right).\relax }}{15}{figure.caption.31}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces The 4 \ac {DOF} Barrett gripper and its bidimensional \textit {eigengrasp} representation. \relax }}{18}{figure.caption.33}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Grasping optimisation process elucidation.\relax }}{19}{figure.caption.35}%
 \addvspace {10\p@ }
@@ -32,11 +32,11 @@
 \contentsline {figure}{\numberline {5.8}{\ignorespaces HGPC16A and FM-SW 76x22 4x6 N10 grippers.\relax }}{60}{figure.caption.78}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Proposed firmware finite state machine.\relax }}{61}{figure.caption.79}%
 \contentsline {figure}{\numberline {5.10}{\ignorespaces The mimic handler with 6D Mimic luminous marker attached.\relax }}{63}{figure.caption.81}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces The plugins are responsible to establish the communication between the localisation strategies and the Mimic Grasping pipeline. 6D Mimic and Phoxi DRL are the implemented interfaces to the proposed use case.\relax }}{64}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces The plugins are responsible to establish the communication between the localisation strategies and the Mimic Grasping pipeline. 6D Mimic and Phoxi DRL are the implemented interfaces to the proposed use case.\relax }}{65}{figure.caption.84}%
 \contentsline {figure}{\numberline {5.12}{\ignorespaces \ac {GUI} main window.\relax }}{65}{figure.caption.85}%
 \contentsline {figure}{\numberline {5.13}{\ignorespaces \ac {GUI} localisation configuration window.\relax }}{66}{figure.caption.86}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces \ac {GUI} firmware configuration window.\relax }}{66}{figure.caption.87}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Post-processor pipeline workflow.\relax }}{67}{figure.caption.88}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces \ac {GUI} firmware configuration window.\relax }}{67}{figure.caption.87}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Post-processor pipeline workflow.\relax }}{68}{figure.caption.88}%
 \contentsline {figure}{\numberline {5.16}{\ignorespaces Symmetric grasping replicas over a TCP's symmetry axis.\relax }}{70}{figure.caption.92}%
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Symmetric grasping replicas over a object's symmetry axis.\relax }}{71}{figure.caption.94}%
 \contentsline {figure}{\numberline {5.18}{\ignorespaces The ``Grasping Selection'' process. (top~left) The object with the grasping candidates frames. (top~right) The best candidate is chose following the task oriented grasping heuristic. (bottom~left) Robot's initial pose. (bottom~middle) Approaching movement. (bottom~right) Grasping. \relax }}{73}{figure.caption.98}%

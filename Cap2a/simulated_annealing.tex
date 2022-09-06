@@ -28,10 +28,17 @@ exp({\frac{Q(S_{current})-Q(S_{new})}{T}})>Rand(0,1)
 \label{eq:very_fast_snn_prob}
 \end{equation}
 
-Regarding the multi-fingered grasping, it is possible to define a state based on the hand posture $\mathbf{p}$ and, the position and orientation of the wrist $\mathbf{w}$ such as: \cred{TODO}
+Regarding the multi-fingered grasping, it is possible to define a state based on the hand posture $\mathbf{p}$ and, the position and orientation of the wrist $\mathbf{w}$ such as:
+
+%\begin{equation}
+%S=[\mathbf{p}, \mathbf{w}], \quad \mathbf{p} \in \mathcal{R}^{d}, \mathbf{w} \in \mathcal{R}^{6}
+%\label{eq:fob_grasp}
+%\end{equation}
 
 \begin{equation}
-S=f(\mathbf{p}, \mathbf{w}), \quad \mathbf{p} \in \mathcal{R}^{d}, w \in \mathcal{R}^{6}
+	\mathbf{S}=\left[\begin{array}{c}
+		\mathbf{p} \\
+		\mathbf{w}\end{array}\right], \quad \mathbf{p} \in \mathcal{R}^{d}, \mathbf{w} \in \mathcal{R}^{6}
 \label{eq:fob_grasp}
 \end{equation}
 

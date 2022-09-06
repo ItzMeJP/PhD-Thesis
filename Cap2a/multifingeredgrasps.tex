@@ -72,6 +72,10 @@ where $ ^o\mathbf{R}_{c_i}$ and $^o\mathbf{t}_{c_i}$ are the rotation and transl
 0 & -a_{3} & a_{2} \\
 a_{3} & 0 & -a_{1} \\
 -a_{2} & a_{1} & 0
+\end{array}\right] \quad where \quad \boldsymbol{a} = \left[\begin{array}{c}
+a_{1} \\
+a_{2} \\
+a_{3}
 \end{array}\right]
 \end{equation}
 
@@ -160,7 +164,7 @@ where $\mathbf{w}_{pd_{ci}}$ $\in$ $^o\mathbf{W}$ and $\bigoplus$ is the Minkows
 The concept of grasp closure evaluates the restraining of an object. A common assumption is the force-closure implies an equilibrium, but the inverse does not apply. A grasp has its convex hull defined by the wrenches that constitute the grasp configuration, i.e., the matrix $^{o} \mathbf{W}$. In a force-closure grasp, the convex hull includes the wrench space origin $\{O\}$, see Figure~\ref{fig:gws_force_closure}. According to the definition presented in~\cite{salisbury1983kinematic}, if all wrenches in $^{o} \mathbf{W}$ positively span the entire wrench space, the grasp will be force-closure. Figure~\ref{fig:gws_force_closure} shows a  grasp wrench space (GWS) and a convex hull of grasp configuration for force and non-force-closure, for a planar case with a fixed value for the moment ($\tau$) in the z-axis. Therefore, it is considered $\mathbf{f}_{c_i} \in  \mathbb{R}^2:  {f}_{c_i}  = (f_{x} , f_{y})$, and  the resistance to perturbation in both force axes is evaluated. 
 
 \begin{figure}[h!]
-\resizebox{0.85\textwidth}{!}{%
+\resizebox{0.8\textwidth}{!}{%
 \begin{tcolorbox}
 \centerline{\includegraphics[trim={0cm 1.2cm 0cm 5.5cm},clip,width=1\linewidth,angle=0]{Cap2/Figuras/wrenchspace_anlayses_2.pdf}}
 \end{tcolorbox}

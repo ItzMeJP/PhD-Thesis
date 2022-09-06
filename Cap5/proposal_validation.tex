@@ -1,15 +1,15 @@
 \chapter{Proposal Validation}
 \label{cap5:results}
 
-The thesis grasping architecture proposed in this thesis is deployed and validated on three industrial demonstrators which are described in this chapter. Therefore, the chapter is structured as follows: Since the industrial demonstrator is conducted into UE R\&D projects in collaboration with different companies, Section~\ref{cap5:red_context} gives a brief introduction of each project and presents its use cases focusing on the grasping issue. Afterwards, the pipeline setup deployed is then presented, followed by the achieved results in Sections~\ref{cap5:grasping_planner_evaluation} and~\ref{cap5:mimic_grasping_evaluation}.
+The thesis grasping architecture proposed in this thesis is deployed and validated on three industrial demonstrators which are described in this chapter. Therefore, the chapter is structured as follows: Since the industrial demonstrator is conducted into National and UE R\&D projects in collaboration with different companies, Section~\ref{cap5:red_context} gives a brief introduction of each project and presents its use cases focusing on the grasping issue. Afterwards, the pipeline setup deployed is then presented, followed by the achieved results in Sections~\ref{cap5:grasping_planner_evaluation} and~\ref{cap5:mimic_grasping_evaluation}.
 
 
 \section{R\&D Context}
 \label{cap5:red_context}
 
-During the development of the current thesis proposal, companies and consortia showed interest in the deployment of the current grasping solution in the following R\&D projects: Fasten, Mari4Yard and Produtech 4S\&C. As the projects are funded by the European Union, the proposal is widely developed and does not rely only relies on grasping procedure. The readers are encouraged to read the detailed description of each project in the references ~\cite{fasten,mari4yard,produtech4sc}.
+During the development of the current thesis proposal, companies and consortia showed interest in the deployment of the current grasping solution in the following R\&D projects: Fasten, Mari4Yard and Produtech 4S\&C. As the projects are funded by Portugal and/or the European Union, the proposal is widely developed and does not rely only relies on grasping procedure. The readers are encouraged to read the detailed description of each project in the references ~\cite{fasten,mari4yard,produtech4sc}.
 
-In summary, all projects have two similarities: Modularity and flexibility, focusing on the challenges of Industry 4.0, and the use of a robotic grasping step during the production/manufacturing task. Therefore, the grasping planner proposed in this paper has been used within INESCTEC~\cite{inesctec} and CRIIS~\cite{criis} for the mentioned projects. 
+In summary, all projects have two similarities: Modularity and flexibility, focusing on the challenges of Industry 4.0, and the use of a robotic grasping step during the production/manufacturing task. Therefore, the grasping planner proposed in this thesis has been used within INESCTEC~\cite{inesctec} and CRIIS~\cite{criis} for the mentioned projects. 
 It is important to mention that all projects were conducted along this PhD. None of them was designed simultaneously, so differences in the robot setup can be verified together with different outcome evaluations and performances.
 
 The grasping issue, in all projects can be summarised as that in one phase of a mission, the robot should detect, estimate the object pose and select the best grasping configuration to grasp and hold an object that is freely disposed on a table, a box, a conveyor or a container, Figure~\ref{fig:omni}. Therefore, the Grasping Selection, Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection}, should be able to select a suitable candidate independently of the configuration of the object position. In this context, a large candidate dataset should be available, which can be created by the Grasping Synthesis pipeline (section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit}). The ''GraspIt! interface" and the ``Post-processor'' pipeline, Sections~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit} and~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:post_processor}, are used to create the dataset in which the definition of the robot setup and the active pair in each solution with their respective 3D model becomes necessary.
@@ -821,12 +821,12 @@ where $\Delta e$ is the predicted error; $x$ the candidate component measurement
 \begin{tabular}{@{}ccc@{}}
 \toprule
 \textbf{Candidate's Component} & \textbf{Slope} & \textbf{Y-Intercept} \\ \midrule
-X-Axis                         & -0.00296       & 0.00274              \\
-Y-Axis                         & -0.00452       & 0.00378              \\
-Z-Axis                         & -0.00396       & 0.00891              \\
-Roll                           & -0.0373        & 2.10191              \\
-Pitch                          & -0.03013       & 2.77801              \\
-Yaw                            & -0.02383       & -1.85640             \\ \bottomrule
+X-Axis                         & -0.00296       & 0.00274m           \\
+Y-Axis                         & -0.00452       & 0.00378m           \\
+Z-Axis                         & -0.00396       & 0.00891m             \\
+Roll                           & -0.0373        & 2.10191$^o$             \\
+Pitch                          & -0.03013       & 2.77801$^o$              \\
+Yaw                            & -0.02383       & -1.85640$^o$             \\ \bottomrule
 \end{tabular}%
 }
 \end{tcolorbox}
@@ -837,7 +837,7 @@ Yaw                            & -0.02383       & -1.85640             \\ \botto
 Along with the error prediction estimated for the given use case, new acquisitions are executed using both ground-truth pieces. A total of 816 grasping acquisitions were performed. The visual \ac{GUI} feedback (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:gui}), which update in demonstration-time, allows to identify  a total of 37 outliers that were deleted by the tool handler firmware ``Cancelling'' state (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:firmware}). Therefore the pipeline was able to generate feasible grasping poses at a \ac{GPSR} of 95.47\%. These outliers candidates are typically generated when the handler tool's luminous marker is out of 6D Mimic camera's workspace or if any critical occlusion is created. 
 
 
-The final precision result assessment is defined by the curves of Figure~\ref{fig:mimic_grapsing_final_error}. In these plots it is possible to verify that the strategy to remove the systematic error improves the result, e.g. considering the absolute average error of all measurements, the x-axis, y-axis and z-axis errors improve in 2.5mm, 2.34mm and 8.63mm. Regarding the roll, pitch, and yaw errors the improvements are of 2.63$^o$, 1.83$^o$ and 3.82$^o$, respectively. It is important to note that, since the 6D Mimic is a stereoscopic system, the acquisitions transversal to the cameras' baseline incorporate a larger error than the ones that are in the image plane. Therefore, in the present use case,  the linear ground-truth piece configuration includes a larger and a small transversal stereoscopic error along the y-axis and x-axis, respectively, which define the larger error detected in plots of these components concerning the z-axis that is completely in the image plane. The high error over the z-axis The angular assessments variance is due to the fact the process is manually performed, thus inconsistencies occur based on human movements. However, these results variances result in permissive error values regarding grasping objects.
+The final precision result assessment is defined by the curves of Figure~\ref{fig:mimic_grapsing_final_error}. In these plots it is possible to verify that the strategy to remove the systematic error improves the result, e.g. considering the absolute average error of all measurements, the x-axis, y-axis and z-axis errors improve in 2.5mm, 2.34mm and 8.63mm. Regarding the roll, pitch, and yaw errors the improvements are of 2.63$^o$, 1.83$^o$ and 3.82$^o$, respectively. It is important to note that, since the 6D Mimic is a stereoscopic system, the acquisitions transversal to the cameras' baseline incorporate a larger error than the ones that are in the image plane. Therefore, in the present use case,  the linear ground-truth piece configuration includes a more significant and a small transversal stereoscopic error along the y-axis and x-axis, respectively, which define the larger error detected in plots of these components while the z-axis, which is entirely in the image plane, has a reduced error. The angular assessments variance is due to the fact the process is manually performed, thus inconsistencies occur based on human movements. However, these results variances result in permissive error values regarding grasping objects.
 
 \begin{figure}[h!]
 \resizebox{1\textwidth}{!}{%
