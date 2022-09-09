@@ -3,7 +3,7 @@
 \label{cap2:related_work}
 
 %-------------------------------------------------------------------------------------------------------------
-Given the vast range of works in the robotic grasping, this chapter discusses and reviews state-of-the-art proposals of grasping solutions and how they evolved over the years. This chapter build the basis to the thesis proposals.
+Given the vast range of research works in the robotic grasping, this chapter discusses and reviews state-of-the-art proposals of grasping solutions and how they evolved over the years. This chapter build the basis to the thesis proposals.
 
 %It also discusses and presents the new steps and future works ideas not yet explored: from the academic field to the new challenges of industry 4.0. 
 
@@ -89,7 +89,7 @@ Each contact can be modelled by a wrench vector $\mathbf{w}$ composed of forces 
 \captionof{figure}{Wrench space analyses representation}\label{fig:gws_force_closure_main}
 \end{tcolorbox}
 
-Following~\cite{Jiang2011a}, \citeauthor{Lenz2015}~\cite{Lenz2015} propose that the 6DOF-Rectangle could be simplified and confirm that this representation can be projected back to a 3DOF space. However, it was not explained this mapping. Later works~\cite{Redmon2015,Watson2017,Gariepy2019,asif2018ensemblenet} used this approach and achieved an interesting grasping detection success rate. 
+Following~\cite{Jiang2011a}, \citeauthor{Lenz2015}~\cite{Lenz2015} propose that the 6DOF-Rectangle could be simplified and confirm that this representation can be projected back to a 3DOF space. However, the authors do not explain this mapping. Later works~\cite{Redmon2015,Watson2017,Gariepy2019,asif2018ensemblenet} used this approach and achieved an interesting grasping detection success rate. 
 
 \begin{tcolorbox}[every float=\centering, drop shadow, title= Antipodal Grasping]
 
@@ -169,7 +169,7 @@ Even if several state-of-the-art works use these image-based metrics to assess t
 %\label{cap2:related_work:sec:grasping_representation:subsec:discussion}
 
 
-As it is possible to see in this section, grasping representation is an essential phase in grasping planning. The mathematical formulation and description, such as wrench space analyses, antipodal restriction, $\epsilon$, and volume metrics are the basis for understanding physical phenomena between the active-pair interaction, e.g., basis widely used in 3D model grasping representations (3D-sensing and CAD simulations). However, these mathematical description techniques showed to be limited by several factors, e.g., high complexity implementation according to application demands and the necessity to know the gripper and graspable object characteristics. Therefore, these approaches typically work well only in specific cases.  
+As it is possible to see in this section, grasping representation is an essential phase in grasping planning. The mathematical formulation and description, such as wrench space analyses, antipodal restriction, $\epsilon$-value, and volume metrics are the basis for understanding physical phenomena between the active-pair interaction, e.g., basis widely used in 3D model grasping representations (3D-sensing and CAD simulations). However, these mathematical description techniques showed to be limited by several factors, e.g., high complexity implementation according to application demands and the necessity to know the gripper and graspable object characteristics. Therefore, these approaches typically work well only in specific cases.  
 
 \begin{tcolorbox}[every float=\centering, drop shadow, title= Jacquard threshold]
 	
@@ -193,7 +193,7 @@ Heretofore, to the best of the authors' knowledge, the most promising representa
 \section{Robotic Grasping Approaches}
 \label{cap2:related_work:sec:grasping_approaches}
 
-Since the advent of robotic operations, numerous proposals explore the grasping solution idea, from analytical to deep learning approaches. In summary, analytical methods showed to be the first solution to several proposals that achieved exciting results in specific cases. They also formulate the basis used in recent days. However, the main problem is the object grasping generalisation and complexity rise according to the application demand. Currently, the computer science field advances led to machine learning usage that shows to be a potential fashion to deploy effective grasping solutions, until now not reached but with promising results. 
+Since the advent of robotic operations, numerous proposals explore the grasping solution idea, from analytical to deep learning approaches. In summary, analytical methods showed to be the first solution to several proposals that achieved exciting results in specific cases. They also formulate the basis used in recent days. However, the main problem is the object grasping generalisation and complexity rise according to the application demand. Currently, the computer science field advances led to machine learning usage that shows to be a potential method to deploy effective grasping solutions, until now not reached but with promising results. 
 
 Therefore, the present section is an effort to categorise these strategies over the years and build a structured basis for new studies. This section is organised as follows: first, the analytical methods are explored in Section~\ref{cap2:related_work:sec:grasping_approaches:subsec:analytical_review} following by the data-driven grasping policies, Section~\ref{cap2:related_work:sec:grasping_approaches:subsec:learning_review}. As the deep learning methodology has been the study-case of several state-of-art proposals, this data-driven policy subcategory is presented apart in Section~\ref{cap2:related_work:sec:grasping_approaches:subsec:deep_learning_review}.
 

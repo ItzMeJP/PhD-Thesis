@@ -507,6 +507,24 @@
     \field{year}{2015}
   \endentry
 
+  \entry{brodosplit}{misc}{}
+    \list{organization}{1}{%
+      {Brodosplit}%
+    }
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{note}{(Accessed 2022-09-01)}
+    \field{title}{Brodosplit}
+    \verb{url}
+    \verb https://www.brodosplit.hr/en
+    \endverb
+    \field{month}{09}
+    \field{year}{2022}
+  \endentry
+
   \entry{castiello2005neuroscience}{article}{}
     \name{author}{1}{}{%
       {{hash=CU}{%
@@ -643,7 +661,7 @@
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{note}{(Accessed 2022-08-01)}
-    \field{title}{Centro de Robótica Industrial e Sistemas Inteligentes}
+    \field{title}{Centre for Robotics in Industry and Intelligent Systems}
     \verb{url}
     \verb https://www.inesctec.pt/pt/centros/criis
     \endverb
@@ -4067,6 +4085,24 @@
   estabilidade, contudo nao {\'{e}}, ainda, o foco de meus estudos.%
     }
     \field{year}{1987}
+  \endentry
+
+  \entry{nodosa}{misc}{}
+    \list{organization}{1}{%
+      {Nodosa}%
+    }
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{note}{(Accessed 2022-09-01)}
+    \field{title}{Nodosa}
+    \verb{url}
+    \verb https://www.nodosa.com/index_en.php
+    \endverb
+    \field{month}{09}
+    \field{year}{2022}
   \endentry
 
   \entry{Oztop2001}{article}{}

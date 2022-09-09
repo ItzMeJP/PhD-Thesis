@@ -55,17 +55,17 @@
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Candidates dataset for PRODUTECH 4S\&C use case.(a) Falange piece (b) Bearing holder (c) Rod.\relax }}{92}{figure.caption.123}%
 \contentsline {figure}{\numberline {6.10}{\ignorespaces Some excluded unfeasible grasping candidates. The unsuspected collisions are highlighted in red circles. These collision is due to 3D model inconsistencies and by the algorithm parameters calibration.\relax }}{93}{figure.caption.125}%
 \contentsline {figure}{\numberline {6.11}{\ignorespaces Candidate examples over Grasp Viewer.\relax }}{94}{figure.caption.127}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Mari4Yard bin-picking demonstrator.\relax }}{96}{figure.caption.130}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Experimental grasping results in Embraer shop floor.\relax }}{97}{figure.caption.131}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Precision analyses using the mimic grasping proposal.\relax }}{98}{figure.caption.132}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces The designed ground-truth pieces.\relax }}{99}{figure.caption.133}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces The designed probes attached on tool handler.\relax }}{99}{figure.caption.134}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Precision assessment procedure using linear ground-truth piece.\relax }}{100}{figure.caption.135}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Precision assessment procedure using angular ground-truth piece.\relax }}{101}{figure.caption.136}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Predicted correction curve for all components of a candidate.\relax }}{102}{figure.caption.137}%
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Components error of a candidate.\relax }}{103}{figure.caption.139}%
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Mimic grasping candidate building using the linear ground truth object and two different grippers. First the human demonstration, following by the Mimic Grasping GUI representation and the robot grasping movement.\relax }}{104}{figure.caption.140}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Mari4$\_$Yard bin-picking demonstrator.\relax }}{97}{figure.caption.130}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Experimental grasping results in Embraer shop floor.\relax }}{98}{figure.caption.131}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Precision analyses using the mimic grasping proposal.\relax }}{99}{figure.caption.132}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces The designed ground-truth pieces.\relax }}{100}{figure.caption.133}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces The designed probes attached on tool handler.\relax }}{100}{figure.caption.134}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Precision assessment procedure using linear ground-truth piece.\relax }}{101}{figure.caption.135}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Precision assessment procedure using angular ground-truth piece.\relax }}{102}{figure.caption.136}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Predicted correction curve for all components of a candidate.\relax }}{103}{figure.caption.137}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Components error of a candidate.\relax }}{104}{figure.caption.139}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Mimic grasping candidate building using the linear ground truth object and two different grippers. First the human demonstration, following by the Mimic Grasping GUI representation and the robot grasping movement.\relax }}{105}{figure.caption.140}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Handler Tool Electronic Schematic.\relax }}{132}{figure.caption.147}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Handler Tool Electronic Schematic.\relax }}{134}{figure.caption.147}%

@@ -55,7 +55,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 23900 items.
+Reallocating 'field_info' (item size: 4) to 24180 items.
 Database file #1: MyThesis-blx.bib
 Database file #2: MyBibDataBase.bib
 Reallocating 'str_pool' (item size: 1) to 130000 items.
@@ -66,45 +66,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.18
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 135 entries,
+You've used 137 entries,
             6399 wiz_defined-function locations,
-            2227 strings with 93389 characters,
-and the built_in function-call counts, 1147188 in all, are:
-= -- 93209
-> -- 13924
-< -- 4138
-+ -- 33094
-- -- 5449
-* -- 86071
-:= -- 130152
+            2234 strings with 93506 characters,
+and the built_in function-call counts, 1151470 in all, are:
+= -- 93353
+> -- 13964
+< -- 4188
++ -- 33120
+- -- 5457
+* -- 86307
+:= -- 130262
 add.period$ -- 0
-call.type$ -- 135
-change.case$ -- 2228
-chr.to.int$ -- 111
-cite$ -- 268
-duplicate$ -- 122680
-empty$ -- 101379
-format.name$ -- 9111
-if$ -- 229776
+call.type$ -- 137
+change.case$ -- 2258
+chr.to.int$ -- 123
+cite$ -- 272
+duplicate$ -- 123246
+empty$ -- 102009
+format.name$ -- 9113
+if$ -- 230776
 int.to.chr$ -- 0
-int.to.str$ -- 372
+int.to.str$ -- 376
 missing$ -- 0
-newline$ -- 5692
-num.names$ -- 6169
-pop$ -- 49390
+newline$ -- 5728
+num.names$ -- 6191
+pop$ -- 50030
 preamble$ -- 1
-purify$ -- 2981
+purify$ -- 3009
 quote$ -- 0
-skip$ -- 23990
+skip$ -- 24180
 stack$ -- 0
-substring$ -- 172773
-swap$ -- 24195
-text.length$ -- 3563
-text.prefix$ -- 140
+substring$ -- 172897
+swap$ -- 24423
+text.length$ -- 3591
+text.prefix$ -- 142
 top$ -- 1
-type$ -- 4577
+type$ -- 4645
 warning$ -- 0
-while$ -- 16061
+while$ -- 16079
 width$ -- 0
-write$ -- 5558
+write$ -- 5592
 (There were 2 error messages)

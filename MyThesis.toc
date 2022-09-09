@@ -64,11 +64,11 @@
 \contentsline {chapter}{\numberline {6}Proposal Validation}{85}{chapter.6}%
 \contentsline {section}{\numberline {6.1}R\&D Context}{85}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Grasping Architecture Evaluation}{88}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Mimic Grasping Evaluation}{97}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{105}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusion}{105}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Future Work}{106}{section.7.2}%
-\contentsline {chapter}{\numberline {A}Appendix}{125}{appendix.A}%
-\contentsline {subsection}{\numberline {A.0.1}Grasping Pipeline Configurations}{126}{subsection.A.0.1}%
-\contentsline {chapter}{\numberline {B}Appendix}{131}{appendix.B}%
-\contentsline {subsection}{\numberline {B.0.1}Handler Tool Electronic Schematic}{132}{subsection.B.0.1}%
+\contentsline {section}{\numberline {6.3}Mimic Grasping Evaluation}{95}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{107}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusion}{107}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future Work}{108}{section.7.2}%
+\contentsline {chapter}{\numberline {A}Appendix}{127}{appendix.A}%
+\contentsline {subsection}{\numberline {A.0.1}Grasping Pipeline Configurations}{128}{subsection.A.0.1}%
+\contentsline {chapter}{\numberline {B}Appendix}{133}{appendix.B}%
+\contentsline {subsection}{\numberline {B.0.1}Handler Tool Electronic Schematic}{134}{subsection.B.0.1}%
