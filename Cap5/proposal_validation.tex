@@ -14,21 +14,23 @@ It is important to mention that all projects were conducted along this PhD. None
 
 The grasping issue, in all projects can be summarised as that in one phase of a mission, the robot should detect, estimate the object pose and select the best grasping configuration to grasp and hold an object that is freely disposed on a table, a box, a conveyor or a container, Figure~\ref{fig:omni}. Therefore, the Grasping Selection, Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection}, should be able to select a suitable candidate independently of the configuration of the object position. In this context, a large candidate dataset should be available, which can be created by the Grasping Synthesis pipeline (section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit}). The ''GraspIt! interface" and the ``Post-processor'' pipeline, Sections~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit} and~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:post_processor}, are used to create the dataset in which the definition of the robot setup and the active pair in each solution with their respective 3D model becomes necessary.
 
+\begin{figure}[h!]
+	\resizebox{.7\textwidth}{!}{%
+		\begin{tcolorbox}
+			\centerline{\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=1\linewidth,angle=0]{Cap5/Figuras/omni_robot_and_bins.pdf}}
+		\end{tcolorbox}
+		\caption{(left) Omnidirectional mobile manipulator. (right) Example of objects placed on a bin.}
+		\label{fig:omni}
+	}%end resize box
+\end{figure}
+
 The Fasten use case used in this work is shown in Figure~\ref{fig:omni}. It consists of an omnidirectional mobile manipulator equipped with the UR10 robotic arm and the PhotoNeo PhoXi S sensor for 6-DoF object pose estimation, Figure~\ref{fig:omni}. The gripper used is the RobotiQ 2F-85~\cite{robotiq_grippers}, which is an adaptive two-finger gripper with a maximum aperture of 85 millimetres. The robot is equipped with an industrial computer along a Intel Celeron G3900TE 2.3 GHz processor and a 16GB 3200 MHz memory RAM. A total of eight objects constitute the grasping object set (Figure~\ref{fig:obj_fasten}) and they are related to aerospace aircraft manufacturing which is provided by the company Embraer~\cite{embraer_pt}.
 
-\begin{figure}[h!]
-\resizebox{.7\textwidth}{!}{%
-\begin{tcolorbox}
-\centerline{\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=1\linewidth,angle=0]{Cap5/Figuras/omni_robot_and_bins.pdf}}
-\end{tcolorbox}
-\caption{(left) Omnidirectional mobile manipulator. (right) Example of objects placed on a bin.}
-\label{fig:omni}
-}%end resize box
-\end{figure}
+
 
 
  \begin{figure}[h!]
- \resizebox{.8\textwidth}{!}{%
+ \resizebox{.7\textwidth}{!}{%
  \begin{tcolorbox}
       \centering
       \begin{subfigure}[c]{.23\textwidth}
@@ -98,7 +100,7 @@ The same robot configuration is used for the Mari4$\_$Yard and the Produtech 4S\
 
 
  \begin{figure}[h!]
- \resizebox{.8\textwidth}{!}{%
+ \resizebox{.7\textwidth}{!}{%
  \begin{tcolorbox}
       \centering
       \begin{subfigure}[c]{.45\textwidth}
@@ -121,7 +123,7 @@ The same robot configuration is used for the Mari4$\_$Yard and the Produtech 4S\
  \end{figure}
 
  \begin{figure}[h!]
- \resizebox{.75\textwidth}{!}{%
+ \resizebox{.7\textwidth}{!}{%
  \begin{tcolorbox}
       \centering
       \begin{subfigure}[c]{.32\textwidth}
@@ -325,7 +327,7 @@ Table~\ref{tab:grasping_synthesis_performance} presents the elapsed time and the
 \resizebox{1\textwidth}{!}{%
 \begin{tabular}{@{}cccc@{}}
 \toprule
-\textbf{Object}              & \textbf{SA iterations} & \textbf{Elapsed time} & \textbf{Dataset size} \\ \midrule
+\textbf{Object}              & \textbf{SA iterations} & \begin{tabular}[c]{@{}c@{}}\textbf{Elapsed Time}\\ \small\textbf{[Hr::Min::Sec]} \end{tabular} & \textbf{Dataset size} \\ \midrule
 \textbf{Bracket}             & 30                     & 00:22:33              & 48                    \\
 \textbf{Cover plate}         & 30                     & 00:45:07              & 70                    \\
 \textbf{Double side bracket} & 30                     & 00:48:04              & 42                    \\

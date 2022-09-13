@@ -51,24 +51,24 @@
 \contentsline {subsubsection}{\numberline {5.1.4.4}Object Angle Twin}{71}{subsubsection.5.1.4.4}%
 \contentsline {subsubsection}{\numberline {5.1.4.5}Viewer based post-processors}{72}{subsubsection.5.1.4.5}%
 \contentsline {section}{\numberline {5.2}Grasping Selection}{73}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Depth Distance Scorer}{76}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Euclidean Distance Scorer}{76}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}\acl {COG} Distance Scorer}{76}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}\acl {COBB} Distance Scorer}{77}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Roll Distance Scorer}{77}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Pitch Distance Scorer}{78}{subsection.5.2.6}%
-\contentsline {subsection}{\numberline {5.2.7}Yaw Distance Scorer}{79}{subsection.5.2.7}%
-\contentsline {subsection}{\numberline {5.2.8}Joint Space Filter}{79}{subsection.5.2.8}%
-\contentsline {subsection}{\numberline {5.2.9}Workspace Filter}{80}{subsection.5.2.9}%
+\contentsline {subsection}{\numberline {5.2.1}Depth Distance Scorer}{75}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Euclidean Distance Scorer}{77}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}\acl {COG} Distance Scorer}{77}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}\acl {COBB} Distance Scorer}{78}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Roll Distance Scorer}{78}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Pitch Distance Scorer}{79}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Yaw Distance Scorer}{80}{subsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.2.8}Joint Space Filter}{80}{subsection.5.2.8}%
+\contentsline {subsection}{\numberline {5.2.9}Workspace Filter}{81}{subsection.5.2.9}%
 \contentsline {subsection}{\numberline {5.2.10}Collision Filter}{82}{subsection.5.2.10}%
 \contentsline {chapter}{\numberline {6}Proposal Validation}{85}{chapter.6}%
 \contentsline {section}{\numberline {6.1}R\&D Context}{85}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Grasping Architecture Evaluation}{88}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Mimic Grasping Evaluation}{95}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{107}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusion}{107}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Future Work}{108}{section.7.2}%
-\contentsline {chapter}{\numberline {A}Appendix}{127}{appendix.A}%
-\contentsline {subsection}{\numberline {A.0.1}Grasping Pipeline Configurations}{128}{subsection.A.0.1}%
-\contentsline {chapter}{\numberline {B}Appendix}{133}{appendix.B}%
-\contentsline {subsection}{\numberline {B.0.1}Handler Tool Electronic Schematic}{134}{subsection.B.0.1}%
+\contentsline {section}{\numberline {6.3}Mimic Grasping Evaluation}{97}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{105}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusion}{105}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future Work}{106}{section.7.2}%
+\contentsline {chapter}{\numberline {A}Appendix}{125}{appendix.A}%
+\contentsline {subsection}{\numberline {A.0.1}Grasping Pipeline Configurations}{126}{subsection.A.0.1}%
+\contentsline {chapter}{\numberline {B}Appendix}{131}{appendix.B}%
+\contentsline {subsection}{\numberline {B.0.1}Handler Tool Electronic Schematic}{132}{subsection.B.0.1}%

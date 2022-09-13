@@ -140,99 +140,108 @@
 \newlabel{code:tcp_angle_twin}{{5.8}{70}{TCP angle twin post-processor YAML descriptor example\relax }{snippet.caption.93}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.4.4}Object Angle Twin}{71}{subsubsection.5.1.4.4}\protected@file@percent }
 \newlabel{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:obj_angle_twin}{{5.1.4.4}{71}{Object Angle Twin}{subsubsection.5.1.4.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces Symmetric grasping replicas over a object's symmetry axis.\relax }}{71}{figure.caption.94}\protected@file@percent }
-\newlabel{fig:obj_angle_twin}{{5.17}{71}{Symmetric grasping replicas over a object's symmetry axis.\relax }{figure.caption.94}{}}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/obj\textunderscore angle\textunderscore twin.yaml}{71}{lstlisting.5.-9}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.9}{\ignorespaces Object angle twin post-processor YAML descriptor example\relax }}{71}{snippet.caption.95}\protected@file@percent }
-\newlabel{code:obj_angle_twin}{{5.9}{71}{Object angle twin post-processor YAML descriptor example\relax }{snippet.caption.95}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces The candidate $\{c_0\}$ and its twin $\{c_1\}$ on a spheric object. Both candidate share the same properties and distance to object's origin $\{O\}$ ($r_0 = r_1$). However, the azimuth and polar angles ($\phi $ and $\Theta $, respectively) are custom defined by the post-processor. These values are transformed to the rotation matrix following Equation~\ref {eq:rotation_obj_twin}.\relax }}{71}{figure.caption.94}\protected@file@percent }
+\newlabel{fig:obj_angle_twin_rep}{{5.17}{71}{The candidate $\{c_0\}$ and its twin $\{c_1\}$ on a spheric object. Both candidate share the same properties and distance to object's origin $\{O\}$ ($r_0 = r_1$). However, the azimuth and polar angles ($\phi $ and $\Theta $, respectively) are custom defined by the post-processor. These values are transformed to the rotation matrix following Equation~\ref {eq:rotation_obj_twin}.\relax }{figure.caption.94}{}}
+\newlabel{eq:rotation_obj_twin}{{5.5}{72}{Object Angle Twin}{equation.5.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/obj\textunderscore angle\textunderscore twin.yaml}{72}{lstlisting.5.-9}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.9}{\ignorespaces Object angle twin post-processor YAML descriptor example\relax }}{72}{snippet.caption.95}\protected@file@percent }
+\newlabel{code:obj_angle_twin}{{5.9}{72}{Object angle twin post-processor YAML descriptor example\relax }{snippet.caption.95}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.18}{\ignorespaces Symmetric grasping replicas over a object's symmetry axis.\relax }}{72}{figure.caption.96}\protected@file@percent }
+\newlabel{fig:obj_angle_twin}{{5.18}{72}{Symmetric grasping replicas over a object's symmetry axis.\relax }{figure.caption.96}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.4.5}Viewer based post-processors}{72}{subsubsection.5.1.4.5}\protected@file@percent }
 \newlabel{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:viewers}{{5.1.4.5}{72}{Viewer based post-processors}{subsubsection.5.1.4.5}{}}
 \acronymused{DOF}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/graspit\textunderscore viewer.yaml}{72}{lstlisting.5.-10}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.10}{\ignorespaces ``GraspIt!" viewer YAML descriptor example.\relax }}{72}{snippet.caption.96}\protected@file@percent }
-\newlabel{code:graspit_viewer}{{5.10}{72}{``GraspIt!" viewer YAML descriptor example.\relax }{snippet.caption.96}{}}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/rviz\textunderscore viewer.yaml}{72}{lstlisting.5.-11}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.11}{\ignorespaces Rviz viewer YAML descriptor example.\relax }}{72}{snippet.caption.97}\protected@file@percent }
-\newlabel{code:rviz_viewer}{{5.11}{72}{Rviz viewer YAML descriptor example.\relax }{snippet.caption.97}{}}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/graspit\textunderscore viewer.yaml}{73}{lstlisting.5.-10}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.10}{\ignorespaces ``GraspIt!" viewer YAML descriptor example.\relax }}{73}{snippet.caption.97}\protected@file@percent }
+\newlabel{code:graspit_viewer}{{5.10}{73}{``GraspIt!" viewer YAML descriptor example.\relax }{snippet.caption.97}{}}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/rviz\textunderscore viewer.yaml}{73}{lstlisting.5.-11}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.11}{\ignorespaces Rviz viewer YAML descriptor example.\relax }}{73}{snippet.caption.98}\protected@file@percent }
+\newlabel{code:rviz_viewer}{{5.11}{73}{Rviz viewer YAML descriptor example.\relax }{snippet.caption.98}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}Grasping Selection}{73}{section.5.2}\protected@file@percent }
 \newlabel{cap4:modular_grasping_architecture:sec:grasp_selection}{{5.2}{73}{Grasping Selection}{section.5.2}{}}
 \acronymused{ROS}
 \acronymused{ROS}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.18}{\ignorespaces The ``Grasping Selection'' process. (top~left) The object with the grasping candidates frames. (top~right) The best candidate is chose following the task oriented grasping heuristic. (bottom~left) Robot's initial pose. (bottom~middle) Approaching movement. (bottom~right) Grasping. \relax }}{73}{figure.caption.98}\protected@file@percent }
-\newlabel{fig:grasp_estimation}{{5.18}{73}{The ``Grasping Selection'' process. (top~left) The object with the grasping candidates frames. (top~right) The best candidate is chose following the task oriented grasping heuristic. (bottom~left) Robot's initial pose. (bottom~middle) Approaching movement. (bottom~right) Grasping. \relax }{figure.caption.98}{}}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/grasping\textunderscore selection\textunderscore pipeline.yaml}{74}{lstlisting.5.-12}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.12}{\ignorespaces A ``Grasping Selection'' pipeline configuration example.\relax }}{74}{snippet.caption.99}\protected@file@percent }
-\newlabel{code:selection_pipeline_ex}{{5.12}{74}{A ``Grasping Selection'' pipeline configuration example.\relax }{snippet.caption.99}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces ``Grasping Selection'' pipeline workflow.\relax }}{75}{figure.caption.100}\protected@file@percent }
-\newlabel{fig:grasping_selection_flowchart}{{5.19}{75}{``Grasping Selection'' pipeline workflow.\relax }{figure.caption.100}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Depth Distance Scorer}{76}{subsection.5.2.1}\protected@file@percent }
-\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:depth_distance}{{5.2.1}{76}{Depth Distance Scorer}{subsection.5.2.1}{}}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/depth\textunderscore distance.yaml}{76}{lstlisting.5.-13}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.13}{\ignorespaces Depth distance scorer pipeline descriptor example.\relax }}{76}{snippet.caption.101}\protected@file@percent }
-\newlabel{code:depth_distance_scorer}{{5.13}{76}{Depth distance scorer pipeline descriptor example.\relax }{snippet.caption.101}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Euclidean Distance Scorer}{76}{subsection.5.2.2}\protected@file@percent }
-\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:euclidean_distance}{{5.2.2}{76}{Euclidean Distance Scorer}{subsection.5.2.2}{}}
-\acronymused{COG}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}\acl {COG} Distance Scorer}{76}{subsection.5.2.3}\protected@file@percent }
-\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:cog_distance}{{5.2.3}{76}{\acl {COG} Distance Scorer}{subsection.5.2.3}{}}
-\AC@undonewlabel{acro:COG}
-\newlabel{acro:COG}{{5.2.3}{76}{\acl {COG} Distance Scorer}{section*.103}{}}
-\acronymused{COG}
+\newlabel{fig:grasp_estimation_01}{{5.19a}{74}{The object with grasping candidates frames.\relax }{figure.caption.99}{}}
+\newlabel{sub@fig:grasp_estimation_01}{{a}{74}{The object with grasping candidates frames.\relax }{figure.caption.99}{}}
+\newlabel{fig:grasp_estimation_02}{{5.19b}{74}{The best candidate is chose following the task oriented grasping heuristic.\relax }{figure.caption.99}{}}
+\newlabel{sub@fig:grasp_estimation_02}{{b}{74}{The best candidate is chose following the task oriented grasping heuristic.\relax }{figure.caption.99}{}}
+\newlabel{fig:grasp_estimation_03}{{5.19c}{74}{Robot's grasping movement: initial pose, approaching and grasping.\relax }{figure.caption.99}{}}
+\newlabel{sub@fig:grasp_estimation_03}{{c}{74}{Robot's grasping movement: initial pose, approaching and grasping.\relax }{figure.caption.99}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces The ``Grasping Selection'' process.\relax }}{74}{figure.caption.99}\protected@file@percent }
+\newlabel{fig:grasp_estimation}{{5.19}{74}{The ``Grasping Selection'' process.\relax }{figure.caption.99}{}}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/grasping\textunderscore selection\textunderscore pipeline.yaml}{75}{lstlisting.5.-12}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.12}{\ignorespaces A ``Grasping Selection'' pipeline configuration example.\relax }}{75}{snippet.caption.100}\protected@file@percent }
+\newlabel{code:selection_pipeline_ex}{{5.12}{75}{A ``Grasping Selection'' pipeline configuration example.\relax }{snippet.caption.100}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Depth Distance Scorer}{75}{subsection.5.2.1}\protected@file@percent }
+\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:depth_distance}{{5.2.1}{75}{Depth Distance Scorer}{subsection.5.2.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.20}{\ignorespaces ``Grasping Selection'' pipeline workflow.\relax }}{76}{figure.caption.101}\protected@file@percent }
+\newlabel{fig:grasping_selection_flowchart}{{5.20}{76}{``Grasping Selection'' pipeline workflow.\relax }{figure.caption.101}{}}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/depth\textunderscore distance.yaml}{77}{lstlisting.5.-13}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.13}{\ignorespaces Depth distance scorer pipeline descriptor example.\relax }}{77}{snippet.caption.102}\protected@file@percent }
+\newlabel{code:depth_distance_scorer}{{5.13}{77}{Depth distance scorer pipeline descriptor example.\relax }{snippet.caption.102}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Euclidean Distance Scorer}{77}{subsection.5.2.2}\protected@file@percent }
+\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:euclidean_distance}{{5.2.2}{77}{Euclidean Distance Scorer}{subsection.5.2.2}{}}
 \@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/euclidean\textunderscore distance.yaml}{77}{lstlisting.5.-14}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.14}{\ignorespaces Euclidean distance scorer pipeline descriptor example\relax }}{77}{snippet.caption.102}\protected@file@percent }
-\newlabel{code:euclidean_distance_scorer}{{5.14}{77}{Euclidean distance scorer pipeline descriptor example\relax }{snippet.caption.102}{}}
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.14}{\ignorespaces Euclidean distance scorer pipeline descriptor example\relax }}{77}{snippet.caption.103}\protected@file@percent }
+\newlabel{code:euclidean_distance_scorer}{{5.14}{77}{Euclidean distance scorer pipeline descriptor example\relax }{snippet.caption.103}{}}
 \acronymused{COG}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/cog\textunderscore distance.yaml}{77}{lstlisting.5.-15}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.15}{\ignorespaces \ac {COG} distance scorer pipeline descriptor example.\relax }}{77}{snippet.caption.104}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}\acl {COG} Distance Scorer}{77}{subsection.5.2.3}\protected@file@percent }
+\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:cog_distance}{{5.2.3}{77}{\acl {COG} Distance Scorer}{subsection.5.2.3}{}}
+\AC@undonewlabel{acro:COG}
+\newlabel{acro:COG}{{5.2.3}{77}{\acl {COG} Distance Scorer}{section*.104}{}}
 \acronymused{COG}
-\newlabel{code:cog_distance_scorer}{{5.15}{77}{\ac {COG} distance scorer pipeline descriptor example.\relax }{snippet.caption.104}{}}
+\acronymused{COG}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/cog\textunderscore distance.yaml}{78}{lstlisting.5.-15}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.15}{\ignorespaces \ac {COG} distance scorer pipeline descriptor example.\relax }}{78}{snippet.caption.105}\protected@file@percent }
+\acronymused{COG}
+\newlabel{code:cog_distance_scorer}{{5.15}{78}{\ac {COG} distance scorer pipeline descriptor example.\relax }{snippet.caption.105}{}}
 \acronymused{COBB}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}\acl {COBB} Distance Scorer}{77}{subsection.5.2.4}\protected@file@percent }
-\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:cobb_distance}{{5.2.4}{77}{\acl {COBB} Distance Scorer}{subsection.5.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}\acl {COBB} Distance Scorer}{78}{subsection.5.2.4}\protected@file@percent }
+\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:cobb_distance}{{5.2.4}{78}{\acl {COBB} Distance Scorer}{subsection.5.2.4}{}}
 \acronymused{COG}
 \AC@undonewlabel{acro:COBB}
-\newlabel{acro:COBB}{{5.2.4}{77}{\acl {COBB} Distance Scorer}{section*.105}{}}
+\newlabel{acro:COBB}{{5.2.4}{78}{\acl {COBB} Distance Scorer}{section*.106}{}}
 \acronymused{COBB}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.5}Roll Distance Scorer}{77}{subsection.5.2.5}\protected@file@percent }
-\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:roll_distance}{{5.2.5}{77}{Roll Distance Scorer}{subsection.5.2.5}{}}
 \@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/cobb\textunderscore distance.yaml}{78}{lstlisting.5.-16}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.16}{\ignorespaces \ac {COBB} distance scorer pipeline descriptor example.\relax }}{78}{snippet.caption.106}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.16}{\ignorespaces \ac {COBB} distance scorer pipeline descriptor example.\relax }}{78}{snippet.caption.107}\protected@file@percent }
 \acronymused{COBB}
-\newlabel{code:cobb_distance_scorer}{{5.16}{78}{\ac {COBB} distance scorer pipeline descriptor example.\relax }{snippet.caption.106}{}}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/roll\textunderscore distance.yaml}{78}{lstlisting.5.-17}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.17}{\ignorespaces Roll distance scorer pipeline descriptor example\relax }}{78}{snippet.caption.107}\protected@file@percent }
-\newlabel{code:roll_distance_scorer}{{5.17}{78}{Roll distance scorer pipeline descriptor example\relax }{snippet.caption.107}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.6}Pitch Distance Scorer}{78}{subsection.5.2.6}\protected@file@percent }
-\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:pitch_distance}{{5.2.6}{78}{Pitch Distance Scorer}{subsection.5.2.6}{}}
+\newlabel{code:cobb_distance_scorer}{{5.16}{78}{\ac {COBB} distance scorer pipeline descriptor example.\relax }{snippet.caption.107}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.5}Roll Distance Scorer}{78}{subsection.5.2.5}\protected@file@percent }
+\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:roll_distance}{{5.2.5}{78}{Roll Distance Scorer}{subsection.5.2.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/roll\textunderscore distance.yaml}{79}{lstlisting.5.-17}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.17}{\ignorespaces Roll distance scorer pipeline descriptor example\relax }}{79}{snippet.caption.108}\protected@file@percent }
+\newlabel{code:roll_distance_scorer}{{5.17}{79}{Roll distance scorer pipeline descriptor example\relax }{snippet.caption.108}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.6}Pitch Distance Scorer}{79}{subsection.5.2.6}\protected@file@percent }
+\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:pitch_distance}{{5.2.6}{79}{Pitch Distance Scorer}{subsection.5.2.6}{}}
 \@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/pitch\textunderscore distance.yaml}{79}{lstlisting.5.-18}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.18}{\ignorespaces Pitch distance scorer pipeline descriptor example.\relax }}{79}{snippet.caption.108}\protected@file@percent }
-\newlabel{code:pitch_distance_scorer}{{5.18}{79}{Pitch distance scorer pipeline descriptor example.\relax }{snippet.caption.108}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.7}Yaw Distance Scorer}{79}{subsection.5.2.7}\protected@file@percent }
-\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:yaw_distance}{{5.2.7}{79}{Yaw Distance Scorer}{subsection.5.2.7}{}}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/yaw\textunderscore distance.yaml}{79}{lstlisting.5.-19}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.19}{\ignorespaces Yaw distance scorer pipeline descriptor example.\relax }}{79}{snippet.caption.109}\protected@file@percent }
-\newlabel{code:yaw_distance_scorer}{{5.19}{79}{Yaw distance scorer pipeline descriptor example.\relax }{snippet.caption.109}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.8}Joint Space Filter}{79}{subsection.5.2.8}\protected@file@percent }
-\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:joint_space_filter}{{5.2.8}{79}{Joint Space Filter}{subsection.5.2.8}{}}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/joint\textunderscore space\textunderscore heuristic.yaml}{80}{lstlisting.5.-20}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.20}{\ignorespaces Joint space filter pipeline descriptor example.\relax }}{80}{snippet.caption.110}\protected@file@percent }
-\newlabel{code:joint_space_filter}{{5.20}{80}{Joint space filter pipeline descriptor example.\relax }{snippet.caption.110}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.9}Workspace Filter}{80}{subsection.5.2.9}\protected@file@percent }
-\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:workspace_filter}{{5.2.9}{80}{Workspace Filter}{subsection.5.2.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.20}{\ignorespaces Workspace filter 3D representation.\relax }}{81}{figure.caption.111}\protected@file@percent }
-\newlabel{fig:workspace_filter_3d_representation}{{5.20}{81}{Workspace filter 3D representation.\relax }{figure.caption.111}{}}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/workspace\textunderscore filter\textunderscore heuristic.yaml}{81}{lstlisting.5.-21}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.21}{\ignorespaces Workspace filter pipeline descriptor example.\relax }}{81}{snippet.caption.112}\protected@file@percent }
-\newlabel{code:workspace_filter}{{5.21}{81}{Workspace filter pipeline descriptor example.\relax }{snippet.caption.112}{}}
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.18}{\ignorespaces Pitch distance scorer pipeline descriptor example.\relax }}{79}{snippet.caption.109}\protected@file@percent }
+\newlabel{code:pitch_distance_scorer}{{5.18}{79}{Pitch distance scorer pipeline descriptor example.\relax }{snippet.caption.109}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.7}Yaw Distance Scorer}{80}{subsection.5.2.7}\protected@file@percent }
+\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:yaw_distance}{{5.2.7}{80}{Yaw Distance Scorer}{subsection.5.2.7}{}}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/yaw\textunderscore distance.yaml}{80}{lstlisting.5.-19}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.19}{\ignorespaces Yaw distance scorer pipeline descriptor example.\relax }}{80}{snippet.caption.110}\protected@file@percent }
+\newlabel{code:yaw_distance_scorer}{{5.19}{80}{Yaw distance scorer pipeline descriptor example.\relax }{snippet.caption.110}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.8}Joint Space Filter}{80}{subsection.5.2.8}\protected@file@percent }
+\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:joint_space_filter}{{5.2.8}{80}{Joint Space Filter}{subsection.5.2.8}{}}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/joint\textunderscore space\textunderscore heuristic.yaml}{81}{lstlisting.5.-20}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.20}{\ignorespaces Joint space filter pipeline descriptor example.\relax }}{81}{snippet.caption.111}\protected@file@percent }
+\newlabel{code:joint_space_filter}{{5.20}{81}{Joint space filter pipeline descriptor example.\relax }{snippet.caption.111}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.9}Workspace Filter}{81}{subsection.5.2.9}\protected@file@percent }
+\newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:workspace_filter}{{5.2.9}{81}{Workspace Filter}{subsection.5.2.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces Workspace filter 3D representation.\relax }}{81}{figure.caption.112}\protected@file@percent }
+\newlabel{fig:workspace_filter_3d_representation}{{5.21}{81}{Workspace filter 3D representation.\relax }{figure.caption.112}{}}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/workspace\textunderscore filter\textunderscore heuristic.yaml}{82}{lstlisting.5.-21}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.21}{\ignorespaces Workspace filter pipeline descriptor example.\relax }}{82}{snippet.caption.113}\protected@file@percent }
+\newlabel{code:workspace_filter}{{5.21}{82}{Workspace filter pipeline descriptor example.\relax }{snippet.caption.113}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.10}Collision Filter}{82}{subsection.5.2.10}\protected@file@percent }
 \newlabel{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:collision_filter}{{5.2.10}{82}{Collision Filter}{subsection.5.2.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces Collision filter 3D representation. The blue boxes define the collision volume.\relax }}{82}{figure.caption.113}\protected@file@percent }
-\newlabel{fig:collision_filter_3d_representation}{{5.21}{82}{Collision filter 3D representation. The blue boxes define the collision volume.\relax }{figure.caption.113}{}}
-\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/collision\textunderscore filter.yaml}{83}{lstlisting.5.-22}\protected@file@percent }
-\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.22}{\ignorespaces Collision filter pipeline descriptor example.\relax }}{83}{snippet.caption.114}\protected@file@percent }
-\newlabel{code:collision_filter}{{5.22}{83}{Collision filter pipeline descriptor example.\relax }{snippet.caption.114}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces Collision filter 3D representation. The blue boxes (which are merged by contact) define the collision volume.\relax }}{83}{figure.caption.114}\protected@file@percent }
+\newlabel{fig:collision_filter_3d_representation}{{5.22}{83}{Collision filter 3D representation. The blue boxes (which are merged by contact) define the collision volume.\relax }{figure.caption.114}{}}
+\@writefile{lol}{\contentsline {lstlisting}{Cap4/codes/collision\textunderscore filter.yaml}{84}{lstlisting.5.-22}\protected@file@percent }
+\@writefile{losnippet}{\contentsline {snippet}{\numberline {5.22}{\ignorespaces Collision filter pipeline descriptor example.\relax }}{84}{snippet.caption.115}\protected@file@percent }
+\newlabel{code:collision_filter}{{5.22}{84}{Collision filter pipeline descriptor example.\relax }{snippet.caption.115}{}}
 \@setckpt{Cap4/approach}{
-\setcounter{page}{84}
+\setcounter{page}{85}
 \setcounter{equation}{5}
 \setcounter{enumi}{6}
 \setcounter{enumii}{0}
@@ -247,7 +256,7 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{21}
+\setcounter{figure}{22}
 \setcounter{table}{1}
 \setcounter{parentequation}{0}
 \setcounter{tabx@nest}{0}
@@ -368,7 +377,7 @@
 \setcounter{LT@chunks}{0}
 \setcounter{tcbbreakpart}{1}
 \setcounter{tcblayer}{0}
-\setcounter{tcolorbox@number}{67}
+\setcounter{tcolorbox@number}{68}
 \setcounter{tcbrastercolumn}{1}
 \setcounter{tcbrasterrow}{1}
 \setcounter{tcbrasternum}{1}

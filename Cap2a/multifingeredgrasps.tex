@@ -7,19 +7,21 @@ The wrench vectors describe the forces and moments that influence a rigid body's
 
 \begin{equation}
 \mathbf{w_{c}}=\left[\begin{array}{l}
-\mathbf{F} \\
-\mathbf{\tau}
+\mathbf{f} \\
+\boldsymbol{\tau}
 \end{array}\right]
 \end{equation}
 
 \noindent
-where $\mathbf{F}$ and $\mathbf{\tau}$ are the vector representations of the forces and the moments. The wrench vectors have 3 and 6 \acp{DOF} in the case of $\mathbb{R}^2$ and $\mathbb{R}^3$, respectively.
+where $\mathbf{f}$ and $\boldsymbol{\tau}$ are the vector representations of the forces and the moments. The wrench vectors have 3 and 6 \acp{DOF} in the case of $\mathbb{R}^2$ and $\mathbb{R}^3$, respectively.
 
-The contact models can be categorised as friction-less contact, friction contact (also named hard finger contact), and soft contact~\cite{murray1994mathematical}. The focus of this chapter will be the friction contact, since this model is sufficient for the picking application addressed in this thesis.
+The contact models can be categorised as friction-less contact, friction contact (also named hard finger contact), and soft contact~\cite{murray1994mathematical}. The focus of this chapter will be the friction contact, since this model covers the main application field of this thesis.
 
-The friction contact model considers the mechanical interaction between the active pairs. Therefore, the wrench convex depends on the friction contact forces, described by Coulomb model of friction: Considering the normal force $f_n$, and the tangential force $f_t$, static friction occurs when there is no slipping between the two surfaces of contact, that is when $\left|f_{t}\right| \leq \mu_{t} f_{n}
-$ where $\mu $ is a positive value representing the static tangential coefficient of friction. Figure~\ref{fig:friction_contact} shows an example of hard finger contact, the geometric representation of the Coulomb’s law and the friction cone convex also defined as ${FC}_{c_i}$. 
+%The friction contact model considers the mechanical interaction between the active pairs. Therefore, the wrench convex depends on the friction contact forces, described by Coulomb model of friction: Considering the normal force $\mathbf{f_n}$, and the tangential force $\mathbf{f_t}$, static friction occurs when there is no slipping between the two surfaces of contact, that is when $\left|\mathbf{f_{t}}\right| \leq \mu_{t} |\mathbf{f_{n}}|
+%$ where $\mu_{t} $ is a positive value representing the static tangential coefficient of friction. Figure~\ref{fig:friction_contact} shows an example of hard finger contact, the geometric representation of the Coulomb’s law and the friction cone convex also defined as ${FC}_{c_i}$. 
 
+The friction contact model considers the mechanical interaction between the active pairs which is defined by Coulomb model of friction: Considering the normal force $\mathbf{f_n}$, and the tangential force $\mathbf{f_t}$, static friction occurs when there is no slipping between the two surfaces of contact, that is when $\left|\mathbf{f_{t}}\right| \leq \mu_{t} |\mathbf{f_{n}}|
+$ where $\mu_{t} $ is a positive value representing the static tangential coefficient of friction. Figure~\ref{fig:friction_contact} shows an example of hard finger contact, the geometric representation of the Coulomb’s law and the friction cone convex also defined as ${FC}_{c_i}$. 
 
 \begin{figure}[h!]
 \resizebox{0.75\textwidth}{!}{%
@@ -31,10 +33,10 @@ $ where $\mu $ is a positive value representing the static tangential coefficien
 } %end resize box
 \end{figure}
 
-A wrench representation, w.r.t the $i$-th contact point ($c_i$), is defined as follows:
+A wrench representation, w.r.t the $i$-th contact point ($c_i$), could be defined as follows:
 
 \begin{equation}
-W_{c_i}=\begin{bmatrix}
+\mathbf{W_{c_i}}=\begin{bmatrix}
 1 & 0 & 0 \\ 
 0 & 1 & 0 \\ 
 0 & 0 & 1 \\ 
@@ -47,7 +49,7 @@ W_{c_i}=\begin{bmatrix}
 \noindent
 where $F C_{c_i}=\mathbf{f} \in \!R^3: \sqrt{f_{x}^{2}+f_{y}^{2}} \leq \mu_{t} f_{z,}, f_{z} \geq 0$, and $\mu_t$ is the transversal friction coefficient in $c_i$. 
 
-Therefore, it is possible to define the matrix that compose the wrench vector:
+Therefore, based on this wrench representation, it is possible to define the matrix that compose the wrench vector concept:
 
 \begin{equation}
 \mathbf{W}_{c_i}=\mathbf{B}_{c_i} \mathbf{f}_{c_i}, \quad \mathbf{f}_{c_i} \in F C_{c_i}
@@ -86,7 +88,7 @@ Hence, the contact map $\mathbf{G}_{i}$ is defined as follows:
 \mathbf{G}_{i}=^{o} \mathbf{T} \mathbf{w}_{c_i}^{\prime} \mathbf{B}_{c_i}
 \end{equation}
 
-Note that it describes the direction of each component of the $i$-th applied wrench and defines the constraints of the contact. The grasp map is the matrix with all contact maps that characterize the contact model (it is also named constraint matrix):
+Note that it describes the direction of each component of the $i$-th applied wrench and defines the constraints of the contact. The grasp map is the matrix with all contact maps that characterise the contact model (it is also named constraint matrix):
 
 \begin{equation}
 \mathbf{G}=\left[\begin{array}{llll}
@@ -140,8 +142,8 @@ The columns of $\mathbf{W}_{p}$ represent all wrenches associated with the edges
 
 \begin{equation}
 	w_{c}=\left[\begin{array}{c}
-		\boldsymbol{F} \\
-		\alpha \tau
+		\boldsymbol{f} \\
+		\alpha \boldsymbol{\tau}
 	\end{array}\right]
 \end{equation}
 
