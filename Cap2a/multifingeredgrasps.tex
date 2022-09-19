@@ -13,15 +13,15 @@ The wrench vectors describe the forces and moments that influence a rigid body's
 \end{equation}
 
 \noindent
-where $\mathbf{f}$ and $\boldsymbol{\tau}$ are the vector representations of the forces and the moments. The wrench vectors have 3 and 6 \acp{DOF} in the case of $\mathbb{R}^2$ and $\mathbb{R}^3$, respectively.
+where $\mathbf{f}$ and $\boldsymbol{\tau}$ are the column vector representations of the forces and the moments. The wrench vectors have 3 and 6 \acp{DOF} in the case of $\mathbb{R}^2$ and $\mathbb{R}^3$, respectively.
 
 The contact models can be categorised as friction-less contact, friction contact (also named hard finger contact), and soft contact~\cite{murray1994mathematical}. The focus of this chapter will be the friction contact, since this model covers the main application field of this thesis.
 
 %The friction contact model considers the mechanical interaction between the active pairs. Therefore, the wrench convex depends on the friction contact forces, described by Coulomb model of friction: Considering the normal force $\mathbf{f_n}$, and the tangential force $\mathbf{f_t}$, static friction occurs when there is no slipping between the two surfaces of contact, that is when $\left|\mathbf{f_{t}}\right| \leq \mu_{t} |\mathbf{f_{n}}|
 %$ where $\mu_{t} $ is a positive value representing the static tangential coefficient of friction. Figure~\ref{fig:friction_contact} shows an example of hard finger contact, the geometric representation of the Coulomb’s law and the friction cone convex also defined as ${FC}_{c_i}$. 
 
-The friction contact model considers the mechanical interaction between the active pairs which is defined by Coulomb model of friction: Considering the normal force $\mathbf{f_n}$, and the tangential force $\mathbf{f_t}$, static friction occurs when there is no slipping between the two surfaces of contact, that is when $\left|\mathbf{f_{t}}\right| \leq \mu_{t} |\mathbf{f_{n}}|
-$ where $\mu_{t} $ is a positive value representing the static tangential coefficient of friction. Figure~\ref{fig:friction_contact} shows an example of hard finger contact, the geometric representation of the Coulomb’s law and the friction cone convex also defined as ${FC}_{c_i}$. 
+The friction contact model considers the mechanical interaction between the active pairs which is defined by Coulomb model of friction. In this modelling, considering the normal force $\mathbf{f_n}$, and the tangential force $\mathbf{f_t}$, static friction occurs when there is no slipping between the two surfaces of contact, that is when $\left|\mathbf{f_{t}}\right| \leq \mu_{t} |\mathbf{f_{n}}|
+$ where $\mu_{t} $ is a positive value representing the static tangential coefficient of friction. Figure~\ref{fig:friction_contact_model} shows an example of hard finger contact with its geometric representation of the Coulomb’s law and the friction cone convex ${FC}_{c_i}$. 
 
 \begin{figure}[h!]
 \resizebox{0.75\textwidth}{!}{%
@@ -29,11 +29,11 @@ $ where $\mu_{t} $ is a positive value representing the static tangential coeffi
 \centerline{\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=1\linewidth,angle=0]{Apendices/Figuras/friction_contact_gray_bg2.pdf}}
 \end{tcolorbox}
 \caption{Friction contact model and the geometric representation of Coulomb’s law (figure based on~\cite{murray1994mathematical}).}
-\label{fig:friction_contact}
+\label{fig:friction_contact_model}
 } %end resize box
 \end{figure}
 
-A wrench representation, w.r.t the $i$-th contact point ($c_i$), could be defined as follows:
+It is important to note that in this model any torque ($\boldsymbol{\tau}_{c_{i}}$) is considered, i.e. $\boldsymbol{w}_{c_{i}} = \mathbf{f}_{c_i} \quad | \quad \mathbf{f}_{c_i} = [f_x, f_y, f_z]'$. Therefore, a tridimensional wrench hard finger representation, w.r.t the $i$-th contact point ($c_i$) could be defined as follows:
 
 \begin{equation}
 \mathbf{W_{c_i}}=\begin{bmatrix}
@@ -56,30 +56,40 @@ Therefore, based on this wrench representation, it is possible to define the mat
 \end{equation}
 
 \noindent
-where $\mathbf{{B}_{c_i}}$ is the wrench basis matrix with dimension $p \times n$ where $p$ is the \acp{DOF} and $n$ the number of independent forces and moments that constitutes $\mathbf{{f}_{c_i}}$. The contact model discussed here has as reference frame the one with the origin coincident with the contact point itself. It is more convenient to refer all contacts in a grasp model to a common frame, generally the centre of mass of the work piece. Therefore the wrench transformation matrix is defined as follows:
+where $\mathbf{{B}_{c_i}}$ is the wrench basis matrix with dimension $p \times n$ where $p$ is the \acp{DOF} and $n$ the number of independent forces that constitutes $\mathbf{{f}_{c_i}}$, i.e. that is applied in the contact model. The contact model discussed here has as reference frame the one with the origin coincident with the contact point itself. It is more convenient to refer all contacts in a grasp model to a common frame, generally the centre of mass of the work piece. Therefore the wrench transformation matrix is defined as follows:
 
 \begin{equation}
 ^{o} \mathbf{Tw}_{c_i}=\left[\begin{array}{cc}
 {^{o} \mathbf{R}_{\mathrm{c_i}}} & {0} \\
-{^o \hat{\mathbf{t}}_{\mathrm{c_i}} {}^{o} \mathbf{R}_{\mathrm{c_i}}} & {^{o} \mathbf{R}_{\mathrm{c_i}}}
+{^o \widehat{\mathbf{t}}_{\mathrm{c_i}} {}^{o} \mathbf{R}_{\mathrm{c_i}}} & {^{o} \mathbf{R}_{\mathrm{c_i}}}
 \end{array}\right]
 \in \mathbb{R}^3
 \end{equation}
 
 \noindent
-where $ ^o\mathbf{R}_{c_i}$ and $^o\mathbf{t}_{c_i}$ are the rotation and translation matrix of the $i$-th contact point ($c_i$) w.r.t. object frame ($o$). The $\mathbf{\hat{t}}$ is the linear operator representing the cross product $^o\mathbf{t}_{c_i} \times {{{}^o}\mathbf{R}}_{c_i}$ as bellow:
+where $ ^o\mathbf{R}_{c_i}$ and $^o\mathbf{t}_{c_i}$ are the rotation and translation matrix of the $i$-th contact point ($c_i$) w.r.t. object frame ($o$). The $^o \hat{\mathbf{t}}_{\mathrm{c_i}} {}^{o} \mathbf{R}_{\mathrm{c_i}}$ is the skew-symmetric representation of the cross product $^o\mathbf{t}_{c_i} \times {{{}^o}\mathbf{R}}_{c_i}$ in format of the Equation~\ref{eq:operator1}.% presents an example of the referred operator to a generic tridimensional vector $\boldsymbol{a}$.
+
+%\begin{equation}
+%\widehat{\boldsymbol{t}}=\left[\begin{array}{ccc}
+%0 & -a_{3} & a_{2} \\
+%a_{3} & 0 & -a_{1} \\
+%-a_{2} & a_{1} & 0
+%\end{array}\right] \quad where \quad \boldsymbol{a} = \left[\begin{array}{c}
+%a_{1} \\
+%a_{2} \\
+%a_{3}
+%\end{array}\right]
+%\label{eq:operator1}
+%\end{equation}
 
 \begin{equation}
-\widehat{\boldsymbol{a}}=\left[\begin{array}{ccc}
-0 & -a_{3} & a_{2} \\
-a_{3} & 0 & -a_{1} \\
--a_{2} & a_{1} & 0
-\end{array}\right] \quad where \quad \boldsymbol{a} = \left[\begin{array}{c}
-a_{1} \\
-a_{2} \\
-a_{3}
-\end{array}\right]
-\end{equation}
+^o \hat{\mathbf{t}}_{\mathrm{c_i}} {}^{o} \mathbf{R}_{\mathrm{c_i}}=\left[\begin{array}{ccc}
+	0 & -x & y \\
+	z & 0 & -x \\
+	-y & x & 0
+	\end{array}\right] \mathbf{R}_{\mathrm{c_i}}
+	\label{eq:operator1}
+	\end{equation}
 
 
 Hence, the contact map $\mathbf{G}_{i}$ is defined as follows:
@@ -99,7 +109,7 @@ Note that it describes the direction of each component of the $i$-th applied wre
 Then, including the magnitude of the forces, a workpiece wrench can be written:
 
 \begin{equation}
-^{o} \mathbf{W}=\left[\mathbf{G}_{1}, \ldots, \mathbf{G}_{N}\right]\left[\mathbf{f}_{c_1}, \ldots, \mathbf{f}_{c_N}\right]^{\prime}=\mathbf{G} \mathbf{F}
+^{o} \mathbf{W}=\left[\mathbf{G}_{1}, \ldots, \mathbf{G}_{N}\right]\left[\mathbf{f}_{c_1}^{\prime}, \ldots, \mathbf{f}_{c_N}^{\prime}\right]^{\prime}=\mathbf{G} \mathbf{F}
 \end{equation}
 
 \noindent
@@ -107,7 +117,7 @@ where: $\mathbf{F} \in F C \text { and } F C=F C_{c_1} \times \ldots \times F C_
 
 The grasp map is an important matrix since it is the mathematical formulation of a multi-finger grasping. From now on, the common reference frame is defined as the object frame, and for convenience, the $^{o}\mathbf{W}$ will be substituted by $\mathbf{W}$. Each column of $\mathbf{W}$ represents the independent contact wrenches. All the contacts discussed here are punctual contacts since the other kinds of contact can be approximate by a set of punctual contacts and edge contacts.
 
-By means of the convex linearisation of the friction contact, Figure~\ref{fig:friction_contact_linearised}, it is possible to represent the contact force ($\mathbf{f}_{c_i}$) as a linear combination of the cone edges ($\mathbf{S}_{c_i}$) and ($a_d$):
+By means of the convex linearisation of the friction contact, Figure~\ref{fig:friction_contact_linearised}, it is possible to represent the contact force ($\mathbf{f}_{c_i}$) as a linear combination of the cone edges ($\mathbf{s}_{c_i}$ = $[s_x,s_y,s_x]'$) and ($a_d$):
 
 \begin{figure}[h!]
 	\resizebox{0.75\textwidth}{!}{%

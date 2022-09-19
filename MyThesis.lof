@@ -27,7 +27,7 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces ``GraspIt!" interface pipeline workflow. \relax }}{52}{figure.caption.69}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Proposed plugin system management.\relax }}{57}{figure.caption.73}%
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Proposed modular mimic grasping architecture.\relax }}{58}{figure.caption.74}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The proposed use case hardware setup. The Phoxi 3D Camera S is used to locate the object pose. It is attached on a IRB 1600 robot to set a precise acquisition pose. The 6D Mimic system is responsible to detect the handler tool with its stereoscopic cameras.\relax }}{61}{figure.caption.76}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The proposed use case hardware setup. The Phoxi 3D Camera S is used to locate the object pose. It is attached on a IRB 2600 robot to set a precise acquisition pose. The 6D Mimic system is responsible to detect the handler tool with its stereoscopic cameras.\relax }}{61}{figure.caption.76}%
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Proposed handler tool.\relax }}{62}{figure.caption.77}%
 \contentsline {figure}{\numberline {5.8}{\ignorespaces HGPC16A and FM-SW 76x22 4x6 N10 grippers.\relax }}{62}{figure.caption.78}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Proposed firmware finite state machine.\relax }}{63}{figure.caption.79}%
