@@ -1,15 +1,15 @@
 \babel@toc {english}{}\relax 
 \babel@toc {portuguese}{}\relax 
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{Resumo}{xi}{section*.2}%
-\contentsline {chapter}{\textit {Abstract}}{xiii}{section*.3}%
-\contentsline {chapter}{\textit {Graphical Abstract}}{xv}{section*.4}%
-\contentsline {chapter}{Agradecimentos}{xvii}{chapter*.7}%
-\contentsline {chapter}{Publications}{xix}{chapter*.9}%
-\contentsline {chapter}{Projects Deployment}{xxi}{chapter*.11}%
-\contentsline {chapter}{List of Tables}{xxvii}{section*.14}%
-\contentsline {chapter}{List of Figures}{xxvii}{section*.15}%
-\contentsline {chapter}{Glossário, acrónimos e abreviaturas}{xxxiii}{chapter*.20}%
+\contentsline {chapter}{Resumo}{ix}{section*.2}%
+\contentsline {chapter}{\textit {Abstract}}{xi}{section*.3}%
+\contentsline {chapter}{\textit {Graphical Abstract}}{xiii}{section*.4}%
+\contentsline {chapter}{Acknowledges}{xv}{chapter*.7}%
+\contentsline {chapter}{Publications}{xvii}{chapter*.9}%
+\contentsline {chapter}{Projects Deployment}{xix}{chapter*.11}%
+\contentsline {chapter}{List of Tables}{xxv}{section*.14}%
+\contentsline {chapter}{List of Figures}{xxv}{section*.15}%
+\contentsline {chapter}{Glossary, acronyms and abbreviations}{xxxi}{chapter*.20}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Context}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Motivation}{3}{section.1.2}%
@@ -24,51 +24,51 @@
 \contentsline {section}{\numberline {3.2}Robotic Grasping Approaches}{27}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Analytical Methods}{28}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Data-Driven Grasping and Learning Policies}{30}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Deep Learning Grasping Policies}{32}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Deep Learning Grasping Policies}{33}{subsection.3.2.3}%
 \contentsline {section}{\numberline {3.3}Conclusion}{36}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Grasping Evaluation Proposal}{37}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Grasping Prediction Success Rate}{38}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Grasping Reaching Success Rate}{40}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Grasping-Hold Success Rate}{41}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Handling Grasping Success Rate}{41}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Discussion}{41}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Modular Grasping Pipeline Architecture}{45}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Grasping Synthesis}{46}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Grasping Dataset Standard}{47}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}``GraspIt" Interface}{48}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}Manual Feeder}{49}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}\acl {SANN} based Feeder}{51}{subsubsection.5.1.2.2}%
-\contentsline {subsection}{\numberline {5.1.3}Mimic Grasping Module}{54}{subsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.3.1}Tool Hardware}{59}{subsubsection.5.1.3.1}%
-\contentsline {subsubsection}{\numberline {5.1.3.2}Tool Firmware}{60}{subsubsection.5.1.3.2}%
-\contentsline {subsubsection}{\numberline {5.1.3.3}6D Mimic Interface}{62}{subsubsection.5.1.3.3}%
-\contentsline {subsubsection}{\numberline {5.1.3.4}\acl {DRL} Interface}{64}{subsubsection.5.1.3.4}%
-\contentsline {subsubsection}{\numberline {5.1.3.5}Mimic Grasping \acl {GUI}}{64}{subsubsection.5.1.3.5}%
-\contentsline {subsection}{\numberline {5.1.4}Post-Processor Pipeline}{66}{subsection.5.1.4}%
-\contentsline {subsubsection}{\numberline {5.1.4.1}Loader}{68}{subsubsection.5.1.4.1}%
-\contentsline {subsubsection}{\numberline {5.1.4.2}Distance Filter Post-Processor}{69}{subsubsection.5.1.4.2}%
-\contentsline {subsubsection}{\numberline {5.1.4.3}Tool Center Point Angle Twin}{70}{subsubsection.5.1.4.3}%
-\contentsline {subsubsection}{\numberline {5.1.4.4}Object Angle Twin}{71}{subsubsection.5.1.4.4}%
-\contentsline {subsubsection}{\numberline {5.1.4.5}Viewer based post-processors}{72}{subsubsection.5.1.4.5}%
-\contentsline {section}{\numberline {5.2}Grasping Selection}{73}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Depth Distance Scorer}{75}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Euclidean Distance Scorer}{77}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}\acl {COG} Distance Scorer}{77}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}\acl {COBB} Distance Scorer}{78}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Roll Distance Scorer}{78}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Pitch Distance Scorer}{79}{subsection.5.2.6}%
-\contentsline {subsection}{\numberline {5.2.7}Yaw Distance Scorer}{80}{subsection.5.2.7}%
-\contentsline {subsection}{\numberline {5.2.8}Joint Space Filter}{80}{subsection.5.2.8}%
-\contentsline {subsection}{\numberline {5.2.9}Workspace Filter}{81}{subsection.5.2.9}%
-\contentsline {subsection}{\numberline {5.2.10}Collision Filter}{82}{subsection.5.2.10}%
-\contentsline {chapter}{\numberline {6}Proposal Validation}{85}{chapter.6}%
-\contentsline {section}{\numberline {6.1}R\&D Context}{85}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Grasping Architecture Evaluation}{88}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Mimic Grasping Evaluation}{97}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{105}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusion}{105}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Future Work}{106}{section.7.2}%
-\contentsline {chapter}{\numberline {A}Appendix}{125}{appendix.A}%
-\contentsline {subsection}{\numberline {A.0.1}Grasping Pipeline Configurations}{126}{subsection.A.0.1}%
-\contentsline {chapter}{\numberline {B}Appendix}{131}{appendix.B}%
-\contentsline {subsection}{\numberline {B.0.1}Handler Tool Electronic Schematic}{132}{subsection.B.0.1}%
+\contentsline {chapter}{\numberline {4}Grasping Evaluation Proposal}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Grasping Prediction Success Rate}{40}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Grasping Reaching Success Rate}{42}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Grasping-Hold Success Rate}{43}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Handling Grasping Success Rate}{43}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Discussion}{43}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Modular Grasping Pipeline Architecture}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Grasping Synthesis}{48}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Grasping Dataset Standard}{49}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}``GraspIt" Interface}{50}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Manual Feeder}{51}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}\acl {SANN} based Feeder}{53}{subsubsection.5.1.2.2}%
+\contentsline {subsection}{\numberline {5.1.3}Mimic Grasping Module}{56}{subsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.3.1}Tool Hardware}{61}{subsubsection.5.1.3.1}%
+\contentsline {subsubsection}{\numberline {5.1.3.2}Tool Firmware}{62}{subsubsection.5.1.3.2}%
+\contentsline {subsubsection}{\numberline {5.1.3.3}6D Mimic Interface}{64}{subsubsection.5.1.3.3}%
+\contentsline {subsubsection}{\numberline {5.1.3.4}\acl {DRL} Interface}{66}{subsubsection.5.1.3.4}%
+\contentsline {subsubsection}{\numberline {5.1.3.5}Mimic Grasping \acl {GUI}}{66}{subsubsection.5.1.3.5}%
+\contentsline {subsection}{\numberline {5.1.4}Post-Processor Pipeline}{68}{subsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.4.1}Loader}{70}{subsubsection.5.1.4.1}%
+\contentsline {subsubsection}{\numberline {5.1.4.2}Distance Filter Post-Processor}{71}{subsubsection.5.1.4.2}%
+\contentsline {subsubsection}{\numberline {5.1.4.3}Tool Center Point Angle Twin}{72}{subsubsection.5.1.4.3}%
+\contentsline {subsubsection}{\numberline {5.1.4.4}Object Angle Twin}{73}{subsubsection.5.1.4.4}%
+\contentsline {subsubsection}{\numberline {5.1.4.5}Viewer based post-processors}{74}{subsubsection.5.1.4.5}%
+\contentsline {section}{\numberline {5.2}Grasping Selection}{75}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Depth Distance Scorer}{77}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Euclidean Distance Scorer}{79}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}\acl {COG} Distance Scorer}{79}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}\acl {COBB} Distance Scorer}{80}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Roll Distance Scorer}{81}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Pitch Distance Scorer}{81}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Yaw Distance Scorer}{81}{subsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.2.8}Joint Space Filter}{82}{subsection.5.2.8}%
+\contentsline {subsection}{\numberline {5.2.9}Workspace Filter}{83}{subsection.5.2.9}%
+\contentsline {subsection}{\numberline {5.2.10}Collision Filter}{84}{subsection.5.2.10}%
+\contentsline {chapter}{\numberline {6}Proposal Validation}{87}{chapter.6}%
+\contentsline {section}{\numberline {6.1}R\&D Context}{87}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Grasping Architecture Evaluation}{90}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Mimic Grasping Evaluation}{99}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{107}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusion}{107}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future Work}{108}{section.7.2}%
+\contentsline {chapter}{\numberline {A}Appendix}{127}{appendix.A}%
+\contentsline {subsection}{\numberline {A.0.1}Grasping Pipeline Configurations}{128}{subsection.A.0.1}%
+\contentsline {chapter}{\numberline {B}Appendix}{133}{appendix.B}%
+\contentsline {subsection}{\numberline {B.0.1}Handler Tool Electronic Schematic}{134}{subsection.B.0.1}%

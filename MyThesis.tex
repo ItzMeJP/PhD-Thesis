@@ -55,7 +55,8 @@
 %\usepackage{algpseudocode,algorithm2e}
 \usepackage{algorithm2e}
 
-
+\newcommand\mycommfont[1]{\footnotesize\ttfamily\textcolor{blue}{#1}}
+\SetCommentSty{mycommfont}
 
 
 \usepackage[final]{pdfpages}
@@ -374,7 +375,7 @@ da Universidade do Porto}
 %\bibliographystyle{unsrtnat}                 
 %%\nocite{*}                                  % Lista toda a bibliografia do ficheiro bib
 \phantomsection
-\printbibliography
+\printbibliography[title=References]
 %\bibliography{MyBibDataBase}
 
 %-----------------------------------------------------------------------------------------------------------------

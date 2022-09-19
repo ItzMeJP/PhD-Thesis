@@ -1,9 +1,9 @@
 \section{Simulated Annealing Grasping}
 \label{sec:sim_ann}
 
-The \ac{SANN} algorithm~\cite{Ciocarlie2009} integrated in the ``GraspIt!'' simulator~\cite{AndrewT2004} is one of the tools that the grasping pipeline relies on. Since it was used from the perspective of an end user, a brief explanation will be done here, and any further information can be retrieved on the referenced papers.
+The \ac{SANN} algorithm~\cite{Ciocarlie2009} integrated in the ``GraspIt!'' simulator~\cite{AndrewT2004} is one of the tools that the grasping pipeline relies on. Since it was used from the perspective of an end user, a brief explanation will be done here. Further information can be retrieved on the referenced papers.
 
-The \ac{SANN} is a heuristic optimization algorithm based on the cooling of a set of atoms to a minimum state of energy, and it was first introduced by~\cite{kirkpatrick1983} in a Statistical Mechanics optimization algorithm application. The ``Very Fast Simulated Re-Annealing'' was an improvement made by Ingber at~\cite{ingber1988} and used here. Since it is based on temperature, Ingber proposed that its cooling process decrease as described by Equation~\ref{eq:temperature}
+The \ac{SANN} is a heuristic optimization algorithm based on the cooling of a set of atoms to a minimum state of energy and it was first introduced by~\cite{kirkpatrick1983} in a Statistical Mechanics optimisation algorithm application. The ``Very Fast Simulated Re-Annealing'' was an improvement made by Ingber at~\cite{ingber1988} and used here. Since it is based on temperature, Ingber proposed that its cooling process decrease as described by Equation~\ref{eq:temperature}
 
 \begin{equation}
 T=T_{0} \cdot exp{(-k^{1/D})}
@@ -92,7 +92,7 @@ with posture origin defined by $\mathbf{p}_m$ and $b$ the total number of \texti
 
 The optimisation algorithm tries to minimize the distance from the \ac{ICP}, that constitute the \ac{ICR} (Figure~\ref{fig:icp_opt}), to the object surface by adjusting the discussed optimization variables $\mathbf{a}$ and $\mathbf{w}$. The \ac{ICR} is a contact region model (a predefined group of distributed \acp{ICP}) used to calculate the interaction of the algorithm, thus it is possible to create a feasible procedure. 
 
-Therefore, the objective function to be minimised is describe by Equation~\ref{eq:fob_grasp_complete}, where $N$ is the number of total contacts in \ac{ICR}, $\mathbf{\hat{n}}_{i}$ is the surface normal, $\mathbf{o}_{i}$ the distance between the \ac{ICP} and the object ($i \in N$). The scalar $\alpha$ is a range adjustment factor between the distance and the normalised dot product of the second sum part. It is important to note that the $\mathbf{o}_{i}$ and $\mathbf{\hat{n}}_{i}$ are updated according to 3D simulation interaction in the ``GraspIt!''~\cite{AndrewT2004}. %A detailed description of the algorithm procedure is presented in \cite{Ciocarlie2009}.    
+Therefore, the objective function to be minimised is described by Equation~\ref{eq:fob_grasp_complete}, where $N$ is the number of total contacts in \ac{ICR}, $\mathbf{\hat{n}}_{i}$ is the surface normal, $\mathbf{o}_{i}$ the distance between the \ac{ICP} and the object ($i \in N$). The scalar $\alpha$ is a range adjustment factor between the distance and the normalised dot product of the second sum part. It is important to note that the $\mathbf{o}_{i}$ and $\mathbf{\hat{n}}_{i}$ are updated according to 3D simulation interaction in the ``GraspIt!''~\cite{AndrewT2004}. %A detailed description of the algorithm procedure is presented in \cite{Ciocarlie2009}.    
 
 \begin{equation}
 Q=\sum_{i=1}^{N}\left(1-\delta_{i}\right)\hspace{0.5cm}\textnormal{with}\hspace{0.5cm}\delta_{i}=\frac{\left|\mathbf{o}_{i}\right|}{\alpha}+\left(1-\frac{\mathbf{\hat{n}}_{i} \cdot\mathbf{o}_{i}}{\left|\mathbf{o}_{i}\right|}\right)
@@ -112,7 +112,7 @@ Q=\sum_{i=1}^{N}\left(1-\delta_{i}\right)\hspace{0.5cm}\textnormal{with}\hspace{
 \end{figure}
 
 
-The algorithm proposed by~\cite{Ciocarlie2009}, and used in this proposal, is replicated in Algorithm~\ref{alg:snn_grasp}. As already mentioned, the variables that define the states are $\mathbf{a}$, related to the \textit{eigengrasp}, and $\mathbf{w}$, related to the wrist pose. The ``\textit{ObjFunc}'' is described by Equation~\ref{eq:fob_grasp_complete}. The ``\textit{Ngbr}'' is the calculus of the state variables neighbout valuer using the Equation~\ref{eq:neighbors} and, ``\textit{Probability}'' is the function to perform the jump probability to a new state according to Equation~\ref{eq:very_fast_snn_prob}. Since this step of the algorithm is based on ``GraspIt!''} the ``ForwardKinematics'' and collision check are are parts of this tool.
+The algorithm proposed by~\cite{Ciocarlie2009}, and used in this proposal, is replicated in Algorithm~\ref{alg:snn_grasp}. As already mentioned, the variables that define the states are $\mathbf{a}$, related to the \textit{eigengrasp}, and $\mathbf{w}$, related to the wrist pose. The ``\textit{ObjFunc}'' is described by Equation~\ref{eq:fob_grasp_complete}. The ``\textit{Ngbr}'' is the calculus of the state variables neighbour values using the Equation~\ref{eq:neighbors} and, ``\textit{Probability}'' is the function to perform the jump probability to a new state according to Equation~\ref{eq:very_fast_snn_prob}. Since this step of the algorithm is based on ``GraspIt!''} the ``ForwardKinematics'' and collision check are parts of this tool.
 
  \begin{algorithm}[h!]
  	\centering
@@ -124,11 +124,11 @@ The algorithm proposed by~\cite{Ciocarlie2009}, and used in this proposal, is re
 		Steps = 0\;
 		QSaved = 0\;
 		\While{Steps $\neq$ MaxSteps}{
-			{Generate a new state as a neighbor of current state}\;
+			\tcp{Generate a new state as a neighbour of current state}
 			\Repeat{legalState == true}
 			{
 				\ForAll{variables of NewState}{
-					Sim. Annealing neighbor generation function\;
+					\tcp{SANN neighbour generation function}
 					NewState.variable = Ngbr(CurrentState.variable)\;
 				}
 				Apply ForwardKinematics(NewState)\;
@@ -145,7 +145,7 @@ The algorithm proposed by~\cite{Ciocarlie2009}, and used in this proposal, is re
 				Insert NewState in SavedStatesList\;
 				QSaved = lowest ObjFunc value in SavedStateList\;
 			}
-			Sim. Annealing probability of "jumping" to new state\;
+			\tcp{SANN probability of "jumping" to new state}
 			PJump = Probability(QCurrent, QNew)\;
 			\If{PJump $>$ 0.5}{
 				CurrentState = NewState\;
@@ -154,7 +154,7 @@ The algorithm proposed by~\cite{Ciocarlie2009}, and used in this proposal, is re
 			Steps = Steps + 1\;
 		}	
 		 \end{tcolorbox}
-		\caption{\ac{SANN} applied to grasping}
+		\caption{\ac{SANN} applied to grasping proposed by \cite{Ciocarlie2009}.}
 		\label{alg:snn_grasp}
 		}
 \end{algorithm}

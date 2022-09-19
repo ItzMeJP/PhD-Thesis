@@ -6,7 +6,7 @@
 \section{Context}
 
 \sloppy %to force margin indentation
-The robotic grasping is an important and challenging task that is still today the focus of several research works. Although this function is intuitive and mastered by humans, for robots, it is a contemporary and imperative issue. The range of applications is wide, e.g., from bin-picking in the industry's logistics to a delicate and accurate human-machine interaction in domestic and collaborative robots applications.
+The robotic grasping is an important and challenging task that is still today the focus of several research works. Although this function is intuitive and mastered by humans, for robots, it is a contemporary and imperative issue. The range of applications is wide, e.g., from bin-picking in the industry's logistics to a delicate and accurate human-machine interaction in domestic and collaborative robots applications (Figures~\ref{fig:applications_grasping} and~\ref{fig:challeges}).
 
 
 \begin{figure}[h!]
@@ -28,7 +28,7 @@ The robotic grasping is an important and challenging task that is still today th
      \end{subfigure}
     \end{tcolorbox}
     \caption{Robotic grasping in different contexts.}
-    \label{fig:most_usual_gripper_forms}
+    \label{fig:applications_grasping}
   }%end of resize box      
 \end{figure}
 
@@ -41,7 +41,7 @@ In the early days, robotic manipulation was resumed as a context of human teleop
 \centerline{\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=1\linewidth,angle=0]{Cap1/Figuras/amazon_picking_challenge.pdf}}
 \end{tcolorbox}
 \caption{Amazon robotic picking challenge winner of 2017 \cite{Zeng2019}. The Amazon robotic picking challenge is an example effort to promote development the warehouse robotic grasping, such as the IROS challenge \cite{iros_challenge}}
-\label{fig:}
+\label{fig:challeges}
 }
 \end{figure}
 
@@ -58,13 +58,13 @@ Even with exciting discoveries and results successfully deployed in specific use
 
 %the robotic grasping still does not have a feasible generalisation solution that comprises the modern industry demands of fast design and easy deployment.
 
-Since a complete and generic solution is unreachable until now, there is exists a lack in the deployment of a modular and flexible grasping framework for robots attending real industry demands and a well structured and formalised architecture in which organizes approaches allowing the evaluation and the base to new advancements in science. Therefore, the main Ph.D. question relies in:
+Since a complete and generic solution is unreachable until now, there is a lack in the deployment of a modular and flexible grasping framework for robots attending real industry demands and a well structured and formalised architecture in which organizes approaches allowing the evaluation and the base to new advancements in science. Therefore, the main Ph.D. question relies in:
 
 \begin{flushright}
 ``Several approaches achieved interesting robotic grasping results in specific and/or controlled scenarios. However, how to choose and deploy them according to industry demands?"
 \end{flushright}
 
-Afterwards, when applying the grasping solution, engineers and researchers still have difficulty comparing the achieved results since the grasping parametrisation and evaluation demand big efforts. Current state-of-art deploy different metrics that, in some cases do not reflex the grasping complexity, which can involve from graspable object detection to stability estimation. Thus, the second PhD question is:
+Afterwards, when applying the grasping solution, engineers and researchers still have difficulty comparing the achieved results since the grasping parametrisation and evaluation demand big efforts. Current state-of-art deploy different metrics that, in some cases do not reflect the grasping complexity, which can involve from graspable object detection to stability estimation. Thus, the second PhD question is:
 
 \begin{flushright}
 %``How to evaluate a grasping methodology in a standard manner allowing %easy comparison between different techniques?"
@@ -85,9 +85,9 @@ Aiming to answer the questions described in Section~\ref{cap1:introduction:motiv
 
 \begin{itemize_jp}
 
-    \item Design of an innovative modular software architecture able to be hierarchy modified and reconfigured, structured in a pipeline flow which to organise the approaches' studies and evaluation. Therefore, developers can easily integrate new methodologies and end-users can set a pipeline of heuristics according to the task exigences and, choose between the best solution options between methodologies, i.e., the user will just need to pick the method and set its parameters without implementing the methods by self; 
+    \item Design of an innovative modular software architecture able to be hierarchy modified and reconfigured, structured in a pipeline flow to organise the approaches' studies and evaluation. Therefore, developers can easily integrate new methodologies and end-users can set a pipeline of heuristics according to the task exigences and, choose between the best solution options between methodologies, i.e., the user will just need to pick the method and set its parameters without implementing the methods by self; 
 
-    \item Formalisation and standardisation of the grasping evaluation idea since a grasping problem involves perception, planning, and control. Therefore, a clear standard could improve the methodologies' comparability since each step of the procedure affects the grasping performance. These criteria are applied in state-of-art literature and in the current work.
+    \item Formalisation and standardisation of the grasping evaluation idea since a grasping problem involves perception, planning and control. Therefore, a clear standard could improve the methodologies' comparability since each step of the procedure affects the grasping performance. These criteria are applied in state-of-art literature and in the current work.
 
     %\item Discussion and presentation of the new steps and future works ideas not yet explored: from the academic field to the new challenges of industry 4.0.
     

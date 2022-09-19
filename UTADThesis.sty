@@ -2,7 +2,7 @@
 % Modelo de Dissertação de Mestrado da UTAD
 % Raul Morais, António Valente, Salviano Soares, Manuel Cabral
 %------------------------------------------------------------------------------------------
-\typeout{Modelo de Documento de Dissertação de Mestrado da UTAD}
+\typeout{Modelo de Documento de Tese de Doutoramento da UTAD}
 %----------------------------------------------------------------------------------------
 % Define new headings
 %----------------------------------------------------------------------------------------
@@ -81,7 +81,7 @@ dalthesis documentation.}}{}
 \def\degree#1{\gdef\@degree{#1}}
 \def\degreeinitial#1{\gdef\@degreeinitial{#1}}
 \def\doctype#1{\gdef\@doctype{#1}}
-\def\msc{\degree{Mestre}\degreeinitial{M.Sc.}\doctype{Dissertação}}
+\def\msc{\degree{Mestre}\degreeinitial{M.Sc.}\doctype{Tese}}
 \def\phd{\degree{Doutor}\degreeinitial{Ph.D.}\doctype{Tese}} % was [\ph@dtrue]
 
 
@@ -221,7 +221,7 @@ dalthesis documentation.}}{}
 
 
     \begin{center}
-        \footnotesize Dissertação submetida à\\
+        \footnotesize Tese submetida à\\
        \uppercase\expandafter{\@university} \\
        para obtenção do grau de \\
         \uppercase\expandafter{\@degree} \\
@@ -308,52 +308,52 @@ dalthesis documentation.}}{}
 \begin{flushleft}\small{#3} \end{flushleft}}}
 
 
-%-----------------------------------------------------------------------------------------------
-% Definições da Folha de Júri
-%-----------------------------------------------------------------------------------------------
-\def\signaturepage{
-    \begin{center}
-            UNIVERSIDADE DE TRÁS-OS-MONTES E ALTO DOURO\\
-            Doutoramento em Engenharia Electrotécnica e de Computadores
-   \end{center}
-%    \vskip 0.25in plus 0.4in minus 0.1in
-    \vskip 0.25in
-    \hyphenpenalty=10000
-    \begin{sloppypar}
-            Os membros do Júri recomendam à \no@breaks{\@university}
-            a aceitação da dissertação intitulada
-            \linebreak[3] ``{\bf\no@breaks{\@title}}''
-            \linebreak[3] realizada por \mbox{\bf\@author} para satisfação parcial
-            dos requisitos do grau de
-        \linebreak[2] \mbox{\bf\@degree}.
-    \end{sloppypar}
-
-    \vspace{-0.1in} %JP AKI
-    \begin{center}
-            \@submitdate
-    \end{center}
-
-%    \def\sigskip{\vskip0.4in plus 0.1in}
-%    \def\beginskip{\vskip0.5875in plus 0.1in}
-
-%    \def\sigskip{\vskip0.25in}
-%    \def\beginskip{\vskip0.5in}
-    
-    %JP AKI
-    \def\sigskip{\vskip0.0in}
-    \def\beginskip{\vskip0.0in}
-
-
-    \beginskip
-    \signature{Presidente:}{\@presidentejuri}{\@designacaopresidente} \\
-    \sigskip \signature{Vogais do Júri:}{\@arguenteexterno}{\@designacaoarguente} \\
-    \sigskip \signature{}{\@orientador}{\@grauorientador\ do \@deporientador\ da \@instorientador} \\
-    \ifco@orientador
-         \sigskip \signature{}{\@coorientador}{\@graucoorientador\ do \@depcoorientador\ da \@instcoorientador} \\
-          \sigskip \signature{}{\@cocoorientador}{\@graucocoorientador\ do \@depcocoorientador\ da \@instcocoorientador} \\
-    \fi
-    \cleardoublepage
-    }
+%%-----------------------------------------------------------------------------------------------
+%% Definições da Folha de Júri
+%%-----------------------------------------------------------------------------------------------
+%\def\signaturepage{
+%    \begin{center}
+%            UNIVERSIDADE DE TRÁS-OS-MONTES E ALTO DOURO\\
+%            Doutoramento em Engenharia Electrotécnica e de Computadores
+%   \end{center}
+%%    \vskip 0.25in plus 0.4in minus 0.1in
+%    \vskip 0.25in
+%    \hyphenpenalty=10000
+%    \begin{sloppypar}
+%            Os membros do Júri recomendam à \no@breaks{\@university}
+%            a aceitação da tese intitulada
+%            \linebreak[3] ``{\bf\no@breaks{\@title}}''
+%            \linebreak[3] realizada por \mbox{\bf\@author} para satisfação parcial
+%            dos requisitos do grau de
+%        \linebreak[2] \mbox{\bf\@degree}.
+%    \end{sloppypar}
+%
+%    \vspace{-0.1in} %JP AKI
+%    \begin{center}
+%            \@submitdate
+%    \end{center}
+%
+%%    \def\sigskip{\vskip0.4in plus 0.1in}
+%%    \def\beginskip{\vskip0.5875in plus 0.1in}
+%
+%%    \def\sigskip{\vskip0.25in}
+%%    \def\beginskip{\vskip0.5in}
+%    
+%    %JP AKI
+%    \def\sigskip{\vskip0.0in}
+%    \def\beginskip{\vskip0.0in}
+%
+%
+%    \beginskip
+%    \signature{Presidente:}{\@presidentejuri}{\@designacaopresidente} \\
+%    \sigskip \signature{Vogais do Júri:}{\@arguenteexterno}{\@designacaoarguente} \\
+%    \sigskip \signature{}{\@orientador}{\@grauorientador\ do \@deporientador\ da \@instorientador} \\
+%    \ifco@orientador
+%         \sigskip \signature{}{\@coorientador}{\@graucoorientador\ do \@depcoorientador\ da \@instcoorientador} \\
+%          \sigskip \signature{}{\@cocoorientador}{\@graucocoorientador\ do \@depcocoorientador\ da \@instcocoorientador} \\
+%    \fi
+%    \cleardoublepage
+%    }
 
 %-----------------------------------------------------------------------------------------------
 % Definições da Folha de Capítulo

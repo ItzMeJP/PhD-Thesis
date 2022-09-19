@@ -9,10 +9,10 @@ The grasping architecture proposed in this thesis was deployed and validated on 
 
 During the development of the current thesis, companies and consortia showed interest in the deployment of the current grasping solution in the following R\&D projects: Fasten, Mari4$\_$Yard and Produtech 4S\&C. As the projects are funded by Portugal and/or the European Union, the proposal is widely developed and does not only relies on grasping procedure. Hence, the grasping process is a step in the overall solution. The readers are encouraged to read the detailed description of each project in the references ~\cite{fasten,mari4yard,produtech4sc}.
 
-In summary, all projects have two similarities: Modularity and flexibility, focusing on the challenges of Industry 4.0, and the use of a robotic grasping step during the production/manufacturing task. Therefore, the grasping planner proposed in this thesis has been used within INESCTEC~\cite{inesctec} and CRIIS~\cite{criis} for the mentioned projects. 
+In summary, all projects have two similarities: Modularity and flexibility, focusing on the challenges of Industry 4.0, and the use of a robotic grasping step during the production/manufacturing task. Therefore, the grasping planner proposed in this thesis has been used within INESC~TEC~\cite{inesctec} and CRIIS~\cite{criis} for the mentioned projects. 
 It is important to mention that all projects were conducted along this PhD. None of them were designed simultaneously, so differences in the robot setup can be verified together with different outcome evaluations and performances.
 
-The grasping issue, in all projects can be summarised as that in one phase of a mission, the robot should detect, estimate the object pose and select the best grasping configuration to grasp and hold an object that is freely disposed on a table, a box, a conveyor or a container, Figure~\ref{fig:omni}. Therefore, the Grasping Selection, Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection}, should be able to select a suitable candidate independently of the configuration of the object position. In this context, a large candidate dataset should be available, which can be created by the Grasping Synthesis pipeline (section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit}). The ''GraspIt! interface" and the ``Post-processor'' pipeline, Sections~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit} and~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:post_processor}, are used to create the dataset in which the definition of the robot setup and the active pair in each solution with their respective 3D model becomes necessary.
+The grasping issue, in all projects can be summarised as that in one phase of a mission, the robot should detect, estimate the object pose and select the best grasping configuration to grasp and hold an object that is freely disposed on a table, a box, a conveyor or a container, Figure~\ref{fig:omni}. Therefore, the ``Grasping Selection'', Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection}, should be able to select a suitable candidate independently of the configuration of the object position. In this context, a large candidate dataset should be available, which can be created by the ``Grasping Synthesis'' pipeline (section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit}). The ''GraspIt! interface" and the ``Post-processor'' pipeline, Sections~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit} and~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:post_processor}, are used to create the dataset in which the definition of the robot setup and the active pair in each solution with their respective 3D model becomes necessary.
 
 \begin{figure}[h!]
 	\resizebox{.7\textwidth}{!}{%
@@ -94,7 +94,7 @@ The Fasten use case used in this work is shown in Figure~\ref{fig:omni}. It cons
    }%end of resize box      
  \end{figure}
 
-The same robot configuration is used for the Mari4$\_$Yard and the Produtech 4S\&C, but with one major difference: a larger gripper is used, the RobotiQ 2F-140~\cite{robotiq_grippers}. The maximum opening of the adaptive fingers of 140 millimetres makes it possible to grasp larger objects, which is the case with the set of naval objects provided by Brodosplit~\cite{brodosplit} and Nodosa~\cite{nodosa}. The JPM~\cite{jpm} supplied the objects to Produtech 4S\&C, which deals with intralogistics and fast consumer goods. In these cases, the robot is equipped with a computer with an Intel Core i7-6700HQ processor and a 32GB 2133 MHz memory RAM. The objects for Mari4$\_$Yard and Produtech 4S\&C are shown in the Figures~\ref{fig:obj_mari4yard} and ~\ref{fig:obj_produtech} respectively.
+The same robot configuration is used for the Mari4$\_$Yard and the Produtech 4S\&C, but with one major difference: a larger gripper is used, the RobotiQ 2F-140~\cite{robotiq_grippers}. The maximum opening of the adaptive fingers of 140 millimetres makes it possible to grasp larger objects, which is the case with the set of shipbuilding objects provided by Brodosplit~\cite{brodosplit} and Nodosa~\cite{nodosa} (Figure~\ref{fig:obj_mari4yard}). The JPM~\cite{jpm} supplied the objects to Produtech 4S\&C, which deals with intralogistics and fast consumer goods (Figure~\ref{fig:obj_produtech}). In these cases, the robot is equipped with a computer with an Intel Core i7-6700HQ processor and a 32GB 2133 MHz memory RAM. The objects for Mari4$\_$Yard and Produtech 4S\&C are shown in the Figures~\ref{fig:obj_mari4yard} and ~\ref{fig:obj_produtech} respectively.
 
 %These test-case differences allow to test the pipeline modularity and deployment flexibility. The specific pipeline configuration process and achieved results are presented in the following sections.
 
@@ -117,7 +117,7 @@ The same robot configuration is used for the Mari4$\_$Yard and the Produtech 4S\
           \label{fig:90_elbow_flue_pipe}
       \end{subfigure}
      \end{tcolorbox}
-     \caption{Objects from MARI4YARD use case. (a) Triangle bracket (b) 90º elbow flue pipe.}
+     \caption{Objects from Mari4$\_$Yard use case. (a) Triangle bracket (b) 90º elbow flue pipe.}
      \label{fig:obj_mari4yard}
    }%end of resize box      
  \end{figure}
@@ -157,7 +157,7 @@ The same robot configuration is used for the Mari4$\_$Yard and the Produtech 4S\
 \label{cap5:grasping_planner_evaluation}
 
 
-Once the grippers are defined in all projects, their 3D model is represented in Figure~\ref{fig:gripper_models}: the left one is used to test and visualise the possible grasping solutions, while the second one is effectively used in the optimisation step. Both models are modelled with joint movement capabilities. However, only the second model considers the contact model, i.e. the interaction of the physical model with the visual model. Consequently, the model used in the optimisation is simplified and reduces the computational complexity and possible collisions between the links of the gripper itself.
+Once the grippers are defined in all projects, their 3D model are represented in Figure~\ref{fig:gripper_models}: the left one is used to test and visualise the possible grasping solutions, while the second one is effectively used in the optimisation step. Both models are modelled with joint movement capabilities. However, only the second model considers the contact model, i.e. the interaction of the physical model with the visual model. Consequently, the model used in the optimisation is simplified and reduces the computational complexity and possible collisions between the links of the gripper itself.
 
 \begin{figure}[h!]
 \resizebox{.7\textwidth}{!}{%
@@ -178,7 +178,7 @@ An arbitrary number of contact points are selected for the contact model, these 
 \begin{tcolorbox}
 \centerline{\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=1\linewidth,angle=0]{Cap5/Figuras/contact_points.pdf}}
 \end{tcolorbox}
-\caption{Possible configuration of \ac{ICR}. From left to right the number of contact points increases. The model becomes more reliable but convergence of the algorithm is more prone to issues.}
+\caption{Possible configuration of \ac{ICR}. From left to right the number of contact points increases. The model becomes more reliable but convergence of the algorithm is more prone to issues, such as slow time of convergence.}
 \label{fig:icr}
 }%end resize box
 \end{figure}
@@ -194,9 +194,9 @@ The candidate's dataset build starts by setting the active pair for each project
 
 %The Grasping Viewer interface (seen in Figure~\ref{fig:bracket}) shows the progress of grasp finding for each iteration.
 %The Figure~\ref{fig:grasping_graspit_module_workflow} present At the end of each \ac{SANN}, a set of good grasps is stored and a new simulation is launched until the maximum iterations are reached. 
-After the grasping synthesis process executed all iterations of the optimisation algorithm, the ``Post-processor'' pipeline is called by setting the distance filter, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:distance_filter}, which evaluates all grasping candidates and eliminates redundant grasping poses. This pipeline merges candidates that are close to each other by angular and linear distance based on configurable thresholds. It also deployed the \ac{TCP} angle twin heuristics (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:tcp_angle_twin}) because the grippers are $180^o$ symmetric over attack axis and duplicating each candidate increases the dataset diversity. The object angle twin, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:obj_angle_twin} is also used in the case of symmetric objects, such as falange piece, bearing holder and rod objects. This heuristic saves processing time by avoiding excessive optimisation iterations.
+After the ``Grasping Synthesis'' process executed all iterations of the optimisation algorithm, the ``Post-processor'' pipeline is called by setting the distance filter, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:distance_filter}, which evaluates all grasping candidates and eliminates redundant grasping poses. This pipeline merges candidates that are close to each other by angular and linear distance based on configurable thresholds. It also deployed the \ac{TCP} angle twin heuristics (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:tcp_angle_twin}) because the grippers are $180^o$ symmetric over attack axis and duplicating each candidate increases the dataset diversity. The object angle twin, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:obj_angle_twin} is also used in the case of symmetric objects, such as falange piece, bearing holder and rod objects. This heuristic saves processing time by avoiding excessive optimisation iterations.
 
-The Figures~\ref{fig:obj_fasten},~\ref{fig:obj_mari4yard} and ~\ref{fig:obj_produtech} elucidate the generated dataset for all projects objects. The candidates are presented in the format of 3D frames over the working object. These dataset are exported in the proposed standard, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}, and deployed in the robot which will be used by the embedded ``Grasping Selection'' pipeline, in run-time grasping operation.
+The Figures~\ref{fig:obj_candidates_fasten},~\ref{fig:obj_candidates_mari4yard} and ~\ref{fig:obj_candidates_produtech} elucidate the generated dataset for all projects objects. The candidates are presented in the format of 3D frames over the working object. These datasets are exported in the proposed standard, Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}, and deployed in the robot which will be used by the embedded ``Grasping Selection'' pipeline, in run-time grasping operation.
 
  \begin{figure}[h!]
  \resizebox{.8\textwidth}{!}{%
@@ -259,7 +259,7 @@ The Figures~\ref{fig:obj_fasten},~\ref{fig:obj_mari4yard} and ~\ref{fig:obj_prod
       \end{subfigure}
      \end{tcolorbox}
      \caption{Candidates dataset for FASTEN use case.(a) Bracket (b) Cover plate (c) Double side bracket (d) Multi side bracket (e) Reinforced bracket (f) Single side bracket (g) Support bracket (h) T-bracket.}
-     \label{fig:obj_candiudates_fasten}
+     \label{fig:obj_candidates_fasten}
    }%end of resize box      
  \end{figure}
  
@@ -281,8 +281,8 @@ The Figures~\ref{fig:obj_fasten},~\ref{fig:obj_mari4yard} and ~\ref{fig:obj_prod
           \label{fig:90_elbow_flue_pipe_candidates}
       \end{subfigure}
      \end{tcolorbox}
-     \caption{Candidates dataset for MARI4YARD use case.(a) Triangle bracket (b) 90º elbow flue pipe.}
-     \label{fig:obj_candiudates_mari4yard}
+     \caption{Candidates dataset for Mari4$\_$Yard use case.(a) Triangle bracket (b) 90º elbow flue pipe.}
+     \label{fig:obj_candidates_mari4yard}
    }%end of resize box      
  \end{figure}
 
@@ -312,7 +312,7 @@ The Figures~\ref{fig:obj_fasten},~\ref{fig:obj_mari4yard} and ~\ref{fig:obj_prod
       \end{subfigure}
      \end{tcolorbox}
      \caption{Candidates dataset for PRODUTECH 4S\&C use case.(a) Falange piece (b) Bearing holder (c) Rod.}
-     \label{fig:obj_candiudates_produtech}
+     \label{fig:obj_candidates_produtech}
    }%end of resize box      
  \end{figure}
 
@@ -347,7 +347,7 @@ Table~\ref{tab:grasping_synthesis_performance} presents the elapsed time and the
 }
 \end{table}
 
-It is also important to consider the \ac{ICR} model presented in Figure~\ref{fig:icr}. As already mentioned, this affects the algorithm's performance. \ac{ICR}s allocated in the inner part of the gripper could lead the algorithm to not converge. In that case, the fingertip's edge can collide with the object before the \ac{ICR} reaches the contact,  i.e., the \ac{ICR} does not touch the lumps' surface in the case of the multi-side bracket. If many contact points are selected, a contact region larger than the actual grasping region could be originated, and this could lead to a situation where not every contact point belongs to the object. Small \ac{ICR} or \ac{ICR} located very near the fingertip edge instead can generate stable but unpractical grasping. Another source of errors is due to differences between the 3D model used in the Grasp Synthesis stage and the real gripper, see~Figure~\ref{fig:failed_candidates}.
+It is also important to consider the \ac{ICR} model presented in Figure~\ref{fig:icr}. As already mentioned, this affects the algorithm's performance. \ac{ICR}s allocated in the inner part of the gripper could lead the algorithm to not converge. In that case, the fingertip's edge can collide with the object before the \ac{ICR} reaches the contact,  i.e., the \ac{ICR} does not touch the lumps' surface in the case of the multi-side bracket. If many contact points are selected, a contact region larger than the actual grasping region could be originated and this could lead to a situation where not every contact point belongs to the object. Small \ac{ICR} or \ac{ICR} located very near the fingertip edge instead can generate stable but unpractical grasping. Another source of errors is due to differences between the 3D model used in the Grasp Synthesis stage and the real gripper, see~Figure~\ref{fig:failed_candidates}.
 
 \begin{figure}[h!]
 \resizebox{0.6\textwidth}{!}{%
@@ -459,9 +459,9 @@ Therefore, it is important that a human supervisor, with the developed grasping 
  \end{figure}
  
 
-Once the candidate's datasets are built, and the \ac{GPSR} evaluated, the next stage is to deploy them into the robot and assesses the grasping selection pipeline (Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection}) in run-time operation. The pipeline is configured with the premise of less effort, i.e. euclidean distance, giving preference to near candidates from the \ac{TCP} and roll, pitch yaw movement limit of $-35^o$ to $35^o$, $-35^o$ to $35^o$ and $-180^o$ to $180^o$ w.r.t \ac{TCP}. The workspace filter is used to limit the bin boxes used in all use cases, the workspace cone is limited from the bin box centre to a maximum radius of 55cm and opening of 70º from the normal axis. All values are set empirically. In the end, the joint space filter is applied using the robot URDF model with the gripper in usage in each project and the collision box is calibrated according to it avoiding. For the case of Mari4$\_$Yard grasping selection pipeline, the \ac{COG} distance heuristics is also deployed since the objects are bigger and this heuristic improves the \ac{GHSR} and \ac{HGSR} avoiding torque movements between the active-pair. 
+Once the candidate's datasets are built, and the \ac{GPSR} evaluated, the next stage is to deploy them into the robot and assesses the grasping selection pipeline (Section~\ref{cap4:modular_grasping_architecture:sec:grasp_selection}) in run-time operation. The pipeline is configured with the premise of less effort, i.e. euclidean distance, giving preference to near candidates from the \ac{TCP} and roll, pitch yaw movement limit of $-35^o$ to $35^o$, $-35^o$ to $35^o$ and $-180^o$ to $180^o$ w.r.t \ac{TCP}. The workspace filter is used to limit the bin boxes used in all use cases, the workspace cone is limited from the bin box centre to a maximum radius of 55cm and opening of 70º from the normal axis. All values are set empirically. In the end, the joint space filter is applied using the robot URDF model with the gripper in usage in each project and the collision box is calibrated according to it. For the case of Mari4$\_$Yard grasping selection pipeline, the \ac{COG} distance heuristics is also deployed since the objects are bigger and this heuristic improves the \ac{GHSR} and \ac{HGSR} avoiding torque movements between the active-pair. 
 
-A total of 20 grasping attempts were performed on each object. The success rates are presented in Table~\ref{tab:grasping_selection_results}. It is important to note that, if any grasping attempt is failed in some grasping assessment category, this grasping is not considered in the next assessment class, e.g. the reinforced bracket \ac{GRSR} is $95.00\%$, with 19 successful attempts whose define the next the \ac{GHSR} total attempts. In this specific case, the \ac{GHSR} failed in two grasping holding movements, which lead to 17 successes grasping over 19.
+A total of 20 grasping attempts were performed on each object. The success rates are presented in Table~\ref{tab:grasping_selection_results}. It is important to note that, if any grasping attempt is failed in some grasping assessment category, this grasping is not considered in the next assessment class, e.g. the reinforced bracket \ac{GRSR} is $95.00\%$, with 19 successful attempts whose define the next \ac{GHSR} total attempts. In this specific case, the \ac{GHSR} failed in two grasping holding movements, which lead to 17 successes grasping over 19.
 
 \begin{table}[h!]
 \resizebox{0.5\textwidth}{!}{%
@@ -597,7 +597,7 @@ Finally, the Figure~\ref{fig:demo_mari4yard} presents the proposed pipeline appl
 \section{Mimic Grasping Evaluation}
 \label{cap5:mimic_grasping_evaluation}
 
-Since the ``Grasping Synthesis'' (``GraspIt!'' and ``Post-processors'') and the ``Grasping Selection'' were validated, tests regarding the ``Mimic Grasping Module''  were conducted at iiLab laboratory in INESCTEC facilities. It is used the use case \ac{OR} and 6DMimic to conduct a precision analysis of the proposal. Namely,  \ac{OR} is responsible to detect the object and the 6DMimic the tool pose, see Figure~\ref{fig:mimic_grapsing_procedure}.  The proposed GUI (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:gui}) allows graphical grasping feedback besides being responsible to load the ``Mimic Grasping API'', the configuration setup and the developed plugins. A detailed description of the proposal is discussed in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping}, 
+Since the ``Grasping Synthesis'' (``GraspIt!'' and ``Post-processors'') and the ``Grasping Selection'' were validated, tests regarding the ``Mimic Grasping Module''  were conducted at iiLab laboratory in INESC~TEC facilities. It is used the use case \ac{OR} and 6DMimic to conduct a precision analysis of the proposal. Namely,  \ac{OR} is responsible to detect the object and the 6DMimic the tool pose, see Figure~\ref{fig:mimic_grapsing_procedure}.  The proposed GUI (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:gui}) allows graphical grasping feedback besides being responsible to load the ``Mimic Grasping API'', the configuration setup and the developed plugins. A detailed description of the proposal is discussed in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping}, 
 
 
  \begin{figure}[h!]

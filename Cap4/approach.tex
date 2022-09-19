@@ -1,7 +1,7 @@
 \chapter{Modular Grasping Pipeline Architecture}
 \label{cap4:modular_grasping_architecture}
 
-Nowadays, since a completely generic solution, independently from previous knowledge of object shape, gripper design, and sensing type, is not an available option, there is a gap between real application, research development and scientific evaluation. Thus, creating a re-configurable grasping framework integrating the best of all methodologies could transfer this to a practical robotic grasping task which is the main contribution of the present thesis.
+Nowadays, since a completely generic solution, independently from previous knowledge of object shape, gripper design and sensing type, is not an available option, there is a gap between real application, research development and scientific evaluation. Thus, creating a re-configurable grasping framework integrating the best of all methodologies could transfer this to a practical robotic grasping task which is the main contribution of the present thesis.
 
 The core of the developed grasping planning architecture pipeline is divided into two parts: the ``Grasping Synthesis'' and the ``Grasping Selection'' (Figure~\ref{fig:grasping_framework_code}). In summary, the ``Grasping Synthesis'' is a system architecture responsible for generating all the grasping poses. It creates a set of  hypothetical grasping candidates in an offline step, i.e., it runs outside the robot system in a setup phase. The generated data is then uploaded to the robot system to be used during the ``Grasping Selection'' step. This architecture is responsible for choosing the best grasping candidate following a set of heuristics and priorities. It is a task-oriented procedure that analyses the environment and the run-time constraints of the task. The following sections provide a detailed description of the procedure.
 
@@ -218,7 +218,7 @@ where $D$ and $C$ are defined by ``$sim\_annealing/YC$'' and ``$sim\_annealing/Y
 \end{equation}
   
 \noindent 
-with $n$ and $m$ defined by ``$sim\_annealing/NBR\_ADJ$'' and ``$sim\_annealing/ERR\_ADJ$'', respectively. The ``$DEF\_K0$'' and ``$DEF\_T0$''  are custom initial values for step and temperature. The ``$sim\_annealing/feedback\_num\_steps$'' allows visual update of optimisation process and the ``$config\_grasps\_parameters$'' are the same described in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:manual}.
+with $n$ and $m$ defined by ``$sim\_annealing/NBR\_ADJ$'' and ``$sim\_annealing/ERR\_ADJ$'', respectively. The ``$DEF\_K0$'' and ``$DEF\_T0$''  are custom initial values for step and temperature. The ``$sim\_annealing/feedback\_num\_steps$'' allows visual update of the optimisation process and the ``$config\_grasps\_parameters$'' are the same described in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:manual}.
 
 %\begin{itemize_jp}
 %    \item \textbf{path/gripper$\_$models$\_$file$\_$path:} path to locate the gripper XML model;
@@ -278,11 +278,11 @@ The plugin manager API provides metadata interface allowing the designing of plu
 
 
 
-The ``Mimic Grasping'' pipeline structured workflow is presented in Figure~\ref{fig:mimic_grasping_flowchart}. The mimic workflow concept considers that tools are necessary to define the human grasping, such as gloves or handler mechanisms, or at least a remote control technique that allows demonstrators requests while performing the demonstration. It is expected that the communication with the tool is performed by serial communication. In addition, it is considered that the two localisation methodologies, also called locators, are processed in sequence after the operator record request. 
+The ``Mimic Grasping'' pipeline structured workflow is presented in Figure~\ref{fig:mimic_grasping_flowchart}. The mimic workflow concept considers what tools are necessary to define the human grasping, such as gloves or handler mechanisms, or at least a remote control technique that allows demonstrators requests while performing the demonstration. It is expected that the communication with the tool is performed by serial communication. In addition, it is considered that the two localisation methodologies, also called locators, are processed in sequence after the operator record request. 
 
 Namely, this workflow starts by loading API general configurations, such as tool communication parameters and localisation methods definitions. The locators definition is composed by: the plugins definition such its dynamic library implementation file name and the configuration file by ``$plugin$\_$name$'' and ``$plugin$\_$config$\_$file$'', respectively.  The configuration file definition is necessary since the parameters are custom defined according to plugin implementation.
 
-Typically, but not mandatory, plugins are client implementations since the localisation server could be loaded a part. Therefore the pipeline need to bring up these outer systems by running a user defined script (or a simple command), caller executor. At end, a shutdown scripts (or command), called terminator, is expected to turn off these systems. These commands or files are defined by setting the 
+Typically, but not mandatory, plugins are client implementations since the localisation server could be loaded a part. Therefore the pipeline need to bring up these outer systems by running a user defined script (or a simple command), called executor. At end, a shutdown scripts (or command), called terminator, is expected to turn off these systems. These commands or files are defined by setting the 
 ``$executor$\_$cmd$'' and ``$terminator$\_$cmd$'' parameters.
 
 \begin{figure}[h!]
@@ -337,7 +337,7 @@ where a, b and $\alpha$ are parameters defined in ``.json'' file such as in Snip
 	\label{code:error_compensation}
 \end{snippet}
 
-Since several configurations could be done, a profile system is created allowing the load and saving different configuration setups.
+Since several configurations could be done, a profile system is created allowing the load and saving of different configuration setups.
 
 When the system is started the implemented plugins are loaded into API memory with its respective parameters, the terminator is executed and the communication with demonstration tool verified. If all process is correctly executed, the demonstration process is started, i.e. the human operator positions himself in grasping configuration, execute the grasping and request the record. This procedure can be performed several times and, at end, the operator can export the grasping datatset (which respect the proposed standard~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}).
 
@@ -377,7 +377,7 @@ This PhD thesis also develops the handler hardware (Section~\ref{cap4:modular_gr
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:hardware}
 
 
-A handle tool is designed to a human perform a grasping demonstration, Figure~\ref{fig:tool}. The handler is created following the modular concept since, it need to support different robots' grippers and detection hardware, if needed. Therefore, the human can teach how to grasp with the same gripper used by the robot.% This tool is detect by a tool localisation algorithm which need to be implemented as a plugin into mimic grasping structure. The same is valid to object localisation algorithm.
+A handle tool is designed to a human perform a grasping demonstration, Figure~\ref{fig:tool}. The handler is created following the modular concept since, it needs to support different robots' grippers and detection hardware, if needed. Therefore, the human can teach how to grasp with the same gripper used by the robot.% This tool is detect by a tool localisation algorithm which need to be implemented as a plugin into mimic grasping structure. The same is valid to object localisation algorithm.
 
 In addition, the handler supports an Arduino Nano which is embedded into an electronic case (Figure~\ref{fig:tool}), two buttons to open/close the gripper and record/delete grasping, and an RGB LED to visual firmware states feedback. Eletronic schematics is presented in Appendix~\ref{ap:handler_electronic}. The gripper support is a modular part, allowing to quickly change tools Figure~\ref{fig:tool}. The cover is also modular since tool localisation techniques could have different identification devices. The developed tool firmware is discussed in Section \ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping:subsubsec:firmware}
 
@@ -523,7 +523,7 @@ A \ac{GUI} is designed to allow easy interaction with Mimic Grasping API. The ma
 }%end resize box
 \end{figure}
 
-The menu interface gives access to configurations such as localisation and firmware setup. The locator configuration is defined in Figure~\ref{fig:localisation_screen_gui}. In this window, the user can define which plugin will be loaded followed by the plugin-specific configuration file, the executor, and terminator commands (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping}). These configuration can be saved to be used later by the Mimic Grasping API.
+The menu interface gives access to configurations such as localisation and firmware setup. The locator configuration is defined in Figure~\ref{fig:localisation_screen_gui}. In this window, the user can define which plugin will be loaded followed by the plugin-specific configuration file, the executor, and terminator commands (Section~\ref{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:mimic_grasping}). These configurations can be saved to be used later by the Mimic Grasping API.
 
 \begin{figure}[h!]
 \resizebox{0.8\textwidth}{!}{%
@@ -535,7 +535,7 @@ The menu interface gives access to configurations such as localisation and firmw
 }%end resize box
 \end{figure}
 
-Regarding the proposed handler firmware, it is possible to communicate, configure it and test it using the firmware window~\ref{fig:firmware_screen_gui}. It is an important configuration menu since needs to be configured according to the gripper attached to the handler.
+Regarding the proposed handler firmware, it is possible to communicate, configure it and test it using the firmware window~\ref{fig:firmware_screen_gui}. It is an important configuration menu since it needs to be configured according to the gripper attached to the handler.
 
 \begin{figure}[h!]
 \resizebox{0.8\textwidth}{!}{%
@@ -593,7 +593,7 @@ The proposed post-processors methods are described in the Sections~\ref{cap4:mod
 \subsubsection{Loader}
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:graspit:subsubsec:loader}
 
-The Loader, also called Feeder, allows to import a already created dataset into ``Post-processor'' pipeline which should follow the proposed convention described in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}. It also allows to merge several different datasets into one. It is possible to change the Loader to a ``GraspIt!'' feeder methods into ``Post-processor'' pipeline, as can be verified in Appendix~\ref{ap:grasping_pipeline_configs}. The loader YAML descriptor is defined in Snippet~\ref{code:load_datatset_feeder}. %and its parameters is presented below:
+The Loader, also called Feeder, allows to import an already created dataset into ``Post-processor'' pipeline which should follow the proposed convention described in Section~\ref{cap4:modular_grasping_architecture:sec:grasping_dataset}. It also allows to merge several different datasets into one. It is possible to change the Loader to a ``GraspIt!'' feeder methods into ``Post-processor'' pipeline, as can be verified in Appendix~\ref{ap:grasping_pipeline_configs}. The loader YAML descriptor is defined in Snippet~\ref{code:load_datatset_feeder}. %and its parameters is presented below:
 
 %\begin{minipage}{1\textwidth} 
 \begin{snippet}[h!]
@@ -699,7 +699,7 @@ This post-processor generates only one symmetric replica per grasping candidate.
 \subsubsection{Object Angle Twin}
 \label{cap4:modular_grasping_architecture:sec:grasping_synthesis:subsec:postprocessor:subsubsec:obj_angle_twin}
 
-Some objects are spherical or radial symmetrics, thus some grasping candidates could have symmetric representation~\ref{fig:obj_angle_twin_rep}. Therefore, this could be automatically generated by the object angle twin replica post-processor. This characteristic could improve the candidates' search. It build a candidate twin based on a custom spherical angle (azimuth $\phi$ and/or polar angle $\Theta$) over the object reference frame. The radius corresponds to the candidate position, therefore it is not a parameter. It is important to note that, the object reference frame should be defined as spherical/radial symmetry origin, otherwise this post-processor will not correctly work. 
+Some objects are spherical or radial symmetric, thus some grasping candidates could have symmetric representation~\ref{fig:obj_angle_twin_rep}. Therefore, this could be automatically generated by the object angle twin replica post-processor. This characteristic could improve the candidates' search. It builds a candidate twin based on a custom spherical angle (azimuth $\phi$ and/or polar angle $\Theta$) over the object reference frame. The radius corresponds to the candidate position, therefore it is not a parameter. It is important to note that, the object reference frame should be defined as spherical/radial symmetry origin, otherwise this post-processor will not correctly work. 
 
 \begin{figure}[h!]
 	\resizebox{.75\textwidth}{!}{%
@@ -892,7 +892,7 @@ Once the candidates dataset are loaded in the parameter server (Figure~\ref{fig:
 \end{snippet}
 %\end{minipage}
 
-Since loading the dataset into server demands time, the pipeline allow two types of operation mode: the direct estimation and the pre-load support. The first loads the dataset into rosparam server every time a ROS action's goal request is sent. In other hand, in pre-load support the pipeline requests two ROS action's goals. The first one to load the database into server and the second one to run the estimation pipeline. It is useful to accelerate the procedure. However the user need to be sure that the loaded database correspond to the object in use when run the estimation process (Figure~\ref{fig:grasping_selection_flowchart}).
+Since loading the dataset into server demands time, the pipeline allow two types of operation mode: the direct estimation and the pre-load support. The first loads the dataset into rosparam server every time a ROS action's goal request is sent. In other hand, in pre-load support the pipeline requests two ROS action's goals. The first one to load the database into server and the second one to run the selection pipeline. This strategy is useful to accelerate the procedure but the user need to be sure that the loaded database correspond to the object in use when run the selection process (Figure~\ref{fig:grasping_selection_flowchart}).
 
 \begin{figure}[h!]
 \resizebox{0.9\textwidth}{!}{%
@@ -980,7 +980,7 @@ The euclidean distance scorer sets the grasping candidate cost value according t
 \subsection{\acl{COG} Distance Scorer}
 \label{cap4:modular_grasping_architecture:sec:grasp_selection:subsec:cog_distance}
 
-The \ac{COG} distance scorer is a method to set the grasping candidate cost value according with the euclidean distance between the candidate and the object's \ac{COG} reference frame. This cost is important in cases of high dimensional objects, which grasping poses can cause torques over the centre of gravity and, affect the equilibrium in grasping movements. The pipeline descriptor is presented in Snippet \ref{code:cog_distance_scorer} and its parameters are the ``$weight$'' that defines the importance of the metric and the $``distance$\_$threshold''$ which excludes candidates that extrapolate that value.
+The \ac{COG} distance scorer is a method to set the grasping candidate cost value according with the euclidean distance between the candidate and the object's \ac{COG} reference frame. This cost is important in cases of high dimensional objects, which grasping poses can cause torques over the centre of gravity and affect the equilibrium in grasping movements. The pipeline descriptor is presented in Snippet \ref{code:cog_distance_scorer} and its parameters are the ``$weight$'' that defines the importance of the metric and the $``distance$\_$threshold''$ which excludes candidates that extrapolate that value.
 
 %\begin{itemize_jp}
 %    \item \textbf{weight:} a penalty weight value. The importance of the metric in selection pipeline is inversely proportional to the weight value. Therefore, this value must be higher than 1.
@@ -1208,7 +1208,7 @@ The workspace filter is a method to discard candidates that exceed a spherical w
 }%end resizebox
 \end{figure}
 
-The pipeline descriptor is presented in Snippet \ref{code:workspace_filter}. The first parameter to definition is the ``$ws$\_$base$\_$frame$'' which is the frame name that defines the sphere origin with Z-axis as the reference to angles limits. Thus, the threshold boundary limits can be set by the $min\_azimuth\_threshold \quad \phi_{min}$, $max\_azimuth\_threshold \quad \phi_{max}$, $min\_polar\_threshold \quad \phi_{min}$, $min\_radius\_threshold \quad \phi_{max}$, $min\_radius\_threshold \quad \phi_{max}$ parameters. The angles limits can be defined within a range from -180 to 180 degrees and length from 0 to $\infty$ meters. Any candidate, or associated approach vector, that extrapolate these boundaries are excluded. The ``$plot\_ws$'' parameter enables workspace 3D visualisation. It is useful to debug and calibrate but it is unnecessary to perform the grasping task.
+The pipeline descriptor is presented in Snippet \ref{code:workspace_filter}. The first parameter to define is the ``$ws$\_$base$\_$frame$'' which is the frame name that defines the sphere origin with Z-axis as the reference to angles limits. Thus, the threshold boundary limits can be set by the $min\_azimuth\_threshold \quad \phi_{min}$, $max\_azimuth\_threshold \quad \phi_{max}$, $min\_polar\_threshold \quad \phi_{min}$, $min\_radius\_threshold \quad \phi_{max}$, $min\_radius\_threshold \quad \phi_{max}$ parameters. The angles limits can be defined within a range from -180 to 180 degrees and length from 0 to $\infty$ meters. Any candidate, or associated approach vector, that extrapolate these boundaries are excluded. The ``$plot\_ws$'' parameter enables workspace 3D visualisation. It is useful to debug and calibrate but it is unnecessary to perform the grasping task.
 
 
 % and its parameters is described below:
@@ -1264,7 +1264,7 @@ The collision filter is a method that discard candidates that cause collision be
 }%end resizebox
 \end{figure}
 
-The pipeline descriptor is presented in Snippet \ref{code:workspace_filter}. The input scene cloud to check for collision is defined by ``$cloud$\_$topic$'' while the number of acceptable collision points between the scene point cloud and the collision volume is performed by ``$collision$\_$threshold$'' parameter. It is also possible to reduce the scene input cloud by applying a voxel grid model. By this, the boolean parameters ``$voxel$\_$grid$\_$filter/activate$'' should be set with its tridimensional ``$voxel$\_$grid$\_$filter/leaf$\_$size$'' array. Regarding the finger collision, it is necessary to define  collisions' shapes/volume definition such as pose and dimension. The ``$collisions/show\_shapes$'' it is a parameter tag to enable collision shapes 3D visualisation. It is useful to debug and calibration but it is unnecessary to perform the grasping task.
+The pipeline descriptor is presented in Snippet \ref{code:workspace_filter}. The input scene cloud to check for collision is defined by ``$cloud$\_$topic$'' while the number of acceptable collision points between the scene point cloud and the collision volume is performed by ``$collision$\_$threshold$'' parameter. It is also possible to reduce the scene input cloud by applying a voxel grid model. By this, the boolean parameters ``$voxel$\_$grid$\_$filter/activate$'' should be set with its tridimensional ``$voxel$\_$grid$\_$filter/leaf$\_$size$'' array. Regarding the finger collision, it is necessary to define  collisions' shapes/volume definition such as pose and dimension. The ``$collisions/show\_shapes$'' is a parameter tag to enable collision shapes 3D visualisation. It is useful to debug and calibration but it is unnecessary to perform the grasping task.
 
 % and its parameters is described below:
 
